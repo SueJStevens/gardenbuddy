@@ -11,19 +11,31 @@
     "seed": "node scripts/seedDB.js",
     "install": "cd client && yarn install",
     "build": "cd client && yarn run build",
+    "lint": "eslint **/*.js --quiet",
+    "fix": "eslint --fix .",
     "heroku-postbuild": "yarn run build"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "concurrently": "^4.1.0",
-    "nodemon": "^1.18.7"
+    "eslint": "^4.19.1",
+    "eslint-config-prettier": "^2.9.0",
+    "eslint-plugin-prettier": "^2.6.2",
+    "nodemon": "^1.18.7",
+    "prettier": "^1.13.7"
   },
   "dependencies": {
     "axios": "^0.18.0",
+    "babel-eslint": "^10.0.1",
+    "eslint-config-react-app": "^3.0.6",
+    "eslint-plugin-flowtype": "^3.2.1",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-jsx-a11y": "^6.1.2",
+    "eslint-plugin-react": "^7.12.3",
+    "react-materialize": "^2.6.0"
     "express": "^4.16.3",
     "if-env": "^1.0.4",
-    "mongoose": "^5.3.16",
-    "react-materialize": "^2.6.0"
+    "mongoose": "^5.3.16"
   }
 }
