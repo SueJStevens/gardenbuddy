@@ -1,8 +1,10 @@
 import React from "react";
 import "./style.css";
+import {Button, SideNav, SideNavItem} from "react-materialize";
+
 
 // By extending the React.Component class, Counter inherits functionality from it
-function SideNav(props) {
+function SideNavBar(props) {
 
     // The render method returns the JSX that should be rendered
     return (
@@ -28,6 +30,6 @@ function SideNav(props) {
     );
 };
 
-export default SideNav;
+export default SideNavBar;
 
 

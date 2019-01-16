@@ -1,9 +1,10 @@
 import React from "react";
-import "./style.css";
-import SearchBar from "";
+// import "./style.css";
+// import SearchBar from "../SearchBar";
+import {Navbar, NavItem} from "react-materialize";
 
 // By extending the React.Component class, Counter inherits functionality from it
-function Navbar(props) {
+function TopNav(props) {
 
     // The render method returns the JSX that should be rendered
     return (
@@ -11,11 +12,11 @@ function Navbar(props) {
         <Navbar brand='logo' right>
             <NavItem onClick={() => console.log('test click')}>Getting started</NavItem>
             <NavItem href='components.html'>Components</NavItem>
-            <SearchBar />
+            {/* <SearchBar /> */}
         </Navbar>
     );
 };
 
-export default Navbar;
+export default TopNav;
 
 

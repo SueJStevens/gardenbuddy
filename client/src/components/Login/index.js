@@ -1,5 +1,6 @@
 import React from "react";
-import "./style.css";
+// import "./style.css";
+import {Modal, Button} from "react-materialize";
 
 // By extending the React.Component class, Counter inherits functionality from it
 function Login(props) {

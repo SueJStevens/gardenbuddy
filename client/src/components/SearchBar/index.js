@@ -1,5 +1,5 @@
 import React from "react";
-import "./style.css";
+// import "./style.css";
 
 // By extending the React.Component class, Counter inherits functionality from it
 function SearchBar(props) {
