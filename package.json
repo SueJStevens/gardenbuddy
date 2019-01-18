@@ -11,7 +11,7 @@
     "seed": "node scripts/seedDB.js",
     "install": "cd client && yarn install",
     "build": "cd client && yarn run build",
-    "lint": "eslint --quiet",
+    "lint": "eslint --debug --ignore-path .eslintignore server.js client/src/**/*.js client/src/*.js",
     "fix": "eslint --fix .",
     "test": "yarn run lint",
     "heroku-postbuild": "yarn run build"
