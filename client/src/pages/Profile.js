@@ -5,11 +5,11 @@ import "./style.css";
 function Profile(props) {
 
     // The render method returns the JSX that should be rendered
-    return (
+    // return (
         //use bootstrap to create a navbar
-        <Navbar />
+        // <Navbar />
 
-    );
+    // );
 };
 
 export default Profile;

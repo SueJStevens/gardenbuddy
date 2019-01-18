@@ -19,7 +19,7 @@
   "license": "ISC",
   "devDependencies": {
     "concurrently": "^4.1.0",
-    "eslint": "^4.19.1",
+    "eslint": "5.6.0",
     "eslint-config-prettier": "^2.9.0",
     "eslint-plugin-prettier": "^2.6.2",
     "nodemon": "^1.18.7",
@@ -27,7 +27,7 @@
   },
   "dependencies": {
     "axios": "^0.18.0",
-    "babel-eslint": "^10.0.1",
+    "babel-eslint": "9.0.0",
     "eslint-config-react-app": "^3.0.6",
     "eslint-plugin-flowtype": "^3.2.1",
     "eslint-plugin-import": "^2.14.0",
@@ -35,6 +35,7 @@
     "eslint-plugin-react": "^7.12.3",
     "express": "^4.16.3",
     "if-env": "^1.0.4",
+    "react-materialize": "^2.6.0",
     "mongoose": "^5.3.16"
   }
 }
