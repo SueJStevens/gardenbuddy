@@ -1,0 +1,9 @@
+.bodyWrapper {
+    border: 2px dashed rgb(69, 158, 139);
+    /* background-color: rgb(255, 246, 162); */
+    padding: 2%;
+    padding-bottom: 5%;
+    margin-left: 12%;
+    margin-right: 12%;
+    margin-top: 5%;
+}
