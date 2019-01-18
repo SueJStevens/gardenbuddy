@@ -1,7 +1,6 @@
 import React from "react";
-import "./style.css";
-import {Button, SideNav, SideNavItem} from "react-materialize";
-
+import { SideNav, SideNavItem } from "react-materialize";
+// import "./style.css";
 
 // By extending the React.Component class, Counter inherits functionality from it
 function SideNavBar(props) {
@@ -10,26 +9,24 @@ function SideNavBar(props) {
     return (
         //use bootstrap to create a navbar
         <SideNav
-            trigger={<Button>SIDE NAV DEMO</Button>}
-            options={{ closeOnClick: true, edge: 'right' }}
+        trigger={<a className="user-account-button"><i class="fas fa-bars"></i></a>}
+        options={{ closeOnClick: true, edge: 'right' }}
         >
             <SideNavItem userView
                 user={{
-                    background: 'img/office.jpg',
-                    image: 'img/yuna.jpg',
-                    name: 'John',
-                    email: 'jdandturk@gmail.com'
+                    background: 'https://via.placeholder.com/500',
+                    image: 'https://via.placeholder.com/300/000000',
+                    name: 'Test User',
+                    email: 'test@gmail.com'
                 }}
             />
-            <SideNavItem href='#!icon' icon='cloud'>Profile</SideNavItem>
-            <SideNavItem href='#!second'>Virtual Garden</SideNavItem>
+            <SideNavItem href='#!icon'><i class="fas fa-user"></i>Profile</SideNavItem>
             <SideNavItem divider />
-            <SideNavItem waves href='#!third'>Gallery</SideNavItem>
-            <SideNavItem href='#!icon'>Notifications</SideNavItem>
+            <SideNavItem href='#!second'><i class="fas fa-leaf"></i>Virtual Garden</SideNavItem>
+            <SideNavItem waves href='#!third'><i class="fas fa-images"></i>Gallery</SideNavItem>
+            <SideNavItem href='#!icon'><i class="fas fa-bell"></i>Notifications</SideNavItem>
         </SideNav>
     );
 };
 
 export default SideNavBar;
-
-
