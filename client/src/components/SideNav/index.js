@@ -1,6 +1,6 @@
 import React from "react";
-import "./style.css";
-import {Button, SideNav, SideNavItem} from "react-materialize";
+// import "./style.css";
+import { SideNav, SideNavItem} from "react-materialize";
 
 // By extending the React.Component class, Counter inherits functionality from it
 function SideNavBar(props) {
@@ -9,7 +9,7 @@ function SideNavBar(props) {
     return (
         //use bootstrap to create a navbar
         <SideNav
-        trigger={<a className="user-account-button"><i class="fas fa-bars"></i></a>}
+        trigger={<span className="user-account-button"><i class="fas fa-bars"></i></span>}
         options={{ closeOnClick: true, edge: 'right' }}
         >
             <SideNavItem userView
