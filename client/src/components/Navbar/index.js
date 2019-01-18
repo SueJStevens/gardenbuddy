@@ -9,8 +9,8 @@ function Navbar(props) {
     return (
         //use bootstrap to create a navbar
         <Navbar brand='logo' right>
-            <NavItem onClick={() => console.log('test click')}>Getting started</NavItem>
-            <NavItem href='components.html'>Components</NavItem>
+            {/* <NavItem onClick={() => console.log('test click')}>Getting started</NavItem>
+            <NavItem href='components.html'>Components</NavItem> */}
             <SearchBar />
         </Navbar>
     );
