@@ -13,6 +13,7 @@
     "build": "cd client && yarn run build",
     "lint": "eslint **/*.js --quiet",
     "fix": "eslint --fix .",
+    "test": "yarn run lint",
     "heroku-postbuild": "yarn run build"
   },
   "author": "",
