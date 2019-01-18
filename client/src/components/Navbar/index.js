@@ -1,5 +1,5 @@
 import React from "react";
-// import "./style.css";
+import "./style.css";
 import SearchBar from "../SearchBar";
 import { Navbar, NavItem } from "react-materialize";
 import SideNavBar from "../SideNav";
@@ -9,9 +9,9 @@ function NavBar(props) {
 
     // The render method returns the JSX that should be rendered
     return (
-        <wrapper>
+        <wrapper className="nav-wrapper">
             {/* //use bootstrap to create a navbar */}
-            <Navbar class="top-nav" brand='logo' right>
+            <Navbar className="top-nav brand-logo" brand='Garden Buddy' right>
                 {/* <NavItem onClick={() => console.log('test click')}>Getting started</NavItem> */}
                 {/* <NavItem>Account</NavItem> */}
                 <NavItem><SearchBar /></NavItem>
