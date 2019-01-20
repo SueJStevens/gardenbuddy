@@ -1,3 +1,18 @@
-#image {
-    width: 100%;
+.landing-leaf {
+    height: 30vh;
+    position: relative;
+    top: 10vh;
+    left: 30vw;
+    transform: rotate(-55deg);
+    margin-bottom: -5vh;
+}
+
+.bg-image {
+    background: url("../../images/flowers.jpg") no-repeat fixed;
+    -webkit-background-size: contain;
+    -moz-background-size: contain;
+    -o-background-size: contain;
+    background-size: contain;
+    margin-bottom: 15vh;
+    
 }

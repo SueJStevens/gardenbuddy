@@ -10,9 +10,17 @@ function BodyContent(props) {
     return(
         <div className="icon-div">
             <p id="step-1"><b>Step 1:</b> Choose your category: </p>
-            <FlowerIcon />
-            <LeafIcon />
-            <FruitIcon />
+            <div className="row">
+                <div className="col s4 hoverable plant-icon">
+                    <FlowerIcon />
+                </div>
+                <div className="col s4 hoverable plant-icon">
+                    <LeafIcon />
+                </div>
+                <div className="col s4 hoverable plant-icon">
+                    <FruitIcon />
+                </div>
+            </div>
             <p id="step-2"><b>Step 2:</b> Enter your zip code to find out suitable plants to grow: </p>
             <SearchCategoryBar />
             <p id="result"><b>Result:</b> Checkout them out! </p>

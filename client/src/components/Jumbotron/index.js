@@ -3,11 +3,13 @@ import "./style.css";
 
 function Jumbotron(props) {
     return (
-        <div className="bg-image">
-            {props.children}
-            <img id="image" alt="chloe" src={require('../../images/flowers.jpg')} />
-        </div>
-    );
-}
-
+        <wrapper className="wrapper">
+            <div className="bg-image">
+                {props.children}
+                    <img class="landing-leaf" alt="leaf" src={require('../../images/green_leaf.png')} />
+                </div>
+        </wrapper>
+            );
+        }
+        
 export default Jumbotron;
