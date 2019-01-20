@@ -6,6 +6,7 @@ import Wrapper from "../components/Wrapper";
 import BodyWraper from "../components/BodyWrapper";
 import Greeting from "../components/Greeting";
 import BodyContent from "../components/BodyContent";
+import SearchCategoryBar from "../components/SearchCategoryBar";
 
 class Landing extends Component {
   render() {
@@ -13,6 +14,7 @@ class Landing extends Component {
       <Wrapper>
         <Jumbotron>
           <Navbar />
+          <SearchCategoryBar />
         </Jumbotron>
         <BodyWraper>
           <Greeting />

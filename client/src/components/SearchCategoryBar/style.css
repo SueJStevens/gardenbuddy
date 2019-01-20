@@ -4,3 +4,10 @@
     padding-left: 10%;
     padding-right: 10%;
 }
+
+.search-input {
+    background: white !important;
+    border-radius: 6px !important;
+    opacity: .95;
+    padding: 3px 5px 3px 5px !important;
+}

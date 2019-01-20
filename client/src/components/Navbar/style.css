@@ -6,3 +6,7 @@ a.brand-logo {
 .nav-wrapper {
     background: #009688;
 }
+
+.nav-margin {
+    margin-bottom: 15vh;
+}

@@ -8,9 +8,14 @@ function Login(props) {
     // The render method returns the JSX that should be rendered
     return (
         <Modal
-            header='Modal Header'
-            trigger={<Button>MODAL</Button>}>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+            header='Login To Garden Buddy'
+            // bottomSheet
+            trigger={<span>Login</span>}>
+            <label for="email">Email</label>
+            <input id="email" type="email" placeholder="Email"></input>
+            <label for="password">Password</label>
+            <input id="password" type="password" placeholder="password"></input>
+            <Button>Login</Button>
         </Modal>
     );
 };

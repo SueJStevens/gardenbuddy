@@ -1,9 +1,6 @@
 import React, { Component } from 'react';
 // import logo from './logo.svg';
 import './App.css';
-import NavBar from "./components/Navbar";
-import {Carousel} from "react-materialize";
-// import Login from "./components/Login";
 import Landing from "./pages/landing";
 
 class App extends Component {
