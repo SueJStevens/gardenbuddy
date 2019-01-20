@@ -1,0 +1,13 @@
+.profile-img {
+    height: 17vh !important;
+    position: absolute;
+    top: 20vh !important;
+    left: 10vw;
+    z-index: 999 !important;
+    overflow: visible !important;
+}
+
+.profile-header {
+    position: relative !important;
+    top:-13vh !important;
+}
