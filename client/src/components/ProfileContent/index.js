@@ -12,10 +12,10 @@ function ProfileContent(props) {
                 <Col s={3} className="offset-s1">
                     <Card title='Profile'>
                         <Collection>
-                            <CollectionItem href='#' active>About Me</CollectionItem>
-                            <CollectionItem href='#'>Contact Info</CollectionItem>
-                            <CollectionItem href='#'>Notifications</CollectionItem>
-                            <CollectionItem href='#'>Update Login</CollectionItem>
+                            <CollectionItem href='#' active><i class="fas fa-user"></i>About Me</CollectionItem>
+                            <CollectionItem href='#'><i class="fas fa-address-book"></i>Contact Info</CollectionItem>
+                            <CollectionItem href='#'><i class="fas fa-bell"></i>Notifications</CollectionItem>
+                            <CollectionItem href='#'><i class="fas fa-pencil-alt"></i>Update Login</CollectionItem>
                         </Collection>
                     </Card>
                 </Col>

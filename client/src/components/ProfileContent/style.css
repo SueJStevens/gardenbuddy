@@ -1,4 +1,8 @@
 .profile-content {
     position: relative !important;
-    top:-13vh !important;
+    top:-15vh !important;
+}
+
+.fas {
+    padding-right: 1vw !important;
 }

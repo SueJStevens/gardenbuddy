@@ -2,15 +2,15 @@ import React, { Component } from 'react';
 // import logo from './logo.svg';
 import './App.css';
 import Landing from "./pages/landing";
-// import Profile from "./pages/Profile";
+import Profile from "./pages/Profile";
 
 class App extends Component {
 
   render() {
     return (
       <div>
-        <Landing />
-        {/* <Profile /> */}
+        {/* <Landing /> */}
+        <Profile />
         {/* <NavBar />
         <Carousel images={[
   'https://lorempixel.com/250/250/nature/1',
