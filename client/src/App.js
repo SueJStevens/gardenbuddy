@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 // import logo from './logo.svg';
 import './App.css';
 import Landing from "./pages/landing";
-// import Profile from "./pages/Profile";
+import Profile from "./pages/Profile";
 
 class App extends Component {
 

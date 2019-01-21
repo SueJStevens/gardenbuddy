@@ -1,0 +1,34 @@
+.notification-icon-row {
+    width: 5vw;
+}
+
+.notification-date {
+    width: 12.5vw;
+}
+
+.notification-sender {
+    width: 12.5vw;
+}
+
+.notification-message {
+    width: 75vw;
+}
+
+.notification-checkbox {
+    width: 2vw;
+}
+
+.checkbox-div {
+    text-align: center;
+    margin: auto;
+}
+
+[type="checkbox"]:not(:checked), [type="checkbox"]:checked {
+    position: relative;
+    width: 100%;
+    left: 2vw; 
+    top: 2.5vh;
+    opacity: 0; 
+    z-index: 999;
+}
+
