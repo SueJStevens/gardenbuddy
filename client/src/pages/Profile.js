@@ -1,7 +1,10 @@
 import React from "react";
 import Navbar from "../components/Navbar";
 import ProfileHeader from "../components/ProfileHeader";
-import ProfileContent from "../components/ProfileContent"
+import ProfileSelector from "../components/ProfileSelector";
+import ProfileContent from "../components/ProfileContent";
+import { Row } from "react-materialize";
+
 
 // By extending the React.Component class, Counter inherits functionality from it
 function Profile(props) {
@@ -12,7 +15,10 @@ function Profile(props) {
         <wrapper className="container">
             <Navbar />
             <ProfileHeader />
-            <ProfileContent />
+            <Row className="profile-content">
+                <ProfileSelector />
+                <ProfileContent />
+            </Row>
         </wrapper>
     );
 };

@@ -9,8 +9,8 @@ class App extends Component {
   render() {
     return (
       <div>
-        {/* <Landing /> */}
-        <Profile />
+        <Landing />
+        {/* <Profile /> */}
         {/* <NavBar />
         <Carousel images={[
   'https://lorempixel.com/250/250/nature/1',
