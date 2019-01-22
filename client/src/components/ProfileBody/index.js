@@ -16,27 +16,29 @@ class ProfileBody extends Component {
 
         var elems = document.querySelectorAll(".profile-selector");
 
-        [].forEach.call(elems, function(el) {
-        el.classList.remove("active");
-});
+        [].forEach.call(elems, function (el) {
+            el.classList.remove("active");
+            el.classList.add("color-teal");
+        });
 
         var selection = document.getElementById(value);
         selection.classList.add("active");
+        selection.classList.remove("color-teal");
 
         console.log(value);
     }
 
 
     // The render method returns the JSX that should be rendered
-render () {
-    
-    return (
-        <wrapper className="container profile-content">
-            <ProfileSelector activeComponent={this.activeComponent}/>
-            <ProfileContent />
-        </wrapper>
-    );
-}
+    render() {
+
+        return (
+            <wrapper className="container profile-content">
+                <ProfileSelector activeComponent={this.activeComponent} />
+                <ProfileContent />
+            </wrapper>
+        );
+    }
 };
 
 export default ProfileBody;

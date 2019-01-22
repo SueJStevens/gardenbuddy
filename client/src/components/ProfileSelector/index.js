@@ -13,10 +13,10 @@ function ProfileSelector(props) {
                 <Col s={3} className="offset-s1">
                     <Card title='Profile' className="hoverable">
                         <Collection>
-                            <Link to="/profile/aboutme"><CollectionItem onClick={() => props.activeComponent("about-me")} className="profile-selector" id="about-me" active><i class="fas fa-user"></i>About Me</CollectionItem></Link>
-                            <Link to="/profile/contactinfo"><CollectionItem onClick={() => props.activeComponent("contact-info")} className="profile-selector" id="contact-info" href="/profile/contactinfo"><i class="fas fa-address-book"></i>Contact Info</CollectionItem></Link>
-                            <Link to="/profile/notifications"><CollectionItem onClick={() => props.activeComponent("notifications")} className="profile-selector" id="notifications" href="/profile/notifications"><i class="fas fa-bell"></i>Notifications</CollectionItem></Link>
-                            <Link to="/profile/updatelogin"><CollectionItem onClick={() => props.activeComponent("update-login")} className="profile-selector" id="update-login" href="/profile/updatelogin"><i class="fas fa-pencil-alt"></i>Update Login</CollectionItem></Link>
+                            <Link to="/profile/aboutme"><CollectionItem onClick={() => props.activeComponent("about-me")} className="profile-selector" id="about-me" active><i className="fas fa-user"></i>About Me</CollectionItem></Link>
+                            <Link to="/profile/contactinfo"><CollectionItem onClick={() => props.activeComponent("contact-info")} className="profile-selector" id="contact-info" href="/profile/contactinfo"><i className="fas fa-address-book"></i>Contact Info</CollectionItem></Link>
+                            <Link to="/profile/notifications"><CollectionItem onClick={() => props.activeComponent("notifications")} className="profile-selector" id="notifications" href="/profile/notifications"><i className="fas fa-bell"></i>Notifications</CollectionItem></Link>
+                            <Link to="/profile/updatelogin"><CollectionItem onClick={() => props.activeComponent("update-login")} className="profile-selector" id="update-login" href="/profile/updatelogin"><i className="fas fa-pencil-alt"></i>Update Login</CollectionItem></Link>
                         </Collection>
                     </Card>
                 </Col>
