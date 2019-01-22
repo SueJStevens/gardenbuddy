@@ -1,11 +1,38 @@
 const mongoose = require("mongoose");
 const Schema = mongoose.Schema;
 
-const plantSchema = new Schema({
-  //   title: { type: String, required: true },
-  //   author: { type: String, required: true },
-  //   synopsis: String,
-  //   date: { type: Date, default: Date.now }
+var plantSchema = new Schema({
+  plantCategories: [String],
+  plantClass: [String],
+  commonName: String,
+  variety: String,
+  plantAttrURL: String,
+  plantAttributes:
+   { DaysToMaturity: String,
+     Sun: String,
+     Height: String,
+     PlantingTime: String,
+     Thin: String,
+     LeafTexture: String,
+     FruitSize: String,
+     FruitWeight: String,
+     FruitBearing: String,
+     Type: String,
+     Spread: String,
+     SowMethod: String,
+     SowTime: String,
+     LifeCycle: String,
+     SoilpH: String,
+     FoodUse: String,
+     GrowthHabit: String,
+     Genus: String,
+     AdditionalUses: String },
+  zone: String,
+  zones: [String],
+  compatable: [String],
+  combative:  [String],
+  photourl: String,
+  createdOn: { type: Date, default: Date.now }
 });
 
 const Plant = mongoose.model("Plant", plantSchema);
