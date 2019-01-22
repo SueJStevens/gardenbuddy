@@ -1,0 +1,17 @@
+.side-nav-link {
+    width: 100% !important;
+    padding: 0;
+}
+
+.side-nav-link a {
+    width: 100% !important;
+    padding: 0;
+}
+
+.side-nav-link a i {
+    padding-left: 5vw;
+}
+
+.fas {
+    margin: auto;
+}

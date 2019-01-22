@@ -1,4 +1,5 @@
 import React from "react";
+import {Link} from "react-router-dom";
 import "./style.css";
 import SearchBar from "../SearchBar";
 import { Navbar, NavItem } from "react-materialize";
@@ -14,7 +15,7 @@ function NavBar(props) {
         <wrapper className="nav-wrapper">
             {/* //use bootstrap to create a navbar */}
             <div className="nav-margin">
-                <Navbar className="top-nav brand-logo " brand='Garden Buddy' right>
+                <Navbar className="top-nav brand-logo" brand={<Link to="/" className="brand-logo">Garden Buddy</Link>} right>
                     {/* <NavItem onClick={() => console.log('test click')}>Getting started</NavItem> */}
                     {/* <NavItem>Account</NavItem> */}
                     <NavItem><SearchBar /></NavItem>

@@ -1,5 +1,6 @@
 import React from "react";
-// import "./style.css";
+import {Link} from "react-router-dom";
+import "./style.css";
 import { SideNav, SideNavItem} from "react-materialize";
 
 // By extending the React.Component class, Counter inherits functionality from it
@@ -9,7 +10,7 @@ function SideNavBar(props) {
     return (
         //use bootstrap to create a navbar
         <SideNav
-        trigger={<span className="user-account-button"><i class="fas fa-bars"></i></span>}
+        trigger={<span className="user-account-button"><i className="fas fa-bars"></i></span>}
         options={{ closeOnClick: true, edge: 'right' }}
         >
             <SideNavItem userView
@@ -20,11 +21,12 @@ function SideNavBar(props) {
                     email: 'test@gmail.com'
                 }}
             />
-            <SideNavItem href='#!icon'><i class="fas fa-user"></i>Profile</SideNavItem>
+            <SideNavItem waves className="side-nav-link"><Link to="/profile"><i className="fas fa-user"></i>Profile</Link></SideNavItem>
             <SideNavItem divider />
-            <SideNavItem href='#!second'><i class="fas fa-leaf"></i>Virtual Garden</SideNavItem>
-            <SideNavItem waves href='#!third'><i class="fas fa-images"></i>Gallery</SideNavItem>
-            <SideNavItem href='#!icon'><i class="fas fa-bell"></i>Notifications</SideNavItem>
+            <SideNavItem waves className="side-nav-link"><Link className="side-nav-link" to="/profile/virtualgarden"><i className="fas fa-leaf"></i>Virtual Garden</Link></SideNavItem>
+            <SideNavItem waves className="side-nav-link"><Link className="side-nav-link" to="/profile/gallery"><i className="fas fa-images"></i>Gallery</Link></SideNavItem>
+            <SideNavItem waves className="side-nav-link"><Link className="side-nav-link" to="/profile/notifications"><i className="fas fa-bell"></i>Notifications</Link></SideNavItem>
+            <SideNavItem waves className="side-nav-link"><Link className="side-nav-link" to="/logout"><i class="fas fa-sign-out-alt"></i>Logout</Link></SideNavItem>
         </SideNav>
     );
 };
