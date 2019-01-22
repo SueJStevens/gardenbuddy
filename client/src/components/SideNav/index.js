@@ -1,6 +1,6 @@
 import React from "react";
 import {Link} from "react-router-dom";
-// import "./style.css";
+import "./style.css";
 import { SideNav, SideNavItem} from "react-materialize";
 
 // By extending the React.Component class, Counter inherits functionality from it
@@ -23,10 +23,10 @@ function SideNavBar(props) {
             />
             <SideNavItem waves className="side-nav-link"><Link to="/profile"><i className="fas fa-user"></i>Profile</Link></SideNavItem>
             <SideNavItem divider />
-            <SideNavItem waves><Link className="side-nav-link" to="/profile/virtualgarden"><i className="fas fa-leaf"></i>Virtual Garden</Link></SideNavItem>
-            <SideNavItem waves><Link className="side-nav-link" to="/profile/gallery"><i className="fas fa-images"></i>Gallery</Link></SideNavItem>
-            <SideNavItem waves><Link className="side-nav-link" to="/profile/notifications"><i className="fas fa-bell"></i>Notifications</Link></SideNavItem>
-            <SideNavItem waves><Link className="side-nav-link" to="/logout"><i class="fas fa-sign-out-alt"></i>Logout</Link></SideNavItem>
+            <SideNavItem waves className="side-nav-link"><Link className="side-nav-link" to="/profile/virtualgarden"><i className="fas fa-leaf"></i>Virtual Garden</Link></SideNavItem>
+            <SideNavItem waves className="side-nav-link"><Link className="side-nav-link" to="/profile/gallery"><i className="fas fa-images"></i>Gallery</Link></SideNavItem>
+            <SideNavItem waves className="side-nav-link"><Link className="side-nav-link" to="/profile/notifications"><i className="fas fa-bell"></i>Notifications</Link></SideNavItem>
+            <SideNavItem waves className="side-nav-link"><Link className="side-nav-link" to="/logout"><i class="fas fa-sign-out-alt"></i>Logout</Link></SideNavItem>
         </SideNav>
     );
 };
