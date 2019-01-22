@@ -1,8 +1,7 @@
 import React from "react";
 import Navbar from "../components/Navbar";
 import ProfileHeader from "../components/ProfileHeader";
-import ProfileSelector from "../components/ProfileSelector";
-import ProfileContent from "../components/ProfileContent";
+import ProfileBody from "../components/ProfileBody";
 import { Row } from "react-materialize";
 
 
@@ -16,8 +15,7 @@ function Profile(props) {
             <Navbar />
             <ProfileHeader />
             <Row className="profile-content">
-                <ProfileSelector />
-                <ProfileContent />
+                <ProfileBody />
             </Row>
         </wrapper>
     );

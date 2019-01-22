@@ -1,6 +1,6 @@
 import React from "react";
 // import "./style.css";
-import { Card } from "react-materialize";
+import { Card, Table } from "react-materialize";
 
 // By extending the React.Component class, Counter inherits functionality from it
 function UpdateLogin(props) {
@@ -8,23 +8,23 @@ function UpdateLogin(props) {
     // The render method returns the JSX that should be rendered
     return (
         <wrapper className="container">
-            <Card className="hoverable" title='Update Login' actions={[<a href='#'><i className="fas fa-pencil-alt"></i> Submit Updated Information</a>]}>
-                <table className="">
+            <Card className="hoverable" title='Update Login' actions={[<a href='#'><i class="fas fa-share-square"></i> Submit Updated Information</a>]}>
+                <Table className="">
                     <tbody>
                         <tr>
-                            <td className="user-info"><i class="fas fa-user"></i>Username:</td>
+                            <td className="user-info"><i className="fas fa-user"></i>Username:</td>
                             <td><input value="Test User" /></td>
                         </tr>
                         <tr>
-                            <td className="user-info"><i class="fas fa-envelope"></i>Email:</td>
+                            <td className="user-info"><i className="fas fa-envelope"></i>Email:</td>
                             <td><input value="test@user.com" /></td>
                         </tr>
                         <tr>
-                            <td className="user-info"><i class="fas fa-key"></i>Password:</td>
+                            <td className="user-info"><i className="fas fa-key"></i>Password:</td>
                             <td><input placeholder="******" /></td>
                         </tr>
                     </tbody>
-                </table>
+                </Table>
             </Card>
         </wrapper>
     );

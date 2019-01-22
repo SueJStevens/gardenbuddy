@@ -6,3 +6,7 @@
 .fas {
     padding-right: 1vw !important;
 }
+
+.profile-selector {
+    list-style-type: none;
+}

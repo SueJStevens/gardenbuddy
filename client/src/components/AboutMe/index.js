@@ -13,23 +13,23 @@ function AboutMe(props) {
                     <table className="striped">
                         <tbody>
                             <tr>
-                                <td className="user-info"><i className="fas fa-spa"></i>First Name:</td>
+                                <td className="user-info"><i className="fas fa-seedling"></i>First Name:</td>
                                 <td>Test</td>
                             </tr>
                             <tr>
-                                <td className="user-info"><i className="fas fa-spa"></i>Last Name:</td>
+                                <td className="user-info"><i className="fas fa-seedling"></i>Last Name:</td>
                                 <td>User</td>
                             </tr>
                             <tr>
-                                <td className="user-info"><i className="fas fa-spa"></i>Plants in My Garden:</td>
+                                <td className="user-info"><i className="fas fa-seedling"></i>Plants in My Garden:</td>
                                 <td>13</td>
                             </tr>
                             <tr>
-                                <td className="user-info"><i className="fas fa-spa"></i>Friends:</td>
+                                <td className="user-info"><i className="fas fa-seedling"></i>Friends:</td>
                                 <td>35</td>
                             </tr>
                             <tr>
-                                <td className="user-info"><i className="fas fa-spa"></i>About Me:</td>
+                                <td className="user-info"><i className="fas fa-seedling"></i>About Me:</td>
                                 <td>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</td>
                             </tr>
                         </tbody>
