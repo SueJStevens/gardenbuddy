@@ -30,7 +30,7 @@ class ProfileBody extends Component {
     render() {
 
         return (
-            <Row>
+            <Row className="profile-content">
                 <wrapper className="container profile-content">
                     <ProfileSelector activeComponent={this.activeComponent} />
                     <ProfileContent />
