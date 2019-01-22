@@ -12,18 +12,16 @@ class ProfileBody extends Component {
         //grab all elements with the profile-selector class
         var elems = document.querySelectorAll(".profile-selector");
 
-        //for each of those elements, remove the active class and add the color teal class
+        //for each of those elements, remove the active class
         [].forEach.call(elems, function (el) {
             el.classList.remove("active");
-            el.classList.add("color-teal");
         });
 
         //grab the element that the user clicked on
         var selection = document.getElementById(value);
 
-        //add the active class and remove the color teal class
+        //add the active class
         selection.classList.add("active");
-        selection.classList.remove("color-teal");
     }
 
 
