@@ -1,5 +1,5 @@
 import React from "react";
-import Navbar from "../components/Navbar";
+import NavbarProfile from "../components/Navbar-profile";
 import ProfileHeader from "../components/ProfileHeader";
 import ProfileBody from "../components/ProfileBody";
 import { Row } from "react-materialize";
@@ -12,7 +12,7 @@ function Profile(props) {
     return (
         // use bootstrap to create a navbar
         <wrapper className="container">
-            <Navbar />
+            <NavbarProfile />
             <ProfileHeader />
             <Row className="profile-content">
                 <ProfileBody />
