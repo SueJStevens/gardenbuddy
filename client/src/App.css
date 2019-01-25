@@ -30,3 +30,12 @@
     transform: rotate(360deg);
   }
 }
+
+.background {
+  background-image: url("./images/background.jpg") no-repeat fixed;
+  -webkit-background-size: contain;
+  -moz-background-size: contain;
+  -o-background-size: contain;
+  background-size: contain;
+}
+

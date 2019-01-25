@@ -10,7 +10,7 @@ class App extends Component {
   render() {
     return (
       <Router>
-        <div>
+        <div className="background">
           <Switch>
             {/* this is where i think i need the routing for these compenents */}
             <Route exact path="/" component={Landing} />
