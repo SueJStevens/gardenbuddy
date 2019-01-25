@@ -14,10 +14,9 @@ class Landing extends Component {
       <Wrapper>
         <Jumbotron>
           <Navbar />
-          <SearchCategoryBar />
+          {/* <SearchCategoryBar /> */}
         </Jumbotron>
         <BodyWraper>
-          <Greeting />
           <BodyContent />
         </BodyWraper>
       </Wrapper>
