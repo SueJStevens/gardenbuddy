@@ -1,9 +1,23 @@
 .greeting-text {
-    padding: 15px;
     text-align: center;
 }
 
-h3 {
-    color: rgb(233, 144, 0);
+.greeting {
+    color: rgb(255, 209, 134);
     font-weight: bold;
+    font-size: 500%;
+    animation: fadein 3s;
+
+}
+
+.greeting2 {
+    color: white;
+    font-size: 350%;
+    font-family: 'Sacramento', cursive;
+    animation: fadein 7s;
+}
+
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
 }

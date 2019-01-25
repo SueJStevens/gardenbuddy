@@ -15,7 +15,7 @@ function NavBar(props) {
         <wrapper className="nav-wrapper">
             {/* //use bootstrap to create a navbar */}
             <div className="nav-margin">
-                <Navbar className="top-nav brand-logo" brand={<Link to="/" className="brand-logo waves-effect waves-light">Garden Buddy</Link>} right>
+                <Navbar className="top-nav brand-logo transparent" brand={<Link to="/" className="brand-logo">GardenBuddy</Link>} right>
                     {/* <NavItem onClick={() => console.log('test click')}>Getting started</NavItem> */}
                     {/* <NavItem>Account</NavItem> */}
                     <NavItem><SearchBar /></NavItem>

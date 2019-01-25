@@ -9,21 +9,29 @@ import { Carousel } from "react-materialize";
 function BodyContent(props) {
     return(
         <div className="icon-div">
+            <p className="instruction">
+                <h3>New here?</h3>
+                <h5>Here are some steps to get you started...</h5>
+            </p>
             <p id="step-1"><b>Step 1:</b> Choose your category: </p>
             <div className="row">
-                <div className="col s4 hoverable plant-icon">
+                <div className="col s2 hoverable plant-icon">
                     <FlowerIcon />
                 </div>
-                <div className="col s4 hoverable plant-icon">
+                <div className="col s1"></div>
+
+                <div className="col s2 hoverable plant-icon">
                     <LeafIcon />
                 </div>
-                <div className="col s4 hoverable plant-icon">
+                <div className="col s1"></div>
+
+                <div className="col s2 hoverable plant-icon">
                     <FruitIcon />
                 </div>
             </div>
             <p id="step-2"><b>Step 2:</b> Enter your zip code to find out suitable plants to grow: </p>
             <SearchCategoryBar />
-            <p id="result"><b>Result:</b> Checkout them out! </p>
+            <p id="result"><b>Checkout them out here!</b></p>
             <Carousel images={[
                 'https://lorempixel.com/250/250/nature/1',
                 'https://lorempixel.com/250/250/nature/2',

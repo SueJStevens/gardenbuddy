@@ -4,9 +4,13 @@ a.brand-logo {
 }
 
 .nav-wrapper {
-    background: #009688;
+    background: transparent;
 }
 
 .nav-margin {
     margin-bottom: 15vh;
+}
+
+.top-nav {
+    box-shadow: none;
 }
