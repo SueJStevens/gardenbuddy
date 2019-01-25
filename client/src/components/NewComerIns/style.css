@@ -1,0 +1,25 @@
+.instruction {
+    margin-top: 5%;
+    margin-left: 7%;
+    margin-right: 7%;
+    margin-bottom: 5%;
+}
+
+h3 {
+    font-family: 'Sacramento', cursive;
+    color: rgb(62, 80, 75);
+    font-weight: bold;
+}
+
+h5{
+    margin-left: 5%;
+    margin-right: 5%;
+    color: rgb(192, 131, 0);
+    font-weight: bold;
+}
+
+Button {
+    margin-top: 2%;
+    margin-left: 5%;
+    margin-right: 5%;
+}

@@ -5,15 +5,18 @@ import LeafIcon from "../LeafIcon";
 import FruitIcon from "../FruitIcon";
 import SearchCategoryBar from "../SearchCategoryBar";
 import { Carousel } from "react-materialize";
+import Intro from "../Intro";
+import SearchBar from "../SearchBar";
+import NewComerIns from "../NewComerIns";
 
 function BodyContent(props) {
     return(
         <div className="icon-div">
-            <p className="instruction">
-                <h3>New here?</h3>
-                <h5>Here are some steps to get you started...</h5>
-            </p>
-            <p id="step-1"><b>Step 1:</b> Choose your category: </p>
+            <Intro />
+            <NewComerIns />
+            <SearchBar />
+
+            {/* <p id="step-1"><b>Step 1:</b> Choose your category: </p>
             <div className="row">
                 <div className="col s2 hoverable plant-icon">
                     <FlowerIcon />
@@ -38,7 +41,7 @@ function BodyContent(props) {
                 'https://lorempixel.com/250/250/nature/3',
                 'https://lorempixel.com/250/250/nature/4',
                 'https://lorempixel.com/250/250/nature/5'
-            ]} />
+            ]} /> */}
         </div>
     );
 }

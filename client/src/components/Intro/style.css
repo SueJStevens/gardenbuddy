@@ -1,0 +1,15 @@
+.introParagraph {
+    margin-left: 7%;
+    margin-right: 7%;
+}
+
+h3 {
+    font-family: 'Sacramento', cursive;
+    color: rgb(62, 80, 75);
+    font-weight: bold;
+}
+
+#intro-text {
+    margin-left: 5%;
+    margin-right: 5%;
+}

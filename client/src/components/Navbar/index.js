@@ -18,8 +18,11 @@ function NavBar(props) {
                 <Navbar className="top-nav brand-logo transparent" brand={<Link to="/" className="brand-logo">GardenBuddy</Link>} right>
                     {/* <NavItem onClick={() => console.log('test click')}>Getting started</NavItem> */}
                     {/* <NavItem>Account</NavItem> */}
-                    <NavItem><SearchBar /></NavItem>
-                    <NavItem href='components.html'><Login /></NavItem>
+                    <NavItem>Flowers</NavItem>
+                    <NavItem>Vegetables</NavItem>
+                    <NavItem>Herbs</NavItem>
+                    <NavItem>Fruits</NavItem>
+                    <NavItem className="blue-grey darken-4"><Login /></NavItem>
                     <NavItem><SideNavBar /></NavItem>
                 </Navbar>
             </div>
