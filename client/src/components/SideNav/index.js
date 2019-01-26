@@ -11,7 +11,7 @@ function SideNavBar(props) {
         //use bootstrap to create a navbar
         <SideNav
         trigger={<span className="user-account-button"><i className="fas fa-bars"></i></span>}
-        options={{ closeOnClick: true, edge: 'right' }}
+        options={{ closeOnClick: true, edge: 'left' }}
         >
             <SideNavItem userView
                 user={{
