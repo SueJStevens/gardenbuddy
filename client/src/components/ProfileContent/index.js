@@ -5,6 +5,7 @@ import AboutMe from "../AboutMe";
 import ContactInfo from "../ContactInfo";
 import NotificationsList from "../NotificationList";
 import UpdateLogin from "../UpdateLogin";
+import VirtualGarden from "../VirtualGarden";
 import { Col } from "react-materialize";
 
 // By extending the React.Component class, Counter inherits functionality from it
@@ -21,6 +22,7 @@ function ProfileContent(props) {
                         <Route exact path="/profile/contactinfo" component={ContactInfo} />
                         <Route exact path="/profile/notifications" component={NotificationsList} />
                         <Route exact path="/profile/updatelogin" component={UpdateLogin} />
+                        <Route exact path="/profile/virtualgarden" component={VirtualGarden} />
                 </Switch>
             </Col>
         </wrapper>
