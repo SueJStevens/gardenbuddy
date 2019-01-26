@@ -1,0 +1,75 @@
+[
+  {
+    "name": "Carrot Plant 1",
+    "commonName" : "Carrot",
+    "image": "https://vignette.wikia.nocookie.net/carrot/images/1/1d/Product_2296.jpg/revision/latest?cb=20130612134640",
+    "wateringFrequency": 2,
+    "lastWatered" : "2019-01-25"
+  },
+  {
+    "name": "Tomato Pot 1",
+    "image": "https://vignette.wikia.nocookie.net/gardener/images/f/f5/Tomatoes.jpg/revision/latest?cb=20100504195848",
+    "wateringFrequency": 4,
+    "lastWatered" : "2019-01-25"
+  },
+  {
+    "name": "Bell Pepper Pot 1",
+    "image": "https://vignette.wikia.nocookie.net/gardener/images/1/17/Sweet_pepper_Hershey.jpg/revision/latest?cb=20101002172254",
+    "wateringFrequency": 6,
+    "lastWatered" : "2019-01-25"
+  },
+  {
+    "name": "Spinach",
+    "image": "https://vignette.wikia.nocookie.net/gardener/images/c/cd/Spinach.jpg/revision/latest?cb=20100504175752",
+    "wateringFrequency": 3,
+    "lastWatered" : "2019-01-25"
+  },
+  {
+    "name": "White Lily",
+    "image": "https://vignette.wikia.nocookie.net/horticultureandsoilscience/images/5/50/Wiki-background/revision/latest?cb=20120228093302",
+    "wateringFrequency": 5,
+    "lastWatered" : "2019-01-25"
+  },
+  {
+    "name": "Snapdragon",
+    "image": "https://vignette.wikia.nocookie.net/seedsearch/images/a/a5/08-5-21_%2846%29.jpg/revision/latest?cb=20110530024538",
+    "wateringFrequency": 7,
+    "lastWatered" : "2019-01-25"
+  },
+  {
+    "name": "Marigold",
+    "image": "https://vignette.wikia.nocookie.net/seedsearch/images/b/b8/DSCF5953.jpg/revision/latest?cb=20120106035339",
+    "wateringFrequency": 1,
+    "lastWatered" : "2019-01-25"
+  },
+  {
+    "name": "Begonia",
+    "image": "https://vignette.wikia.nocookie.net/seedsearch/images/d/d1/2011.07.09_%28127%29_Cane_Begonia_%27Mandarin_Orange%27.jpg/revision/latest?cb=20120106031408",
+    "wateringFrequency": 10,
+    "lastWatered" : "2019-01-25"
+  },
+  {
+    "name": "Carrot Plant 1",
+    "image": "https://vignette.wikia.nocookie.net/carrot/images/1/1d/Product_2296.jpg/revision/latest?cb=20130612134640",
+    "wateringFrequency": 3,
+    "lastWatered" : "2019-01-25"
+  },
+  {
+    "name": "Tomato Pot 1",
+    "image": "https://vignette.wikia.nocookie.net/gardener/images/f/f5/Tomatoes.jpg/revision/latest?cb=20100504195848",
+    "wateringFrequency": 4,
+    "lastWatered" : "2019-01-25"
+  },
+  {
+    "name": "Bell Pepper Pot 1",
+    "image": "https://vignette.wikia.nocookie.net/gardener/images/1/17/Sweet_pepper_Hershey.jpg/revision/latest?cb=20101002172254",
+    "wateringFrequency": 9,
+    "lastWatered" : "2019-01-25"
+  },
+  {
+    "name": "Snapdragon 2",
+    "image": "https://vignette.wikia.nocookie.net/seedsearch/images/a/a5/08-5-21_%2846%29.jpg/revision/latest?cb=20110530024538",
+    "wateringFrequency": 8,
+    "lastWatered" : "2019-01-25"
+  }
+]
