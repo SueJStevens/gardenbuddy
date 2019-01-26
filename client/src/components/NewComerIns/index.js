@@ -11,7 +11,7 @@ function NewComerIns(props) {
             <h5><b>New here? </b>Here are some steps to get you started...</h5>
             <Modal
                 header='Follow the steps to find out suitable plants to grow'
-                fixedFooter
+                bottomSheet
                 trigger={<Button waves="light" className="amber darken-1">Start</Button>}
                 className="yellow lighten-5">
                     <Row>
