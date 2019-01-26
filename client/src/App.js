@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-// import logo from './logo.svg';
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import PlantDetail from "./pages/PlantDetail";
 import './App.css';
 import Landing from "./pages/landing";
 import Profile from "./pages/Profile";
@@ -16,7 +16,7 @@ class App extends Component {
             <Route exact path="/" component={Landing} />
             <Route exact path="/landing" component={Landing} />
             <Route path="/profile" component={Profile} />
-
+            <Route path="/plantdetail" component={PlantDetail} />
           </Switch>
         </div>
       </Router>
