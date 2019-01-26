@@ -6,7 +6,7 @@
     color: rgb(255, 209, 134);
     font-weight: bold;
     font-size: 500%;
-    animation: fadein 3s;
+    animation: fadein 2s;
 
 }
 
@@ -14,7 +14,7 @@
     color: white;
     font-size: 400%;
     font-family: 'Sacramento', cursive;
-    animation: fadein 7s;
+    animation: fadein 5s;
 }
 
 @keyframes fadein {

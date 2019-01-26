@@ -22,7 +22,8 @@ function NavBar(props) {
                     <NavItem>Vegetables</NavItem>
                     <NavItem>Herbs</NavItem>
                     <NavItem>Fruits</NavItem>
-                    <NavItem className="blue-grey darken-4"><Login /></NavItem>
+                    <NavItem className="blue-grey darken-3">Our Team</NavItem>
+                    <NavItem className="amber"><Login /></NavItem>
                     <NavItem><SideNavBar /></NavItem>
                 </Navbar>
             </div>
