@@ -12,7 +12,7 @@ var plantingCalendarSchema = new Schema({
     dtRangeStart: { type: Date } 
   }],
   createdOn: { type: Date, default: Date.now }
-});
+}, { collection: 'plantingCalendar' });
 
 const PlantingCalendar = mongoose.model("plantingCalendar", plantingCalendarSchema);
 
