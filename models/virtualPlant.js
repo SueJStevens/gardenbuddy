@@ -7,7 +7,7 @@ var plantSchema = new Schema({
   image: String,
   lastWatered: { type: Date },
   wateringFrequency: { type: Integer },
-  user_id: { type: Object },
+  user_id: String,
   createdOn: { type: Date, default: Date.now }
 }, { collection: 'virtualPlant' });
 
