@@ -10,7 +10,7 @@ function ProfileSelector(props) {
     // The render method returns the JSX that should be rendered
     return (
         <wrapper className="container" id="profile-selection">
-                <Col s={3} className="offset-s1">
+                <Col s={12} m={10} l={3}  className="offset-m1 offset-l1">
                     <Card title='Profile' className="hoverable">
                         <Collection>
                             <Link to="/profile/aboutme"><CollectionItem onClick={() => props.activeComponent("about-me")} className="profile-selector" id="about-me" href="/profile/aboutme" active><i className="fas fa-user"></i>About Me</CollectionItem></Link>

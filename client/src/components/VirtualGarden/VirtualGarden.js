@@ -37,7 +37,7 @@ class VirtualGarden extends React.Component {
     return (
 				<Row>
 					{this.state.my_plants.map((plant, index) => (
-						<Col s= {3}>
+						<Col s={12} m={10} l={3} className="offset-m1">
 							<VirtualPlant
 								clickCount={this.clickCount}
 								id={plant.id}
