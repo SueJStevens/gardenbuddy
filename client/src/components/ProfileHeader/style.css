@@ -1,5 +1,6 @@
 .profile-img {
     height: 17vh !important;
+    width: 17vh !important;
     position: absolute;
     top: 20vh !important;
     left: 10vw;
@@ -9,7 +10,8 @@
 
 .profile-header {
     position: relative !important;
-    top:-10vh !important;
+    top: 3vh !important;
+    margin-bottom: 19vh;
 }
 
 .user-info {
