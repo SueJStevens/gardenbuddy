@@ -15,3 +15,7 @@
 .fas {
     margin: auto;
 }
+
+.side-nav {
+    z-index: 999;
+}

@@ -5,6 +5,7 @@ import SearchBar from "../SearchBar";
 import { Navbar, NavItem } from "react-materialize";
 import SideNavBar from "../SideNav";
 import Login from "../Login";
+import SignUp from "../SignUp";
 
 
 // By extending the React.Component class, Counter inherits functionality from it
@@ -24,6 +25,7 @@ function NavBar(props) {
                     <NavItem>Fruits</NavItem>
                     <NavItem className="blue-grey darken-3" style={ {fontWeight: "bold"} }><Link to="/teamprofile">Our Team</Link></NavItem>
                     <NavItem className="amber"><Login /></NavItem>
+                    <NavItem><SignUp /></NavItem>
                     <NavItem><SideNavBar /></NavItem>
                 </Navbar>
             </div>
