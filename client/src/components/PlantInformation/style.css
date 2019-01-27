@@ -1,0 +1,12 @@
+.collapsible-header:hover {
+    background: #dddddd !important;
+}
+
+.collapsible-header.active {
+    background: #51a39a;
+    color: white;
+}
+
+.collapsible-header.active:hover {
+    background: #51a39a !important;
+}

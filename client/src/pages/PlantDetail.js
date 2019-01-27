@@ -6,9 +6,6 @@ import PlantHeader from "../components/PlantHeader";
 import PlantInformation from "../components/PlantInformation";
 
 export default class PlantDetail extends Component {
-    static propTypes = {
-        prop: PropTypes
-    }
 
     render() {
         return (

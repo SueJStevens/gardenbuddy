@@ -1,0 +1,23 @@
+.plant-attributes {
+    border: none !important;
+    box-shadow: none !important;
+    padding-left: .5vw;
+}
+
+.plant-attributes > .collapsible-header:hover {
+    /* border: none !important; */
+    box-shadow: none !important;
+    background: white !important;
+}
+
+.plant-attributes > .collapsible-header.active {
+    /* border: none !important; */
+    box-shadow: none !important;
+    background: white !important;
+    color: black;
+}
+
+.more-attributes {
+    position: absolute !important;
+    right:0 !important;
+}
