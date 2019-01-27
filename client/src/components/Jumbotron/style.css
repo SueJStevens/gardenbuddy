@@ -1,12 +1,3 @@
-/* .landing-leaf {
-    height: 30vh;
-    position: relative;
-    top: 10vh;
-    left: 30vw;
-    transform: rotate(-55deg);
-    margin-bottom: -5vh;
-} */
-
 .bg-image {
     background: url("../../images/plants.jpg") no-repeat fixed;
     -webkit-background-size: cover;

@@ -3,10 +3,9 @@
     margin-right: 7%;
 }
 
-h3 {
-    font-family: 'Sacramento', cursive;
+h3#intro-title {
+    font-family: 'Shadows Into Light', cursive;
     color: rgb(62, 80, 75);
-    font-weight: bold;
 }
 
 #intro-text {
