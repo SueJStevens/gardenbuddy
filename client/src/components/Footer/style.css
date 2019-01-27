@@ -1,13 +1,7 @@
-.bg-image {
+.example {
     background: url("../../images/plants.jpg") no-repeat fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    /* margin-bottom: 15vh; */
-    padding-bottom: 12vh;
-    position: relative;
-    width: 100%;
-    /* border-bottom: 2px solid #ffc400; */
-
 }
