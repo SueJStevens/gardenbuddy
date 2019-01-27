@@ -1,0 +1,57 @@
+.instruction {
+    margin-top: 7%;
+    margin-left: 7%;
+    margin-right: 7%;
+    margin-bottom: 7%;
+}
+
+h3 {
+    font-family: 'Sacramento', cursive;
+    color: rgb(62, 80, 75);
+    font-weight: bold;
+}
+
+h4 {
+    color: rgb(50, 80, 70);
+    font-family: 'Staatliches', cursive;
+}
+
+h5{
+    margin-top: 7%;
+    color: rgb(50, 80, 70);
+    font-weight: bold;
+}
+
+Button {
+    margin-top: 2%;
+}
+
+.modal.bottom-sheet {
+    max-height: 90vh;
+    overflow: scroll;
+    padding-top: 3%;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.modal .modal-footer {
+    background-color: #fefee6;
+}
+
+.modal .modal-footer .modal-close {
+    background-color: #294f52;
+    color: #fefff2;
+}
+
+img {
+    width: 100%;
+}
+
+.result {
+    margin-bottom: 30px;
+}
+
+.results {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}

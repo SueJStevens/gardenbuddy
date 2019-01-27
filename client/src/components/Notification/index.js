@@ -14,7 +14,7 @@ function Notification(props) {
                 <td className="notification-message">"I noticed you live in the region and have a lot of awesome plants! Any tips?"</td>
                 <td className="notification-checkbox">
                     <div className="checkbox-div">
-                        <input className="check-icon" type="checkbox" />
+                        <input onClick={() => props.click("button")} id="notification-checkbox"className="check-icon" type="checkbox" />
                         <label id="cbx"></label>
                     </div>
                 </td>

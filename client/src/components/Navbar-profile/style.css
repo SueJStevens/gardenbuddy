@@ -3,15 +3,11 @@ a.brand-logo {
     font-family: 'Staatliches', cursive;
 }
 
-.nav-wrapper {
-    background: transparent;
-}
 
-.nav-margin {
+.prof-nav-margin {
     margin-bottom: 15vh;
 }
 
 .top-nav {
     box-shadow: none;
-    z-index: 9999;
 }
