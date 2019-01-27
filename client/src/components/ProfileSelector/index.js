@@ -11,7 +11,7 @@ function ProfileSelector(props) {
     return (
         <wrapper className="container" id="profile-selection">
                 <Col s={12} m={10} l={3}  className="offset-m1 offset-l1">
-                    <Card title='Profile' className="hoverable">
+                    <Card title='Profile'>
                         <Collection>
                             <Link to="/profile/aboutme"><CollectionItem onClick={() => props.activeComponent("about-me")} className="profile-selector" id="about-me" href="/profile/aboutme" active><i className="fas fa-user"></i>About Me</CollectionItem></Link>
                             <Link to="/profile/contactinfo"><CollectionItem onClick={() => props.activeComponent("contact-info")} className="profile-selector" id="contact-info" href="/profile/contactinfo"><i className="fas fa-address-book"></i>Contact Info</CollectionItem></Link>
