@@ -1,6 +1,6 @@
 import React from "react";
 import "./style.css";
-import { Card, CardTitle, Row, Col } from "react-materialize";
+import { Card, CardTitle, Row, Col, Chip } from "react-materialize";
 
 // By extending the React.Component class, Counter inherits functionality from it
 function ProfileHeader(props) {
@@ -20,6 +20,26 @@ function ProfileHeader(props) {
                             <Col s={7} className="offset-s4">
                                 <div className="user-info">
                                     <h5>Test User</h5>
+                                    <Row className="user-chip-row">
+                                        <Col s={4}>
+                                            <Chip>
+                                                <img className="plants-count-img" src='https://cdn.pixabay.com/photo/2018/05/21/23/54/leaves-3420078_1280.jpg' alt='Contact Person' />
+                                                14 Plants
+                                            </Chip>
+                                        </Col>
+                                        <Col s={4}>
+                                            <Chip>
+                                                <img src='https://cdn.pixabay.com/photo/2017/10/17/20/42/social-network-icon-2862113_1280.png' alt='Contact Person' />
+                                                35 Friends
+                                            </Chip>
+                                        </Col>
+                                        <Col s={4}>
+                                            <Chip>
+                                                <img src='https://cdn12.picryl.com/photo/2016/12/31/icon-contact-cloud-computer-communication-3d8f39-1024.png' alt='Contact Person' />
+                                                San Diego
+                                            </Chip>
+                                        </Col>
+                                    </Row>
                                 </div>
                             </Col>
                         </Row>
