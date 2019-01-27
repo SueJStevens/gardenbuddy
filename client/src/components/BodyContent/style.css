@@ -1,10 +1,30 @@
 #step-1,
 #step-2,
-#result {
+#result,
+.instruction {
     margin-top: 30px;
     padding-left: 10%;
 }
 
+.instruction {
+    margin-bottom: 30px;
+}
+
+.row {
+    margin-left: 6%;
+    padding: 20px;
+}
+
 .plant-icon {
     border-radius: 4px;
+}
+
+h3 {
+    color: rgb(62, 80, 75);
+    font-weight: bold;
+}
+
+h5 {
+    color: rgb(192, 131, 0);
+    font-weight: bold;
 }

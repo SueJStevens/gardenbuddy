@@ -1,5 +1,5 @@
 import React from "react";
-import{Card, CardTitle, Button} from "react-materialize";
+import{Card, CardTitle} from "react-materialize";
 
 import "./VirtualPlant.css";
 
@@ -19,13 +19,13 @@ import "./VirtualPlant.css";
  */
 
 const VirtualPlant = props => (
-  <Card className='small hoverable'
+  <Card className='small'
     header={<CardTitle image={props.image}></CardTitle>}>
     
     {/* The plant name */}
     <b>{props.name}</b>
 
-    <p>Last Watered : </p>
+    <p>Last Watered : {props.lastWatered}</p>
 
   </Card>
 );
