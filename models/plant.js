@@ -23,10 +23,16 @@ var plantSchema = new Schema({
     SowTime: String,
     LifeCycle: String,
     SoilpH: String,
+    OrnamentalUse: String,
+    ResistantTo: String,
+    Flowering: String,
+    BloomDuration: String,
+    BloomSeason: String,
+    Flowercolor: String,
     FoodUse: String,
     GrowthHabit: String,
     Genus: String,
-    AdditionalUses: String
+    AdditionalUses: String  
   },
   zone: String,
   zones: [String],
