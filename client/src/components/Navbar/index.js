@@ -1,7 +1,6 @@
 import React from "react";
 import {Link} from "react-router-dom";
 import "./style.css";
-import SearchBar from "../SearchBar";
 import { Navbar, NavItem } from "react-materialize";
 import SideNavBar from "../SideNav";
 import Login from "../Login";

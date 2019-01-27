@@ -1,5 +1,6 @@
 .profile-img {
     height: 17vh !important;
+    width: 17vh !important;
     position: absolute;
     top: 20vh !important;
     left: 10vw;
@@ -9,5 +10,21 @@
 
 .profile-header {
     position: relative !important;
-    top:-13vh !important;
+    top: 3vh !important;
+    margin-bottom: 19vh;
+}
+
+.user-info {
+    position: absolute;
+    top: 30vh;
+    width: 200%;
+}
+
+.user-chip-row {
+    width: 50vw;
+    padding-top: 0;
+}
+
+.plants-count-img {
+    background: rgb(100, 99, 99);
 }
