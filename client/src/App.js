@@ -4,6 +4,7 @@ import PlantDetail from "./pages/PlantDetail";
 import './App.css';
 import Landing from "./pages/landing";
 import Profile from "./pages/Profile";
+import TeamProfile from "./pages/teamProfile";
 
 class App extends Component {
 
@@ -16,6 +17,7 @@ class App extends Component {
             <Route exact path="/" component={Landing} />
             <Route exact path="/landing" component={Landing} />
             <Route path="/profile" component={Profile} />
+            <Route path="/teamprofile" component={TeamProfile} />
             <Route path="/plantdetail" component={PlantDetail} />
           </Switch>
         </div>

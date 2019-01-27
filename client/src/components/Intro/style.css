@@ -1,0 +1,14 @@
+.introParagraph {
+    margin-left: 7%;
+    margin-right: 7%;
+}
+
+h3#intro-title {
+    font-family: 'Shadows Into Light', cursive;
+    color: rgb(62, 80, 75);
+}
+
+#intro-text {
+    margin-left: 5%;
+    margin-right: 5%;
+}

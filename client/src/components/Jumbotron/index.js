@@ -7,7 +7,6 @@ function Jumbotron(props) {
         <wrapper className="wrapper">
             <div className="bg-image">
                 {props.children}
-                    {/* <img class="landing-leaf" alt="leaf" src={require('../../images/green_leaf.png')} /> */}
                 <Greeting />
             </div>
         </wrapper>
