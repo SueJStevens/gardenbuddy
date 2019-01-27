@@ -1,7 +1,7 @@
 import React from "react";
 import "./style.css";
 import { Button, Modal, Row, Input } from "react-materialize";
-import SearchCategoryBar from "../SearchCategoryBar";
+import SearchBar from "../SearchBar";
 
 function NewComerIns(props) {
     return(
@@ -23,7 +23,7 @@ function NewComerIns(props) {
                             <option value='herbs'>Herbs</option>
                         </Input>
                     </Row>
-                    <SearchCategoryBar />
+                    <SearchBar />
                     <h5 id="result">Checkout them out here!</h5>
                     <div className="results"></div>
             </Modal>

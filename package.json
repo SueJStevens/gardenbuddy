@@ -38,6 +38,7 @@
     "eslint-plugin-jsx-a11y": "^6.1.2",
     "eslint-plugin-react": "^7.12.3",
     "express": "^4.16.3",
+    "express-session": "^1.15.6",
     "fullcalendar": "^3.10.0",
     "fullcalendar-reactwrapper": "^1.0.7",
     "fullcalendar-scheduler": "^1.9.4",
