@@ -17,7 +17,7 @@ function ProfileSelector(props) {
                             <Link to="/profile/contactinfo"><CollectionItem onClick={() => props.activeComponent("contact-info")} className="profile-selector" id="contact-info" href="/profile/contactinfo"><i className="fas fa-address-book"></i>Contact Info</CollectionItem></Link>
                             <Link to="/profile/notifications"><CollectionItem onClick={() => props.activeComponent("notifications")} className="profile-selector" id="notifications" href="/profile/notifications"><i className="fas fa-bell"></i>Notifications</CollectionItem></Link>
                             <Link to="/profile/updatelogin"><CollectionItem onClick={() => props.activeComponent("update-login")} className="profile-selector" id="update-login" href="/profile/updatelogin"><i className="fas fa-pencil-alt"></i>Update Login</CollectionItem></Link>
-                            <Link to="/profile/virtualgarden"><CollectionItem onClick={() => props.activeComponent("virtual-garden")} className="profile-selector" id="virtual-garden" href="/profile/virtualgarden"><i className="fas fa-pencil-alt"></i>Virtual Garden</CollectionItem></Link>
+                            <Link to="/profile/virtualgarden"><CollectionItem onClick={() => props.activeComponent("virtual-garden")} className="profile-selector" id="virtual-garden" href="/profile/virtualgarden"><i className="fas fa-leaf"></i>Virtual Garden</CollectionItem></Link>
                         </Collection>
                     </Card>
                 </Col>
