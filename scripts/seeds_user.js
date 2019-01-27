@@ -89,6 +89,7 @@ const userSeed = [
 //     process.exit(1);
 //   });
 
+//This script pushes friend #2-4 into Friend #1.  Friend #1 is pushed into Friend #2-4.
 db.User
   .deleteMany({}, function (err, data) {
     db.User.insertMany(userSeed, function (err, data) {
@@ -99,19 +100,14 @@ db.User
         if (index === 0) {
           db.User.findByIdAndUpdate(item._id, { $push: { friendsID: [data[1]._id, data[2]._id] } }, { new: true }, function (err, data) {
             //console.log('updated ', data);
+            process.exit(0);
           })
         }
         db.User.findByIdAndUpdate(item._id, { $push: { friendsID: data[0]._id } }, { new: true }, function (err, data) {
           //console.log('updated ', data);
+          process.exit(0);
         })
       })
     })
   });
 
-  // setTimeout(function(){ 
-  //   db.User.find({}, function(err, data)
-  //   {
-  //    // console.log('data ', data);
-  //   });
-
-  // }, 5000);
