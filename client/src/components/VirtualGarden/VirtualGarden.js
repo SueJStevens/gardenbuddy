@@ -4,6 +4,8 @@ import VirtualPlant from "../VirtualPlant";
 //import Wrapper from "../Wrapper";
 import {Row, Col} from "react-materialize";
 
+const moment = require('moment');
+
 /**
  * VirtualGarden react component
  */
@@ -19,13 +21,65 @@ class VirtualGarden extends React.Component {
 	 * update 'myPlants' in the component state.
 	 */
 	componentDidMount = () => {
-		
+		let dummy_id = 0;
+
+		this.getGarden(dummy_id);
+	}
+
+	/**
+	 * @function: getGarden
+	 * 
+	 * Fetches the user's virtual garden from the backend.
+	 */
+	getGarden = (gardenID) => {
 		/************************************************************/
 		/* TODO : Call our backend API to get virtual garden plants */
 		/************************************************************/
 
-		this.setState( { my_plants : sample_plants } );
+		this.sortPlants(sample_plants);
+	}
+
+
+	sortPlants = (plantList) => {
 		
+		let today = moment();
+
+		/* Sort the plants so that the ones requiring attention are
+			 displayed first */
+		plantList.forEach((plant) => {
+
+			let lastWateredDate = moment(plant.lastWatered);
+
+			/* Get the difference between last watered date and today */
+			let daysSinceLastWatered = today.diff(lastWateredDate, 'days');
+
+			console.log("It has been " + daysSinceLastWatered + " days"
+			+ " since " + plant.name + " was watered");
+
+			plant.daysOverdue = daysSinceLastWatered - plant.wateringFrequency;
+		});
+
+		plantList.sort( (plant1, plant2) => {
+			return plant2.daysOverdue - plant1.daysOverdue
+		});
+
+		this.setState( { my_plants : plantList } );
+	}
+
+	wateringDone = (plantName) => {
+		let my_plants_updated = this.state.my_plants;
+
+		//event.preventDefault();
+
+		console.log(plantName);
+
+		console.log("User has watered " + plantName);
+
+		let index = my_plants_updated.findIndex(plant => plant.name === plantName);
+
+		my_plants_updated[index].lastWatered = moment().format("YYYY-MM-DD");
+
+		this.sortPlants(my_plants_updated);
 	}
 
 	/**
@@ -34,22 +88,24 @@ class VirtualGarden extends React.Component {
    * Render function for this App.
    */
   render() {
+		console.log("Rendering virtual garden");
     return (
 				<Row>
 					{this.state.my_plants.map((plant, index) => (
-						<Col s={12} m={10} l={3} className="offset-m1">
+						<Col s={12} m={10} l={4} className="offset-m1">
 							<VirtualPlant
-								clickCount={this.clickCount}
-								id={plant.id}
 								key={index}
-								image={plant.image}
-								name={plant.name}
+								plantImage={plant.image}
+								plantName={plant.name}
 								lastWatered={plant.lastWatered}
+								daysOverdue={plant.daysOverdue}
+								wateringFrequency={plant.wateringFrequency}
+								handleWateringDone={this.wateringDone}
 							/>
 						</Col>
 					))}
 				</Row>
-    );
+    )
   }
 }
 
