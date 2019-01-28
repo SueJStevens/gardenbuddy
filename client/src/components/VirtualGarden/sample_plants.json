@@ -4,13 +4,13 @@
     "commonName" : "Carrot",
     "image": "https://vignette.wikia.nocookie.net/carrot/images/1/1d/Product_2296.jpg/revision/latest?cb=20130612134640",
     "wateringFrequency": 2,
-    "lastWatered" : "2019-01-25"
+    "lastWatered" : "2019-01-22"
   },
   {
     "name": "Tomato Pot 1",
     "image": "https://vignette.wikia.nocookie.net/gardener/images/f/f5/Tomatoes.jpg/revision/latest?cb=20100504195848",
     "wateringFrequency": 4,
-    "lastWatered" : "2019-01-25"
+    "lastWatered" : "2019-01-21"
   },
   {
     "name": "Bell Pepper Pot 1",
@@ -49,19 +49,19 @@
     "lastWatered" : "2019-01-25"
   },
   {
-    "name": "Carrot Plant 1",
+    "name": "Carrot Plant 2",
     "image": "https://vignette.wikia.nocookie.net/carrot/images/1/1d/Product_2296.jpg/revision/latest?cb=20130612134640",
     "wateringFrequency": 3,
     "lastWatered" : "2019-01-25"
   },
   {
-    "name": "Tomato Pot 1",
+    "name": "Tomato Pot 2",
     "image": "https://vignette.wikia.nocookie.net/gardener/images/f/f5/Tomatoes.jpg/revision/latest?cb=20100504195848",
     "wateringFrequency": 4,
     "lastWatered" : "2019-01-25"
   },
   {
-    "name": "Bell Pepper Pot 1",
+    "name": "Bell Pepper Pot 2",
     "image": "https://vignette.wikia.nocookie.net/gardener/images/1/17/Sweet_pepper_Hershey.jpg/revision/latest?cb=20101002172254",
     "wateringFrequency": 9,
     "lastWatered" : "2019-01-25"
