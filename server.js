@@ -25,7 +25,6 @@ if (process.env.NODE_ENV === "production") {
 app.use("/auth", require("./routes/auth"));
 app.use(routes);
 
-
 // For Passport
 app.use(passport.initialize());
 app.use(passport.session()); // will call the deserializeUser
