@@ -8,6 +8,7 @@ import Greeting from "../components/Greeting";
 import BodyContent from "../components/BodyContent";
 import FooterDiv from "../components/Footer";
 
+
 class Landing extends Component {
   render() {
     return (
