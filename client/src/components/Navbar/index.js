@@ -1,22 +1,74 @@
 import React, { Component } from "react";
-import { Link } from "react-router-dom";
+import { Link, Redirect } from "react-router-dom";
 import "./style.css";
+import PropTypes from 'prop-types';
 import { Navbar, NavItem } from "react-materialize";
 import SideNavBar from "../SideNav";
 import Login from "../Login";
 import SignUp from "../SignUp";
+import axios from 'axios'
 
 
 // By extending the React.Component class, Counter inherits functionality from it
 class NavBar extends Component {
+    constructor() {
+        super()
+        this.state = {
+            email: "",
+            password: "",
+            phone: "",
+            firstName: "",
+            lastName: "",
+            zipcode: "",
+            city: "",
+            st: "",
+            aboutMe: "",
+            redirectTo: null
+        }
+        this.handleSubmit = this.handleSubmit.bind(this)
+        this.handleChange = this.handleChange.bind(this)
+    }
 
-    formSubmit = (event) => {
-          event.preventDefault();
-        //   console.log("submitted");  
+    handleChange(event) {
+        // console.log("changed");
+        console.log(this.state);
+        this.setState({
+            [event.target.name]: event.target.value
+        })
+    }
+    handleSubmit(event) {
+        event.preventDefault()
+        // TODO - validate!
+        axios.post('/auth/signup', {
+            password: this.state.password,
+            email: this.state.email,
+            phone: this.state.phone,
+            firstName: this.state.firstName,
+            lastName: this.state.lastName,
+            zipcode: this.state.zipcode,
+            city: this.state.city,
+            st: this.state.st,
+            aboutMe: this.state.aboutMe
+
+        })
+            .then(response => {
+                console.log(response)
+                if (!response.data.errmsg) {
+                    console.log('youre good')
+                    this.setState({
+                        redirectTo: '/profile'
+                    })
+                } else {
+                    console.log('duplicate')
+                }
+            })
     }
 
     render() {
 
+        if (this.state.redirectTo) {
+            return <Redirect to={{ pathname: this.state.redirectTo }} />
+        }
         // The render method returns the JSX that should be rendered
         return (
             <wrapper className="nav-wrapper">
@@ -31,13 +83,31 @@ class NavBar extends Component {
                         <NavItem>Fruits</NavItem>
                         <NavItem className="blue-grey darken-3" style={{ fontWeight: "bold" }}><Link to="/teamprofile">Our Team</Link></NavItem>
                         <NavItem className="amber"><Login /></NavItem>
-                        <NavItem><SignUp formSubmit={this.formSubmit}/></NavItem>
+                        <NavItem>
+                            <SignUp
+                                email={this.state.email}
+                                password={this.state.password}
+                                phone={this.state.phone}
+                                firstName={this.state.firstName}
+                                lastName={this.state.lastName}
+                                zipcode={this.state.zipcode}
+                                city={this.state.city}
+                                st={this.state.st}
+                                aboutMe={this.state.aboutMe}
+                                onChange={this.handleChange}
+                                handleSubmit={this.handleSubmit}
+                            />
+                        </NavItem>
                         <NavItem><SideNavBar /></NavItem>
                     </Navbar>
                 </div>
             </wrapper>
         );
     };
+};
+
+NavBar.contextTypes = {
+    router: PropTypes.object.isRequired
 };
 
 export default NavBar;

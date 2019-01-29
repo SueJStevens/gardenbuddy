@@ -31,7 +31,6 @@
     "axios": "^0.18.0",
     "babel-eslint": "9.0.0",
     "bcrypt-nodejs": "^0.0.3",
-    "connect-ensure-login": "^0.1.1",
     "eslint-config-react-app": "^3.0.6",
     "eslint-plugin-flowtype": "^3.2.1",
     "eslint-plugin-import": "^2.14.0",
@@ -48,6 +47,7 @@
     "mongoose": "^5.3.16",
     "passport": "^0.4.0",
     "passport-local": "^1.0.0",
+    "prop-types": "^15.6.2",
     "react-materialize": "^2.6.0",
     "twilio": "^3.27.1"
   }
