@@ -1,36 +1,48 @@
 import React from "react";
-import{Card, CardTitle, Button} from "react-materialize";
+import { Card, CardTitle, Button } from "react-materialize";
 import "./VirtualPlant.css";
 
 const moment = require('moment');
 
 let warningStyle = {
   color: 'darkorange',
-  fontWeight:'bold'
+  fontWeight: 'bold'
 }
 
 const PlantInfo = (plantName, lastWatered, daysOverdue, wateringFrequency, handleWateringDone) => {
 
-  if(daysOverdue > 0) {
+  if (daysOverdue > 0) {
 
     let dayOrDays = (daysOverdue > 1 ? "days" : "day");
 
-    return(
+    return (
       <div>
         <p style={warningStyle}>Last watered : {moment(lastWatered).format("ddd MMM Do")}</p>
         <p style={warningStyle}>Watering overdue by {daysOverdue} {dayOrDays}</p>
-        <Button onClick={ () => handleWateringDone(plantName) }>
-          <i class="fas fa-tint"></i>done watering
+        <Button className="virtual-plant-button" onClick={() => handleWateringDone(plantName)}>
+          <i class="fas fa-tint"></i>Water
+        </Button>
+        <Button className="virtual-plant-button">
+          <i class="fas fa-pencil-alt"></i>Edit Plant
+        </Button>
+        <Button className="virtual-plant-button">
+          <i class="fas fa-camera"></i>Upload Photos
         </Button>
       </div>
     )
   } else {
     let nextWatering = moment(lastWatered).add(wateringFrequency, 'days');
     //console.log(nextWatering);
-    return(
+    return (
       <div>
-         <p>Last watered : {moment(lastWatered).format("ddd MMM Do")} </p>
-         <p>Next watering due on : {nextWatering.format("ddd MMM Do")}</p>
+        <p>Last watered : {moment(lastWatered).format("ddd MMM Do")} </p>
+        <p>Next watering due on : {nextWatering.format("ddd MMM Do")}</p>
+        <Button className="virtual-plant-button">
+          <i class="fas fa-pencil-alt"></i>Edit Plant
+        </Button>
+        <Button className="virtual-plant-button">
+          <i class="fas fa-camera"></i>Upload Photos
+        </Button>
       </div>
     )
   }
@@ -61,31 +73,31 @@ const VirtualPlant = props => {
 
   let { plantImage, plantName, lastWatered, daysOverdue, wateringFrequency, handleWateringDone } = props;
 
-  return(
+  return (
     <Card className='small'
-      header={<CardTitle reveal image={plantImage} waves='light'/>}
+      header={<CardTitle reveal image={plantImage} waves='light' />}
 
       reveal={PlantInfo(plantName, lastWatered, daysOverdue, wateringFrequency, handleWateringDone)}
 
-      title={daysOverdue > 0 ? 
-               <span style={warningStyle}>{plantName}</span>
-              :<b>{plantName}</b>}
+      title={daysOverdue > 0 ?
+        <span style={warningStyle}>{plantName}</span>
+        : <b>{plantName}</b>}
     >
       {/* If watering is overdue, display a warning message under card image.
           Otherwise display the next watering date */}
-      {daysOverdue > 0 ? 
+      {daysOverdue > 0 ?
         <p style={warningStyle}>
           {/*<i class="fas fa-exclamation-triangle" style={warningStyle}></i>*/}
           Watering overdue
-        </p> 
-        : 
+        </p>
+        :
         <p>Next watering due on:
-          <br></br> 
+          <br></br>
           <b>{nextWatering.format("ddd MMM Do")}</b>
         </p>
       }
 
-   </Card>
+    </Card>
   )
 }
 

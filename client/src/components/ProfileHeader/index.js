@@ -10,7 +10,7 @@ function ProfileHeader(props) {
         <wrapper className="container">
             <Row className="profile-header">
                 <Col s={10} className="offset-s1">
-                    <Card className='medium hoverable'
+                    <Card className='medium'
                         header={<CardTitle image='https://via.placeholder.com/500'></CardTitle>}
                         actions={[<a href='#'>This is a Link</a>]}>
                         <figure className="card-profile-image">

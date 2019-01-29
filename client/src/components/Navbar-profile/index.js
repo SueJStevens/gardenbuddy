@@ -21,8 +21,6 @@ function NavbarProfile(props) {
                     <NavItem>Herbs</NavItem>
                     <NavItem>Fruits</NavItem>
                     <NavItem className="blue-grey darken-3" style={ {fontWeight: "bold"} }><Link to="/teamprofile">Our Team</Link></NavItem>
-                    <NavItem className="amber"><Login /></NavItem>
-                    <NavItem><SignUp /></NavItem>
                     <NavItem><SideNavBar /></NavItem>
                 </Navbar>
             </div>
