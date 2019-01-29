@@ -19,8 +19,14 @@ const PlantInfo = (plantName, lastWatered, daysOverdue, wateringFrequency, handl
       <div>
         <p style={warningStyle}>Last watered : {moment(lastWatered).format("ddd MMM Do")}</p>
         <p style={warningStyle}>Watering overdue by {daysOverdue} {dayOrDays}</p>
-        <Button onClick={ () => handleWateringDone(plantName) }>
-          <i class="fas fa-tint"></i>done watering
+        <Button className="virtual-plant-button" onClick={ () => handleWateringDone(plantName) }>
+          <i class="fas fa-tint"></i>Water
+        </Button>
+        <Button className="virtual-plant-button">
+          <i class="fas fa-pencil-alt"></i>Edit Plant
+        </Button>
+        <Button className="virtual-plant-button">
+          <i class="fas fa-camera"></i>Upload Photos
         </Button>
       </div>
     )
