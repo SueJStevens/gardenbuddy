@@ -9,7 +9,8 @@ function SignUp(props) {
     return (
         <Modal className="container"
             header='Sign Up for Garden Buddy'
-            trigger={<span>Register</span>}>
+            trigger={<span>Register</span>}
+            className="yellow lighten-5">
             <Row className="input-area">
                 <Col s={12}>
                     <p>Please fill out your info below:</p>

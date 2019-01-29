@@ -1,0 +1,30 @@
+[
+    {
+        "name": "Sue Stevens",
+        "email": "stevensstock@gmail.com",
+        "github": "https://github.com/SueJStevens",
+        "image": "https://sue-j-stevens.herokuapp.com/assets/images/sstevevs1.jpg",
+        "personalWebLink": "https://sue-j-stevens.herokuapp.com/"
+    },
+    {
+        "name": "Bryson Nelson",
+        "email": "bryson_nelson@yahoo.com",
+        "github": "https://github.com/brysonelson",
+        "image": "",
+        "personalWebLink": ""
+    },
+    {
+        "name": "Narasimhan Ramesh",
+        "email": "narasimhan.ramesh5@gmail.com",
+        "github": "https://github.com/narasimhan-ramesh5",
+        "image": "https://narasimhan-ramesh5.github.io/img/profile_pic.png",
+        "personalWebLink": ""
+    },
+    {
+        "name": "Shulin Jiang",
+        "email": "angeljiang0927@gmail.com",
+        "github": "https://github.com/higurashinatsu",
+        "image": "https://higurashinatsu.github.io/Portfolio/assets/images/profile/head1.jpg",
+        "personalWebLink": "https://higurashinatsu.github.io/Portfolio/"
+    }
+]

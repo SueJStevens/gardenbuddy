@@ -16,13 +16,13 @@ function ProfileContent(props) {
         <wrapper className="container profile-content">
             <Col l={7} m={10} s={12} className="offset-m1">
                 <Switch>
-                        {/* this is where i think i need the routing for these compenents */}
-                        <Route exact path="/profile" component={AboutMe} />
-                        <Route exact path="/profile/aboutme" component={AboutMe} />
-                        <Route exact path="/profile/contactinfo" component={ContactInfo} />
-                        <Route exact path="/profile/notifications" component={NotificationsList} />
-                        <Route exact path="/profile/updatelogin" component={UpdateLogin} />
-                        <Route exact path="/profile/virtualgarden" component={VirtualGarden} />
+                    {/* this is where i think i need the routing for these compenents */}
+                    <Route exact path="/profile" component={AboutMe} />
+                    <Route exact path="/profile/aboutme" component={AboutMe} />
+                    <Route exact path="/profile/contactinfo" component={ContactInfo} />
+                    <Route exact path="/profile/notifications" component={NotificationsList} />
+                    <Route exact path="/profile/updatelogin" component={UpdateLogin} />
+                    <Route exact path="/profile/virtualgarden" component={VirtualGarden} />
                 </Switch>
             </Col>
         </wrapper>

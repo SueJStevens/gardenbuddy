@@ -4,8 +4,8 @@ import "./style.css";
 function Greeting(props) {
     return(
         <div className="greeting-text">
-            <p className="greeting">Hello,</p>
-            <p className="greeting2">Welcome to GardenBuddy!</p>
+            <p className="greeting">{props.lineOne}</p>
+            <p className="greeting2">{props.lineTwo}</p>
         </div>
     )
 }

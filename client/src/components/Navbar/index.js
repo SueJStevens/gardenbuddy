@@ -24,7 +24,7 @@ function NavBar(props) {
                     <NavItem>Fruits</NavItem>
                     <NavItem className="blue-grey darken-3" style={ {fontWeight: "bold"} }><Link to="/teamprofile">Our Team</Link></NavItem>
                     <NavItem className="amber"><Login /></NavItem>
-                    <NavItem><SignUp /></NavItem>
+                    <NavItem className="blue-grey darken-4" style={ {fontWeight: "bold"} }><SignUp /></NavItem>
                     <NavItem><SideNavBar /></NavItem>
                 </Navbar>
             </div>
