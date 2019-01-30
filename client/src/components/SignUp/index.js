@@ -10,64 +10,120 @@ function SignUp(props) {
         <Modal className="container"
             header='Sign Up for Garden Buddy'
             trigger={<span>Register</span>}>
-            <Row className="input-area">
+            <Row>
                 <Col s={12}>
                     <p>Please fill out your info below:</p>
                 </Col>
             </Row>
-
+            <form>
+            
             <Row className="input-area">
                 <div className="input-field col s6">
                     <label for="first-name-signup">First Name</label>
-                    <input id="first-name-signup" type="text" ></input>
+                    <input 
+                        id="first-name-signup" 
+                        type="text" 
+                        name="firstName" 
+                        onChange={props.onChange}
+                        value={props.firstName}>
+                    </input>
                 </div>
                 <div className="input-field col s6">
                     <label for="last-name-signup">Last Name</label>
-                    <input id="last-name-signup" type="text"></input>
+                    <input 
+                        id="last-name-signup" 
+                        type="text" 
+                        name="lastName"
+                        onChange={props.onChange}
+                        value={props.lastName}>
+                    </input>
                 </div>
             </Row>
             <Row className="input-area">
                 <div className="input-field col s12">
                     <label for="phone-signup">Phone</label>
-                    <input id="phone-signup" type="text"></input>
+                    <input 
+                        id="phone-signup" 
+                        type="text" 
+                        name="phone"
+                        onChange={props.onChange}
+                        value={props.phone}>
+                    </input>
                 </div>
             </Row>
             <Row className="input-area">
                 <div className="input-field col s12">
                     <label for="email-signup">Email</label>
-                    <input id="email-signup" type="email"></input>
+                    <input 
+                        id="email-signup" 
+                        type="email" 
+                        name="email"
+                        onChange={props.onChange}
+                        value={props.email}>
+                    </input>
                 </div>
             </Row>
             <Row className="input-area">
                 <div className="input-field col s12">
                     <label for="zip-code-signup">Zip Code</label>
-                    <input id="zip-code-signup" type="text"></input>
+                    <input 
+                        id="zip-code-signup" 
+                        type="text" 
+                        name="zipcode"
+                        onChange={props.onChange}
+                        value={props.zipCode}>
+                    </input>
                 </div>
             </Row>
             <Row className="input-area">
                 <Col className="input-field" s={6}>
                     <label for="city-signup">City</label>
-                    <input id="city-signup" type="text"></input>
+                    <input 
+                        id="city-signup" 
+                        type="text" 
+                        name="city"
+                        onChange={props.onChange}
+                        value={props.city}>
+                    </input>
                 </Col>
 
                 <Col className="input-field" s={6}>
                     <label for="state-signup">State</label>
-                    <input id="state-signup" type="text"></input>
+                    <input 
+                        id="state-signup" 
+                        type="text" 
+                        name="state"
+                        onChange={props.onChange}
+                        value={props.st}>
+                    </input>
                 </Col>
             </Row>
             <Row className="input-area">
                 <div className="input-field col s12">
                     <label for="about-me-signup">About Me</label>
-                    <textarea className="materialize-textarea" id="about-me-signup" type="text-area"></textarea>
+                    <textarea 
+                        className="materialize-textarea" 
+                        id="about-me-signup" type="text-area" 
+                        name="aboutMe"
+                        onChange={props.onChange}
+                        value={props.aboutMe}>
+                    </textarea>
                 </div>
             </Row>
             <Row className="input-area">
                 <div className="input-field col s12">
                     <label for="password-signup">Password</label>
-                    <input id="password-signup" type="password"></input>
+                    <input 
+                        id="password-signup" 
+                        type="password" 
+                        name="password"
+                        onChange={props.onChange}
+                        value={props.password}>
+                    </input>
                 </div>
             </Row>
-            <Button>Sign Up</Button>
+            <Button onClick={props.handleSubmit} type="submit">Sign Up</Button>
+            </form>
         </Modal>
     );
 };

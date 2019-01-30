@@ -4,9 +4,9 @@ import Navbar from "../components/Navbar";
 import Jumbotron from "../components/Jumbotron";
 import Wrapper from "../components/Wrapper";
 import BodyWraper from "../components/BodyWrapper";
-import Greeting from "../components/Greeting";
+// import Greeting from "../components/Greeting";
 import BodyContent from "../components/BodyContent";
-import SearchCategoryBar from "../components/SearchCategoryBar";
+// import SearchBar from "../components/SearchBar";
 import FooterDiv from "../components/Footer";
 
 class Landing extends Component {
