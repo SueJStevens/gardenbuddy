@@ -93,7 +93,7 @@ function SignUp(props) {
                     <input 
                         id="state-signup" 
                         type="text" 
-                        name="state"
+                        name="st"
                         onChange={props.onChange}
                         value={props.st}>
                     </input>
@@ -105,9 +105,9 @@ function SignUp(props) {
                     <textarea 
                         className="materialize-textarea" 
                         id="about-me-signup" type="text-area" 
-                        name="aboutMe"
+                        name="aboutme"
                         onChange={props.onChange}
-                        value={props.aboutMe}>
+                        value={props.aboutme}>
                     </textarea>
                 </div>
             </Row>

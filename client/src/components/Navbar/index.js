@@ -22,7 +22,7 @@ class NavBar extends Component {
             zipcode: "",
             city: "",
             st: "",
-            aboutMe: "",
+            aboutme: "",
             redirectTo: null
         }
         this.handleSubmit = this.handleSubmit.bind(this)
@@ -48,7 +48,7 @@ class NavBar extends Component {
             zipcode: this.state.zipcode,
             city: this.state.city,
             st: this.state.st,
-            aboutMe: this.state.aboutMe
+            aboutme: this.state.aboutme
 
         })
             .then(response => {
@@ -103,12 +103,12 @@ class NavBar extends Component {
                                 zipcode={this.state.zipcode}
                                 city={this.state.city}
                                 st={this.state.st}
-                                aboutMe={this.state.aboutMe}
+                                aboutme={this.state.aboutme}
                                 onChange={this.handleChange}
                                 handleSubmit={this.handleSubmit}
                             />
                         </NavItem>
-                        <NavItem><SideNavBar /></NavItem>
+                        <NavItem><SideNavBar/></NavItem>
                     </Navbar>
                 </div>
             </wrapper>
