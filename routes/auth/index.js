@@ -46,18 +46,36 @@ router.post("/logout", (req, res) => {
 });
 
 router.post("/signup", (req, res) => {
-  const { username, password } = req.body;
-  console.log("post to /signup");
+  //   const { username, password } = req.body;
+  console.log(req.body);
+  let {
+    email,
+    password,
+    phone,
+    firstName,
+    lastName,
+    zipcode,
+    city,
+    st,
+    aboutme
+  } = req.body;
   // ADD VALIDATION
-  User.findOne({ "local.username": username }, (err, userMatch) => {
+  User.find({ email: email }, (err, userMatch) => {
     if (userMatch) {
       return res.json({
-        error: `Sorry, already a user with the username: ${username}`
+        error: `Sorry, already a user with the email: ${email}`
       });
     }
     const newUser = new User({
-      "local.username": username,
-      "local.password": password
+      email: email,
+      password: password,
+      phone: phone,
+      firstName: firstName,
+      lastName: lastName,
+      zipcode: zipcode,
+      city: city,
+      st: st,
+      aboutme: aboutme
     });
     newUser.save((err, savedUser) => {
       if (err) {
