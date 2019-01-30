@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import { Link, Redirect } from "react-router-dom";
 import "./style.css";
 import PropTypes from 'prop-types';
-import { Navbar, NavItem } from "react-materialize";
+import { Navbar, NavItem, Dropdown, Button } from "react-materialize";
 import SideNavBar from "../SideNav";
 import Login from "../Login";
 import SignUp from "../SignUp";
@@ -77,10 +77,20 @@ class NavBar extends Component {
                     <Navbar className="top-nav brand-logo transparent" brand={<Link to="/" className="brand-logo">GardenBuddy</Link>} right>
                         {/* <NavItem onClick={() => console.log('test click')}>Getting started</NavItem> */}
                         {/* <NavItem>Account</NavItem> */}
-                        <NavItem>Flowers</NavItem>
-                        <NavItem>Vegetables</NavItem>
-                        <NavItem>Herbs</NavItem>
-                        <NavItem>Fruits</NavItem>
+
+                        <NavItem>
+                            <Dropdown 
+                                trigger={<Button className="transparent">Departments</Button>}>
+                                    <Link to="/flowers"><NavItem>Flowers</NavItem></Link>
+                                    <NavItem divider />
+                                    <Link to="/fruits"><NavItem>Fruits</NavItem></Link>
+                                    <NavItem divider />
+                                    <Link to="/vegetables"><NavItem>Vegetables</NavItem></Link>
+                                    <NavItem divider />
+                                    <Link to="/herbs"><NavItem>Herbs</NavItem></Link>
+                            </Dropdown>
+                        </NavItem>
+
                         <NavItem className="blue-grey darken-3" style={{ fontWeight: "bold" }}><Link to="/teamprofile">Our Team</Link></NavItem>
                         <NavItem className="amber"><Login /></NavItem>
                         <NavItem className="blue-grey darken-4">
