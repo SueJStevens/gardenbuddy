@@ -5,16 +5,18 @@
 .greeting {
     color: rgb(255, 209, 134);
     font-weight: bold;
-    font-size: 500%;
+    font-size: 450%;
     animation: fadein 2s;
 
 }
 
 .greeting2 {
     color: white;
-    font-size: 400%;
+    font-size: 300%;
     font-family: 'Shadows Into Light', cursive;
     animation: fadein 5s;
+    padding-left: 150px;
+    padding-right: 150px;
 }
 
 @keyframes fadein {
