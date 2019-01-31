@@ -3,9 +3,9 @@ import "./style.css";
 
 function DepartmentContent(props) {
     return(
-        <wrapper>
+        <div className="row">
             {props.children}
-        </wrapper>
+        </div>
     )
 }
 
