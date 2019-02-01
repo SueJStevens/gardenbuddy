@@ -73,6 +73,8 @@ const VirtualPlant = props => {
 
   let { plantImage, plantName, lastWatered, daysOverdue, wateringFrequency, handleWateringDone } = props;
 
+  console.log(`Hello I am ${props.plantName} and my key is ${props.key}`)
+
   return (
     <Card className='small'
       header={<CardTitle reveal image={plantImage} waves='light' />}

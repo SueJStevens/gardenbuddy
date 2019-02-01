@@ -87,7 +87,7 @@ const plantSeed = [
     },
     "zone": "2-10",
     "zones": ["2a", "2b", "3a", "3b", "4a", "4b", "5a", "5b", "6a", "6b", "7a", "7b", "8a", "8b", "9a", "9b", "10a", "10b"],
-    "photoURL": "https://upload.wikimedia.org/wikipedia/commons/7/79/Eruca_sativa_1_IP0206101.jpg"
+    "photoURL": "https://commons.wikimedia.org/wiki/File:Eruca_sativa_1_IP0206101.jpg#/media/File:Eruca_sativa_1_IP0206101.jpg"
   },
   // ----------------------------------------------
   {
@@ -114,7 +114,7 @@ const plantSeed = [
     },
     "zone": "2-10",
     "zones": ["2a", "2b", "3a", "3b", "4a", "4b", "5a", "5b", "6a", "6b", "7a", "7b", "8a", "8b", "9a", "9b", "10a", "10b"],
-    "photoURL": "https://upload.wikimedia.org/wikipedia/commons/b/b7/Flower_of_Mustard_Plant.jpg"
+    "photoURL": "https://commons.wikimedia.org/wiki/File:Flower_of_Mustard_Plant.jpg#/media/File:Flower_of_Mustard_Plant.jpg"
   },
   // ----------------------------------------------
   {
@@ -143,7 +143,7 @@ const plantSeed = [
     "zones": ["2a", "2b", "3a", "3b", "4a", "4b", "5a", "5b", "6a", "6b", "7a", "7b", "8a", "8b", "9a", "9b", "10a", "10b"],
     "compatable": ["Asparagus", "Brussels", "Cabbage", "Celery", "Dill", "Eggplant", "Lettuce", "Onions", "Peas", "Peppers", "Radishes", "Strawberries", "Tomatoes"],
     "combative": [""],
-    "photoURL": "https://upload.wikimedia.org/wikipedia/commons/3/37/Spinacia_oleracea_Spinazie_bloeiend.jpg"
+    "photoURL": "https://commons.wikimedia.org/wiki/File:Spinacia_oleracea_Spinazie_bloeiend.jpg#/media/File:Spinacia_oleracea_Spinazie_bloeiend.jpg"
   },
   // ----------------------------------------------
   {
@@ -167,7 +167,7 @@ const plantSeed = [
     },
     "zone": "3-8",
     "zones": ["3a", "3b", "4a", "4b", "5a", "5b", "6a", "6b", "7a", "7b", "8a", "8b"],
-    "photoURL": "https://upload.wikimedia.org/wikipedia/commons/3/3f/Italian_garlic_PDO.JPG"
+    "photoURL": "https://commons.wikimedia.org/wiki/File:Italian_garlic_PDO.JPG#/media/File:Italian_garlic_PDO.JPG"
   },
   // ----------------------------------------------
   {
@@ -195,7 +195,7 @@ const plantSeed = [
     "zones": ["2a", "2b", "3a", "3b", "4a", "4b", "5a", "5b", "6a", "6b", "7a", "7b", "8a", "8b", "9a", "9b", "10a"],
     "compatable": ["Basil", "Beets", "Lettuce", "Parsley", "Spinach", "Tomatoes"],
     "combative": [""],
-    "photoURL": "https://upload.wikimedia.org/wikipedia/commons/9/92/Asparagus_Tip.jpg"
+    "photoURL": "https://commons.wikimedia.org/wiki/File:Asparagus_Tip.jpg#/media/File:Asparagus_Tip.jpg"
   },
   // ----------------------------------------------
   {
@@ -312,7 +312,7 @@ const plantSeed = [
     "zones": ["2a", "2b", "3a", "3b", "4a", "4b", "5a", "5b", "6a", "6b", "7a", "7b", "8a", "8b", "9a", "9b", "10a", "10b"],
     "compatable": ["Dill", "Lettuce", "Radishes", "Sage", "Spinach", "Turnips"],
     "combative": ["Tomatoes"],
-    "photoURL": "https://https://upload.wikimedia.org/wikipedia/commons/7/7f/BrusselsSproutColes.jpg"
+    "photoURL": "https://commons.wikimedia.org/wiki/File:BrusselsSproutColes.jpg#/media/File:BrusselsSproutColes.jpg"
   },
   // ----------------------------------------------
   {
@@ -342,7 +342,7 @@ const plantSeed = [
     "zones": ["2a", "2b", "3a", "3b", "4a", "4b", "5a", "5b", "6a", "6b", "7a", "7b", "8a", "8b", "9a", "9b", "10a", "10b"],
     "compatable": ["Beans", "Beets", "Celery", "Cucumbers", "Sage", "Thyme"],
     "combative": ["Broccoli", "Cabbage", "Strawberries", "Tomatoes"],
-    "photoURL": "https://upload.wikimedia.org/wikipedia/commons/d/df/Cauliflower_plants_growing_in_New_Jersey_in_April.jpg"
+    "photoURL": "https://commons.wikimedia.org/wiki/File:Cauliflower_plants_growing_in_New_Jersey_in_April.jpg#/media/File:Cauliflower_plants_growing_in_New_Jersey_in_April.jpg"
   },
   // ----------------------------------------------
   {
@@ -371,7 +371,7 @@ const plantSeed = [
     "zones": ["2a", "2b", "3a", "3b", "4a", "4b", "5a", "5b", "6a", "6b", "7a", "7b", "8a", "8b", "9a", "9b", "10a", "10b"],
     "compatable": ["Cabbage", "Dill", "Potatoes", "Rosemary", "Sage"],
     "combative": ["Strawberries", "Tomatoes"],
-    "photoURL": "https://upload.wikimedia.org/wikipedia/commons/2/20/Boerenkool.jpg",
+    "photoURL": "https://commons.wikimedia.org/wiki/File:Boerenkool.jpg#/media/File:Boerenkool.jpg",
   },
   // ----------------------------------------------
   {
@@ -401,7 +401,7 @@ const plantSeed = [
     "zones": ["2a", "2b", "3a", "3b", "4a", "4b", "5a", "5b", "6a", "6b", "7a", "7b", "8a", "8b", "9a", "9b", "10a", "10b"],
     "compatable": ["Beans", "Celery", "Cucumbers", "Dill", "Kale", "Lettuce", "Onions", "Potatoes", "Sage", "Spinach", "Thyme"],
     "combative": ["Broccoli", "Cauliflower", "Strawberries", "Tomatoes"],
-    "photoURL": "https://upload.wikimedia.org/wikipedia/commons/2/2e/Chou_1.jpg"
+    "photoURL": "https://commons.wikimedia.org/wiki/File:Chou_1.jpg#/media/File:Chou_1.jpg"
   },
   // ----------------------------------------------
   {
@@ -430,7 +430,7 @@ const plantSeed = [
     "zones": ["3a", "3b", "4a", "4b", "5a", "5b", "6a", "6b", "7a", "7b", "8a", "8b", "9a", "9b"],
     "compatable": ["Beans", "Beets", "Celery", "Cucumbers", "Onions", "Potatoes", "Sage"],
     "combative": ["Cabbage", "Cauliflower", "Lettuce", "Pole Beans", "Tomatoes"],
-    "photoURL": "https://upload.wikimedia.org/wikipedia/commons/c/c9/Broccoli_flowers_2525385935_e13d4de4c4_b.jpg"
+    "photoURL": "https://commons.wikimedia.org/wiki/File:Broccoli_flowers_2525385935_e13d4de4c4_b.jpg#/media/File:Broccoli_flowers_2525385935_e13d4de4c4_b.jpg"
   },
   // ----------------------------------------------
   {
@@ -459,7 +459,7 @@ const plantSeed = [
     "zones": ["2a", "2b", "3a", "3b", "4a", "4b", "5a", "5b", "6a", "6b", "7a", "7b", "8a", "8b", "9a", "9b", "10a", "10b"],
     "compatable": ["Dill", "Lettuce", "Radishes", "Sage", "Spinach", "Turnips"],
     "combative": ["Tomatoes"],
-    "photoURL": "https://upload.wikimedia.org/wikipedia/commons/a/a3/Brussels_Sprouts_ready_for_harvest.jpg"
+    "photoURL": "https://commons.wikimedia.org/wiki/File:Brussels_Sprouts_ready_for_harvest.jpg#/media/File:Brussels_Sprouts_ready_for_harvest.jpg"
   },
   // ----------------------------------------------
   {
@@ -488,7 +488,7 @@ const plantSeed = [
     },
     "zone": "4-13",
     "zones": ["4a", "4b", "5a", "5b", "6a", "6b", "7a", "7b", "8a", "8b", "9a", "9b", "10a", "10b", "11a", "11b", "12a", "12b", "13a", "13b"],
-    "photoURL": "https://upload.wikimedia.org/wikipedia/commons/2/28/Cantaloupes.jpg"
+    "photoURL": "https://commons.wikimedia.org/wiki/File:Cantaloupes.jpg#/media/File:Cantaloupes.jpg"
   },
   // ----------------------------------------------
   {
@@ -517,7 +517,7 @@ const plantSeed = [
     "zones": ["2a", "2b", "3a", "3b", "4a", "4b", "5a", "5b", "6a", "6b", "7a", "7b", "8a", "8b", "9a", "9b", "10a", "10b"],
     "compatable": ["Beans", "Lettuce", "Onions", "Peas", "Radishes", "Rosemary", "Sage", "Tomatoes"],
     "combative": ["Dill", "Parsley"],
-    "photoURL": "https://upload.wikimedia.org/wikipedia/commons/3/32/Carrots_of_many_colors.jpg"
+    "photoURL": "https://commons.wikimedia.org/wiki/File:Carrots_of_many_colors.jpg#/media/File:Carrots_of_many_colors.jpg"
   },
   // ----------------------------------------------
   {
@@ -546,7 +546,7 @@ const plantSeed = [
     "zones": ["2a", "2b", "3a", "3b", "4a", "4b", "5a", "5b", "6a", "6b", "7a", "7b", "8a", "8b", "9a", "9b", "10a", "10b"],
     "compatable": ["Beans", "Broccoli", "Cabbage", "Cauliflower", "Leeks", "Spinach", "Tomatoes"],
     "combative": [""],
-    "photoURL": "https://upload.wikimedia.org/wikipedia/commons/d/d6/Celery_%282905891576%29.jpg"
+    "photoURL": "https://commons.wikimedia.org/wiki/File:Celery_(2905891576).jpg#/media/File:Celery_(2905891576).jpg"
   },
   // ----------------------------------------------
   {
@@ -573,7 +573,7 @@ const plantSeed = [
     },
     "zone": "2-10",
     "zones": ["2a", "2b", "3a", "3b", "4a", "4b", "5a", "5b", "6a", "6b", "7a", "7b", "8a", "8b", "9a", "9b", "10a", "10b"],
-    "photoURL": "https://upload.wikimedia.org/wikipedia/en/2/28/Collards_in_container.jpg"
+    "photoURL": "https://en.wikipedia.org/wiki/File:Collards_in_container.jpg#/media/File:Collards_in_container.jpg"
   },
   // ----------------------------------------------
   {
@@ -602,7 +602,7 @@ const plantSeed = [
     "zones": ["3a", "3b", "4a", "4b", "5a", "5b", "6a", "6b", "7a", "7b", "8a", "8b", "9a", "9b", "10a", "10b"],
     "compatable": ["Beans", "Cucumbers", "Lettuce", "Melons", "Peas", "Potatoes", "Squash", "Sunflowers"],
     "combative": ["Tomatoes"],
-    "photoURL": "https://upload.wikimedia.org/wikipedia/commons/4/4e/GreenCorn.JPG"
+    "photoURL": "https://commons.wikimedia.org/wiki/File:GreenCorn.JPG#/media/File:GreenCorn.JPG"
   },
   // ----------------------------------------------
   {
@@ -631,7 +631,7 @@ const plantSeed = [
     "zones": ["3a", "3b", "4a", "4b", "5a", "5b", "6a", "6b", "7a", "7b", "8a", "8b", "9a", "9b", "10a", "10b"],
     "compatable": ["Beans", "Cucumbers", "Lettuce", "Melons", "Peas", "Potatoes", "Squash", "Sunflowers"],
     "combative": ["Tomatoes"],
-    "photoURL": "https://upload.wikimedia.org/wikipedia/commons/6/67/Corn_blooming.jpg"
+    "photoURL": "https://commons.wikimedia.org/wiki/File:Corn_blooming.jpg#/media/File:Corn_blooming.jpg"
   },
   // ----------------------------------------------
   {
@@ -660,7 +660,7 @@ const plantSeed = [
     "zones": ["3a", "3b", "4a", "4b", "5a", "5b", "6a", "6b", "7a", "7b", "8a", "8b", "9a", "9b", "10a", "10b"],
     "compatable": ["Beans", "Cucumbers", "Lettuce", "Melons", "Peas", "Potatoes", "Squash", "Sunflowers"],
     "combative": ["Tomatoes"],
-    "photoURL": "https://upload.wikimedia.org/wikipedia/commons/7/73/Corntassel_7095.jpg"
+    "photoURL": "https://commons.wikimedia.org/wiki/File:Corntassel_7095.jpg#/media/File:Corntassel_7095.jpg"
   },
   // ----------------------------------------------
   {
@@ -689,7 +689,7 @@ const plantSeed = [
     "zones": ["3a", "3b", "4a", "4b", "5a", "5b", "6a", "6b", "7a", "7b", "8a", "8b", "9a", "9b", "10a", "10b"],
     "compatable": ["Beans", "Cucumbers", "Lettuce", "Melons", "Peas", "Potatoes", "Squash", "Sunflowers"],
     "combative": ["Tomatoes"],
-    "photoURL": "https://upload.wikimedia.org/wikipedia/commons/6/65/ZeaMays.jpg"
+    "photoURL": "https://commons.wikimedia.org/wiki/File:ZeaMays.jpg#/media/File:ZeaMays.jpg"
   },
   // ----------------------------------------------
   {
@@ -718,7 +718,7 @@ const plantSeed = [
     "zones": ["3a", "3b", "4a", "4b", "5a", "5b", "6a", "6b", "7a", "7b", "8a", "8b", "9a", "9b", "10a", "10b"],
     "compatable": ["Beans", "Cucumbers", "Lettuce", "Melons", "Peas", "Potatoes", "Squash", "Sunflowers"],
     "combative": ["Tomatoes"],
-    "photoURL": "https://upload.wikimedia.org/wikipedia/commons/6/6f/Klip_kukuruza_uzgojen_u_Me%C4%91imurju_%28Croatia%29.JPG"
+    "photoURL": "https://commons.wikimedia.org/wiki/File:Klip_kukuruza_uzgojen_u_Me%C4%91imurju_(Croatia).JPG#/media/File:Klip_kukuruza_uzgojen_u_Me%C4%91imurju_(Croatia).JPG"
   },
   // ----------------------------------------------
   {
@@ -743,7 +743,7 @@ const plantSeed = [
     },
     "zone": "3-10",
     "zones": ["3a", "3b", "4a", "4b", "5a", "5b", "6a", "6b", "7a", "7b", "8a", "8b", "9a", "9b", "10a", "10b"],
-    "photoURL": "https://upload.wikimedia.org/wikipedia/commons/b/b3/Ackersalat02.jpg"
+    "photoURL": "https://commons.wikimedia.org/wiki/File:Ackersalat02.jpg#/media/File:Ackersalat02.jpg"
   },
   // ----------------------------------------------
   {
@@ -770,7 +770,7 @@ const plantSeed = [
     },
     "zone": "5-10",
     "zones": ["5a", "5b", "6a", "6b", "7a", "7b", "8a", "8b", "9a", "9b", "10a", "10b"],
-    "photoURL": "https://upload.wikimedia.org/wikipedia/commons/5/52/Black-eyed_pea_pods_on_plant_in_Hong_Kong.jpg"
+    "photoURL": "https://commons.wikimedia.org/wiki/File:Black-eyed_pea_pods_on_plant_in_Hong_Kong.jpg#/media/File:Black-eyed_pea_pods_on_plant_in_Hong_Kong.jpg"
   },
   // ----------------------------------------------
   {
@@ -799,7 +799,7 @@ const plantSeed = [
     "zones": ["2a", "2b", "3a", "3b", "4a", "4b", "5a", "5b", "6a", "6b", "7a", "7b", "8a", "8b", "9a", "9b", "10a", "10b"],
     "compatable": ["Beans", "Broccoli", "Cabbage", "Cauliflower", "Corn", "Lettuce", "Peas", "Radishes", "Sunflowers"],
     "combative": ["Herbs", "Melons", "Potatoes"],
-    "photoURL": "https://upload.wikimedia.org/wikipedia/commons/9/96/ARS_cucumber.jpg"
+    "photoURL": "https://commons.wikimedia.org/wiki/File:ARS_cucumber.jpg#/media/File:ARS_cucumber.jpg"
   },
   // ----------------------------------------------
   {
@@ -828,7 +828,7 @@ const plantSeed = [
     "zones": ["3a", "3b", "4a", "4b", "5a", "5b", "6a", "6b", "7a", "7b", "8a", "8b", "9a", "9b", "10a", "10b", "11a", "11b", "12a", "12b", "13a", "13b"],
     "compatable": ["Basil", "Beans", "Lettuce", "Peas", "Potatoes", "Spinach"],
     "combative": [""],
-    "photoURL": "https://upload.wikimedia.org/wikipedia/commons/7/76/Solanum_melongena_24_08_2012_%281%29.JPG"
+    "photoURL": "https://commons.wikimedia.org/wiki/File:Solanum_melongena_24_08_2012_(1).JPG#/media/File:Solanum_melongena_24_08_2012_(1).JPG"
   },
   // ----------------------------------------------
   {
@@ -854,7 +854,7 @@ const plantSeed = [
     },
     "zone": "3-10",
     "zones": ["3a", "3b", "4a", "4b", "5a", "5b", "6a", "6b", "7a", "7b", "8a", "8b", "9a", "9b", "10a", "10b", "11a", "11b", "12a", "12b", "13a", "13b"],
-    "photoURL": "https://upload.wikimedia.org/wikipedia/commons/0/00/Cichorium_endivia_-_Botanischer_Garten_Mainz_IMG_5453.JPG"
+    "photoURL": "https://commons.wikimedia.org/wiki/File:Cichorium_endivia_-_Botanischer_Garten_Mainz_IMG_5453.JPG#/media/File:Cichorium_endivia_-_Botanischer_Garten_Mainz_IMG_5453.JPG"
   },
   // ----------------------------------------------
   {
@@ -895,7 +895,7 @@ const plantSeed = [
     "variety": "Broccoli Raab, Spring",
     "plantAttrURL": "https://www.burpee.com/vegetables/broccoli-raab/broccoli-raab-spring-prod000614.html",
     "zone": "3-11",
-    "photoURL": "https://upload.wikimedia.org/wikipedia/commons/7/76/Rapini.jpg",
+    "photoURL": "https://en.wikipedia.org/wiki/Rapini#/media/File:Rapini.jpg",
     "plantAttributes": {
       "DaysToMaturity": "50-60 days",
       "Sun": "Full Sun",
@@ -1093,7 +1093,7 @@ const plantSeed = [
     "variety": "Eggplant, Black Beauty",
     "plantAttrURL": "https://www.burpee.com/vegetables/eggplants/eggplant-black-beauty-prod000706.html",
     "zone": "3-11",
-    "photoURL": "https://upload.wikimedia.org/wikipedia/commons/7/76/Solanum_melongena_24_08_2012_%281%29.JPG",
+    "photoURL": "https://en.wikipedia.org/wiki/Eggplant#/media/File:Solanum_melongena_24_08_2012_(1).JPG",
     "plantAttributes": {
       "DaysToMaturity": "74 days",
       "FruitSize": "4-5 inches",
@@ -1145,7 +1145,7 @@ const plantSeed = [
     "variety": "Gourd, Daisy Gourd",
     "plantAttrURL": "https://www.burpee.com/vegetables/gourds/gourd-daisy-gourd--prod003189.html",
     "zone": "3-11",
-    "photoURL": "https://upload.wikimedia.org/wikipedia/commons/2/28/Gourds_-_grown_in_the_garden.JPG",
+    "photoURL": "https://en.wikipedia.org/wiki/Gourd#/media/File:Gourds_-_grown_in_the_garden.JPG",
     "plantAttributes": {
       "DaysToMaturity": "91-98 days",
       "FruitSize": "2-3 inches",
@@ -1197,7 +1197,7 @@ const plantSeed = [
     "variety": "Melon, Honeydew Green Flesh Organic",
     "plantAttrURL": "https://www.burpee.com/vegetables/gourds/gourd-daisy-gourd--prod003189.html",
     "zone": "3-11",
-    "photoURL": "https://upload.wikimedia.org/wikipedia/commons/c/c3/Cantaloupe_Melon_cross_section.png",
+    "photoURL": "https://en.wikipedia.org/wiki/Honeydew_(melon)#/media/File:Cantaloupe_Melon_cross_section.png",
     "plantAttributes": {
       "DaysToMaturity": "91-98 days",
       "FruitSize": "2-3 inches",
@@ -1239,7 +1239,7 @@ const plantSeed = [
     "variety": "Horseradish, Maliner Kren",
     "plantAttrURL": "https://www.burpee.com/vegetables/horseradish/horseradish-maliner-kren-69039.html",
     "zone": "3-6",
-    "photoURL": "https://upload.wikimedia.org/wikipedia/commons/b/b6/Armoracia_rusticana.jpg",
+    "photoURL": "https://en.wikipedia.org/wiki/Horseradish#/media/File:Armoracia_rusticana.jpg",
     "plantAttributes": {
       "DaysToMaturity": "140-160 days",
       "FruitSize": "8 inches",
@@ -1291,7 +1291,7 @@ const plantSeed = [
     "variety": "Leek, Lancelot",
     "plantAttrURL": "https://www.burpee.com/vegetables/leeks/leek-lancelot--prod099691.html",
     "zone": "3-11",
-    "photoURL": "https://upload.wikimedia.org/wikipedia/commons/9/90/Leeks.JPG",
+    "photoURL": "https://en.wikipedia.org/wiki/Leek#/media/File:Leeks.JPG",
     "plantAttributes": {
       "DaysToMaturity": "75 days",
       "FruitSize": "12-14 inches",
@@ -1343,7 +1343,7 @@ const plantSeed = [
     "variety": "Lettuce, Buttercrunch",
     "plantAttrURL": "https://www.burpee.com/vegetables/mesclun/mesclun-sweet-salad-mix-prod000763.html",
     "zone": "3-11",
-    "photoURL": "https://upload.wikimedia.org/wikipedia/commons/d/d0/Salade_mesclun_et_ch%C3%A8vre_chaud_sur_toasts.jpg",
+    "photoURL": "https://en.wikipedia.org/wiki/Mesclun#/media/File:Salade_mesclun_et_ch%C3%A8vre_chaud_sur_toasts.jpg",
     "plantAttributes": {
       "DaysToMaturity": "30 days",
       "Sun": "Full Sun, Part Sun",
@@ -1546,7 +1546,7 @@ const plantSeed = [
     "variety": "Rhubarb, Crimson Red",
     "plantAttrURL": "https://www.burpee.com/vegetables/rhubarb/rhubarb-crimson-red-prod003198.html",
     "zone": "3-6",
-    "photoURL": "https://upload.wikimedia.org/wikipedia/commons/2/2b/Rheum_rhabarbarum.2006-04-27.uellue.jpg",
+    "photoURL": "https://en.wikipedia.org/wiki/Rhubarb#/media/File:Rheum_rhabarbarum.2006-04-27.uellue.jpg",
     "plantAttributes": {
       "DaysToMaturity": "365 days",
       "Sun": "Full Sun",
@@ -1597,7 +1597,7 @@ const plantSeed = [
     "variety": "Rutabaga, Burpee's Purple Top",
     "plantAttrURL": "https://www.burpee.com/vegetables/rutabaga/rutabaga--burpees-purple-top-61267A.html",
     "zone": "3-11",
-    "photoURL": "https://upload.wikimedia.org/wikipedia/commons/a/a7/Rutabaga%2C_variety_nadmorska.JPG",
+    "photoURL": "https://en.wikipedia.org/wiki/Rutabaga#/media/File:Rutabaga,_variety_nadmorska.JPG",
     "plantAttributes": {
       "DaysToMaturity": "90 days",
       "FruitSize": "4-6 inches",
@@ -1649,7 +1649,7 @@ const plantSeed = [
     "variety": "Bunching Onion, Evergreen Long White",
     "plantAttrURL": "https://www.burpee.com/vegetables/onions/bunching-onion-evergreen-long-white-prod000771.html",
     "zone": "3-11",
-    "photoURL": "https://upload.wikimedia.org/wikipedia/commons/d/da/CSA-Red-Spring-Onions.jpg",
+    "photoURL": "https://en.wikipedia.org/wiki/Scallion#/media/File:CSA-Red-Spring-Onions.jpg",
     "plantAttributes": {
       "Type": "Bunching",
       "DaysToMaturity": "60-120 days",
@@ -1806,7 +1806,7 @@ const plantSeed = [
     "variety": "Sweet Potato, Vardaman",
     "plantAttrURL": "https://www.burpee.com/vegetables/sweet-potatoes/sweet-potato-vardaman-prod000946.html",
     "zone": "3-11",
-    "photoURL": "https://upload.wikimedia.org/wikipedia/commons/5/58/Ipomoea_batatas_006.JPG",
+    "photoURL": "https://en.wikipedia.org/wiki/Sweet_potato#/media/File:Ipomoea_batatas_006.JPG",
     "plantAttributes": {
       "DaysToMaturity": "100 days",
       "Sun": "Full Sun",
@@ -1914,7 +1914,7 @@ const plantSeed = [
     "variety": "Turnip, Purple Top White Globe",
     "plantAttrURL": "https://www.burpee.com/vegetables/turnips/turnip-purple-top-white-globe-prod001185.html",
     "zone": "3-11",
-    "photoURL": "https://upload.wikimedia.org/wikipedia/commons/d/d3/Turnip_2622027.jpg",
+    "photoURL": "https://en.wikipedia.org/wiki/Turnip#/media/File:Turnip_2622027.jpg",
     "plantAttributes": {
       "DaysToMaturity": "55 days",
       "FruitSize": "1-3 inches",
@@ -1932,7 +1932,7 @@ const plantSeed = [
   {
     "plantCategories": [
       "vegetables",
-      "fruits"
+      "fruit"
     ],
     "plantClass": [
       "Watermelon"
@@ -2037,7 +2037,7 @@ const plantSeed = [
     "variety": "Cucumber, Bragger Hybrid",
     "plantAttrURL": "https://www.burpee.com/vegetables/cucumbers/cucumber-bragger-hybrid-prod500118.html",
     "zone": "3-11",
-    "photoURL": "https://upload.wikimedia.org/wikipedia/commons/9/96/ARS_cucumber.jpg",
+    "photoURL": "https://en.wikipedia.org/wiki/Cucumber#/media/File:ARS_cucumber.jpg",
     "plantAttributes": {
       "Type": "Slicing",
       "DaysToMaturity": "45 days",
@@ -2098,7 +2098,7 @@ const plantSeed = [
     "variety": "Kohlrabi, Sweet Vienna",
     "plantAttrURL": "https://www.burpee.com/vegetables/kohlrabi/kohlrabi-sweet-vienna--prod000727.html",
     "zone": "3-11",
-    "photoURL": "https://upload.wikimedia.org/wikipedia/commons/a/a2/GreenKohlrabi.jpg",
+    "photoURL": "https://en.wikipedia.org/wiki/Kohlrabi#/media/File:GreenKohlrabi.jpg",
     "plantAttributes": {
       "DaysToMaturity": "45 days",
       "FruitSize": "2-3 inches",
@@ -2165,7 +2165,7 @@ const plantSeed = [
     "variety": "Lettuce, Buttercrunch",
     "plantAttrURL": "https://www.burpee.com/vegetables/leeks/leek-lancelot--prod099691.html",
     "zone": "3-11",
-    "photoURL": "https://upload.wikimedia.org/wikipedia/commons/d/da/Iceberg_lettuce_in_SB.jpg",
+    "photoURL": "https://en.wikipedia.org/wiki/Lettuce#/media/File:Iceberg_lettuce_in_SB.jpg",
     "plantAttributes": {
       "DaysToMaturity": "75 days",
       "FruitSize": "12-14 inches",
@@ -2233,7 +2233,7 @@ const plantSeed = [
     "variety": "Onion Collection, Sets",
     "plantAttrURL": "https://www.burpee.com/vegetables/onions/onion-collection-sets-prod000770.html",
     "zone": "3-11",
-    "photoURL": "https://upload.wikimedia.org/wikipedia/commons/9/93/ARS_red_onion.jpg",
+    "photoURL": "https://en.wikipedia.org/wiki/Onion#/media/File:ARS_red_onion.jpg",
     "plantAttributes": {
       "Type": "Long Day",
       "DaysToMaturity": "70-80 days",
@@ -2297,7 +2297,7 @@ const plantSeed = [
     "variety": "Pea, Sugar Prince",
     "plantAttrURL": "https://www.burpee.com/vegetables/peas/pea-sugar-prince-prod500390.html",
     "zone": "3-11",
-    "photoURL": "https://upload.wikimedia.org/wikipedia/commons/1/11/Peas_in_pods_-_Studio.jpg",
+    "photoURL": "https://en.wikipedia.org/wiki/Pea#/media/File:Peas_in_pods_-_Studio.jpg",
     "plantAttributes": {
       "Type": "Snap Edible Pod",
       "DaysToMaturity": "68-70 days",
@@ -2366,7 +2366,7 @@ const plantSeed = [
     "variety": "Pepper, Sweet, California Wonder",
     "plantAttrURL": "https://www.burpee.com/vegetables/peppers/pepper-sweet-california-wonder-prod000825.html",
     "zone": "3-11",
-    "photoURL": "https://upload.wikimedia.org/wikipedia/commons/9/99/Colorful_Bell_Peppers.JPG",
+    "photoURL": "https://en.wikipedia.org/wiki/Bell_pepper#/media/File:Colorful_Bell_Peppers.JPG",
     "plantAttributes": {
       "Type": "Bell",
       "DaysToMaturity": "75 days",
@@ -2502,7 +2502,7 @@ const plantSeed = [
     "variety": "Radish, Solaris Hybrid",
     "plantAttrURL": "https://www.burpee.com/vegetables/pumpkins/pumpkin-cherokee-bush-prod500403.html",
     "zone": "3-11",
-    "photoURL": "https://upload.wikimedia.org/wikipedia/commons/0/0c/Radish_3371103037_4ab07db0bf_o.jpg",
+    "photoURL": "https://en.wikipedia.org/wiki/Radish#/media/File:Radish_3371103037_4ab07db0bf_o.jpg",
     "plantAttributes": {
       "DaysToMaturity": "60-70 days",
       "FruitWeight": "5-8 pounds",
@@ -2673,7 +2673,7 @@ const plantSeed = [
     "variety": "Carnation, Burpee's Super Giant Mix",
     "plantAttrURL": "https://www.burpee.com/perennials/carnations/carnation-burpees-super-giant-mix-46235A.html",
     "zone": "5-6",
-    "photoURL": "https://upload.wikimedia.org/wikipedia/commons/6/6d/Moondust-carnation.JPG",
+    "photoURL": "https://en.wikipedia.org/wiki/Dianthus_caryophyllus#/media/File:Moondust-carnation.JPG",
     "plantAttributes": {
       "Sun": "Full Sun",
       "Height": "18 inches",
@@ -2709,7 +2709,7 @@ const plantSeed = [
     "variety": "Chinese Lantern, Strawberry Ground Cherry",
     "plantAttrURL": "https://www.burpee.com/perennials/chinese-lanterns/chinese-lantern-strawberry-ground-cherry-46490A.html",
     "zone": "5-6",
-    "photoURL": "https://upload.wikimedia.org/wikipedia/commons/7/7a/Physalis_alkekengi_franchetii1SHSU.jpg",
+    "photoURL": "https://en.wikipedia.org/wiki/Physalis_alkekengi#/media/File:Physalis_alkekengi_franchetii1SHSU.jpg",
     "plantAttributes": {
       "Sun": "Full Sun",
       "Height": "24 inches",
@@ -2745,7 +2745,7 @@ const plantSeed = [
     "variety": "Clematis, Ernest Markham (red)",
     "plantAttrURL": "https://www.burpee.com/perennials/clematis/clematis-ernest-markham-red-prod002339.html",
     "zone": "5-6",
-    "photoURL": "https://upload.wikimedia.org/wikipedia/commons/7/70/Clematis_%27Nelly_Moser%27.JPG",
+    "photoURL": "https://en.wikipedia.org/wiki/Clematis#/media/File:Clematis_%27Nelly_Moser%27.JPG",
     "plantAttributes": {
       "Sun": "Full Sun, Part Sun",
       "Height": "120-180 inches",
@@ -2782,7 +2782,7 @@ const plantSeed = [
     "variety": "Columbine, Blue Star",
     "plantAttrURL": "https://www.burpee.com/perennials/columbine/columbine-blue-star-prod000017.html",
     "zone": "5-6",
-    "photoURL": "https://upload.wikimedia.org/wikipedia/commons/b/bb/Wald-Akelei.JPG",
+    "photoURL": "https://en.wikipedia.org/wiki/Aquilegia#/media/File:Wald-Akelei.JPG",
     "plantAttributes": {
       "Sun": "Full Sun, Part Sun",
       "Height": "24 inches",
@@ -2819,7 +2819,7 @@ const plantSeed = [
     "variety": "Coreopsis, Early Sunrise",
     "plantAttrURL": "https://www.burpee.com/perennials/coreopsis/coreopsis-early-sunrise-prod000023.html",
     "zone": "5-6",
-    "photoURL": "https://upload.wikimedia.org/wikipedia/commons/1/1e/Coreopsisgigantea.jpg",
+    "photoURL": "https://en.wikipedia.org/wiki/Coreopsis#/media/File:Coreopsisgigantea.jpg",
     "plantAttributes": {
       "Sun": "Full Sun",
       "Height": "24 inches",
@@ -2856,7 +2856,7 @@ const plantSeed = [
     "variety": "Foxglove, Polkadot Princess",
     "plantAttrURL": "https://www.burpee.com/perennials/foxgloves/foxglove-polkadot-princess-prod22355.html",
     "zone": "5-6",
-    "photoURL": "https://upload.wikimedia.org/wikipedia/commons/7/74/Digitalis_purpurea2.jpg",
+    "photoURL": "https://en.wikipedia.org/wiki/Digitalis#/media/File:Digitalis_purpurea2.jpg",
     "plantAttributes": {
       "Sun": "Full Sun, Part Sun",
       "Height": "23-35 inches",
@@ -2893,7 +2893,7 @@ const plantSeed = [
     "variety": "Gloriosa Daisy, Gloriosa Double Gold",
     "plantAttrURL": "https://www.burpee.com/perennials/gloriosa-daisies/gloriosa-daisy-gloriosa-double--gold-prod000051.html",
     "zone": "5-6",
-    "photoURL": "https://upload.wikimedia.org/wikipedia/commons/1/1e/BESusan.JPG",
+    "photoURL": "https://en.wikipedia.org/wiki/Rudbeckia_hirta#/media/File:BESusan.JPG",
     "plantAttributes": {
       "Sun": "Full Sun",
       "Height": "36 inches",
@@ -3044,7 +3044,7 @@ const plantSeed = [
     "variety": "Ammi Majus, Queen Anne's Lace",
     "plantAttrURL": "https://www.burpee.com/flowers/ammi-majus/ammi-majus-queen-annes-lace-36202A.html",
     "zone": "3-10",
-    "photoURL": "https://upload.wikimedia.org/wikipedia/commons/c/c3/Ammi_majus_flowerhead1_NWS_%2815367278999%29.jpg",
+    "photoURL": "https://en.wikipedia.org/wiki/Ammi_majus#/media/File:Ammi_majus_flowerhead1_NWS_(15367278999).jpg",
     "plantAttributes": {
       "Sun": "Full Sun",
       "Height": "36-48 inches",
@@ -3095,7 +3095,7 @@ const plantSeed = [
     "variety": "Angelonia, Archangel Cherry",
     "plantAttrURL": "https://www.burpee.com/flowers/angelonia/angelonia-archangel-cherry--prod100059.html",
     "zone": "3-11",
-    "photoURL": "https://upload.wikimedia.org/wikipedia/commons/b/bc/Angelonia.jpg",
+    "photoURL": "https://en.wikipedia.org/wiki/Angelonia#/media/File:Angelonia.jpg",
     "plantAttributes": {
       "Sun": "Full Sun",
       "Height": "12-14 inches",
@@ -3135,7 +3135,7 @@ const plantSeed = [
     "variety": "Angelonia, Archangel Cherry",
     "plantAttrURL": "https://www.burpee.com/perennials/perennial-pollinators/achillea-cherries-jubilee-198254.html",
     "zone": "3-6",
-    "photoURL": "https://upload.wikimedia.org/wikipedia/commons/f/fb/Achillea_millefolium.jpg",
+    "photoURL": "https://en.wikipedia.org/wiki/Achillea#/media/File:Achillea_millefolium.jpg",
     "plantAttributes": {
       "Sun": "Full Sun",
       "Height": "24-28 inches",
@@ -3186,7 +3186,7 @@ const plantSeed = [
     "variety": "Chrysanthemum, Matchsticks",
     "plantAttrURL": "https://www.burpee.com/perennials/chrysanthemums/chrysanthemum-matchsticks-prod003057.html",
     "zone": "3-11",
-    "photoURL": "https://upload.wikimedia.org/wikipedia/commons/c/c5/Chrysanthemum_November_2007_Osaka_Japan.jpg",
+    "photoURL": "https://en.wikipedia.org/wiki/Chrysanthemum#/media/File:Chrysanthemum_November_2007_Osaka_Japan.jpg",
     "plantAttributes": {
       "Sun": "Full Sun",
       "Height": "18-24 inches",
@@ -3227,7 +3227,7 @@ const plantSeed = [
     "variety": "Crocus, Orange Monarch",
     "plantAttrURL": "https://www.burpee.com/perennials/crocus/crocus-orange-monarch--prod099481.html",
     "zone": "3-6",
-    "photoURL": "https://upload.wikimedia.org/wikipedia/commons/9/91/%D8%A8%D8%B1%D8%AF%D8%A7%D8%B4%D8%AA_%D8%B2%D8%B9%D9%81%D8%B1%D8%A7%D9%86_%D8%AF%D8%B1_%D8%B1%D9%88%D8%B3%D8%AA%D8%A7%DB%8C_%D8%B2%D8%A7%D9%84%DB%8C_%D8%B9%DA%A9%D8%B3_%D8%A7%D8%B2_%D8%A7%D8%AD%D9%85%D8%AF_%D9%86%DB%8C%DA%A9_%DA%AF%D9%81%D8%AA%D8%A7%D8%B1.JPG",
+    "photoURL": "https://en.wikipedia.org/wiki/Crocus#/media/File:%D8%A8%D8%B1%D8%AF%D8%A7%D8%B4%D8%AA_%D8%B2%D8%B9%D9%81%D8%B1%D8%A7%D9%86_%D8%AF%D8%B1_%D8%B1%D9%88%D8%B3%D8%AA%D8%A7%DB%8C_%D8%B2%D8%A7%D9%84%DB%8C_%D8%B9%DA%A9%D8%B3_%D8%A7%D8%B2_%D8%A7%D8%AD%D9%85%D8%AF_%D9%86%DB%8C%DA%A9_%DA%AF%D9%81%D8%AA%D8%A7%D8%B1.JPG",
     "plantAttributes": {
       "Sun": "Full Sun, Part Sun",
       "Height": "4-6 inches",
@@ -3268,7 +3268,7 @@ const plantSeed = [
     "variety": "Daffodil, Geranium",
     "plantAttrURL": "https://www.burpee.com/perennials/daffodil-bulbs/daffodil-geranium-prod001392.html",
     "zone": "3-6",
-    "photoURL": "https://upload.wikimedia.org/wikipedia/commons/d/de/Narcissus.poeticus.1658.jpg",
+    "photoURL": "https://en.wikipedia.org/wiki/Narcissus_(plant)#/media/File:Narcissus.poeticus.1658.jpg",
     "plantAttributes": {
       "Sun": "Full Sun, Part Sun",
       "Height": "14-20 inches",
@@ -3309,7 +3309,7 @@ const plantSeed = [
     "variety": "Daylily, EveryDaylily Pink Cream",
     "plantAttrURL": "https://www.burpee.com/perennials/daylilies/daylily-everydaylily-pink-cream-prod500086.html",
     "zone": "3-6",
-    "photoURL": "https://upload.wikimedia.org/wikipedia/commons/6/66/Hemerocallis_lilioasphodelus.jpg",
+    "photoURL": "https://en.wikipedia.org/wiki/Daylily#/media/File:Hemerocallis_lilioasphodelus.jpg",
     "plantAttributes": {
       "Sun": "Full Sun, Part Sun",
       "Height": "12-16 inches",
@@ -3350,7 +3350,7 @@ const plantSeed = [
     "variety": "Delphinium, Fordhook Cottage Garden Mix",
     "plantAttrURL": "https://www.burpee.com/perennials/delphinium/delphinium-fordhook-cottage-garden-mix-prod002679.html",
     "zone": "3-6",
-    "photoURL": "https://upload.wikimedia.org/wikipedia/commons/2/25/Delosperma_floribundum_Starburst_4zz.jpg",
+    "photoURL": "https://en.wikipedia.org/wiki/Delosperma#/media/File:Delosperma_floribundum_Starburst_4zz.jpg",
     "plantAttributes": {
       "Sun": "Full Sun, Part Sun",
       "Height": "36-48 inches",
@@ -3391,7 +3391,7 @@ const plantSeed = [
     "variety": "Fern, Autumn",
     "plantAttrURL": "https://www.burpee.com/perennials/ferns/fern-autumn-prod000041.html",
     "zone": "3-6",
-    "photoURL": "https://upload.wikimedia.org/wikipedia/commons/7/71/Athyrium_filix-femina.jpg",
+    "photoURL": "https://en.wikipedia.org/wiki/Fern#/media/File:Athyrium_filix-femina.jpg",
     "plantAttributes": {
       "Sun": "Full Shade, Part Sun",
       "Height": "24-30 inches",
@@ -3431,7 +3431,7 @@ const plantSeed = [
     "variety": "Galanthus elwesii",
     "plantAttrURL": "https://www.burpee.com/perennials/galanthus/galanthus-elwesii-prod002955.html",
     "zone": "3-6",
-    "photoURL": "https://upload.wikimedia.org/wikipedia/commons/2/23/Galanthus_nivalis.jpg",
+    "photoURL": "https://en.wikipedia.org/wiki/Galanthus#/media/File:Galanthus_nivalis.jpg",
     "plantAttributes": {
       "Sun": "Full Shade, Full Sun, Part Sun",
       "Height": "4-6 inches",
@@ -3472,7 +3472,7 @@ const plantSeed = [
     "variety": "Heuchera, Obsidian",
     "plantAttrURL": "https://www.burpee.com/perennials/heuchera/heuchera-obsidian-prod022834.html",
     "zone": "3-6",
-    "photoURL": "https://upload.wikimedia.org/wikipedia/commons/0/0e/San_Gabriel_Mountains_coralbells.jpg",
+    "photoURL": "https://en.wikipedia.org/wiki/Heuchera#/media/File:San_Gabriel_Mountains_coralbells.jpg",
     "plantAttributes": {
       "Sun": "Full Shade, Part Sun",
       "Height": "8-10 inches",
@@ -3513,7 +3513,7 @@ const plantSeed = [
     "variety": "Hollyhock, Chaters Maroon",
     "plantAttrURL": "https://www.burpee.com/perennials/hollyhock/hollyhock-chaters-maroon-prod000058.html",
     "zone": "3-6",
-    "photoURL": "https://upload.wikimedia.org/wikipedia/commons/9/96/Alcea_setosa.jpg",
+    "photoURL": "https://en.wikipedia.org/wiki/Alcea#/media/File:Alcea_setosa.jpg",
     "plantAttributes": {
       "Sun": "Full Sun",
       "Height": "60 inches",
@@ -3554,7 +3554,7 @@ const plantSeed = [
     "variety": "Hosta, First Frost",
     "plantAttrURL": "https://www.burpee.com/perennials/hostas/hosta-first-frost-prod000062.html",
     "zone": "3-6",
-    "photoURL": "https://upload.wikimedia.org/wikipedia/commons/7/7d/Hosta_Bressingham_Blue.JPG",
+    "photoURL": "https://en.wikipedia.org/wiki/Hosta#/media/File:Hosta_Bressingham_Blue.JPG",
     "plantAttributes": {
       "Sun": "Full Shade, Part Sun",
       "Height": "15 inches",
@@ -3594,7 +3594,7 @@ const plantSeed = [
     "variety": "Hydrangea, Ruby Slippers",
     "plantAttrURL": "https://www.burpee.com/perennials/hydrangeas/hydrangea-ruby-slippers-prod099531.html",
     "zone": "3-6",
-    "photoURL": "https://upload.wikimedia.org/wikipedia/commons/0/06/Blue_Hydrangea.jpg",
+    "photoURL": "https://en.wikipedia.org/wiki/Hydrangea#/media/File:Blue_Hydrangea.jpg",
     "plantAttributes": {
       "Sun": "Full Sun, Part Sun",
       "Height": "36-48 inches",
@@ -3635,7 +3635,7 @@ const plantSeed = [
     "variety": "Lupine, Russell Hybrid Mixed Colors",
     "plantAttrURL": "https://www.burpee.com/perennials/lupine/lupine-russell-hybrid-mixed-colors-prod000077.html",
     "zone": "3-6",
-    "photoURL": "https://upload.wikimedia.org/wikipedia/commons/4/47/Lupinus_field%2C_St._John%27s%2C_Newfoundland.jpg",
+    "photoURL": "https://en.wikipedia.org/wiki/Lupinus#/media/File:Lupinus_field,_St._John%27s,_Newfoundland.jpg",
     "plantAttributes": {
       "Sun": "Full Sun, Part Sun",
       "Height": "36 inches",
@@ -3726,7 +3726,7 @@ const plantSeed = [
     "variety": "Tulip, Kikomachi",
     "plantAttrURL": "https://www.burpee.com/perennials/tulip-bulbs/tulip-kikomachi--prod099502.html",
     "zone": "3-6",
-    "photoURL": "https://upload.wikimedia.org/wikipedia/commons/9/9e/%D7%A6%D7%91%D7%A2%D7%95%D7%A0%D7%99%D7%9D.JPG",
+    "photoURL": "https://en.wikipedia.org/wiki/Tulip#/media/File:%D7%A6%D7%91%D7%A2%D7%95%D7%A0%D7%99%D7%9D.JPG",
     "plantAttributes": {
       "Sun": "Full Sun",
       "Height": "16-20 inches",
@@ -3771,7 +3771,7 @@ const plantSeed = [
     "variety": "Agastache, Rose Mint",
     "plantAttrURL": "https://www.burpee.com/perennials/agastaches/agastache-rose-mint-prod000116.html",
     "zone": "5-12",
-    "photoURL": "https://upload.wikimedia.org/wikipedia/commons/2/29/Agastache_rupestris2_lg.jpg",
+    "photoURL": "https://en.wikipedia.org/wiki/Agastache#/media/File:Agastache_rupestris2_lg.jpg",
     "plantAttributes": {
       "Sun": "Full Sun",
       "Height": "24 inches",
@@ -3816,7 +3816,7 @@ const plantSeed = [
     "variety": "Astilbe, Red Sentinel",
     "plantAttrURL": "https://www.burpee.com/perennials/astilbe/astilbe-red-sentinel-prod022827.html",
     "zone": "5-12",
-    "photoURL": "https://upload.wikimedia.org/wikipedia/commons/e/e8/Astilbe_arendsii1.jpg",
+    "photoURL": "https://en.wikipedia.org/wiki/Astilbe#/media/File:Astilbe_arendsii1.jpg",
     "plantAttributes": {
       "Sun": "Full Shade, Part Sun",
       "Height": "24-30 inches",
@@ -3861,7 +3861,7 @@ const plantSeed = [
     "variety": "Campanula, Meteora",
     "plantAttrURL": "https://www.burpee.com/perennials/campanula/campanula-meteora-43160A.html",
     "zone": "5-12",
-    "photoURL": "https://upload.wikimedia.org/wikipedia/commons/2/2e/Campanula_persicifolia_Tehumardi_Saaremaa.jpg",
+    "photoURL": "https://en.wikipedia.org/wiki/Campanula#/media/File:Campanula_persicifolia_Tehumardi_Saaremaa.jpg",
     "plantAttributes": {
       "Sun": "Full Sun, Part Sun",
       "Height": "10 inches",
@@ -3906,7 +3906,7 @@ const plantSeed = [
     "variety": "Delosperma, Fire Wonder",
     "plantAttrURL": "https://www.burpee.com/perennials/delosperma/delosperma-fire-wonder--prod022586.html",
     "zone": "5-12",
-    "photoURL": "https://upload.wikimedia.org/wikipedia/commons/2/25/Delosperma_floribundum_Starburst_4zz.jpg",
+    "photoURL": "https://en.wikipedia.org/wiki/Delosperma#/media/File:Delosperma_floribundum_Starburst_4zz.jpg",
     "plantAttributes": {
       "Sun": "Full Sun",
       "Height": "6-8 inches",
@@ -3951,7 +3951,7 @@ const plantSeed = [
     "variety": "Kniphofia uvaria, Red Rocket",
     "plantAttrURL": "https://www.burpee.com/perennials/kniphofia/kniphofia-uvaria-red-rocket-prod099528.html",
     "zone": "5-12",
-    "photoURL": "https://upload.wikimedia.org/wikipedia/commons/d/d7/Kniphofia02.jpg",
+    "photoURL": "https://en.wikipedia.org/wiki/Kniphofia#/media/File:Kniphofia02.jpg",
     "plantAttributes": {
       "Sun": "Full Sun",
       "Height": "20 inches",
@@ -3996,7 +3996,7 @@ const plantSeed = [
     "variety": "Lithodora, Grace Ward",
     "plantAttrURL": "https://www.burpee.com/perennials/lithodora/lithodora-grace-ward-prod002903.html",
     "zone": "5-12",
-    "photoURL": "https://upload.wikimedia.org/wikipedia/commons/f/f6/Lithodora_rosmarinifolia1598.JPG",
+    "photoURL": "https://en.wikipedia.org/wiki/Lithodora#/media/File:Lithodora_rosmarinifolia1598.JPG",
     "plantAttributes": {
       "Sun": "Full Sun, Part Sun",
       "Height": "6-10 inches",
@@ -4032,7 +4032,7 @@ const plantSeed = [
     "variety": "Anemone, Wild Swan",
     "plantAttrURL": "https://www.burpee.com/perennials/anemone/anemone-wild-swan-prod022703.html",
     "zone": "5-6",
-    "photoURL": "https://upload.wikimedia.org/wikipedia/commons/d/de/Anemones5.jpg",
+    "photoURL": "https://en.wikipedia.org/wiki/Anemone#/media/File:Anemones5.jpg",
     "plantAttributes": {
       "Sun": "Part Sun",
       "Height": "16-18 inches",
@@ -4069,7 +4069,7 @@ const plantSeed = [
     "variety": "Allium, Pink Moon",
     "plantAttrURL": "https://www.burpee.com/perennials/alliums/allium-pink-moon--prod100100.html",
     "zone": "5-6",
-    "photoURL": "https://upload.wikimedia.org/wikipedia/commons/9/94/Selection_of_cultivated_Alliums.jpg",
+    "photoURL": "https://en.wikipedia.org/wiki/Allium#/media/File:Selection_of_cultivated_Alliums.jpg",
     "plantAttributes": {
       "Sun": "Full Sun",
       "Height": "12-16 inches",
@@ -4106,7 +4106,7 @@ const plantSeed = [
     "variety": "Amsonia, Blue Ice",
     "plantAttrURL": "https://www.burpee.com/perennials/amsonia/amsonia-blue-ice--17001.html",
     "zone": "5-6",
-    "photoURL": "https://upload.wikimedia.org/wikipedia/commons/6/6f/Amsonia-tabernaemontana-flowers.JPG",
+    "photoURL": "https://en.wikipedia.org/wiki/Amsonia#/media/File:Amsonia-tabernaemontana-flowers.JPG",
     "plantAttributes": {
       "Sun": "Full Sun, Part Sun",
       "Height": "20-24 inches",
@@ -4142,7 +4142,7 @@ const plantSeed = [
     "variety": "Astrantia, Moulin Rouge",
     "plantAttrURL": "https://www.burpee.com/perennials/astrantia/astrantia-moulin-rouge-19800.html",
     "zone": "5-6",
-    "photoURL": "https://upload.wikimedia.org/wikipedia/commons/7/76/Astrantia.jpg",
+    "photoURL": "https://en.wikipedia.org/wiki/Astrantia#/media/File:Astrantia.jpg",
     "plantAttributes": {
       "Sun": "Part Sun",
       "Height": "18 inches",
@@ -4179,7 +4179,7 @@ const plantSeed = [
     "variety": "Butterfly Bush, Butterfly Hybrid Mix",
     "plantAttrURL": "https://www.burpee.com/perennials/butterfly-bush/butterfly-bush-butterfly-hybrid-mix-prod000010.html",
     "zone": "5-6",
-    "photoURL": "https://upload.wikimedia.org/wikipedia/commons/9/90/BuddlejaDavidiiStrauch.jpg",
+    "photoURL": "https://en.wikipedia.org/wiki/Buddleja_davidii#/media/File:BuddlejaDavidiiStrauch.jpg",
     "plantAttributes": {
       "Sun": "Full Sun",
       "Height": "72-96 inches",
@@ -4216,7 +4216,7 @@ const plantSeed = [
     "variety": "Helenium, Pinwheel Collection",
     "plantAttrURL": "https://www.burpee.com/perennials/helenium/helenium-pinwheel-collection-prod003221.html",
     "zone": "5-6",
-    "photoURL": "https://upload.wikimedia.org/wikipedia/commons/1/1f/Helenium_autumnale1.jpg",
+    "photoURL": "https://en.wikipedia.org/wiki/Helenium#/media/File:Helenium_autumnale1.jpg",
     "plantAttributes": {
       "Sun": "Full Sun",
       "Height": "36 inches",
@@ -4253,7 +4253,7 @@ const plantSeed = [
     "variety": "Hellebore, Onyx Odyssey",
     "plantAttrURL": "https://www.burpee.com/perennials/hellebores/hellebore-onyx-odyssey--prod002862.html",
     "zone": "5-6",
-    "photoURL": "https://upload.wikimedia.org/wikipedia/commons/2/2b/Helleborus_orientalis%2C_Zaaddozen_zwellen%2C_Locatie%2C_Tuinreservaat_Jonkervallei_01.jpg",
+    "photoURL": "https://en.wikipedia.org/wiki/Hellebore#/media/File:Helleborus_orientalis,_Zaaddozen_zwellen,_Locatie,_Tuinreservaat_Jonkervallei_01.jpg",
     "plantAttributes": {
       "Sun": "Full Shade, Part Sun",
       "Height": "18-24 inches",
@@ -4290,7 +4290,7 @@ const plantSeed = [
     "variety": "Hibiscus, Honeymoon Red F1",
     "plantAttrURL": "https://www.burpee.com/perennials/hibiscus/hibiscus-honeymoon-red-f1--prod22497.html",
     "zone": "5-6",
-    "photoURL": "https://upload.wikimedia.org/wikipedia/commons/c/cb/Hibiscus_flower_TZ.jpg",
+    "photoURL": "https://en.wikipedia.org/wiki/Hibiscus#/media/File:Hibiscus_flower_TZ.jpg",
     "plantAttributes": {
       "Sun": "Full Sun",
       "Height": "24-36 inches",
@@ -4327,7 +4327,7 @@ const plantSeed = [
     "variety": "Hyacinth, Carnegie",
     "plantAttrURL": "https://www.burpee.com/perennials/hyacinth/hyacinth-carnegie-prod002957.html",
     "zone": "5-6",
-    "photoURL": "https://upload.wikimedia.org/wikipedia/commons/7/7e/Hyacinth_-_Anglesey_Abbey.jpg",
+    "photoURL": "https://en.wikipedia.org/wiki/Hyacinth_(plant)#/media/File:Hyacinth_-_Anglesey_Abbey.jpg",
     "plantAttributes": {
       "Sun": "Full Sun, Part Sun",
       "Height": "8-12 inches",
@@ -4364,7 +4364,7 @@ const plantSeed = [
     "variety": "Iris, Blatant",
     "plantAttrURL": "https://www.burpee.com/perennials/iris/iris-blatant-prod500185.html",
     "zone": "5-6",
-    "photoURL": "https://upload.wikimedia.org/wikipedia/commons/4/49/Iris_germanica_%28Purple_bearded_Iris%29%2C_Wakehurst_Place%2C_UK_-_Diliff.jpg",
+    "photoURL": "https://en.wikipedia.org/wiki/Iris_(plant)#/media/File:Iris_germanica_(Purple_bearded_Iris),_Wakehurst_Place,_UK_-_Diliff.jpg",
     "plantAttributes": {
       "Sun": "Full Sun, Part Sun",
       "Height": "30-36 inches",
@@ -4401,7 +4401,7 @@ const plantSeed = [
     "variety": "Lunaria, Money Plant",
     "plantAttrURL": "https://www.burpee.com/perennials/lunaria/lunaria-money-plant-41020A.html",
     "zone": "5-6",
-    "photoURL": "https://upload.wikimedia.org/wikipedia/commons/4/4c/Lunaria_annua_flowers.jpg",
+    "photoURL": "https://en.wikipedia.org/wiki/Lunaria#/media/File:Lunaria_annua_flowers.jpg",
     "plantAttributes": {
       "Sun": "Full Sun, Part Sun",
       "Height": "30 inches",
@@ -4437,7 +4437,7 @@ const plantSeed = [
     "variety": "Monarda, Bee's Knees",
     "plantAttrURL": "https://www.burpee.com/perennials/monarda/monarda-bees-knees--prod003437.html",
     "zone": "5-6",
-    "photoURL": "https://upload.wikimedia.org/wikipedia/commons/6/6e/Monarda_didyma_00.jpg",
+    "photoURL": "https://en.wikipedia.org/wiki/Monarda#/media/File:Monarda_didyma_00.jpg",
     "plantAttributes": {
       "Sun": "Full Sun",
       "Height": "16-20 inches",
@@ -4474,7 +4474,7 @@ const plantSeed = [
     "variety": "Painted Daisy, Mixed Colors",
     "plantAttrURL": "https://www.burpee.com/perennials/painted-daisies/painted-daisy-mixed-colors-prod000084.html",
     "zone": "5-6",
-    "photoURL": "https://upload.wikimedia.org/wikipedia/commons/9/9e/Tanacetum_cinerariifolium1.jpg",
+    "photoURL": "https://en.wikipedia.org/wiki/Pyrethrum#/media/File:Tanacetum_cinerariifolium1.jpg",
     "plantAttributes": {
       "Sun": "Full Sun",
       "Height": "24 inches",
@@ -4510,7 +4510,7 @@ const plantSeed = [
     "variety": "Penstemon barbatus, Twizzle Scarlet",
     "plantAttrURL": "https://www.burpee.com/indoor-sow-flowers/penstemon-barbatus-twizzle-scarlet-prod100063.html",
     "zone": "5-6",
-    "photoURL": "https://upload.wikimedia.org/wikipedia/commons/a/a8/Penstemon_palmeri_closeup-400px.jpg",
+    "photoURL": "https://en.wikipedia.org/wiki/Penstemon#/media/File:Penstemon_palmeri_closeup-400px.jpg",
     "plantAttributes": {
       "Sun": "Full Sun",
       "Height": "27-30 inches",
@@ -4546,7 +4546,7 @@ const plantSeed = [
     "variety": "Peony, Immaculee",
     "plantAttrURL": "https://www.burpee.com/perennials/peony/peony-immaculee-prod002358.html",
     "zone": "5-6",
-    "photoURL": "https://upload.wikimedia.org/wikipedia/commons/f/fd/PaeoniaSuffruticosa7.jpg",
+    "photoURL": "https://en.wikipedia.org/wiki/Peony#/media/File:PaeoniaSuffruticosa7.jpg",
     "plantAttributes": {
       "Sun": "Full Sun",
       "Height": "24-28 inches",
@@ -4582,7 +4582,7 @@ const plantSeed = [
     "variety": "English Rose, Queen of Sweden",
     "plantAttrURL": "https://www.burpee.com/perennials/roses/english-rose-queen-of-sweden--prod22531.html",
     "zone": "5-6",
-    "photoURL": "https://upload.wikimedia.org/wikipedia/commons/5/5a/Phlox_Paniculata.jpg",
+    "photoURL": "https://en.wikipedia.org/wiki/Phlox#/media/File:Phlox_Paniculata.jpg",
     "plantAttributes": {
       "Sun": "Full Sun, Part Sun",
       "Height": "48 inches",
@@ -4655,7 +4655,7 @@ const plantSeed = [
     "variety": "Solidago (Goldenrod), Fireworks",
     "plantAttrURL": "https://www.burpee.com/perennials/solidago/solidago-goldenrod-fireworks-prod000106.html",
     "zone": "5-6",
-    "photoURL": "https://upload.wikimedia.org/wikipedia/commons/6/62/Solidago_virgaurea_var._leiocarpa_02-2.jpg",
+    "photoURL": "https://en.wikipedia.org/wiki/Goldenrod#/media/File:Solidago_virgaurea_var._leiocarpa_02-2.jpg",
     "plantAttributes": {
       "Sun": "Full Sun",
       "Height": "36 inches",
@@ -4692,7 +4692,7 @@ const plantSeed = [
     "variety": "Tradescantia, Blue & Gold",
     "plantAttrURL": "https://www.burpee.com/perennials/tradescantia/tradescantia-blue-and-gold-25572.html",
     "zone": "5-6",
-    "photoURL": "https://upload.wikimedia.org/wikipedia/commons/e/e9/Spiderwort_Blue_Flower_2.JPG",
+    "photoURL": "https://en.wikipedia.org/wiki/Tradescantia#/media/File:Spiderwort_Blue_Flower_2.JPG",
     "plantAttributes": {
       "Sun": "Full Sun, Part Sun",
       "Height": "24 inches",
@@ -4728,7 +4728,7 @@ const plantSeed = [
     "variety": "Verbascum, Southern Charm Hybrid",
     "plantAttrURL": "https://www.burpee.com/perennials/verbascum/verbascum-southern-charm-hybrid-prod000108.html",
     "zone": "5-6",
-    "photoURL": "https://upload.wikimedia.org/wikipedia/commons/2/2a/Verbascum_sinuatum_August_2007-1.jpg",
+    "photoURL": "https://en.wikipedia.org/wiki/Verbascum#/media/File:Verbascum_sinuatum_August_2007-1.jpg",
     "plantAttributes": {
       "Sun": "Full Sun",
       "Height": "30-36 inches",
@@ -4764,7 +4764,7 @@ const plantSeed = [
     "variety": "Weigela florida, Spilled Wine",
     "plantAttrURL": "https://www.burpee.com/perennials/weigela/weigela-florida-spilled-wine-prod022579.html",
     "zone": "5-6",
-    "photoURL": "https://upload.wikimedia.org/wikipedia/commons/f/f4/Weigela_florida_BG_Tallinn.jpg",
+    "photoURL": "https://en.wikipedia.org/wiki/Weigela#/media/File:Weigela_florida_BG_Tallinn.jpg",
     "plantAttributes": {
       "Sun": "Full Sun",
       "Height": "24 inches",
@@ -4856,7 +4856,7 @@ const plantSeed = [
     "variety": "Eragrostis, Purple Love Grass",
     "plantAttrURL": "https://www.burpee.com/perennials/ornamental-grass/eragrostis-purple-love-grass-prod000082.html",
     "zone": "5-11",
-    "photoURL": "https://upload.wikimedia.org/wikipedia/commons/2/2c/Calamagrostis_x_acutiflora_%27Karl_Foerster%27.jpg",
+    "photoURL": "https://en.wikipedia.org/wiki/Ornamental_grass#/media/File:Calamagrostis_x_acutiflora_%27Karl_Foerster%27.jpg",
     "plantAttributes": {
       "Sun": "Full Sun",
       "Height": "18-24 inches",
@@ -4944,7 +4944,7 @@ const plantSeed = [
     "variety": "Agapanthus orientalis, Black Pantha",
     "plantAttrURL": "https://www.burpee.com/perennials/agapanthus/agapanthus-orientalis-black-pantha-prod099639.html",
     "zone": "7-10",
-    "photoURL": "https://upload.wikimedia.org/wikipedia/commons/4/43/Agapanthus_africanus1.jpg",
+    "photoURL": "https://en.wikipedia.org/wiki/Agapanthus#/media/File:Agapanthus_africanus1.jpg",
     "plantAttributes": {
       "Sun": "Full Sun",
       "Height": "12-36 inches",
@@ -4992,7 +4992,7 @@ const plantSeed = [
     "variety": "Echinacea, Magnus",
     "plantAttrURL": "https://www.burpee.com/perennials/echinacea/echinacea-magnus-prod000035.html",
     "zone": "3-10",
-    "photoURL": "https://upload.wikimedia.org/wikipedia/commons/b/b4/EchinaceaPurpureaMaxima1a.UME.JPG",
+    "photoURL": "https://en.wikipedia.org/wiki/Echinacea#/media/File:EchinaceaPurpureaMaxima1a.UME.JPG",
     "plantAttributes": {
       "Sun": "Full Sun",
       "Height": "36 inches",
@@ -5043,7 +5043,7 @@ const plantSeed = [
     "variety": "Asclepias, Red Butterfly",
     "plantAttrURL": "https://www.burpee.com/flowers/asclepias/asclepias-red-butterfly-35675A.html",
     "zone": "3-11",
-    "photoURL": "https://upload.wikimedia.org/wikipedia/commons/b/bd/Asclepiascommon.JPG",
+    "photoURL": "https://en.wikipedia.org/wiki/Asclepias#/media/File:Asclepiascommon.JPG",
     "plantAttributes": {
       "Sun": "Full Sun",
       "Height": "36 inches",
@@ -5095,7 +5095,7 @@ const plantSeed = [
     "variety": "Aster, Salmon Red",
     "plantAttrURL": "https://www.burpee.com/flowers/aster/aster-salmon-red-prod002589.html",
     "zone": "3-11",
-    "photoURL": "https://upload.wikimedia.org/wikipedia/commons/e/e4/Asteraceae_-_Aster_amellus.JPG",
+    "photoURL": "https://en.wikipedia.org/wiki/Aster_(genus)#/media/File:Asteraceae_-_Aster_amellus.JPG",
     "plantAttributes": {
       "Sun": "Full Sun",
       "Height": "20-24 inches",
@@ -5147,7 +5147,7 @@ const plantSeed = [
     "variety": "Baby's Breath, Covent Garden White",
     "plantAttrURL": "https://www.burpee.com/flowers/babys-breath/babys-breath-covent-garden-white-34421A.html",
     "zone": "3-11",
-    "photoURL": "https://upload.wikimedia.org/wikipedia/commons/0/09/Gypsophila_repens_-_close-up_%28aka%29.jpg",
+    "photoURL": "https://en.wikipedia.org/wiki/Gypsophila#/media/File:Gypsophila_repens_-_close-up_(aka).jpg",
     "plantAttributes": {
       "Sun": "Full Sun",
       "Height": "36 inches",
@@ -5198,7 +5198,7 @@ const plantSeed = [
     "variety": "Balsam, Mix",
     "plantAttrURL": "https://www.burpee.com/flowers/balsam/balsam-mix-43018A.html",
     "zone": "3-11",
-    "photoURL": "https://upload.wikimedia.org/wikipedia/commons/7/78/Impatiens_balsamina_28_08_2009.JPG",
+    "photoURL": "https://en.wikipedia.org/wiki/Impatiens_balsamina#/media/File:Impatiens_balsamina_28_08_2009.JPG",
     "plantAttributes": {
       "Sun": "Full Shade, Full Sun, Part Sun",
       "Height": "2-3 feet",
@@ -5249,7 +5249,7 @@ const plantSeed = [
     "variety": "Begonia, Fragrant Falls Peach",
     "plantAttrURL": "https://www.burpee.com/flowers/begonia/begonia-fragrant-falls-peach-prod500047.html",
     "zone": "3-11",
-    "photoURL": "https://upload.wikimedia.org/wikipedia/commons/d/dd/Yellow_begonia.jpg",
+    "photoURL": "https://en.wikipedia.org/wiki/Begonia#/media/File:Yellow_begonia.jpg",
     "plantAttributes": {
       "Sun": "Full Shade, Part Sun",
       "Height": "6-10 inches",
@@ -5297,7 +5297,7 @@ const plantSeed = [
     "variety": "Bells Of Ireland, Moluccella Laevis",
     "plantAttrURL": "https://www.burpee.com/flowers/bells-of-ireland/bells-of-ireland-moluccella-laevis-prod000135.html",
     "zone": "3-11",
-    "photoURL": "https://upload.wikimedia.org/wikipedia/commons/3/33/Moluccella_laevis%2C_flowers.jpg",
+    "photoURL": "https://en.wikipedia.org/wiki/Moluccella_laevis#/media/File:Moluccella_laevis,_flowers.jpg",
     "plantAttributes": {
       "Sun": "Full Sun, Part Sun",
       "Height": "30 inches",
@@ -5348,7 +5348,7 @@ const plantSeed = [
     "variety": "Osteospermum, Blue Eyed Beauty",
     "plantAttrURL": "https://www.burpee.com/flowers/blue-eyed-daisies/osteospermum-blue-eyed-beauty-21052.html",
     "zone": "3-11",
-    "photoURL": "https://upload.wikimedia.org/wikipedia/commons/2/2b/Arctotis_stoechadifolia_P._J._Bergius%2C_Fr%C3%BChlingsbl%C3%BCte_West_Coast_N.P._P1030626.JPG",
+    "photoURL": "https://en.wikipedia.org/wiki/Arctotis_venusta#/media/File:Arctotis_stoechadifolia_P._J._Bergius,_Fr%C3%BChlingsbl%C3%BCte_West_Coast_N.P._P1030626.JPG",
     "plantAttributes": {
       "Sun": "Full Sun, Part Sun",
       "Height": "12-14 inches",
@@ -5399,7 +5399,7 @@ const plantSeed = [
     "variety": "Caladiums, Tropical Mix",
     "plantAttrURL": "https://www.burpee.com/flowers/caladium/caladiums-tropical-mix-84009.html",
     "zone": "3-11",
-    "photoURL": "https://upload.wikimedia.org/wikipedia/commons/b/b8/Caladium_bicolor_%27Florida_Sweetheart%27_Plant_2220px.jpg",
+    "photoURL": "https://en.wikipedia.org/wiki/Caladium#/media/File:Caladium_bicolor_%27Florida_Sweetheart%27_Plant_2220px.jpg",
     "plantAttributes": {
       "Sun": "Full Shade, Part Sun",
       "Height": "12-18 inches",
@@ -5449,7 +5449,7 @@ const plantSeed = [
     "variety": "Wildflowers, Pollinator Mix",
     "plantAttrURL": "https://www.burpee.com/flowers/flower-pollinators/wildflowers-pollinator-mix-prod099842.html",
     "zone": "3-11",
-    "photoURL": "https://upload.wikimedia.org/wikipedia/commons/6/67/Calendula_January_2008-1_filtered.jpg",
+    "photoURL": "https://en.wikipedia.org/wiki/Calendula#/media/File:Calendula_January_2008-1_filtered.jpg",
     "plantAttributes": {
       "Sun": "Full Sun",
       "Height": "12-36 inches",
@@ -5500,7 +5500,7 @@ const plantSeed = [
     "variety": "Calibrachoa, Crave Strawberry Star",
     "plantAttrURL": "https://www.burpee.com/flowers/calibrachoa/calibrachoa-crave-strawberry-star-prod500058.html",
     "zone": "3-11",
-    "photoURL": "https://upload.wikimedia.org/wikipedia/commons/f/fb/Calibrachoa_flower_red.jpg",
+    "photoURL": "https://en.wikipedia.org/wiki/Calibrachoa#/media/File:Calibrachoa_flower_red.jpg",
     "plantAttributes": {
       "Sun": "Full Sun",
       "Height": "10-14 inches",
@@ -5548,7 +5548,7 @@ const plantSeed = [
     "variety": "Calla, Red Alert",
     "plantAttrURL": "https://www.burpee.com/flowers/calla/calla-red-alert-prod003343.html",
     "zone": "3-11",
-    "photoURL": "https://upload.wikimedia.org/wikipedia/commons/9/9b/Calla_palustris2.jpg",
+    "photoURL": "https://en.wikipedia.org/wiki/Calla#/media/File:Calla_palustris2.jpg",
     "plantAttributes": {
       "Sun": "Full Sun, Part Sun",
       "Height": "20-24 inches",
@@ -5599,7 +5599,7 @@ const plantSeed = [
     "variety": "Canna, Yellow King Humbert",
     "plantAttrURL": "https://www.burpee.com/direct-sow-seed-sale/canna-yellow-king-humbert-prod000150.html",
     "zone": "3-11",
-    "photoURL": "https://upload.wikimedia.org/wikipedia/commons/d/df/Canna_Lily.jpg",
+    "photoURL": "https://en.wikipedia.org/wiki/Canna_(plant)#/media/File:Canna_Lily.jpg",
     "plantAttributes": {
       "Sun": "Full Sun",
       "Height": "48-60 inches",
@@ -5650,7 +5650,7 @@ const plantSeed = [
     "variety": "Celosia, Prestige Scarlet",
     "plantAttrURL": "https://www.burpee.com/flowers/celosia/celosia-prestige-scarlet-prod500040.html",
     "zone": "3-11",
-    "photoURL": "https://upload.wikimedia.org/wikipedia/commons/5/50/CelosiaCristataYellowToreador.jpg",
+    "photoURL": "https://en.wikipedia.org/wiki/Celosia#/media/File:CelosiaCristataYellowToreador.jpg",
     "plantAttributes": {
       "Sun": "Full Sun",
       "Height": "12-24 inches",
@@ -5700,7 +5700,7 @@ const plantSeed = [
     "variety": "Chrysanthemum, Blue Knoll",
     "plantAttrURL": "https://www.burpee.com/flowers/chrysanthemum/chrysanthemum-blue-knoll-prod099534.html",
     "zone": "3-11",
-    "photoURL": "https://upload.wikimedia.org/wikipedia/commons/c/c5/Chrysanthemum_November_2007_Osaka_Japan.jpg",
+    "photoURL": "https://en.wikipedia.org/wiki/Chrysanthemum#/media/File:Chrysanthemum_November_2007_Osaka_Japan.jpg",
     "plantAttributes": {
       "Sun": "Part Sun",
       "Height": "10-12 inches",
@@ -5751,7 +5751,7 @@ const plantSeed = [
     "variety": "Cleome, Queen Mixed Colors",
     "plantAttrURL": "https://www.burpee.com/flowers/cleome/cleome-queen-mixed-colors-37077A.html",
     "zone": "3-11",
-    "photoURL": "https://upload.wikimedia.org/wikipedia/commons/9/9c/Tarenaya_hassleriana_o_Cleome_Hassleriana_o_Cleome_Spinosa.jpg",
+    "photoURL": "https://en.wikipedia.org/wiki/Cleome#/media/File:Tarenaya_hassleriana_o_Cleome_Hassleriana_o_Cleome_Spinosa.jpg",
     "plantAttributes": {
       "Sun": "Full Sun",
       "Height": "48-72 inches",
@@ -5802,7 +5802,7 @@ const plantSeed = [
     "variety": "Coleus, Chocolate Covered Cherry",
     "plantAttrURL": "https://www.burpee.com/flowers/coleus/coleus-chocolate-covered-cherry-prod003364.html",
     "zone": "3-11",
-    "photoURL": "https://upload.wikimedia.org/wikipedia/commons/3/38/%E0%A6%AA%E0%A6%BE%E0%A6%A4%E0%A6%BE%E0%A6%AC%E0%A6%BE%E0%A6%B9%E0%A6%BE%E0%A6%B0.jpg",
+    "photoURL": "https://en.wikipedia.org/wiki/Coleus#/media/File:%E0%A6%AA%E0%A6%BE%E0%A6%A4%E0%A6%BE%E0%A6%AC%E0%A6%BE%E0%A6%B9%E0%A6%BE%E0%A6%B0.jpg",
     "plantAttributes": {
       "Sun": "Full Shade, Part Sun",
       "Height": "12-14 inches",
@@ -5852,7 +5852,7 @@ const plantSeed = [
     "variety": "Cornflower, Tall Double Mixed Colors",
     "plantAttrURL": "https://www.burpee.com/flowers/cornflower/cornflower-tall-double-mixed-colors-prod000171.html",
     "zone": "3-11",
-    "photoURL": "https://upload.wikimedia.org/wikipedia/commons/b/bf/Cornflower_Blue.jpg",
+    "photoURL": "https://en.wikipedia.org/wiki/Centaurea_cyanus#/media/File:Cornflower_Blue.jpg",
     "plantAttributes": {
       "Sun": "Full Sun",
       "Height": "30 inches",
@@ -5903,7 +5903,7 @@ const plantSeed = [
     "variety": "Cosmos, Psyche White",
     "plantAttrURL": "https://www.burpee.com/flowers/cosmos/cosmos-psyche-white-prod000180.html",
     "zone": "3-11",
-    "photoURL": "https://upload.wikimedia.org/wikipedia/commons/c/c1/Cosmos_na_Mostra_de_Flor_de_Hong_Kong.JPG",
+    "photoURL": "https://en.wikipedia.org/wiki/Cosmos_(plant)#/media/File:Cosmos_na_Mostra_de_Flor_de_Hong_Kong.JPG",
     "plantAttributes": {
       "Sun": "Full Sun",
       "Height": "24-48 inches",
@@ -5954,7 +5954,7 @@ const plantSeed = [
     "variety": "Cuphea, Sriracha Rose",
     "plantAttrURL": "https://www.burpee.com/flowers/cuphea/cuphea-sriracha-rose-33385A.html",
     "zone": "3-11",
-    "photoURL": "https://upload.wikimedia.org/wikipedia/commons/0/05/Cuphea_nudicostata_2.jpg",
+    "photoURL": "https://en.wikipedia.org/wiki/Cuphea#/media/File:Cuphea_nudicostata_2.jpg",
     "plantAttributes": {
       "Sun": "Full Sun",
       "Height": "10-16 inches",
@@ -6005,7 +6005,7 @@ const plantSeed = [
     "variety": "Cypress Vine, Red",
     "plantAttrURL": "https://www.burpee.com/flowers/cypress-vine/cypress-vine-red-prod000186.html",
     "zone": "3-11",
-    "photoURL": "https://upload.wikimedia.org/wikipedia/commons/f/fa/Cyprus_vine_flower.jpg",
+    "photoURL": "https://en.wikipedia.org/wiki/Ipomoea_quamoclit#/media/File:Cyprus_vine_flower.jpg",
     "plantAttributes": {
       "Sun": "Full Sun",
       "Height": "180 inches",
@@ -6056,7 +6056,7 @@ const plantSeed = [
     "variety": "Dahlia, Café au Lait",
     "plantAttrURL": "https://www.burpee.com/flowers/dahlias/dahlia-cafe-au-lait-prod003351.html",
     "zone": "3-11",
-    "photoURL": "https://upload.wikimedia.org/wikipedia/commons/1/18/Dahlia_flower_-_colour.jpg",
+    "photoURL": "https://en.wikipedia.org/wiki/Dahlia#/media/File:Dahlia_flower_-_colour.jpg",
     "plantAttributes": {
       "Sun": "Full Sun",
       "Height": "34-36 inches",
@@ -6108,7 +6108,7 @@ const plantSeed = [
     "variety": "Shasta Daisy, Crazy Daisy",
     "plantAttrURL": "https://www.burpee.com/perennials/shasta-daisies/shasta-daisy-crazy-daisy-prod000112.html",
     "zone": "3-11",
-    "photoURL": "https://upload.wikimedia.org/wikipedia/commons/c/ce/Daisy_G%C3%A4nsebl%C3%BCmchen_Bellis_perennis_01.jpg",
+    "photoURL": "https://en.wikipedia.org/wiki/Bellis_perennis#/media/File:Daisy_G%C3%A4nsebl%C3%BCmchen_Bellis_perennis_01.jpg",
     "plantAttributes": {
       "Sun": "Full Sun, Part Sun",
       "Height": "18-24 inches",
@@ -6159,7 +6159,7 @@ const plantSeed = [
     "variety": "Dianthus, Sweet Black Cherry Hybrid",
     "plantAttrURL": "https://www.burpee.com/flowers/dianthus/dianthus-sweet-black-cherry-hybrid-prod003485.html",
     "zone": "3-11",
-    "photoURL": "https://upload.wikimedia.org/wikipedia/commons/4/42/Dianthus_caryophyllus_L_%28Clove_pink%29.JPG",
+    "photoURL": "https://en.wikipedia.org/wiki/Dianthus#/media/File:Dianthus_caryophyllus_L_(Clove_pink).JPG",
     "plantAttributes": {
       "Sun": "Full Sun",
       "Height": "18-36 inches",
@@ -6209,7 +6209,7 @@ const plantSeed = [
     "variety": "Dichondra, Silver Falls",
     "plantAttrURL": "https://www.burpee.com/flowers/dichondra/dichondra-silver-falls-20422.html",
     "zone": "3-11",
-    "photoURL": "https://upload.wikimedia.org/wikipedia/commons/4/4a/Dichondra_micratha.jpg",
+    "photoURL": "https://en.wikipedia.org/wiki/Dichondra#/media/File:Dichondra_micratha.jpg",
     "plantAttributes": {
       "Sun": "Full Sun, Part Sun",
       "Height": "2-3 inches",
@@ -6258,7 +6258,7 @@ const plantSeed = [
     "variety": "Dusty Miller, Silver Lace",
     "plantAttrURL": "https://www.burpee.com/flowers/dusty-miller/dusty-miller-silver-lace-prod000198.html",
     "zone": "3-11",
-    "photoURL": "https://upload.wikimedia.org/wikipedia/commons/1/15/Centaurea_cineraria%2C_Manie_van_der_Schijff_BT.jpg",
+    "photoURL": "https://en.wikipedia.org/wiki/Centaurea_cineraria#/media/File:Centaurea_cineraria,_Manie_van_der_Schijff_BT.jpg",
     "plantAttributes": {
       "Sun": "Full Sun",
       "Height": "7 inches",
@@ -6307,7 +6307,7 @@ const plantSeed = [
     "variety": "Elephant Ear, Black",
     "plantAttrURL": "https://www.burpee.com/flowers/elephant-ears/elephant-ear-black-prod001597.html",
     "zone": "3-11",
-    "photoURL": "https://upload.wikimedia.org/wikipedia/commons/5/5a/Elephant_ear_plant_with_blossum.jpg",
+    "photoURL": "https://en.wikipedia.org/wiki/Colocasia#/media/File:Elephant_ear_plant_with_blossum.jpg",
     "plantAttributes": {
       "Sun": "Full Sun",
       "Height": "36-48 inches",
@@ -6356,7 +6356,7 @@ const plantSeed = [
     "variety": "Four O'Clock, High Tea Mix",
     "plantAttrURL": "https://www.burpee.com/flowers/four-oclocks/four-oclock-high-tea-mix-prod000199.html",
     "zone": "3-11",
-    "photoURL": "https://upload.wikimedia.org/wikipedia/commons/8/83/2006-10-18Mirabilis_jalapa10.jpg",
+    "photoURL": "https://en.wikipedia.org/wiki/Mirabilis_(plant)#/media/File:2006-10-18Mirabilis_jalapa10.jpg",
     "plantAttributes": {
       "Sun": "Full Sun",
       "Height": "24 inches",
@@ -6408,7 +6408,7 @@ const plantSeed = [
     "variety": "Gaillardia, Goblin",
     "plantAttrURL": "https://www.burpee.com/perennials/gaillardias/gaillardia-goblin-prod002065.html",
     "zone": "3-11",
-    "photoURL": "https://upload.wikimedia.org/wikipedia/commons/d/de/Gaillardia_fanfare_centered.jpg",
+    "photoURL": "https://en.wikipedia.org/wiki/Gaillardia#/media/File:Gaillardia_fanfare_centered.jpg",
     "plantAttributes": {
       "Sun": "Full Sun",
       "Height": "12 inches",
@@ -6460,7 +6460,7 @@ const plantSeed = [
     "variety": "Geranium, Havana Blues",
     "plantAttrURL": "https://www.burpee.com/perennials/geraniums/geranium-havana-blues-prod002367.html",
     "zone": "3-11",
-    "photoURL": "https://upload.wikimedia.org/wikipedia/commons/3/3d/Geranium_sanguineum0.jpg",
+    "photoURL": "https://en.wikipedia.org/wiki/Geranium#/media/File:Geranium_sanguineum0.jpg",
     "plantAttributes": {
       "Sun": "Full Sun, Part Sun",
       "Height": "8-10 inches",
@@ -6511,7 +6511,7 @@ const plantSeed = [
     "variety": "Gerbera, Garvinea Sweet Glow",
     "plantAttrURL": "https://www.burpee.com/flowers/gerbera/gerbera-garvinea-sweet-glow-prod500054.html",
     "zone": "3-11",
-    "photoURL": "https://upload.wikimedia.org/wikipedia/commons/0/01/Orange_gerbera_Daisy.jpg",
+    "photoURL": "https://en.wikipedia.org/wiki/Gerbera#/media/File:Orange_gerbera_Daisy.jpg",
     "plantAttributes": {
       "Sun": "Full Sun, Part Sun",
       "Height": "15-18 inches",
@@ -6560,7 +6560,7 @@ const plantSeed = [
     "variety": "Gladiolus, Butterfly",
     "plantAttrURL": "https://www.burpee.com/flowers/gladiolus/gladiolus-butterfly-prod002852.html",
     "zone": "3-11",
-    "photoURL": "https://upload.wikimedia.org/wikipedia/commons/2/25/Gartengladiole_apricot.JPG",
+    "photoURL": "https://en.wikipedia.org/wiki/Gladiolus#/media/File:Gartengladiole_apricot.JPG",
     "plantAttributes": {
       "Sun": "Full Sun, Part Sun",
       "Height": "36 inches",
@@ -6611,7 +6611,7 @@ const plantSeed = [
     "variety": "Gomphrena, QIS Mix",
     "plantAttrURL": "https://www.burpee.com/flowers/gomphrena/gomphrena-qis-mix-prod000220.html",
     "zone": "3-11",
-    "photoURL": "https://upload.wikimedia.org/wikipedia/commons/1/16/Gomphrena_serrata_in_Hyderabad_W_IMG_8869.jpg",
+    "photoURL": "https://en.wikipedia.org/wiki/Gomphrena#/media/File:Gomphrena_serrata_in_Hyderabad_W_IMG_8869.jpg",
     "plantAttributes": {
       "Sun": "Full Sun",
       "Height": "24-30 inches",
@@ -6713,7 +6713,7 @@ const plantSeed = [
     "variety": "Impatiens, Cherry Splash",
     "plantAttrURL": "https://www.burpee.com/flowers/impatiens/impatiens-cherry-splash-prod001515.html",
     "zone": "3-11",
-    "photoURL": "https://upload.wikimedia.org/wikipedia/commons/5/51/Impatiens_zombensis.JPG",
+    "photoURL": "https://en.wikipedia.org/wiki/Impatiens#/media/File:Impatiens_zombensis.JPG",
     "plantAttributes": {
       "Sun": "Part Sun",
       "Height": "6-10 inches",
@@ -6764,7 +6764,7 @@ const plantSeed = [
     "variety": "Ipomopsis, Hummingbird Mix",
     "plantAttrURL": "https://www.burpee.com/flowers/ipomopsis/ipomopsis-hummingbird-mix-prod000239.html",
     "zone": "3-11",
-    "photoURL": "https://upload.wikimedia.org/wikipedia/commons/f/fa/Ipomopsis_arizonica_2.jpg",
+    "photoURL": "https://en.wikipedia.org/wiki/Ipomopsis_arizonica#/media/File:Ipomopsis_arizonica_2.jpg",
     "plantAttributes": {
       "Sun": "Full Sun",
       "Height": "36-48 inches",
@@ -6815,7 +6815,7 @@ const plantSeed = [
     "variety": " Lisianthus, Yellow",
     "plantAttrURL": "https://www.burpee.com/flowers/lisianthus/lisianthus-yellow-prod500271.html",
     "zone": "3-11",
-    "photoURL": "https://upload.wikimedia.org/wikipedia/commons/1/18/Eustoma_grandiflorum_purple_02.jpg",
+    "photoURL": "https://en.wikipedia.org/wiki/Eustoma#/media/File:Eustoma_grandiflorum_purple_02.jpg",
     "plantAttributes": {
       "Sun": "Full Sun",
       "Height": "30-40 inches",
@@ -6864,7 +6864,7 @@ const plantSeed = [
     "variety": "Lily, Oriental Soft Music",
     "plantAttrURL": "https://www.burpee.com/perennials/lilies/lily-oriental-soft-music-prod001604.html",
     "zone": "3-11",
-    "photoURL": "https://upload.wikimedia.org/wikipedia/commons/3/30/Lilium_candidum_1.jpg",
+    "photoURL": "https://en.wikipedia.org/wiki/Lilium#/media/File:Lilium_candidum_1.jpg",
     "plantAttributes": {
       "Sun": "Full Sun",
       "Height": "32-40 inches",
@@ -6914,7 +6914,7 @@ const plantSeed = [
     "variety": "Lobelia, Crystal Palace Blue",
     "plantAttrURL": "https://www.burpee.com/flowers/lobelias/lobelia-crystal-palace-blue-prod000256.html",
     "zone": "3-11",
-    "photoURL": "https://upload.wikimedia.org/wikipedia/commons/8/86/Lobelia_%28aka%29.jpg",
+    "photoURL": "https://en.wikipedia.org/wiki/Lobelia#/media/File:Lobelia_(aka).jpg",
     "plantAttributes": {
       "Sun": "Full Sun",
       "Height": "6-8 inches",
@@ -6965,7 +6965,7 @@ const plantSeed = [
     "variety": "Sweet Marigold, Licorice",
     "plantAttrURL": "https://www.burpee.com/herbs/sweet-marigold/sweet-marigold-licorice-prod001080.html",
     "zone": "3-11",
-    "photoURL": "https://upload.wikimedia.org/wikipedia/commons/5/55/Calendula_officinalis_03-09-2005_15.21.56.JPG",
+    "photoURL": "https://en.wikipedia.org/wiki/Calendula_officinalis#/media/File:Calendula_officinalis_03-09-2005_15.21.56.JPG",
     "plantAttributes": {
       "Sun": "Full Sun",
       "Height": "12 inches",
@@ -7014,7 +7014,7 @@ const plantSeed = [
     "variety": "Moonflower, Giant White",
     "plantAttrURL": "https://www.burpee.com/flowers/moonflowers/moonflower-giant-white-prod000281.html",
     "zone": "3-11",
-    "photoURL": "https://upload.wikimedia.org/wikipedia/commons/e/e4/Ipomoea_alba270483816.jpg",
+    "photoURL": "https://en.wikipedia.org/wiki/Ipomoea_alba#/media/File:Ipomoea_alba270483816.jpg",
     "plantAttributes": {
       "Sun": "Full Sun",
       "Height": "15 feet",
@@ -7065,7 +7065,7 @@ const plantSeed = [
     "variety": "Morning Glory, Heavenly Blue",
     "plantAttrURL": "https://www.burpee.com/flowers/morning-glories/morning-glory-heavenly-blue-prod000284.html",
     "zone": "3-11",
-    "photoURL": "https://upload.wikimedia.org/wikipedia/commons/3/32/Glorious_Morning_Glories.JPG",
+    "photoURL": "https://en.wikipedia.org/wiki/Morning_glory#/media/File:Glorious_Morning_Glories.JPG",
     "plantAttributes": {
       "Sun": "Full Sun",
       "Height": "8-12 feet",
@@ -7116,7 +7116,7 @@ const plantSeed = [
     "variety": "Nasturtium, Vesuviu",
     "plantAttrURL": "https://www.burpee.com/flowers/nasturtium/nasturtium-vesuvius-prod000297.html",
     "zone": "3-11",
-    "photoURL": "https://upload.wikimedia.org/wikipedia/commons/7/78/Nasturtium-Tropaeolum.jpg",
+    "photoURL": "https://en.wikipedia.org/wiki/Tropaeolum#/media/File:Nasturtium-Tropaeolum.jpg",
     "plantAttributes": {
       "Sun": "Full Sun",
       "Height": "10-12 inches",
@@ -7167,7 +7167,7 @@ const plantSeed = [
     "variety": "Nemophila, Baby Blue Eyes",
     "plantAttrURL": "https://www.burpee.com/flowers/nemophila/nemophila-baby-blue-eyes-prod000298.html",
     "zone": "3-11",
-    "photoURL": "https://upload.wikimedia.org/wikipedia/commons/e/e4/Nemophila-menziesii-20080330.JPG",
+    "photoURL": "https://en.wikipedia.org/wiki/Nemophila#/media/File:Nemophila-menziesii-20080330.JPG",
     "plantAttributes": {
       "Sun": "Full Sun, Part Sun",
       "Height": "6 inches",
@@ -7218,7 +7218,7 @@ const plantSeed = [
     "variety": "Nicotiana, Heaven Scent",
     "plantAttrURL": "https://www.burpee.com/flowers/nicotiana/nicotiana-heaven-scent-prod000299.html",
     "zone": "3-11",
-    "photoURL": "https://upload.wikimedia.org/wikipedia/commons/4/49/Tabak_9290019.JPG",
+    "photoURL": "https://en.wikipedia.org/wiki/Nicotiana#/media/File:Tabak_9290019.JPG",
     "plantAttributes": {
       "Sun": "Full Sun, Part Sun",
       "Height": "20-24 inches",
@@ -7269,7 +7269,7 @@ const plantSeed = [
     "variety": "Ornamental Kale, Song Bird Red",
     "plantAttrURL": "https://www.burpee.com/flowers/ornamental-kales/-ornamental-kale-song-bird-red--prod002429.html",
     "zone": "3-11",
-    "photoURL": "https://upload.wikimedia.org/wikipedia/commons/4/45/Ornamental_Kale_Nagoya_White_F1_--_Brassica_oleracea.jpg",
+    "photoURL": "https://en.wikipedia.org/wiki/Kale#/media/File:Ornamental_Kale_Nagoya_White_F1_--_Brassica_oleracea.jpg",
     "plantAttributes": {
       "Sun": "Full Sun, Part Sun",
       "Spread": "6-10 inches",
@@ -7318,7 +7318,7 @@ const plantSeed = [
     "variety": "Pansy, Moulin Rouge",
     "plantAttrURL": "https://www.burpee.com/flowers/pansies/pansy-moulin-rouge-prod000304.html",
     "zone": "3-11",
-    "photoURL": "https://upload.wikimedia.org/wikipedia/commons/e/e5/Life_will_overcome_some_day.jpg",
+    "photoURL": "https://en.wikipedia.org/wiki/Pansy#/media/File:Life_will_overcome_some_day.jpg",
     "plantAttributes": {
       "Sun": "Full Sun, Part Sun",
       "Height": "8 inches",
@@ -7369,7 +7369,7 @@ const plantSeed = [
     "variety": "Ornamental Grass, Pennisetum",
     "plantAttrURL": "https://www.burpee.com/flowers/pennisetum/ornamental-grass-pennisetum--prod000300.html",
     "zone": "3-11",
-    "photoURL": "https://upload.wikimedia.org/wikipedia/commons/9/91/Starr_061114-9870_Pennisetum_polystachion.jpg",
+    "photoURL": "https://en.wikipedia.org/wiki/Pennisetum#/media/File:Starr_061114-9870_Pennisetum_polystachion.jpg",
     "plantAttributes": {
       "Sun": "Full Sun",
       "Height": "36 inches",
@@ -7420,7 +7420,7 @@ const plantSeed = [
     "variety": "Pentas, Starcluster Red",
     "plantAttrURL": "https://www.burpee.com/flowers/pentas/pentas-starcluster-red-prod003487.html",
     "zone": "3-11",
-    "photoURL": "https://upload.wikimedia.org/wikipedia/commons/2/2f/Pentas_lanceolata2.jpg",
+    "photoURL": "https://en.wikipedia.org/wiki/Pentas#/media/File:Pentas_lanceolata2.jpg",
     "plantAttributes": {
       "Sun": "Full Sun",
       "Height": "14-18 inches",
@@ -7471,7 +7471,7 @@ const plantSeed = [
     "variety": "Petunia, Cascadia Rim Magenta",
     "plantAttrURL": "https://www.burpee.com/flowers/petunias/petunia-cascadia-rim-magenta-prod003475.html",
     "zone": "3-11",
-    "photoURL": "https://upload.wikimedia.org/wikipedia/commons/f/fb/Petunia_exserta_by_Scott_Zona_-_004_%281%29.jpg",
+    "photoURL": "https://en.wikipedia.org/wiki/Petunia#/media/File:Petunia_exserta_by_Scott_Zona_-_004_(1).jpg",
     "plantAttributes": {
       "Sun": "Full Sun",
       "Height": "10-16 inches",
@@ -7523,7 +7523,7 @@ const plantSeed = [
     "variety": "Phlox, David",
     "plantAttrURL": "https://www.burpee.com/perennials/phlox/phlox-david-prod000091.html",
     "zone": "3-11",
-    "photoURL": "https://upload.wikimedia.org/wikipedia/commons/5/5a/Phlox_Paniculata.jpg",
+    "photoURL": "https://en.wikipedia.org/wiki/Phlox#/media/File:Phlox_Paniculata.jpg",
     "plantAttributes": {
       "Sun": "Full Sun, Part Sun",
       "Height": "36 inches",
@@ -7575,7 +7575,7 @@ const plantSeed = [
     "variety": "Poppy, Oriental Poppy Mix",
     "plantAttrURL": "https://www.burpee.com/perennials/poppy/poppy-oriental-poppy-mix-prod001097.html",
     "zone": "3-11",
-    "photoURL": "https://upload.wikimedia.org/wikipedia/commons/5/56/Yellow_Poppy.jpg",
+    "photoURL": "https://en.wikipedia.org/wiki/Poppy#/media/File:Yellow_Poppy.jpg",
     "plantAttributes": {
       "Sun": "Full Sun, Part Sun",
       "Height": "24-36 inches",
@@ -7678,7 +7678,7 @@ const plantSeed = [
     "variety": "Rudbeckia, Indian Summer",
     "plantAttrURL": "https://www.burpee.com/flowers/rudbeckias/rudbeckia-indian-summer-prod000352.html",
     "zone": "3-11",
-    "photoURL": "https://upload.wikimedia.org/wikipedia/commons/e/e5/Rudbeckia_hirta_flower_closeup.jpg",
+    "photoURL": "https://en.wikipedia.org/wiki/Rudbeckia#/media/File:Rudbeckia_hirta_flower_closeup.jpg",
     "plantAttributes": {
       "Sun": "Full Sun",
       "Height": "36-42 inches",
@@ -7730,7 +7730,7 @@ const plantSeed = [
     "variety": "Salvia, Amistad",
     "plantAttrURL": "https://www.burpee.com/flowers/salvia/salvia-amistad-prod003473.html",
     "zone": "3-11",
-    "photoURL": "https://upload.wikimedia.org/wikipedia/commons/5/5a/Salvia_officinalis0.jpg",
+    "photoURL": "https://en.wikipedia.org/wiki/Salvia#/media/File:Salvia_officinalis0.jpg",
     "plantAttributes": {
       "Sun": "Full Sun, Part Sun",
       "Height": "36-48 inches",
@@ -7782,7 +7782,7 @@ const plantSeed = [
     "variety": "Scabiosa, Summer Berries",
     "plantAttrURL": "https://www.burpee.com/flowers/scabiosa/scabiosa-summer-berries-prod000364.html",
     "zone": "3-11",
-    "photoURL": "https://upload.wikimedia.org/wikipedia/commons/7/79/Scabiosa_columbaria_Pink_Mist.jpg",
+    "photoURL": "https://en.wikipedia.org/wiki/Scabiosa#/media/File:Scabiosa_columbaria_Pink_Mist.jpg",
     "plantAttributes": {
       "Sun": "Full Sun, Part Sun",
       "Height": "24-30 inches",
@@ -7833,7 +7833,7 @@ const plantSeed = [
     "variety": "Scaevola, Fancy",
     "plantAttrURL": "https://www.burpee.com/flowers/scaevola/scaevola-fancy-prod000365.html",
     "zone": "3-11",
-    "photoURL": "https://upload.wikimedia.org/wikipedia/commons/4/44/Starr_020925-0070_Scaevola_chamissoniana.jpg",
+    "photoURL": "https://en.wikipedia.org/wiki/Scaevola_(plant)#/media/File:Starr_020925-0070_Scaevola_chamissoniana.jpg",
     "plantAttributes": {
       "Sun": "Full Sun",
       "Height": "8 inches",
@@ -7884,7 +7884,7 @@ const plantSeed = [
     "variety": "Snapdragon, Cinderella Mixed Colors",
     "plantAttrURL": "https://www.burpee.com/flowers/snapdragons/snapdragon-cinderella-mixed-colors-prod000367.html",
     "zone": "3-11",
-    "photoURL": "https://upload.wikimedia.org/wikipedia/commons/6/66/Antirrhinum_majus_from_Thasos.JPG",
+    "photoURL": "https://en.wikipedia.org/wiki/Antirrhinum#/media/File:Antirrhinum_majus_from_Thasos.JPG",
     "plantAttributes": {
       "Sun": "Full Sun, Part Sun",
       "Height": "20 inches",
@@ -7935,7 +7935,7 @@ const plantSeed = [
     "variety": "Statice, Mixed Bold Colors",
     "plantAttrURL": "https://www.burpee.com/flowers/statice/statice-mixed-bold-colors-prod000374.html",
     "zone": "3-11",
-    "photoURL": "https://upload.wikimedia.org/wikipedia/commons/7/74/Limonium_perezii_3.jpg",
+    "photoURL": "https://en.wikipedia.org/wiki/Limonium#/media/File:Limonium_perezii_3.jpg",
     "plantAttributes": {
       "Sun": "Full Sun",
       "Height": "24-30 inches",
@@ -7986,7 +7986,7 @@ const plantSeed = [
     "variety": "Stock, Harmony Mix",
     "plantAttrURL": "https://www.burpee.com/flowers/stock/stock-harmony-mix-prod000375.html",
     "zone": "3-11",
-    "photoURL": "https://upload.wikimedia.org/wikipedia/commons/d/d6/Matthiola_incana6.jpg",
+    "photoURL": "https://en.wikipedia.org/wiki/Matthiola_incana#/media/File:Matthiola_incana6.jpg",
     "plantAttributes": {
       "Sun": "Full Sun",
       "Height": "10 inches",
@@ -8037,7 +8037,7 @@ const plantSeed = [
     "variety": "Strawflower, Tall Mixed Colors",
     "plantAttrURL": "https://www.burpee.com/flowers/strawflowers/strawflower-tall-mixed-colors-prod000377.html",
     "zone": "3-11",
-    "photoURL": "https://upload.wikimedia.org/wikipedia/commons/2/26/Xerochrysum_bracteatum_on_a_dune.jpg",
+    "photoURL": "https://en.wikipedia.org/wiki/Xerochrysum_bracteatum#/media/File:Xerochrysum_bracteatum_on_a_dune.jpg",
     "plantAttributes": {
       "Sun": "Full Sun",
       "Height": "24-36 inches",
@@ -8088,7 +8088,7 @@ const plantSeed = [
     "variety": "Sunflower, Teddy Bear",
     "plantAttrURL": "https://www.burpee.com/flowers/sunflowers/sunflower-teddy-bear--prod000404.html",
     "zone": "3-11",
-    "photoURL": "https://upload.wikimedia.org/wikipedia/commons/4/40/Sunflower_sky_backdrop.jpg",
+    "photoURL": "https://en.wikipedia.org/wiki/Helianthus#/media/File:Sunflower_sky_backdrop.jpg",
     "plantAttributes": {
       "Type": "Dwarf",
       "Sun": "Full Sun",
@@ -8139,7 +8139,7 @@ const plantSeed = [
     "variety": "Sweet Pea, Eckfords Finest Mix",
     "plantAttrURL": "https://www.burpee.com/flowers/sweet-peas/sweet-pea-eckfords-finest-mix-prod000406.html",
     "zone": "3-11",
-    "photoURL": "https://upload.wikimedia.org/wikipedia/commons/5/59/Sweet_Pea-0.jpg",
+    "photoURL": "https://en.wikipedia.org/wiki/Sweet_pea#/media/File:Sweet_Pea-0.jpg",
     "plantAttributes": {
       "Sun": "Full Sun",
       "Height": "48-60 inches",
@@ -8190,7 +8190,7 @@ const plantSeed = [
     "variety": "Thunbergia alata Mix",
     "plantAttrURL": "https://www.burpee.com/flowers/thunbergia/thunbergia-alata-mix-prod000410.html",
     "zone": "3-11",
-    "photoURL": "https://upload.wikimedia.org/wikipedia/commons/2/2a/Thunbergia_alata.JPG",
+    "photoURL": "https://en.wikipedia.org/wiki/Thunbergia#/media/File:Thunbergia_alata.JPG",
     "plantAttributes": {
       "Sun": "Full Sun",
       "Height": "60 inches",
@@ -8241,7 +8241,7 @@ const plantSeed = [
     "variety": "Tithonia, Sundance",
     "plantAttrURL": "https://www.burpee.com/flowers/tithonia/tithonia-sundance--prod000411.html",
     "zone": "3-11",
-    "photoURL": "https://upload.wikimedia.org/wikipedia/commons/d/d8/Tithonia_diversifolia.JPG",
+    "photoURL": "https://en.wikipedia.org/wiki/Tithonia#/media/File:Tithonia_diversifolia.JPG",
     "plantAttributes": {
       "Sun": "Full Sun",
       "Height": "36-48 inches",
@@ -8292,7 +8292,7 @@ const plantSeed = [
     "variety": "Torenia, Summer Wave Large Amethyst",
     "plantAttrURL": "https://www.burpee.com/flowers/torenia/torenia-summer-wave-large-amethyst-prod500465.html",
     "zone": "3-11",
-    "photoURL": "https://upload.wikimedia.org/wikipedia/commons/3/3f/Torenia_travancorica_at_Kadavoor.jpg",
+    "photoURL": "https://en.wikipedia.org/wiki/Torenia#/media/File:Torenia_travancorica_at_Kadavoor.jpg",
     "plantAttributes": {
       "Sun": "Part Sun",
       "Height": "8-10 inches",
@@ -8341,7 +8341,7 @@ const plantSeed = [
     "variety": "Tuberose, The Pearl",
     "plantAttrURL": "https://www.burpee.com/flowers/tuberose/tuberose-the-pearl-prod000414.html",
     "zone": "3-11",
-    "photoURL": "https://upload.wikimedia.org/wikipedia/commons/8/8e/Tuberose_flower.jpg",
+    "photoURL": "https://en.wikipedia.org/wiki/Polianthes_tuberosa#/media/File:Tuberose_flower.jpg",
     "plantAttributes": {
       "Sun": "Full Sun",
       "Height": "36 inches",
@@ -8392,7 +8392,7 @@ const plantSeed = [
     "variety": "Verbena, Bonariensis",
     "plantAttrURL": "https://www.burpee.com/perennials/verbena/verbena-bonariensis-prod001064.html",
     "zone": "3-11",
-    "photoURL": "https://upload.wikimedia.org/wikipedia/commons/4/42/Verbena_bonariensis1.jpg",
+    "photoURL": "https://en.wikipedia.org/wiki/Verbena#/media/File:Verbena_bonariensis1.jpg",
     "plantAttributes": {
       "Sun": "Full Sun",
       "Height": "36-72 inches",
@@ -8442,7 +8442,7 @@ const plantSeed = [
     "variety": "Trailing Vinca, Peach",
     "plantAttrURL": "https://www.burpee.com/flowers/vincas/trailing-vinca-peach-prod001741.html",
     "zone": "3-11",
-    "photoURL": "https://upload.wikimedia.org/wikipedia/commons/9/92/Vinca_spreading_along_a_border.jpg",
+    "photoURL": "https://en.wikipedia.org/wiki/Vinca#/media/File:Vinca_spreading_along_a_border.jpg",
     "plantAttributes": {
       "Sun": "Full Sun, Part Sun",
       "Height": "4-6 inches",
@@ -8493,7 +8493,7 @@ const plantSeed = [
     "variety": "Viola, Johnny-Jump Up",
     "plantAttrURL": "https://www.burpee.com/flowers/violas/viola-johnny-jump-up-prod000422.html",
     "zone": "3-11",
-    "photoURL": "https://upload.wikimedia.org/wikipedia/commons/c/c8/Viola_reichenbachiana_LC0128.jpg",
+    "photoURL": "https://en.wikipedia.org/wiki/Viola_(plant)#/media/File:Viola_reichenbachiana_LC0128.jpg",
     "plantAttributes": {
       "Sun": "Full Sun, Part Sun",
       "Height": "10 inches",
@@ -8544,7 +8544,7 @@ const plantSeed = [
     "variety": "Zinnia, Exquisite",
     "plantAttrURL": "https://www.burpee.com/flowers/zinnias/zinnia-exquisite-prod000431.html",
     "zone": "3-11",
-    "photoURL": "https://upload.wikimedia.org/wikipedia/commons/a/ac/Zinnia_single_layer_and_12_Petals_2.jpg",
+    "photoURL": "https://en.wikipedia.org/wiki/Zinnia#/media/File:Zinnia_single_layer_and_12_Petals_2.jpg",
     "plantAttributes": {
       "Type": "Dahlia-flowering",
       "Sun": "Full Sun",
@@ -8595,7 +8595,7 @@ const plantSeed = [
     "variety": "Sedum, Firecracke",
     "plantAttrURL": "https://www.burpee.com/perennials/sedum/sedum-firecracker-prod022598.html",
     "zone": "3-11",
-    "photoURL": "https://upload.wikimedia.org/wikipedia/commons/e/e1/Biting_stonecrop_close_800.jpg",
+    "photoURL": "https://en.wikipedia.org/wiki/Sedum#/media/File:Biting_stonecrop_close_800.jpg",
     "plantAttributes": {
       "Sun": "Full Sun",
       "Height": "4-6 inches",
@@ -8632,7 +8632,7 @@ const plantSeed = [
     "variety" : "Blackberry, Prime-Ark Traveler", 
     "plantAttrURL" : "https://www.burpee.com/fruit/blackberry-plants/blackberry-prime-ark-traveler--prod099945.html", 
     "zone" : "5-6", 
-    "photoURL" : "https://upload.wikimedia.org/wikipedia/commons/7/78/Ripe%2C_ripening%2C_and_green_blackberries.jpg", 
+    "photoURL" : "https://en.wikipedia.org/wiki/Blackberry#/media/File:Ripe,_ripening,_and_green_blackberries.jpg", 
     "plantAttributes" : {
         "Sun" : "Full Sun", 
         "Height" : "4-6 feet", 
@@ -8683,7 +8683,7 @@ const plantSeed = [
     "variety" : "Blueberry, Jersey", 
     "plantAttrURL" : "https://www.burpee.com/fruit/blueberry-plants/blueberry-jersey-prod002405.html", 
     "zone" : "3-11", 
-    "photoURL" : "https://upload.wikimedia.org/wikipedia/commons/8/88/PattsBlueberries.jpg", 
+    "photoURL" : "https://en.wikipedia.org/wiki/Blueberry#/media/File:PattsBlueberries.jpg", 
     "plantAttributes" : {
         "FruitBearing" : "Late Season", 
         "Sun" : "Full Sun", 
@@ -8722,7 +8722,7 @@ const plantSeed = [
     "variety" : "Currant, Consort Black", 
     "plantAttrURL" : "https://www.burpee.com/fruit/currant/currant-consort-black-prod002656.html", 
     "zone" : "3-6", 
-    "photoURL" : "https://upload.wikimedia.org/wikipedia/commons/0/00/Grape_Rasins_plus_Zante_Currants.jpg", 
+    "photoURL" : "https://en.wikipedia.org/wiki/Zante_currant#/media/File:Grape_Rasins_plus_Zante_Currants.jpg", 
     "plantAttributes" : {
         "Sun" : "Full Sun, Part Sun", 
         "Height" : "48-60 inches", 
@@ -8768,7 +8768,7 @@ const plantSeed = [
     "variety" : "Fig, Olympian", 
     "plantAttrURL" : "https://www.burpee.com/fruit/figs/fig-olympian--prod100090.html", 
     "zone" : "5-11", 
-    "photoURL" : "https://upload.wikimedia.org/wikipedia/commons/0/04/Fig.jpg", 
+    "photoURL" : "https://en.wikipedia.org/wiki/Ficus#/media/File:Fig.jpg", 
     "plantAttributes" : {
         "Sun" : "Full Sun", 
         "Height" : "4-8 feet", 
@@ -8840,7 +8840,7 @@ const plantSeed = [
     "variety" : "Raspberry, Tulamagi", 
     "plantAttrURL" : "https://www.burpee.com/fruit/raspberry-plants/raspberry-tulamagic--prod022677.html", 
     "zone" : "5-6", 
-    "photoURL" : "https://upload.wikimedia.org/wikipedia/commons/6/69/Raspberries05.jpg", 
+    "photoURL" : "https://en.wikipedia.org/wiki/Raspberry#/media/File:Raspberries05.jpg", 
     "plantAttributes" : {
         "FruitBearing" : "Everbearing", 
         "Sun" : "Full Sun", 
@@ -8881,7 +8881,7 @@ const plantSeed = [
     "variety" : "Hardy Ken's Red Kiwi, Hardy ", 
     "plantAttrURL" : "https://www.burpee.com/fruit/specialty-fruits/kiwi-hardy-kens-red-prod002659.html", 
     "zone" : "5-8", 
-    "photoURL" : "https://upload.wikimedia.org/wikipedia/commons/5/58/Kiwifruit-Actinidia_deliciosa-plantation.jpg", 
+    "photoURL" : "https://en.wikipedia.org/wiki/Kiwifruit#/media/File:Kiwifruit-Actinidia_deliciosa-plantation.jpg", 
     "plantAttributes" : {
         "Sun" : "Full Sun, Part Sun", 
         "Height" : "15-20 feet", 
@@ -8917,7 +8917,7 @@ const plantSeed = [
     "variety" : "Strawberry, Galletta", 
     "plantAttrURL" : "https://www.burpee.com/fruit/strawberry-plants/strawberry-galletta-prod022679.html", 
     "zone" : "5-6", 
-    "photoURL" : "https://upload.wikimedia.org/wikipedia/commons/f/f0/Strawberry_Plant_in_early_June.JPG", 
+    "photoURL" : "https://en.wikipedia.org/wiki/Strawberry#/media/File:Strawberry_Plant_in_early_June.JPG", 
     "plantAttributes" : {
         "Sun" : "Full Sun", 
         "Height" : "12-16 inches", 
@@ -8931,6 +8931,7 @@ const plantSeed = [
 },
 // ----------------------------------------------
 { 
+  "_id" : ObjectId("5c4e34f5f558505c1ce86f21"), 
   "plantCategories" : [
       "herbs"
   ], 
@@ -8997,6 +8998,7 @@ const plantSeed = [
 },
 // ----------------------------------------------
 { 
+  "_id" : ObjectId("5c4e34f5f558505c1ce86f23"), 
   "plantCategories" : [
       "herbs"
   ], 
@@ -9060,6 +9062,7 @@ const plantSeed = [
 },
 // ----------------------------------------------
 { 
+  "_id" : ObjectId("5c4e34f5f558505c1ce86f14"), 
   "plantCategories" : [
       "herbs"
   ], 
@@ -9116,6 +9119,7 @@ const plantSeed = [
 },
 // ----------------------------------------------
 { 
+  "_id" : ObjectId("5c4e34f5f558505c1ce86f15"), 
   "plantCategories" : [
       "herbs"
   ], 
@@ -9174,6 +9178,7 @@ const plantSeed = [
 },
 // ----------------------------------------------
 { 
+  "_id" : ObjectId("5c4e34f5f558505c1ce86f16"), 
   "plantCategories" : [
       "herbs"
   ], 
@@ -9219,6 +9224,7 @@ const plantSeed = [
 },
 // ----------------------------------------------
 { 
+  "_id" : ObjectId("5c4e34f5f558505c1ce86f17"), 
   "plantCategories" : [
       "herbs"
   ], 
@@ -9264,6 +9270,7 @@ const plantSeed = [
 },
 // ----------------------------------------------
 { 
+  "_id" : ObjectId("5c4e34f5f558505c1ce86f18"), 
   "plantCategories" : [
       "herbs"
   ], 
@@ -9312,6 +9319,7 @@ const plantSeed = [
 },
 // ----------------------------------------------
 { 
+  "_id" : ObjectId("5c4e34f5f558505c1ce86f19"), 
   "plantCategories" : [
       "herbs"
   ], 
@@ -9361,6 +9369,7 @@ const plantSeed = [
 },
 // ----------------------------------------------
 { 
+  "_id" : ObjectId("5c4e34f5f558505c1ce86f1a"), 
   "plantCategories" : [
       "herbs"
   ], 
@@ -9412,6 +9421,7 @@ const plantSeed = [
 },
 // ----------------------------------------------
 { 
+  "_id" : ObjectId("5c4e34f5f558505c1ce86f1b"), 
   "plantCategories" : [
       "herbs"
   ], 
@@ -9462,6 +9472,7 @@ const plantSeed = [
 },
 // ----------------------------------------------
 { 
+  "_id" : ObjectId("5c4e34f5f558505c1ce86f1c"), 
   "plantCategories" : [
       "herbs"
   ], 
@@ -9506,6 +9517,7 @@ const plantSeed = [
 },
 // ----------------------------------------------
 { 
+  "_id" : ObjectId("5c4e34f5f558505c1ce86f1d"), 
   "plantCategories" : [
       "herbs"
   ], 
@@ -9560,6 +9572,7 @@ const plantSeed = [
 },
 // ----------------------------------------------
 { 
+  "_id" : ObjectId("5c4e34f5f558505c1ce86f1e"), 
   "plantAttributes" : {
       "AdditionalUses" : [
           "Container Plant, Fragrant"
@@ -9627,6 +9640,7 @@ const plantSeed = [
 },
 // ----------------------------------------------
 { 
+  "_id" : ObjectId("5c4e34f5f558505c1ce86f20"), 
   "plantCategories" : [
       "herbs"
   ], 
@@ -9685,6 +9699,7 @@ const plantSeed = [
 },
 // ----------------------------------------------
 { 
+  "_id" : ObjectId("5c4e34f5f558505c1ce86f22"), 
   "plantCategories" : [
       "herbs"
   ], 
@@ -9746,6 +9761,7 @@ const plantSeed = [
 },
 // ----------------------------------------------
 { 
+  "_id" : ObjectId("5c4e34f5f558505c1ce86f24"), 
   "plantCategories" : [
       "herbs"
   ], 
@@ -9800,6 +9816,7 @@ const plantSeed = [
 },
 // ----------------------------------------------
 { 
+  "_id" : ObjectId("5c4e34f5f558505c1ce86f25"), 
   "plantCategories" : [
       "herbs"
   ], 
@@ -9851,6 +9868,7 @@ const plantSeed = [
 },
 // ----------------------------------------------
 { 
+  "_id" : ObjectId("5c4e34f5f558505c1ce86f26"), 
   "plantCategories" : [
       "herbs"
   ], 
@@ -9906,6 +9924,7 @@ const plantSeed = [
 },
 // ----------------------------------------------
 { 
+  "_id" : ObjectId("5c4e34f5f558505c1ce86f27"), 
   "plantCategories" : [
       "herbs"
   ], 
@@ -9958,9 +9977,10 @@ const plantSeed = [
 },
 // ----------------------------------------------
 { 
+  "_id" : ObjectId("5c4e34f5f558505c1ce86f28"), 
   "plantCategories" : [
       "herbs", 
-      "flowers"
+      "Flowers"
   ], 
   "plantClass" : [
       "Lavender"
@@ -10000,6 +10020,7 @@ const plantSeed = [
 },
 // ----------------------------------------------
 { 
+  "_id" : ObjectId("5c4e34f5f558505c1ce86f29"), 
   "plantCategories" : [
       "herbs"
   ], 
@@ -10051,6 +10072,7 @@ const plantSeed = [
 },
 // ----------------------------------------------
 { 
+  "_id" : ObjectId("5c4e34f5f558505c1ce86f2a"), 
   "plantCategories" : [
       "herbs"
   ], 
@@ -10102,6 +10124,7 @@ const plantSeed = [
 },
 // ----------------------------------------------
 { 
+  "_id" : ObjectId("5c4e34f5f558505c1ce86f2b"), 
   "plantCategories" : [
       "herbs"
   ], 
@@ -10153,9 +10176,10 @@ const plantSeed = [
 },
 // ----------------------------------------------
 { 
+  "_id" : ObjectId("5c4e34f5f558505c1ce86f6b"), 
   "plantCategories" : [
       "herbs", 
-      "flowers"
+      "Flowers"
   ], 
   "plantClass" : [
       "Lavender", 
@@ -10200,6 +10224,7 @@ const plantSeed = [
 },
 // ----------------------------------------------
 { 
+  "_id" : ObjectId("5c4e34f5f558505c1ce86f1f"), 
   "plantCategories" : [
       "herbs"
   ], 
