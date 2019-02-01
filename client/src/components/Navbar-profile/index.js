@@ -18,6 +18,7 @@ function NavbarProfile(props) {
                 <Navbar className="top-nav brand-logo blue-grey darken-2" brand={<Link to="/" className="brand-logo">GardenBuddy</Link>} right>
                     <NavItem>
                         <Dropdown 
+                            options={{hover: true}}
                             trigger={<Button className="transparent">Departments</Button>}>
                                 <Link to="/flowers"><NavItem>Flowers</NavItem></Link>
                                 <NavItem divider />

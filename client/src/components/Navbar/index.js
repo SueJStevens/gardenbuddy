@@ -80,6 +80,7 @@ class NavBar extends Component {
 
                         <NavItem>
                             <Dropdown 
+                                options={{hover: true}}
                                 trigger={<Button className="transparent">Departments</Button>}>
                                     <Link to="/flowers"><NavItem>Flowers</NavItem></Link>
                                     <NavItem divider />

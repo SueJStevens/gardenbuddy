@@ -37,9 +37,11 @@ class HerbsDepartment extends React.Component {
 
     render() {
         return(
-            <div>
+            <div className="row">
+                <div className="plant-card-container">
                 {this.state.herbs.map(herbs => (
                     <PlantCards 
+                        className="col l3 plant-card"
                         commonName={herbs.commonName}
                         photo={herbs.photoURL}
                         zones={herbs.zone}
@@ -47,6 +49,7 @@ class HerbsDepartment extends React.Component {
                     />
                     // console.log(herbs)
                 ))}
+                </div>
                 <Pagination items={10} activePage={1} maxButtons={8} />
             </div>
         );

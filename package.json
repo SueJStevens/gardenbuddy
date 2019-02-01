@@ -43,6 +43,7 @@
     "fullcalendar-scheduler": "^1.9.4",
     "if-env": "^1.0.4",
     "jquery": "^3.3.1",
+    "masonry-layout": "^4.2.2",
     "moment": "^2.24.0",
     "mongoose": "^5.3.16",
     "passport": "^0.4.0",
