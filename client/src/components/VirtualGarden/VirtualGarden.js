@@ -2,7 +2,7 @@ import React from "react";
 import sample_plants  from "./sample_plants.json";
 import VirtualPlant from "../VirtualPlant";
 //import Wrapper from "../Wrapper";
-import {Row, Col} from "react-materialize";
+import {Row, Col, Toast} from "react-materialize";
 
 const moment = require('moment');
 
@@ -66,6 +66,12 @@ class VirtualGarden extends React.Component {
 		this.setState( { my_plants : plantList } );
 	}
 
+	/**
+	 * @function: wateringDone
+	 * This is the callback function invoked when the user marks a 
+	 * virtual plant as 'watered'.
+	 * 
+	 */
 	wateringDone = (plantName) => {
 		let my_plants_updated = this.state.my_plants;
 
@@ -79,7 +85,11 @@ class VirtualGarden extends React.Component {
 
 		my_plants_updated[index].lastWatered = moment().format("YYYY-MM-DD");
 
-		this.sortPlants(my_plants_updated);
+		// Todo: Make API Call to back-end
+		// API.put()
+		window.Materialize.toast(`${plantName} has been watered`, 1000, 'watered-success-toast', () => this.sortPlants(my_plants_updated));
+
+		//this.sortPlants(my_plants_updated);
 	}
 
 	/**
@@ -91,10 +101,10 @@ class VirtualGarden extends React.Component {
 		console.log("Rendering virtual garden");
     return (
 				<Row>
-					{this.state.my_plants.map((plant, index) => (
+					{this.state.my_plants.map( (plant, index) => (
 						<Col s={12} m={10} l={4} className="offset-m1">
 							<VirtualPlant
-								key={index}
+								key={index.toString()}
 								plantImage={plant.image}
 								plantName={plant.name}
 								lastWatered={plant.lastWatered}
