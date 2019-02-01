@@ -7,7 +7,6 @@ function NewComerIns(props) {
     return(
         <div className="instruction">
             <hr />
-            {/* <h3>New here? No worries.</h3> */}
             <h5><b>New here? </b>Here are some steps to get you started...</h5>
             <Modal
                 header='Follow the steps to find out suitable plants to grow'

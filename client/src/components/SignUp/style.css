@@ -2,3 +2,9 @@
     margin: 0 !important;
     padding: 0 !important;
 }
+
+.modal {
+    padding: 30px;
+    padding-left: 40px;
+    padding-right: 40px;
+}

@@ -10,7 +10,8 @@ function Login(props) {
         <Modal
             header='Login To Garden Buddy'
             // bottomSheet
-            trigger={<span style={{ fontWeight: "bold" }}>Login</span>}>
+            trigger={<span style={{ fontWeight: "bold" }}>Login</span>}
+            className="yellow lighten-5">
             <label for="email">Email</label>
             <input id="email" type="email" placeholder="Email"></input>
             <label for="password">Password</label>

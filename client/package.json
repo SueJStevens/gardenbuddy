@@ -1,8 +1,8 @@
 {
   "name": "gardenbuddy-private",
   "version": "0.1.0",
-  "private": true,
   "proxy": "http://localhost:3001/",
+  "private": true,
   "dependencies": {
     "react": "^16.7.0",
     "react-dom": "^16.7.0",

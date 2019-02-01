@@ -32,7 +32,7 @@ var plantSchema = new Schema({
     FoodUse: String,
     GrowthHabit: String,
     Genus: String,
-    AdditionalUses: String  
+    AdditionalUses: String
   },
   zone: String,
   zones: [String],

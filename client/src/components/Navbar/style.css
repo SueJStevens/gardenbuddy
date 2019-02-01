@@ -15,3 +15,7 @@ a.brand-logo {
     box-shadow: none;
     z-index: 9999;
 }
+
+Button.transparent {
+    box-shadow: none;
+}
