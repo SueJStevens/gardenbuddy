@@ -1932,7 +1932,7 @@ const plantSeed = [
   {
     "plantCategories": [
       "vegetables",
-      "fruit"
+      "fruits"
     ],
     "plantClass": [
       "Watermelon"
@@ -9960,7 +9960,7 @@ const plantSeed = [
 { 
   "plantCategories" : [
       "herbs", 
-      "Flowers"
+      "flowers"
   ], 
   "plantClass" : [
       "Lavender"
@@ -10155,7 +10155,7 @@ const plantSeed = [
 { 
   "plantCategories" : [
       "herbs", 
-      "Flowers"
+      "flowers"
   ], 
   "plantClass" : [
       "Lavender", 
