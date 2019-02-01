@@ -1,6 +1,7 @@
 const express = require("express");
 const router = express.Router();
 const User = require("../../models/user");
+const db = require("../../models");
 const passport = require("../../config/passport");
 
 // this route is just used to get the user basic info
@@ -61,7 +62,7 @@ router.post("/signup", (req, res) => {
   } = req.body;
   // ADD VALIDATION
   User.find({ email: email }, (err, userMatch) => {
-    if (userMatch) {
+    if (!userMatch) {
       return res.json({
         error: `Sorry, already a user with the email: ${email}`
       });
@@ -77,7 +78,7 @@ router.post("/signup", (req, res) => {
       st: st,
       aboutme: aboutme
     });
-    newUser.save((err, savedUser) => {
+    db.User.insert(newUser, function(err, data) {
       if (err) {
         return res.json(err);
       }
