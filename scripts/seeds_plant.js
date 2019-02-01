@@ -8931,7 +8931,6 @@ const plantSeed = [
 },
 // ----------------------------------------------
 { 
-  "_id" : ObjectId("5c4e34f5f558505c1ce86f21"), 
   "plantCategories" : [
       "herbs"
   ], 
@@ -8998,7 +8997,6 @@ const plantSeed = [
 },
 // ----------------------------------------------
 { 
-  "_id" : ObjectId("5c4e34f5f558505c1ce86f23"), 
   "plantCategories" : [
       "herbs"
   ], 
@@ -9062,7 +9060,6 @@ const plantSeed = [
 },
 // ----------------------------------------------
 { 
-  "_id" : ObjectId("5c4e34f5f558505c1ce86f14"), 
   "plantCategories" : [
       "herbs"
   ], 
@@ -9119,7 +9116,6 @@ const plantSeed = [
 },
 // ----------------------------------------------
 { 
-  "_id" : ObjectId("5c4e34f5f558505c1ce86f15"), 
   "plantCategories" : [
       "herbs"
   ], 
@@ -9178,7 +9174,6 @@ const plantSeed = [
 },
 // ----------------------------------------------
 { 
-  "_id" : ObjectId("5c4e34f5f558505c1ce86f16"), 
   "plantCategories" : [
       "herbs"
   ], 
@@ -9224,7 +9219,6 @@ const plantSeed = [
 },
 // ----------------------------------------------
 { 
-  "_id" : ObjectId("5c4e34f5f558505c1ce86f17"), 
   "plantCategories" : [
       "herbs"
   ], 
@@ -9270,7 +9264,6 @@ const plantSeed = [
 },
 // ----------------------------------------------
 { 
-  "_id" : ObjectId("5c4e34f5f558505c1ce86f18"), 
   "plantCategories" : [
       "herbs"
   ], 
@@ -9319,7 +9312,6 @@ const plantSeed = [
 },
 // ----------------------------------------------
 { 
-  "_id" : ObjectId("5c4e34f5f558505c1ce86f19"), 
   "plantCategories" : [
       "herbs"
   ], 
@@ -9369,7 +9361,6 @@ const plantSeed = [
 },
 // ----------------------------------------------
 { 
-  "_id" : ObjectId("5c4e34f5f558505c1ce86f1a"), 
   "plantCategories" : [
       "herbs"
   ], 
@@ -9421,7 +9412,6 @@ const plantSeed = [
 },
 // ----------------------------------------------
 { 
-  "_id" : ObjectId("5c4e34f5f558505c1ce86f1b"), 
   "plantCategories" : [
       "herbs"
   ], 
@@ -9472,7 +9462,6 @@ const plantSeed = [
 },
 // ----------------------------------------------
 { 
-  "_id" : ObjectId("5c4e34f5f558505c1ce86f1c"), 
   "plantCategories" : [
       "herbs"
   ], 
@@ -9517,7 +9506,6 @@ const plantSeed = [
 },
 // ----------------------------------------------
 { 
-  "_id" : ObjectId("5c4e34f5f558505c1ce86f1d"), 
   "plantCategories" : [
       "herbs"
   ], 
@@ -9572,7 +9560,6 @@ const plantSeed = [
 },
 // ----------------------------------------------
 { 
-  "_id" : ObjectId("5c4e34f5f558505c1ce86f1e"), 
   "plantAttributes" : {
       "AdditionalUses" : [
           "Container Plant, Fragrant"
@@ -9640,7 +9627,6 @@ const plantSeed = [
 },
 // ----------------------------------------------
 { 
-  "_id" : ObjectId("5c4e34f5f558505c1ce86f20"), 
   "plantCategories" : [
       "herbs"
   ], 
@@ -9699,7 +9685,6 @@ const plantSeed = [
 },
 // ----------------------------------------------
 { 
-  "_id" : ObjectId("5c4e34f5f558505c1ce86f22"), 
   "plantCategories" : [
       "herbs"
   ], 
@@ -9761,7 +9746,6 @@ const plantSeed = [
 },
 // ----------------------------------------------
 { 
-  "_id" : ObjectId("5c4e34f5f558505c1ce86f24"), 
   "plantCategories" : [
       "herbs"
   ], 
@@ -9816,7 +9800,6 @@ const plantSeed = [
 },
 // ----------------------------------------------
 { 
-  "_id" : ObjectId("5c4e34f5f558505c1ce86f25"), 
   "plantCategories" : [
       "herbs"
   ], 
@@ -9868,7 +9851,6 @@ const plantSeed = [
 },
 // ----------------------------------------------
 { 
-  "_id" : ObjectId("5c4e34f5f558505c1ce86f26"), 
   "plantCategories" : [
       "herbs"
   ], 
@@ -9924,7 +9906,6 @@ const plantSeed = [
 },
 // ----------------------------------------------
 { 
-  "_id" : ObjectId("5c4e34f5f558505c1ce86f27"), 
   "plantCategories" : [
       "herbs"
   ], 
@@ -9977,7 +9958,6 @@ const plantSeed = [
 },
 // ----------------------------------------------
 { 
-  "_id" : ObjectId("5c4e34f5f558505c1ce86f28"), 
   "plantCategories" : [
       "herbs", 
       "Flowers"
@@ -10020,7 +10000,6 @@ const plantSeed = [
 },
 // ----------------------------------------------
 { 
-  "_id" : ObjectId("5c4e34f5f558505c1ce86f29"), 
   "plantCategories" : [
       "herbs"
   ], 
@@ -10072,7 +10051,6 @@ const plantSeed = [
 },
 // ----------------------------------------------
 { 
-  "_id" : ObjectId("5c4e34f5f558505c1ce86f2a"), 
   "plantCategories" : [
       "herbs"
   ], 
@@ -10124,7 +10102,6 @@ const plantSeed = [
 },
 // ----------------------------------------------
 { 
-  "_id" : ObjectId("5c4e34f5f558505c1ce86f2b"), 
   "plantCategories" : [
       "herbs"
   ], 
@@ -10176,7 +10153,6 @@ const plantSeed = [
 },
 // ----------------------------------------------
 { 
-  "_id" : ObjectId("5c4e34f5f558505c1ce86f6b"), 
   "plantCategories" : [
       "herbs", 
       "Flowers"
@@ -10224,7 +10200,6 @@ const plantSeed = [
 },
 // ----------------------------------------------
 { 
-  "_id" : ObjectId("5c4e34f5f558505c1ce86f1f"), 
   "plantCategories" : [
       "herbs"
   ], 
