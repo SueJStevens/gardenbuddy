@@ -11,7 +11,6 @@ export default {
   },
   // Gets the plants with the given category
   getCategory: function(category) {
-    console.log(category);
     return axios.get("/api/plants/category/" + category);
   },
   // Deletes the plant with the given id

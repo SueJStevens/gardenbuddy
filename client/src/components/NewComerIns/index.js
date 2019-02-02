@@ -21,6 +21,7 @@ function NewComerIns(props) {
                             <option value='herbs'>Herbs</option>
                         </Input>
                     </Row>
+                    <Button waves='light' className="amber darken-2">Search</Button>
                     <h5 id="result">Checkout them out here!</h5>
                     <div className="results"></div>
             </Modal>

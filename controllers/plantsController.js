@@ -3,8 +3,6 @@ const db = require("../models");
 // Defining methods for the plantsController
 module.exports = {
   findAll: function(req, res) {
-    console.log("wats uppppp");
-    console.log(req.query, "hereerreeee");
     db.Plant.find(req.query)
       .sort({ commonName: 1, variety: 1 })
       .then(dbModel => res.json(dbModel))
@@ -16,7 +14,6 @@ module.exports = {
       .catch(err => res.status(422).json(err));
   },
   findByCategory: function(req, res) {
-    console.log("yoyoyoyoyoyyooyoyo");
     db.Plant.find({ plantCategories: req.params.category })
       .sort({ commonName: 1, variety: 1 })
       .then(dbModel => res.json(dbModel))
