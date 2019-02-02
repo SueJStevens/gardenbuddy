@@ -1,8 +1,7 @@
 import React from "react";
 import sample_plants  from "./sample_plants.json";
 import VirtualPlant from "../VirtualPlant";
-//import Wrapper from "../Wrapper";
-import {Row, Col, Toast} from "react-materialize";
+import {Row, Col } from "react-materialize";
 
 const moment = require('moment');
 

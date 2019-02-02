@@ -1,0 +1,10 @@
+.plant-card-container {
+    break-inside: avoid;
+    display: inline-block;
+    overflow: visible;
+}
+
+.plant-card {
+    display: inline-block;
+    overflow: visible;
+}

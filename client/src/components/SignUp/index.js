@@ -7,10 +7,10 @@ function SignUp(props) {
 
     // The render method returns the JSX that should be rendered
     return (
-        <Modal className="container"
+        <Modal
             header='Sign Up for Garden Buddy'
             trigger={<span>Register</span>}
-            className="yellow lighten-5">
+            className="yellow lighten-5 container">
             <Row className="input-area">
                 <Col s={12}>
                     <p>Please fill out your info below:</p>
@@ -58,9 +58,9 @@ function SignUp(props) {
                     <input 
                         id="email-signup" 
                         type="email" 
-                        name="email"
+                        name="username"
                         onChange={props.onChange}
-                        value={props.email}>
+                        value={props.username}>
                     </input>
                 </div>
             </Row>
@@ -123,7 +123,7 @@ function SignUp(props) {
                     </input>
                 </div>
             </Row>
-            <Button onClick={props.handleSubmit} type="submit">Sign Up</Button>
+            <Button onClick={props.handleSignup} type="submit">Sign Up</Button>
             </form>
         </Modal>
     );

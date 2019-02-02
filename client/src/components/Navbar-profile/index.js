@@ -3,8 +3,6 @@ import {Link} from "react-router-dom";
 import "./style.css";
 import { Navbar, NavItem, Dropdown, Button } from "react-materialize";
 import SideNavBar from "../SideNav";
-import Login from "../Login";
-import SignUp from "../SignUp";
 
 
 // By extending the React.Component class, Counter inherits functionality from it
@@ -18,6 +16,7 @@ function NavbarProfile(props) {
                 <Navbar className="top-nav brand-logo blue-grey darken-2" brand={<Link to="/" className="brand-logo">GardenBuddy</Link>} right>
                     <NavItem>
                         <Dropdown 
+                            options={{hover: true}}
                             trigger={<Button className="transparent">Departments</Button>}>
                                 <Link to="/flowers"><NavItem>Flowers</NavItem></Link>
                                 <NavItem divider />

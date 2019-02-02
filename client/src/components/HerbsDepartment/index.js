@@ -1,7 +1,7 @@
 import React from "react";
 import API from "../../utils/API";
 import PlantCards from "../PlantCards";
-import {Pagination, Col} from "react-materialize";
+import { Pagination, Col } from "react-materialize";
 
 class HerbsDepartment extends React.Component {
     state = {
@@ -24,7 +24,7 @@ class HerbsDepartment extends React.Component {
 
     setHerbs(data) {
 
-        this.setState({herbs: data});
+        this.setState({ herbs: data });
 
     }
 
