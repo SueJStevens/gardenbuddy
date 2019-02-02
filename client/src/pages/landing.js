@@ -7,6 +7,7 @@ import BodyWraper from "../components/BodyWrapper";
 import Greeting from "../components/Greeting";
 import BodyContent from "../components/BodyContent";
 import FooterDiv from "../components/Footer";
+import NewComerIns from "../components/NewComerIns";
 
 
 class Landing extends Component {
@@ -16,6 +17,7 @@ class Landing extends Component {
         <Jumbotron>
           <Navbar />
           <Greeting lineOne="Hello there," lineTwo="Welcome to GardenBuddy!"/>
+          <NewComerIns />
         </Jumbotron>
         <BodyWraper>
           <BodyContent />

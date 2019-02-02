@@ -10,7 +10,7 @@ function SearchBar(props) {
                 <div className="input-field">
                     <i className="material-icons prefix">search</i>
                     <input id="icon_prefix" type="text" class="validate" />
-                    <label for="icon_prefix">What are you looking for?</label>
+                    <label for="icon_prefix">Enter zip code</label>
                 </div>
             </form>
     );

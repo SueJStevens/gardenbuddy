@@ -9,6 +9,10 @@ export default {
   getPlant: function(id) {
     return axios.get("/api/plants/" + id);
   },
+  // Gets the plants with the given category
+  getCategory: function(category) {
+    return axios.get("/api/plants/category/" + category);
+  },
   // Deletes the plant with the given id
   deletePlant: function(id) {
     return axios.delete("/api/plants/" + id);

@@ -6,13 +6,12 @@ import SearchBar from "../SearchBar";
 function NewComerIns(props) {
     return(
         <div className="instruction">
-            <hr />
-            <h5><b>New here? </b>Here are some steps to get you started...</h5>
             <Modal
                 header='Follow the steps to find out suitable plants to grow'
                 bottomSheet
-                trigger={<Button waves="light" className="amber darken-1">Start</Button>}
+                trigger={<Button waves="light" className="amber darken-1">Click to start</Button>}
                 className="yellow lighten-5">
+                    <SearchBar />
                     <Row>
                         <Input s={12} type='select' label="Choose a category" defaultValue='2'>
                             <option defaultValue='default'>Select One</option>
@@ -22,7 +21,7 @@ function NewComerIns(props) {
                             <option value='herbs'>Herbs</option>
                         </Input>
                     </Row>
-                    <SearchBar />
+                    <Button waves='light' className="amber darken-2">Search</Button>
                     <h5 id="result">Checkout them out here!</h5>
                     <div className="results"></div>
             </Modal>
