@@ -5,7 +5,6 @@ import {Link} from "react-router-dom";
 
 // By extending the React.Component class, Counter inherits functionality from it
 function ProfileSelector(props) {
-    console.log(props.children);
 
     // The render method returns the JSX that should be rendered
     return (
