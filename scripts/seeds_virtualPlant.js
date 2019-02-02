@@ -9,7 +9,7 @@ mongoose.connect(
 );
 
 //Delete Records
-db.VirtualPlant.deleteMany({});
+db.VirtualPlant.collection.deleteMany({});
 
 //get the user 'Sue'
 let UserSue = "";
@@ -17,7 +17,7 @@ let virtualPlantSeed_Sue = "";
 db.User.find({ "email": "StevensStock@gmail.com" }, { "_id": 1 })
   .then(data => {
     data.forEach((item, index) => {
-      UserSue = item._id;
+      UserSue = item._id.toString();
       virtualPlantSeed_Sue = [
         {
           name: "Rock Garden Basil",
@@ -50,7 +50,8 @@ let virtualPlantSeed_Ramish = "";
 db.User.find({ "email": "narasimhan.ramesh5@gmail.com" }, { "_id": 1 })
   .then(data => {
     data.forEach((item, index) => {
-      UserRamish = item._id;
+      UserRamish = item._id.toString();
+      console.log("Ramesh's ID is " + UserRamish);
       virtualPlantSeed_Ramish = [
         {
           name: "Carrot Plant 1",
