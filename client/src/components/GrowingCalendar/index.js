@@ -7,6 +7,9 @@ import "fullcalendar-reactwrapper";
 
 export default class GrowingCalendar extends Component {
  
+    state = {
+      
+    }
     componentDidMount() {
         
         $(function() {
