@@ -6,7 +6,6 @@ import Wrapper from "../components/Wrapper";
 import BodyWraper from "../components/BodyWrapper";
 import Greeting from "../components/Greeting";
 import FooterDiv from "../components/Footer";
-import DepartmentContent from "../components/DepartmentContent";
 import HerbsDepartment from "../components/HerbsDepartment";
 
 
@@ -20,9 +19,7 @@ class Herbs extends Component {
           {/* lineTwo='"Ounce for ounce, herbs and spices have more antioxidants than any other food group." - Michael Greger' */}
         </Jumbotron>
         <BodyWraper>
-            <DepartmentContent>
-                <HerbsDepartment />
-            </DepartmentContent>
+          <HerbsDepartment />
         </BodyWraper>
         <FooterDiv />
       </Wrapper>

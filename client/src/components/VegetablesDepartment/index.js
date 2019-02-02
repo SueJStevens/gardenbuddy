@@ -33,6 +33,7 @@ class VegeDepartment extends React.Component {
                 this.state.veges.map(item => (
                     <Col s={12} m={10} l={4}>
                         <PlantCards
+                            key={item._id}
                             id={item._id} 
                             commonName={item.commonName}
                             photo={item.photoURL}
