@@ -14,7 +14,7 @@ class NavBar extends Component {
     constructor() {
         super()
         this.state = {
-            email: "",
+            username: "",
             password: "",
             phone: "",
             firstName: "",
@@ -25,23 +25,22 @@ class NavBar extends Component {
             aboutme: "",
             redirectTo: null
         }
-        this.handleSubmit = this.handleSubmit.bind(this)
+        this.handleSignup = this.handleSignup.bind(this)
+        this.handleLogin = this.handleLogin.bind(this)
         this.handleChange = this.handleChange.bind(this)
     }
 
     handleChange(event) {
-        // console.log("changed");
-        console.log(this.state);
         this.setState({
             [event.target.name]: event.target.value
         })
     }
-    handleSubmit(event) {
+    handleSignup(event) {
         event.preventDefault()
         // TODO - validate!
-        axios.post('/auth/signup', {
+        axios.post("/auth/signup", {
             password: this.state.password,
-            email: this.state.email,
+            username: this.state.username,
             phone: this.state.phone,
             firstName: this.state.firstName,
             lastName: this.state.lastName,
@@ -53,22 +52,22 @@ class NavBar extends Component {
         })
             .then(response => {
                 console.log(response)
-                if (!response.data.errmsg) {
-                    console.log('youre good')
-                    this.setState({
-                        redirectTo: '/profile'
-                    })
-                } else {
-                    console.log('duplicate')
-                }
             })
+    }
+
+    handleLogin(event) {
+        event.preventDefault();
+
+        axios.post("auth/login", {
+            username: this.state.username,
+            password: this.state.password
+        }).then( response => {
+            console.log()
+        })
     }
 
     render() {
 
-        if (this.state.redirectTo) {
-            return <Redirect to={{ pathname: this.state.redirectTo }} />
-        }
         // The render method returns the JSX that should be rendered
         return (
             <wrapper className="nav-wrapper">
@@ -93,10 +92,17 @@ class NavBar extends Component {
                         </NavItem>
 
                         <NavItem className="blue-grey darken-3" style={{ fontWeight: "bold" }}><Link to="/teamprofile">Our Team</Link></NavItem>
-                        <NavItem className="amber"><Login /></NavItem>
+                        <NavItem className="amber">
+                            <Login 
+                                username={this.state.username}
+                                password={this.state.password}
+                                onChange={this.handleChange}
+                                handleLogin={this.handleLogin}
+                            />
+                        </NavItem>
                         <NavItem className="blue-grey darken-4">
                             <SignUp
-                                email={this.state.email}
+                                username={this.state.username}
                                 password={this.state.password}
                                 phone={this.state.phone}
                                 firstName={this.state.firstName}
@@ -106,7 +112,7 @@ class NavBar extends Component {
                                 st={this.state.st}
                                 aboutme={this.state.aboutme}
                                 onChange={this.handleChange}
-                                handleSubmit={this.handleSubmit}
+                                handleSignup={this.handleSignup}
                             />
                         </NavItem>
                         <NavItem><SideNavBar/></NavItem>

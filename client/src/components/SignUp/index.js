@@ -58,9 +58,9 @@ function SignUp(props) {
                     <input 
                         id="email-signup" 
                         type="email" 
-                        name="email"
+                        name="username"
                         onChange={props.onChange}
-                        value={props.email}>
+                        value={props.username}>
                     </input>
                 </div>
             </Row>
@@ -123,7 +123,7 @@ function SignUp(props) {
                     </input>
                 </div>
             </Row>
-            <Button onClick={props.handleSubmit} type="submit">Sign Up</Button>
+            <Button onClick={props.handleSignup} type="submit">Sign Up</Button>
             </form>
         </Modal>
     );
