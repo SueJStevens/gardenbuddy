@@ -7,6 +7,9 @@ router
   .get(plantsController.findAll)
   .post(plantsController.create);
 
+// Matches with "/api/plants/:category"
+router.route("/category/:category").get(plantsController.findByCategory);
+
 // Matches with "/api/plants/:id"
 router
   .route("/:id")

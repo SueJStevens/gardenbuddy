@@ -1,53 +1,62 @@
 import React from "react";
 import API from "../../utils/API";
 import PlantCards from "../PlantCards";
-import {Pagination} from "react-materialize";
+import {Pagination, Col} from "react-materialize";
 
 class FlowerDepartment extends React.Component {
     state = {
-        flowers: []
+        flowers: [],
+        activePage: "",
+        pageItem: ""
     };
 
     componentDidMount() {
-        this.loadFlowers();
+        let category = "flowers";
+        this.loadFlowers(category);
     }
 
-    loadFlowers() {
-        API.getPlants()
+    loadFlowers(category) {
+        API.getCategory(category)
             .then(res => {
-                // console.log(res.data)
-                this.filterForFlower(res.data);
+                // console.log(res.data);
+                this.setFlower(res.data);
             })
             .catch(err => console.log(err));
     }
 
-    filterForFlower(data) {
+    setFlower(data) {
+        this.setState({flowers: data});
+    }
 
-        let flowers = [];
+    setActivePage(pageNum) {
+        this.setState({activePage: pageNum});
+    }
 
-        for(var i=0; i<150; i++) {
-            if(data[i].plantCategories[0] === "flowers") {
-                flowers.push(data[i]);
-            }
-        }
-        console.log(flowers);
-        this.setState({flowers: flowers});
-
+    setPageItem() {
+        let pageItem = Math.ceil(this.state.flowers.length / 16);
+        console.log(pageItem);
+        this.setState({pageItem: pageItem});
     }
 
     render() {
         return(
-            <div>
-                {this.state.flowers.map(flower => (
-                    <PlantCards 
-                        commonName={flower.commonName}
-                        photo={flower.photoURL}
-                        zones={flower.zone}
-                        plantDetails={flower.plantAttrURL}
-                    />
-                    // console.log(flower)
-                ))}
-                <Pagination items={10} activePage={1} maxButtons={8} />
+            <div className="content">
+                <div className="row">
+                    {this.state.flowers.map(item => (
+                        <Col s={12} m={10} l={4}>
+                            <PlantCards
+                                id={item._id} 
+                                commonName={item.commonName}
+                                photo={item.photoURL}
+                                zones={item.zone}
+                                plantDetails={item.plantAttrURL}
+                                variety={item.variety}
+                                category={item.plantCategories[0]}
+                            />
+                        </Col>
+                    ))}
+                </div>
+                <Pagination items={this.setPageItem} activePage={1} maxButtons={8} />
             </div>
         );
     }

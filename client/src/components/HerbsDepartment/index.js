@@ -1,7 +1,7 @@
 import React from "react";
 import API from "../../utils/API";
 import PlantCards from "../PlantCards";
-import {Pagination} from "react-materialize";
+import { Pagination, Col } from "react-materialize";
 
 class HerbsDepartment extends React.Component {
     state = {
@@ -9,49 +9,40 @@ class HerbsDepartment extends React.Component {
     };
 
     componentDidMount() {
-        this.loadHerbs();
+        let category = "herbs";
+        this.loadHerbs(category);
     }
 
-    loadHerbs() {
-        API.getPlants()
+    loadHerbs(category) {
+        API.getCategory(category)
             .then(res => {
-                // console.log(res.data)
-                this.filterForHerbs(res.data);
+                // console.log(res.data);
+                this.setHerbs(res.data);
             })
             .catch(err => console.log(err));
     }
 
-    filterForHerbs(data) {
+    setHerbs(data) {
 
-        let herbs = [];
-
-        for(var i=0; i<150; i++) {
-            if(data[i].plantCategories[0] === "herbs") {
-                herbs.push(data[i]);
-            }
-        }
-        console.log(herbs);
-        this.setState({herbs: herbs});
+        this.setState({ herbs: data });
 
     }
 
     render() {
-        return(
-            <div className="row">
-                <div className="plant-card-container">
-                {this.state.herbs.map(herbs => (
-                    <PlantCards 
-                        className="col l3 plant-card"
-                        commonName={herbs.commonName}
-                        photo={herbs.photoURL}
-                        zones={herbs.zone}
-                        plantDetails={herbs.plantAttrURL}
+        return (
+            this.state.herbs.map(item => (
+                <Col s={12} m={10} l={4}>
+                    <PlantCards
+                        id={item._id}
+                        commonName={item.commonName}
+                        photo={item.photoURL}
+                        zones={item.zone}
+                        plantDetails={item.plantAttrURL}
+                        variety={item.variety}
+                        category={item.plantCategories[0]}
                     />
-                    // console.log(herbs)
-                ))}
-                </div>
-                <Pagination items={10} activePage={1} maxButtons={8} />
-            </div>
+                </Col>
+            ))
         );
     }
 }
