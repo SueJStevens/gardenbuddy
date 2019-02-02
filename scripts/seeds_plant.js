@@ -1701,7 +1701,7 @@ const plantSeed = [
     "variety": "Shallots, Dutch Yellow",
     "plantAttrURL": "https://www.burpee.com/vegetables/shallots/shallots-dutch-yellow-prod000890.html",
     "zone": "3-11",
-    "photoURL": "https://en.wikipedia.org/wiki/Shallot#/media/File:Shallots_-_sliced_and_whole.jpg",
+    "photoURL": "https://upload.wikimedia.org/wikipedia/commons/2/22/Shallots_-_sliced_and_whole.jpg",
     "plantAttributes": {
       "DaysToMaturity": "90-120 days",
       "FruitSize": "2 inches",
@@ -1932,7 +1932,7 @@ const plantSeed = [
   {
     "plantCategories": [
       "vegetables",
-      "fruit"
+      "fruits"
     ],
     "plantClass": [
       "Watermelon"
@@ -4811,7 +4811,7 @@ const plantSeed = [
     "variety": "Mangave, Mayan Queen",
     "plantAttrURL": "https://www.burpee.com/perennials/succulents/mangave-mayan-queen-prod500508.html",
     "zone": "5-11",
-    "photoURL": "https://lh3.ggpht.com/-v8OlmGQSQl4/VD7xoXKXukI/AAAAAAABCyw/7qPSJcUnDSU/s1600-h/141011_Mangave-Bloodspot_001%25255B3%25255D.jpg",
+    "photoURL": "https://cdn.shopify.com/s/files/1/1527/8799/products/Mangave-Mayan-Queen-PPAF.i-13184.s-65021.r-1_1024x1024.jpg?v=1546882858",
     "plantAttributes": {
       "Sun": "Full Sun",
       "Height": "10-12 inches",
@@ -7626,7 +7626,7 @@ const plantSeed = [
     "variety": "Portulaca, Sundial Hybrid Mix",
     "plantAttrURL": "https://www.burpee.com/flowers/portulaca/portulaca-sundial-hybrid-mix-prod000348.html",
     "zone": "3-11",
-    "photoURL": "https://en.wikipedia.org/wiki/Portulaca#/media/File:Portulaca_amilis.jpg",
+    "photoURL": "https://upload.wikimedia.org/wikipedia/commons/2/21/Portulaca_amilis.jpg",
     "plantAttributes": {
       "Sun": "Full Sun",
       "Height": "4-6 inches",
@@ -8804,7 +8804,7 @@ const plantSeed = [
     "variety" : "Grape, Hope Seedless", 
     "plantAttrURL" : "https://www.burpee.com/fruit/grapes/grape-hope-seedless-prod003494.html", 
     "zone" : "5-6", 
-    "photoURL" : "https://en.wikipedia.org/wiki/Grape#/media/File:Abhar-iran.JPG", 
+    "photoURL" : "https://upload.wikimedia.org/wikipedia/commons/6/6c/Abhar-iran.JPG", 
     "plantAttributes" : {
         "Sun" : "Full Sun", 
         "Height" : "48-72 inches", 
@@ -9960,7 +9960,7 @@ const plantSeed = [
 { 
   "plantCategories" : [
       "herbs", 
-      "Flowers"
+      "flowers"
   ], 
   "plantClass" : [
       "Lavender"
@@ -10155,7 +10155,7 @@ const plantSeed = [
 { 
   "plantCategories" : [
       "herbs", 
-      "Flowers"
+      "flowers"
   ], 
   "plantClass" : [
       "Lavender", 
