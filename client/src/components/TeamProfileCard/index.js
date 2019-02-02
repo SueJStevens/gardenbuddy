@@ -1,6 +1,6 @@
 import React from "react";
 import "./style.css";
-import { Card, CardTitle } from "react-materialize";
+// import { Card, CardTitle } from "react-materialize";
 
 function TeamProfileCard(props) {
     return(

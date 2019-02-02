@@ -1,7 +1,7 @@
 import React from "react";
 import API from "../../utils/API";
 import PlantCards from "../PlantCards";
-import {Pagination, Col} from "react-materialize";
+import { Col } from "react-materialize";
 
 class VegeDepartment extends React.Component {
     state = {

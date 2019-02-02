@@ -7,10 +7,10 @@ function SignUp(props) {
 
     // The render method returns the JSX that should be rendered
     return (
-        <Modal className="container"
+        <Modal
             header='Sign Up for Garden Buddy'
             trigger={<span>Register</span>}
-            className="yellow lighten-5">
+            className="yellow lighten-5 container">
             <Row className="input-area">
                 <Col s={12}>
                     <p>Please fill out your info below:</p>
