@@ -3,13 +3,22 @@ const db = require("../models");
 // Defining methods for the plantsController
 module.exports = {
   findAll: function(req, res) {
+    console.log("wats uppppp");
+    console.log(req.query, "hereerreeee");
     db.Plant.find(req.query)
-      .sort({ date: -1 })
+      .sort({ commonName: 1, variety: 1 })
       .then(dbModel => res.json(dbModel))
       .catch(err => res.status(422).json(err));
   },
   findById: function(req, res) {
     db.Plant.findById(req.params.id)
+      .then(dbModel => res.json(dbModel))
+      .catch(err => res.status(422).json(err));
+  },
+  findByCategory: function(req, res) {
+    console.log("yoyoyoyoyoyyooyoyo");
+    db.Plant.find({ plantCategories: req.params.category })
+      .sort({ commonName: 1, variety: 1 })
       .then(dbModel => res.json(dbModel))
       .catch(err => res.status(422).json(err));
   },

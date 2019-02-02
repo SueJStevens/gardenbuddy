@@ -1,7 +1,7 @@
 import React from "react";
 import API from "../../utils/API";
 import PlantCards from "../PlantCards";
-import {Pagination} from "react-materialize";
+import {Pagination, Col} from "react-materialize";
 
 class VegeDepartment extends React.Component {
     state = {
@@ -9,46 +9,40 @@ class VegeDepartment extends React.Component {
     };
 
     componentDidMount() {
-        this.loadVeges();
+        let category = "vegetables";
+        this.loadVegetables(category);
     }
 
-    loadVeges() {
-        API.getPlants()
+    loadVegetables(category) {
+        API.getCategory(category)
             .then(res => {
-                // console.log(res.data)
-                this.filterForVeges(res.data);
+                // console.log(res.data);
+                this.setVegetables(res.data);
             })
             .catch(err => console.log(err));
     }
 
-    filterForVeges(data) {
+    setVegetables(data) {
 
-        let veges = [];
-
-        for(var i=0; i<150; i++) {
-            if(data[i].plantCategories[0] === "herbs") {
-                veges.push(data[i]);
-            }
-        }
-        console.log(veges);
-        this.setState({veges: veges});
+        this.setState({veges: data});
 
     }
 
     render() {
         return(
-            <div>
-                {this.state.veges.map(veges => (
-                    <PlantCards 
-                        commonName={veges.commonName}
-                        photo={veges.photoURL}
-                        zones={veges.zone}
-                        plantDetails={veges.plantAttrURL}
-                    />
-                    // console.log(veges)
-                ))}
-                <Pagination items={10} activePage={1} maxButtons={8} />
-            </div>
+                this.state.veges.map(item => (
+                    <Col s={12} m={10} l={4}>
+                        <PlantCards
+                            id={item._id} 
+                            commonName={item.commonName}
+                            photo={item.photoURL}
+                            zones={item.zone}
+                            plantDetails={item.plantAttrURL}
+                            variety={item.variety}
+                            category={item.plantCategories[0]}
+                        />
+                    </Col>
+                ))
         );
     }
 }
