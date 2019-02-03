@@ -3,7 +3,7 @@ import moment from "moment";
 import $ from 'jquery';
 import 'fullcalendar';
 import 'fullcalendar-scheduler';
-import FullCalendar from 'fullcalendar-reactwrapper';
+// import FullCalendar from 'fullcalendar-reactwrapper';
 
 export default class GrowingCalendar extends Component {
 
