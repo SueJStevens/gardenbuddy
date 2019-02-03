@@ -3,6 +3,8 @@ import sample_plants  from "./sample_plants.json";
 import VirtualPlant from "../VirtualPlant";
 import {Row, Col } from "react-materialize";
 
+import API from "../../utils/API";
+
 const moment = require('moment');
 
 /**
@@ -34,8 +36,12 @@ class VirtualGarden extends React.Component {
 		/************************************************************/
 		/* TODO : Call our backend API to get virtual garden plants */
 		/************************************************************/
-
-		this.sortPlants(sample_plants);
+		let userName = 'narasimhan.ramesh5@gmail.com';
+		API.getVirtualGarden(userName).then((res) => {
+			console.log("Here are the plants ");
+			console.log(res.data);
+			this.sortPlants(res.data);
+		});
 	}
 
 
@@ -48,6 +54,8 @@ class VirtualGarden extends React.Component {
 		plantList.forEach((plant) => {
 
 			let lastWateredDate = moment(plant.lastWatered);
+
+			console.log(`${plant.name} was last watered on ${plant.lastWatered}`);
 
 			/* Get the difference between last watered date and today */
 			let daysSinceLastWatered = today.diff(lastWateredDate, 'days');
@@ -67,7 +75,7 @@ class VirtualGarden extends React.Component {
 
 	/**
 	 * @function: wateringDone
-	 * This is the callback function invoked when the user marks a 
+	 * This is the callback function invoked when the user marks any 
 	 * virtual plant as 'watered'.
 	 * 
 	 */
@@ -109,7 +117,7 @@ class VirtualGarden extends React.Component {
 								lastWatered={plant.lastWatered}
 								daysOverdue={plant.daysOverdue}
 								wateringFrequency={plant.wateringFrequency}
-								handleWateringDone={this.wateringDone}
+								virtualGardenCallback={this.wateringDone}
 							/>
 						</Col>
 					))}
