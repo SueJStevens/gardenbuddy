@@ -13,7 +13,7 @@ class TeamProfile extends Component {
     return (
       <Wrapper>
         <Jumbotron>
-          <Navbar />
+          <Navbar user={this.props.user} onChange={this.props.onChange} handleLogin={this.props.handleLogin} handleSignup={this.props.handleSignup}/>
           <Greeting lineOne="Hey there," lineTwo="this is our BeLeaf team!" />
         </Jumbotron>
         <BodyWraper>

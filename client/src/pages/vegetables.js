@@ -13,7 +13,7 @@ class Vegetables extends Component {
     return (
       <Wrapper>
         <Jumbotron>
-          <Navbar />
+          <Navbar user={this.props.user} onChange={this.props.onChange} handleLogin={this.props.handleLogin} handleSignup={this.props.handleSignup}/>
           <Greeting lineOne="Vegetables" />
           {/* lineTwo='"Just living is not enough...one must have sunshine, freedom, and a little flower." - Hans Christian Andersen' */}
         </Jumbotron>
