@@ -1,3 +1,7 @@
 .plant-detail-body {
     background: #fffff3;
 }
+
+.plant-detail-body-row {
+    margin-top: 3vh;
+}

@@ -12,7 +12,7 @@ import "fullcalendar-reactwrapper";
 
 function PlantInformation(props) {
     return (
-            <Col l={8} m={9} s={12}>
+            <Col l={7} m={8} s={12}>
                 <Collapsible popout defaultActiveKey={0} accordion="false">
                     <CollapsibleItem className="plant-detail-option" header='Plant Details' icon={<i class="fas fa-info-circle"></i>}>
                         <PlantDetails />
