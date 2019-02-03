@@ -19,3 +19,9 @@ a.brand-logo {
 Button.transparent {
     box-shadow: none;
 }
+
+.nav-dropdown-menu a {
+    /* background: #fffff3 !important; */
+    color: #42504b !important;
+    /* text-decoration: none !important; */
+}
