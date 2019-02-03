@@ -20,6 +20,15 @@ export default {
   // Saves a plant to the database
   savePlant: function(plantData) {
     return axios.post("/api/plants", plantData);
+  },
+
+  //
+  // User Profile specific API routes 
+  //
+
+  // User's Virtual Garden
+  getVirtualGarden : function(userID) {
+    return axios.get("/api/profile/virtualgarden/" + userID)
   }
 
 };
