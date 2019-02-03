@@ -121,12 +121,12 @@ render() {
           <Route exact path="/" render={(props) => <Landing {...props} user={this.state} onChange={this.handleChange} handleLogin={this.handleLogin} handleSignup={this.handleSignup} />} />
           <Route exact path="/landing" render={(props) => <Landing {...props} user={this.state} onChange={this.handleChange} handleLogin={this.handleLogin} handleSignup={this.handleSignup} />} />
           <Route path="/profile" render={(props) => <Profile {...props} user={this.state}/>} />
-          <Route path="/teamprofile" component={TeamProfile} />
-          <Route path="/plantdetail" component={PlantDetail} />
-          <Route path="/flowers" component={Flowers} />
-          <Route path="/fruits" component={Fruits} />
-          <Route path="/vegetables" component={Vegetables} />
-          <Route path="/herbs" component={Herbs} />
+          <Route path="/teamprofile" render={(props) => <TeamProfile {...props} user={this.state} onChange={this.handleChange} handleLogin={this.handleLogin} handleSignup={this.handleSignup} />} />
+          <Route path="/plantdetail" render={(props) => <PlantDetail {...props} user={this.state} onChange={this.handleChange} handleLogin={this.handleLogin} handleSignup={this.handleSignup} />} />
+          <Route path="/flowers" render={(props) => <Flowers {...props} user={this.state} onChange={this.handleChange} handleLogin={this.handleLogin} handleSignup={this.handleSignup} />} />
+          <Route path="/fruits" render={(props) => <Fruits {...props} user={this.state} onChange={this.handleChange} handleLogin={this.handleLogin} handleSignup={this.handleSignup} />} />
+          <Route path="/vegetables" render={(props) => <Vegetables {...props} user={this.state} onChange={this.handleChange} handleLogin={this.handleLogin} handleSignup={this.handleSignup} />} />
+          <Route path="/herbs" render={(props) => <Herbs {...props} user={this.state} onChange={this.handleChange} handleLogin={this.handleLogin} handleSignup={this.handleSignup} />} />
         </Switch>
       </div>
     </Router>
