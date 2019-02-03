@@ -15,3 +15,9 @@ a.brand-logo {
     box-shadow: none;
     z-index: 9999;
 }
+
+.dropdown-content a {
+    /* background: #fffff3 !important; */
+    color: #42504b !important;
+    /* text-decoration: none !important; */
+}

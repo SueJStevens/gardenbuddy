@@ -22,6 +22,16 @@
     right:0 !important;
 }
 
+b,
+.plant-attributes {
+    font-size: 15px;
+    color: #334750;
+}
+
+.collapsible-header {
+    font-weight: bold;
+}
+
 .plant-option {
     background: white;
 }

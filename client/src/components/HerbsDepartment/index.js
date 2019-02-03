@@ -29,20 +29,23 @@ class HerbsDepartment extends React.Component {
     }
 
     render() {
-        return (
-            this.state.herbs.map(item => (
-                <Col s={12} m={10} l={4}>
-                    <PlantCards
-                        id={item._id}
-                        commonName={item.commonName}
-                        photo={item.photoURL}
-                        zones={item.zone}
-                        plantDetails={item.plantAttrURL}
-                        variety={item.variety}
-                        category={item.plantCategories[0]}
-                    />
-                </Col>
-            ))
+        return(
+            <div className="row">
+                {this.state.herbs.map(item => (
+                    <Col s={12} m={10} l={4}>
+                        <PlantCards
+                            key={item._id}
+                            id={item._id} 
+                            commonName={item.commonName}
+                            photo={item.photoURL}
+                            zones={item.zone}
+                            plantDetails={item.plantAttrURL}
+                            variety={item.variety}
+                            category={item.plantCategories[0]}
+                        />
+                    </Col>
+                ))}
+            </div>
         );
     }
 }

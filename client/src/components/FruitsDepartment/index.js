@@ -25,14 +25,18 @@ class FruitsDepartment extends React.Component {
     setFruit(data) {
 
         this.setState({fruits: data});
+        console.log(this.state.fruits);
+        console.log(typeof(this.state.fruits));
 
     }
 
     render() {
         return(
-                this.state.fruits.map(item => (
+            <div className="row">
+                {this.state.fruits.map(item => (
                     <Col s={12} m={10} l={4}>
                         <PlantCards
+                            key={item._id}
                             id={item._id} 
                             commonName={item.commonName}
                             photo={item.photoURL}
@@ -42,7 +46,8 @@ class FruitsDepartment extends React.Component {
                             category={item.plantCategories[0]}
                         />
                     </Col>
-                ))
+                ))}
+            </div>
         );
     }
 }
