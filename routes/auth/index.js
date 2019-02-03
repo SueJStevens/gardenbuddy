@@ -71,17 +71,10 @@ router.post("/signup", (req, res) => {
   );
 });
 
-router.post(
-  "/login",
-  passport.authenticate("local", {
-    session: true
-    // successRedirect: "/profile",
-    // failureRedirect: "/"
-  }),
-  (req, res) => {
-    console.log("Got POST /login, body is: ");
-    console.log(req.body);
-  }
-);
+router.post("/login", passport.authenticate("local"), (req, res) => {
+  console.log("Got POST /login, body is: ");
+  console.log(req.body);
+  res.json("Logged in Successfully");
+});
 
 module.exports = router;

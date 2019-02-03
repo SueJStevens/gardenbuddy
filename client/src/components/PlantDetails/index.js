@@ -43,7 +43,7 @@ class PlantDetails extends React.Component{
 
     render() {
         return (
-            <Collection>
+            <Collection className="plant-option">
                 <CollectionItem><b>Plant Categories:</b>  {this.state.item.plantCategories}</CollectionItem>
                 <CollectionItem><b>Plant Class:</b>  {this.state.item.plantClass}</CollectionItem>
                 <CollectionItem><b>Common Name:</b>  {this.state.item.commonName}</CollectionItem>

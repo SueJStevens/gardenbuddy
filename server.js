@@ -9,6 +9,7 @@ const LocalStrategy = require("passport-local").Strategy;
 const session = require("express-session");
 const cookieParser = require("cookie-parser");
 const User = require("./models/user");
+const flash = require("connect-flash");
 
 // Define middleware here
 app.use(express.urlencoded({ extended: true }));
@@ -26,6 +27,8 @@ mongoose.connect(
   process.env.MONGODB_URI || "mongodb://localhost/plantbuddy",
   { useNewUrlParser: true }
 );
+
+app.use(flash());
 
 passport.use(new LocalStrategy(User.authenticate()));
 passport.serializeUser(User.serializeUser());

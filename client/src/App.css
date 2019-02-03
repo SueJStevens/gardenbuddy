@@ -39,3 +39,9 @@
   background-size: contain;
 }
 
+.closeModal {
+  display: none;
+  opacity: 0;
+  background: transparent;
+  z-index:0 !important;
+}

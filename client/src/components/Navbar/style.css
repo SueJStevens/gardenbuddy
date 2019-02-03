@@ -13,9 +13,15 @@ a.brand-logo {
 
 .top-nav {
     box-shadow: none;
-    z-index: 9999;
+    /* z-index: 9999; */
 }
 
 Button.transparent {
     box-shadow: none;
+}
+
+.nav-dropdown-menu a {
+    /* background: #fffff3 !important; */
+    color: #42504b !important;
+    /* text-decoration: none !important; */
 }

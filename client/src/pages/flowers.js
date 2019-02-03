@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React, { Component } from 'react'; 
 import Navbar from "../components/Navbar";
 import Jumbotron from "../components/Jumbotron";
 import Wrapper from "../components/Wrapper";
@@ -12,7 +12,7 @@ class Flowers extends Component {
     return (
       <Wrapper>
         <Jumbotron>
-          <Navbar />
+          <Navbar user={this.props.user} onChange={this.props.onChange} handleLogin={this.props.handleLogin} handleSignup={this.props.handleSignup}/>
           <Greeting lineOne="Flowers" />
           {/* lineTwo='"Just living is not enough...one must have sunshine, freedom, and a little flower." - Hans Christian Andersen' */}
         </Jumbotron>
