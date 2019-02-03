@@ -118,9 +118,9 @@ render() {
     <Router>
       <div className="background">
         <Switch>
-          <Route exact path="/" render={(props) => <Landing {...props} user={this.state} onChange={this.handleChange} handleLogin={this.handleLogin} />} />
-          <Route exact path="/landing" render={(props) => <Landing {...props} user={this.state} onChange={this.handleChange} handleLogin={this.handleLogin} />} />
-          <Route path="/profile" render={(props) => <Profile {...props} user={this.state} onChange={this.handleChange} handleLogin={this.handleLogin} />} />
+          <Route exact path="/" render={(props) => <Landing {...props} user={this.state} onChange={this.handleChange} handleLogin={this.handleLogin} handleSignup={this.handleSignup} />} />
+          <Route exact path="/landing" render={(props) => <Landing {...props} user={this.state} onChange={this.handleChange} handleLogin={this.handleLogin} handleSignup={this.handleSignup} />} />
+          <Route path="/profile" render={(props) => <Profile {...props} user={this.state}/>} />
           <Route path="/teamprofile" component={TeamProfile} />
           <Route path="/plantdetail" component={PlantDetail} />
           <Route path="/flowers" component={Flowers} />

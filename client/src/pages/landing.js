@@ -14,7 +14,7 @@ class Landing extends Component {
     return (
       <Wrapper>
         <Jumbotron>
-          <Navbar user={this.props.user} onChange={this.props.onChange} handleLogin={this.props.handleLogin}/>
+          <Navbar user={this.props.user} onChange={this.props.onChange} handleSignup={this.props.handleSignup}/>
           <Greeting lineOne={`Hello there, ${this.props.user.firstName}`} lineTwo="Welcome to GardenBuddy!"/>
           <NewComerIns />
         </Jumbotron>

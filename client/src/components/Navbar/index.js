@@ -108,8 +108,8 @@ class NavBar extends Component {
                                 city={this.props.user.city}
                                 st={this.props.user.st}
                                 aboutme={this.props.user.aboutme}
-                                onChange={this.props.user.handleChange}
-                                handleSignup={this.props.user.handleSignup}
+                                onChange={this.props.onChange}
+                                handleSignup={this.props.handleSignup}
                             />
                         </NavItem>
                         <NavItem><SideNavBar/></NavItem>
