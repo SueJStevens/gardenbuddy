@@ -31,6 +31,7 @@
     "axios": "^0.18.0",
     "babel-eslint": "9.0.0",
     "bcrypt-nodejs": "^0.0.3",
+    "connect-flash": "^0.1.1",
     "cookie-parser": "^1.4.3",
     "eslint-config-react-app": "^3.0.6",
     "eslint-plugin-flowtype": "^3.2.1",
@@ -52,6 +53,7 @@
     "passport-local-mongoose": "^5.0.1",
     "prop-types": "^15.6.2",
     "react-materialize": "^2.6.0",
+    "sweetalert2": "^8.0.5",
     "twilio": "^3.27.1"
   }
 }

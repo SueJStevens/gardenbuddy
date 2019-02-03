@@ -13,7 +13,7 @@ a.brand-logo {
 
 .top-nav {
     box-shadow: none;
-    z-index: 9999;
+    /* z-index: 9999; */
 }
 
 Button.transparent {

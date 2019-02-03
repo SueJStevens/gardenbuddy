@@ -6,7 +6,8 @@ import { Navbar, NavItem, Dropdown, Button } from "react-materialize";
 import SideNavBar from "../SideNav";
 import Login from "../Login";
 import SignUp from "../SignUp";
-import axios from 'axios'
+// import axios from 'axios'
+// import Swal from 'sweetalert2'
 
 
 // By extending the React.Component class, Counter inherits functionality from it
@@ -14,59 +15,57 @@ class NavBar extends Component {
     constructor() {
         super()
         this.state = {
-            username: "",
-            password: "",
-            phone: "",
-            firstName: "",
-            lastName: "",
-            zipcode: "",
-            city: "",
-            st: "",
-            aboutme: "",
             redirectTo: null
         }
-        this.handleSignup = this.handleSignup.bind(this)
-        this.handleLogin = this.handleLogin.bind(this)
-        this.handleChange = this.handleChange.bind(this)
+        // this.handleSignup = this.handleSignup.bind(this)
+        // this.handleLogin = this.handleLogin.bind(this)
+        // this.handleChange = this.handleChange.bind(this)
     }
 
-    handleChange(event) {
-        this.setState({
-            [event.target.name]: event.target.value
-        })
-    }
-    handleSignup(event) {
-        event.preventDefault()
-        // TODO - validate!
-        axios.post("/auth/signup", {
-            password: this.state.password,
-            username: this.state.username,
-            phone: this.state.phone,
-            firstName: this.state.firstName,
-            lastName: this.state.lastName,
-            zipcode: this.state.zipcode,
-            city: this.state.city,
-            st: this.state.st,
-            aboutme: this.state.aboutme
 
-        })
-            .then(response => {
-                console.log(response)
-            })
-    }
+    // handleLogin(event) {
+    //     event.preventDefault();
 
-    handleLogin(event) {
-        event.preventDefault();
+    //     axios.post("auth/login", {
+    //         username: this.state.username,
+    //         password: this.state.password
+    //     }).then( response => {
+    //         console.log(response);
+    //         this.setState({redirectTo: "/profile"})
+    //         if (response) {
 
-        axios.post("auth/login", {
-            username: this.state.username,
-            password: this.state.password
-        }).then( response => {
-            console.log()
-        })
-    }
+    //         Swal.fire({
+    //             title: 'Successfully Logged In',
+    //             type: 'success',
+    //             showConfirmButton: false,
+    //             showCancelButton: false,
+    //             // toast: true,
+    //             timer: 1000,
+    //             // position: "top-end",
+    //             customClass: "success-toast"
+    //             // confirmButtonText: 'Ok'
+    //           });
+    //         } else if (response.status === 401) {
+    //             Swal.fire({
+    //                 title: 'Error Logging In',
+    //                 type: 'error',
+    //                 showConfirmButton: false,
+    //                 showCancelButton: false,
+    //                 toast: true,
+    //                 timer: 1000,
+    //                 // position: "top-end",
+    //                 customClass: "fail-toast"
+    //                 // confirmButtonText: 'Ok'
+    //             });
+    //         }
+    //     })
+    // }
 
     render() {
+
+        if (this.props.user.redirectTo) {
+			return <Redirect to={{ pathname: this.props.user.redirectTo }} />
+		}
 
         // The render method returns the JSX that should be rendered
         return (
@@ -93,25 +92,24 @@ class NavBar extends Component {
                         <NavItem className="blue-grey darken-3" style={{ fontWeight: "bold" }}><Link to="/teamprofile">Our Team</Link></NavItem>
                         <NavItem className="amber">
                             <Login 
-                                username={this.state.username}
-                                password={this.state.password}
-                                onChange={this.handleChange}
-                                handleLogin={this.handleLogin}
+                                user={this.props.user}
+                                onChange={this.props.onChange}
+                                handleLogin={this.props.handleLogin}
                             />
                         </NavItem>
                         <NavItem className="blue-grey darken-4">
                             <SignUp
-                                username={this.state.username}
-                                password={this.state.password}
-                                phone={this.state.phone}
-                                firstName={this.state.firstName}
-                                lastName={this.state.lastName}
-                                zipcode={this.state.zipcode}
-                                city={this.state.city}
-                                st={this.state.st}
-                                aboutme={this.state.aboutme}
-                                onChange={this.handleChange}
-                                handleSignup={this.handleSignup}
+                                username={this.props.user.username}
+                                password={this.props.user.password}
+                                phone={this.props.user.phone}
+                                firstName={this.props.user.firstName}
+                                lastName={this.props.user.lastName}
+                                zipcode={this.props.user.zipcode}
+                                city={this.props.user.city}
+                                st={this.props.user.st}
+                                aboutme={this.props.user.aboutme}
+                                onChange={this.props.user.handleChange}
+                                handleSignup={this.props.user.handleSignup}
                             />
                         </NavItem>
                         <NavItem><SideNavBar/></NavItem>

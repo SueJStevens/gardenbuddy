@@ -9,18 +9,20 @@ function Login(props) {
     return (
         <form>
             <Modal
+                id="login-modal"
                 header='Login To Garden Buddy'
                 // bottomSheet
                 trigger={<span style={{ fontWeight: "bold" }}>Login</span>}
                 className="yellow lighten-5"
             >
+            <p>{props.username}</p>
                 <div className="input-field">
-                    <label for="email">Email</label>
-                    <input id="email" value={props.username} onChange={props.onChange} name="username" type="email"></input>
+                    <label for="login-email">Email</label>
+                    <input id="login-email" value={props.user.username} onChange={props.onChange} name="username" type="email"></input>
                 </div>
                 <div className="input-field">
-                    <label for="password">Password</label>
-                    <input id="password" value={props.password} onChange={props.onChange} name="password" type="password"></input>
+                    <label for="login-password">Password</label>
+                    <input id="login-password" value={props.user.password} onChange={props.onChange} name="password" type="password"></input>
                 </div>
                 <Button onClick={props.handleLogin}>Login</Button>
             </Modal>

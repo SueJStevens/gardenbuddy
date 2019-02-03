@@ -9,31 +9,130 @@ import Flowers from "./pages/flowers";
 import Fruits from "./pages/fruits";
 import Vegetables from './pages/vegetables';
 import Herbs from './pages/herbs';
+import axios from 'axios';
+import Swal from 'sweetalert2';
 
 class App extends Component {
 
-  render() {
-    return (
-      <Router>
-        <div className="background">
-          <Switch>
-            {/* this is where i think i need the routing for these compenents */}
-            <Route exact path="/" component={Landing} />
-            <Route exact path="/landing" component={Landing} />
-            <Route path="/profile" component={Profile} />
-            <Route path="/teamprofile" component={TeamProfile} />
-            <Route path="/plantdetail" component={PlantDetail} />
-            <Route path="/flowers" component={Flowers} />
-            <Route path="/fruits" component={Fruits} />
-            <Route path="/vegetables" component={Vegetables} />
-            <Route path="/herbs" component={Herbs} />
-
-          </Switch>
-        </div>
-      </Router>
-
-    );
+  constructor() {
+    super()
+    this.state = {
+        username: "",
+        password: "",
+        phone: "",
+        firstName: "",
+        lastName: "",
+        zipcode: "",
+        city: "",
+        st: "",
+        aboutme: "",
+        redirectTo: null,
+        loggedIn: false
+    }
+    this.handleSignup = this.handleSignup.bind(this)
+    this.handleLogin = this.handleLogin.bind(this)
+    this.handleChange = this.handleChange.bind(this)
   }
+
+  handleChange(event) {
+    console.log("typing");
+    this.setState({
+      [event.target.name]: event.target.value
+    })
+  }
+  handleSignup(event) {
+    event.preventDefault()
+    // TODO - validate!
+    axios.post("/auth/signup", {
+      password: this.state.password,
+      username: this.state.username,
+      phone: this.state.phone,
+      firstName: this.state.firstName,
+      lastName: this.state.lastName,
+      zipcode: this.state.zipcode,
+      city: this.state.city,
+      st: this.state.st,
+      aboutme: this.state.aboutme
+
+    })
+      .then(response => {
+        console.log(response)
+      })
+  }
+
+  handleLogin(event) {
+    event.preventDefault();
+
+    // $('.modal.open').modal('close')
+
+    var loginModal = document.getElementById("login-modal")
+    loginModal.classList.add("closeModal");
+
+    var loginModalOverlay = document.getElementById("materialize-modal-overlay-1");
+    loginModalOverlay.classList.add("closeModal")
+    // loginModalOverlay.classList.remove("modal-overlay")
+
+    axios.post("auth/login", {
+      username: this.state.username,
+      password: this.state.password
+    }).then(response => {
+      console.log(response);
+      this.setState({ 
+        redirectTo: "/profile",
+        loggedIn: true
+      })
+      if (response) {
+
+        Swal.fire({
+          title: 'Successfully Logged In',
+          type: 'success',
+          showConfirmButton: false,
+          showCancelButton: false,
+          backdrop: true,
+          // toast: true,
+          timer: 1000,
+          // position: "top-end",
+          customClass: "success-toast"
+          // confirmButtonText: 'Ok'
+        });
+      } else if (response.status === 401) {
+        Swal.fire({
+          title: 'Error Logging In',
+          type: 'error',
+          showConfirmButton: false,
+          showCancelButton: false,
+          // toast: true,
+          timer: 1000,
+          // position: "top-end",
+          customClass: "fail-toast"
+          // confirmButtonText: 'Ok'
+        });
+      }
+      
+    })
+  }
+
+
+render() {
+  return (
+    <Router>
+      <div className="background">
+        <Switch>
+          <Route exact path="/" render={(props) => <Landing {...props} user={this.state} onChange={this.handleChange} handleLogin={this.handleLogin} />} />
+          <Route exact path="/landing" render={(props) => <Landing {...props} user={this.state} onChange={this.handleChange} handleLogin={this.handleLogin} />} />
+          <Route path="/profile" render={(props) => <Profile {...props} user={this.state} onChange={this.handleChange} handleLogin={this.handleLogin} />} />
+          <Route path="/teamprofile" component={TeamProfile} />
+          <Route path="/plantdetail" component={PlantDetail} />
+          <Route path="/flowers" component={Flowers} />
+          <Route path="/fruits" component={Fruits} />
+          <Route path="/vegetables" component={Vegetables} />
+          <Route path="/herbs" component={Herbs} />
+        </Switch>
+      </div>
+    </Router>
+
+  );
+}
 }
 
 export default App;
