@@ -24,7 +24,7 @@ function Login(props) {
                     <label for="login-password">Password</label>
                     <input id="login-password" value={props.user.password} onChange={props.onChange} name="password" type="password"></input>
                 </div>
-                <Button onClick={props.handleLogin}>Login</Button>
+                <Button className="auth-button" onClick={props.handleLogin}>Login</Button>
             </Modal>
         </form>
     );
