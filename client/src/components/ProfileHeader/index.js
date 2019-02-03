@@ -19,7 +19,7 @@ function ProfileHeader(props) {
                         <Row>
                             <Col s={7} className="offset-s4">
                                 <div className="user-info">
-                                    <h5>Test User</h5>
+                                    <h5>{props.user.firstName}</h5>
                                     <Row className="user-chip-row">
                                         <Col s={4}>
                                             <Chip>
