@@ -30,7 +30,8 @@ class VegeDepartment extends React.Component {
 
     render() {
         return(
-                this.state.veges.map(item => (
+            <div className="row">
+                {this.state.veges.map(item => (
                     <Col s={12} m={10} l={4}>
                         <PlantCards
                             key={item._id}
@@ -43,7 +44,8 @@ class VegeDepartment extends React.Component {
                             category={item.plantCategories[0]}
                         />
                     </Col>
-                ))
+                ))}
+            </div>
         );
     }
 }

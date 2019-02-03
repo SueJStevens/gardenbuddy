@@ -3,11 +3,12 @@ import { withRouter } from 'react-router-dom';
 import "./style.css";
 import { Collection, CollectionItem, Collapsible, CollapsibleItem } from "react-materialize";
 import API from "../../utils/API";
-
+import PlantAttributes from "../PlantAttributes";
 
 class PlantDetails extends React.Component{
     state = {
-        item: ""
+        item: "",
+        plantAttributes: []
     };
 
     componentDidMount() {
@@ -21,37 +22,44 @@ class PlantDetails extends React.Component{
     setItem(data) {
         console.log(data);
         this.setState({item: data});
+        this.setPlantAttributes();
+    }
+
+    setPlantAttributes() {
+        let attributes = Object.keys(this.state.item.plantAttributes);
+        let values = Object.values(this.state.item.plantAttributes);
+
+        let combined = [];
+        for(var i = 0; i < attributes.length; i++) {
+            let combinedKeyAndValue = {
+                key: attributes[i],
+                value: values[i]
+            }
+            combined.push(combinedKeyAndValue);
+        }
+
+        this.setState({plantAttributes: combined});
     }
 
     render() {
         return (
             <Collection>
-                <CollectionItem>Plant Categories: {this.state.item.plantCategories}</CollectionItem>
-                <CollectionItem>Plant Class: {this.state.item.plantClass}</CollectionItem>
-                <CollectionItem>Common Name: {this.state.item.commonName}</CollectionItem>
-                <CollectionItem>Variety: {this.state.item.variety}</CollectionItem>
-                <CollectionItem>Zone: {this.state.item.zone}</CollectionItem>
-                <CollectionItem>Zones: {this.state.item.zones}</CollectionItem>
+                <CollectionItem><b>Plant Categories:</b>  {this.state.item.plantCategories}</CollectionItem>
+                <CollectionItem><b>Plant Class:</b>  {this.state.item.plantClass}</CollectionItem>
+                <CollectionItem><b>Common Name:</b>  {this.state.item.commonName}</CollectionItem>
+                <CollectionItem><b>Variety:</b>  {this.state.item.variety}</CollectionItem>
+                <CollectionItem><b>Zone:</b>  {this.state.item.zone}</CollectionItem>
+                <CollectionItem><b>Zones:</b>  {this.state.item.zones}</CollectionItem>
                 <Collapsible className="plant-attributes">
                     <CollapsibleItem header='Plant Attributes:' className="plant-attributes" icon={<i className="fas fa-chevron-down more-attributes"></i>}>
-                        <CollectionItem>Sun: </CollectionItem>
-                        <CollectionItem>Height: </CollectionItem>
-                        <CollectionItem>Planting Time: </CollectionItem>
-                        <CollectionItem>Thin:</CollectionItem>
-                        <CollectionItem>Leaf Texture:</CollectionItem>
-                        <CollectionItem>Fruit Size:</CollectionItem>
-                        <CollectionItem>Fruit Weight:</CollectionItem>
-                        <CollectionItem>Fruit Bearing:</CollectionItem>
-                        <CollectionItem>Type:</CollectionItem>
-                        <CollectionItem>Spread:</CollectionItem>
-                        <CollectionItem>Sow Method:</CollectionItem>
-                        <CollectionItem>Sow Time:</CollectionItem>
-                        <CollectionItem>Life Cycle:</CollectionItem>
-                        <CollectionItem>Soil PH:</CollectionItem>
-                        <CollectionItem>Food Use:</CollectionItem>
-                        <CollectionItem>Growth Habit:</CollectionItem>
-                        <CollectionItem>Genus:</CollectionItem>
-                        <CollectionItem>Additional Uses:</CollectionItem>
+                        <CollectionItem>  
+                            {this.state.plantAttributes.map((attribute) => (
+                                    <PlantAttributes 
+                                        attribute={attribute.key}
+                                        value={attribute.value}
+                                    />
+                            ))}
+                        </CollectionItem>
                     </CollapsibleItem>
                 </Collapsible>
             </Collection>
