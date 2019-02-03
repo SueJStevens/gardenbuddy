@@ -23,6 +23,7 @@ class ProfileBody extends Component {
 
         //add the active class
         selection.classList.add("active");
+
     }
 
 

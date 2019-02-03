@@ -17,13 +17,13 @@ function PlantInformation(props) {
                     <CollapsibleItem className="plant-detail-option" header='Plant Details' icon={<i class="fas fa-info-circle"></i>}>
                         <PlantDetails />
                     </CollapsibleItem>
-                    <CollapsibleItem onClick={() => {$('#calendar').fullCalendar('render');}} header='Growing Calendar' icon={<i class="far fa-calendar-alt"></i>}>
+                    <CollapsibleItem className="plant-detail-option" onClick={() => {$('#calendar').fullCalendar('render');}} header='Growing Calendar' icon={<i class="far fa-calendar-alt"></i>}>
                         <GrowingCalendar />
                     </CollapsibleItem>
-                    <CollapsibleItem header='Companion Plants' icon={<i class="fab fa-pagelines"></i>}>
+                    <CollapsibleItem className="plant-detail-option" header='Companion Plants' icon={<i class="fab fa-pagelines"></i>}>
                         <PlantCompanions />
                     </CollapsibleItem>
-                    <CollapsibleItem header='Combative Plants' icon={<i class="fas fa-skull-crossbones"></i>}>
+                    <CollapsibleItem className="plant-detail-option" header='Combative Plants' icon={<i class="fas fa-skull-crossbones"></i>}>
                         <PlantCombatives />
                     </CollapsibleItem>
                 </Collapsible>
