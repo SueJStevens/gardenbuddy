@@ -1,3 +1,8 @@
-/* .plant-detail-body {
-    margin-top: 20vh;
-} */
+.plant-detail-body {
+    background: #fffff3;
+    height: 100vh;
+}
+
+.plant-detail-body-row {
+    margin-top: 3vh;
+}

@@ -9,8 +9,7 @@ function PlantDetailWrapper(props) {
     return (
         <div className="plant-detail-body">
             <NavbarProfile />
-            {/* we will want plant details, growing calendar, and Companion planting details */}
-            <Row>
+            <Row className="plant-detail-body-row">
                 <PlantHeader />
                 <PlantInformation/>
             </Row>

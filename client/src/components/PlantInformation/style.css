@@ -3,11 +3,16 @@
 }
 
 .collapsible-header.active {
-    background: #51a39a;
+    background: #e9ac3c;
     color: white;
 }
 
 .collapsible-header.active:hover {
-    background: #51a39a !important;
+    background: #e9ac3c !important;
 }
+
+.plant-detail-option {
+    background: white;
+}
+
 

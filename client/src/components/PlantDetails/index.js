@@ -4,7 +4,7 @@ import { Collection, CollectionItem, Collapsible, CollapsibleItem } from "react-
 
 function PlantDetails(props) {
     return (
-        <Collection>
+        <Collection className="plant-option">
             <CollectionItem>Plant Categories:</CollectionItem>
             <CollectionItem>Plant Class:</CollectionItem>
             <CollectionItem>Common Name:</CollectionItem>

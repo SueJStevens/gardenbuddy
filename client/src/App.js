@@ -90,7 +90,7 @@ class App extends Component {
           showCancelButton: false,
           backdrop: true,
           // toast: true,
-          timer: 1000,
+          timer: 1100,
           // position: "top-end",
           customClass: "success-toast"
           // confirmButtonText: 'Ok'

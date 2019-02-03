@@ -123,7 +123,7 @@ function SignUp(props) {
                     </input>
                 </div>
             </Row>
-            <Button onClick={props.handleSignup} type="submit">Sign Up</Button>
+            <Button className="auth-button" onClick={props.handleSignup} type="submit">Sign Up</Button>
             </form>
         </Modal>
     );

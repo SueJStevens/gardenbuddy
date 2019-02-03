@@ -78,6 +78,7 @@ class NavBar extends Component {
 
                         <NavItem>
                             <Dropdown 
+                                className="nav-dropdown-menu"
                                 trigger={<Button className="transparent">Departments</Button>}  options={{hover: true}}>
                                     <Link to="/flowers"><NavItem>Flowers</NavItem></Link>
                                     <NavItem divider />
