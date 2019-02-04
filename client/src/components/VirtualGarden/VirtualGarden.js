@@ -1,9 +1,10 @@
 import React from "react";
 import sample_plants  from "./sample_plants.json";
 import VirtualPlant from "../VirtualPlant";
-import {Row, Col } from "react-materialize";
+import {Row, Col, Button } from "react-materialize";
 
 import API from "../../utils/API";
+import VirtualPlantAddModal from "../VirtualPlantAddModal/index.js";
 
 const moment = require('moment');
 
@@ -27,6 +28,13 @@ class VirtualGarden extends React.Component {
 		this.getGarden(dummy_id);
 	}
 
+	handleChange(event) {
+    console.log("typing");
+    this.setState({
+      [event.target.name]: event.target.value
+    })
+  }
+
 	/**
 	 * @function: getGarden
 	 * 
@@ -34,16 +42,26 @@ class VirtualGarden extends React.Component {
 	 */
 	getGarden = (gardenID) => {
 		/************************************************************/
-		/* TODO : Call our backend API to get virtual garden plants */
+		/* Call our backend API to get virtual garden plants */
 		/************************************************************/
 		let userName = 'narasimhan.ramesh5@gmail.com';
 		API.getVirtualGarden(userName).then((res) => {
-			console.log("Here are the plants ");
-			console.log(res.data);
-			this.sortPlants(res.data);
+
+			// If the user has no virtual plants in their virtual garden yet,
+			// set 'my_plants' to an empty array.
+			// Else, sort the virtual garden so that the plants whose watering
+			// is overdue are displayed first
+			if(res.data.length === 0) {
+				this.setState({my_plants : []});
+			} else{
+				this.sortPlants(res.data);
+			}
 		});
 	}
 
+	newPlantAdded = (plantDetails) => {
+
+	}
 
 	sortPlants = (plantList) => {
 		
@@ -106,23 +124,42 @@ class VirtualGarden extends React.Component {
    */
   render() {
 		console.log("Rendering virtual garden");
-    return (
-				<Row>
-					{this.state.my_plants.map( (plant, index) => (
-						<Col s={12} m={10} l={4} className="offset-m1">
-							<VirtualPlant
-								key={index.toString()}
-								plantImage={plant.image}
-								plantName={plant.name}
-								lastWatered={plant.lastWatered}
-								daysOverdue={plant.daysOverdue}
-								wateringFrequency={plant.wateringFrequency}
-								virtualGardenCallback={this.wateringDone}
-							/>
-						</Col>
-					))}
-				</Row>
-    )
+		let num_plants = this.state.my_plants.length;
+		if(!num_plants){
+			return(
+				<div>
+					<h5>Get started with your virtual garden!</h5>
+					<VirtualPlantAddModal 
+						handleAdd={this.newPlantAdded}
+					>
+					</VirtualPlantAddModal>
+				</div>
+			);
+		} else {
+			return (
+				<div>
+					<Row>
+						{this.state.my_plants.map( (plant, index) => (
+							<Col s={12} m={10} l={4} className="offset-m1">
+								<VirtualPlant
+									key={index.toString()}
+									plantImage={plant.image}
+									plantName={plant.name}
+									lastWatered={plant.lastWatered}
+									daysOverdue={plant.daysOverdue}
+									wateringFrequency={plant.wateringFrequency}
+									virtualGardenCallback={this.wateringDone}
+								/>
+							</Col>
+						))}
+					</Row>
+					<VirtualPlantAddModal 
+						handleAdd={this.newPlantAdded}
+					>
+					</VirtualPlantAddModal>
+				</div>
+			);
+		}
   }
 }
 
