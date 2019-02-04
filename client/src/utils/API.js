@@ -23,6 +23,17 @@ export default {
     return axios.post("/api/plants", plantData);
   },
 
+  // Gets the recommended plants by zip code and category
+  // This corresponds to the basic search by zip code operation.
+  searchPlants: function(inputCategory, inputZipcode){
+    return axios.get("/api/plants/search/", {
+        params : {
+          category: inputCategory,
+          zipcode : inputZipcode
+        }
+      });
+  },
+
   //
   // User Profile specific API routes 
   //
@@ -30,6 +41,11 @@ export default {
   // User's Virtual Garden
   getVirtualGarden : function(userID) {
     return axios.get("/api/profile/virtualgarden/" + userID)
+  },
+
+  // Add plant to virtual garden
+  addPlant : function(userID, newPlant) {
+    return axios.post("/api/profile/virtualgarden/" + userID, newPlant);
   }
 
 };

@@ -9,7 +9,7 @@ function SearchBar(props) {
             <form className="searchBar">
                 <div className="input-field">
                     <i className="material-icons prefix">search</i>
-                    <input id="icon_prefix" type="text" class="validate" />
+                    <input name={props.name} onChange={props.handleInputChange} id="icon_prefix" type="text" class="validate" />
                     <label for="icon_prefix">Enter zip code</label>
                 </div>
             </form>
