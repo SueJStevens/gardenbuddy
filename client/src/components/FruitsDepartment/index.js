@@ -1,7 +1,8 @@
 import React from "react";
 import API from "../../utils/API";
 import PlantCards from "../PlantCards";
-import {Pagination, Col, Button} from "react-materialize";
+//import {Pagination, Col, Button} from "react-materialize";
+import {Pagination, Col} from "react-materialize";
 
 class FruitsDepartment extends React.Component {
     state = {

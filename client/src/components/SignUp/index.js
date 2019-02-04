@@ -20,7 +20,7 @@ function SignUp(props) {
             
             <Row className="input-area">
                 <div className="input-field col s6">
-                    <label for="first-name-signup">First Name</label>
+                    <label htmlFor="first-name-signup">First Name</label>
                     <input 
                         id="first-name-signup" 
                         type="text" 
@@ -30,7 +30,7 @@ function SignUp(props) {
                     </input>
                 </div>
                 <div className="input-field col s6">
-                    <label for="last-name-signup">Last Name</label>
+                    <label htmlFor="last-name-signup">Last Name</label>
                     <input 
                         id="last-name-signup" 
                         type="text" 
@@ -42,7 +42,7 @@ function SignUp(props) {
             </Row>
             <Row className="input-area">
                 <div className="input-field col s12">
-                    <label for="phone-signup">Phone</label>
+                    <label htmlFor="phone-signup">Phone</label>
                     <input 
                         id="phone-signup" 
                         type="text" 
@@ -54,7 +54,7 @@ function SignUp(props) {
             </Row>
             <Row className="input-area">
                 <div className="input-field col s12">
-                    <label for="email-signup">Email</label>
+                    <label htmlFor="email-signup">Email</label>
                     <input 
                         id="email-signup" 
                         type="email" 
@@ -66,7 +66,7 @@ function SignUp(props) {
             </Row>
             <Row className="input-area">
                 <div className="input-field col s12">
-                    <label for="zip-code-signup">Zip Code</label>
+                    <label htmlFor="zip-code-signup">Zip Code</label>
                     <input 
                         id="zip-code-signup" 
                         type="text" 
@@ -78,7 +78,7 @@ function SignUp(props) {
             </Row>
             <Row className="input-area">
                 <Col className="input-field" s={6}>
-                    <label for="city-signup">City</label>
+                    <label htmlFor="city-signup">City</label>
                     <input 
                         id="city-signup" 
                         type="text" 
@@ -89,7 +89,7 @@ function SignUp(props) {
                 </Col>
 
                 <Col className="input-field" s={6}>
-                    <label for="state-signup">State</label>
+                    <label htmlFor="state-signup">State</label>
                     <input 
                         id="state-signup" 
                         type="text" 
@@ -101,7 +101,7 @@ function SignUp(props) {
             </Row>
             <Row className="input-area">
                 <div className="input-field col s12">
-                    <label for="about-me-signup">About Me</label>
+                    <label htmlFor="about-me-signup">About Me</label>
                     <textarea 
                         className="materialize-textarea" 
                         id="about-me-signup" type="text-area" 
@@ -113,7 +113,7 @@ function SignUp(props) {
             </Row>
             <Row className="input-area">
                 <div className="input-field col s12">
-                    <label for="password-signup">Password</label>
+                    <label htmlFor="password-signup">Password</label>
                     <input 
                         id="password-signup" 
                         type="password" 

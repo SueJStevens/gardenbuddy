@@ -8,7 +8,9 @@ function UpdateLogin(props) {
     // The render method returns the JSX that should be rendered
     return (
         <wrapper className="container">
-            <Card className="hoverable" title='Update Login' actions={[<a href='#'><i class="fas fa-share-square"></i> Submit Updated Information</a>]}>
+            <Card className="hoverable" title='Update Login' 
+            // actions={[<a href='#'><i class="fas fa-share-square"></i> Submit Updated Information</a>]}
+            >
                 <Table className="">
                     <tbody>
                         <tr>

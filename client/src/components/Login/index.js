@@ -17,11 +17,11 @@ function Login(props) {
             >
             <p>{props.username}</p>
                 <div className="input-field">
-                    <label for="login-email">Email</label>
+                    <label htmlFor="login-email">Email</label>
                     <input id="login-email" value={props.user.username} onChange={props.onChange} name="username" type="email"></input>
                 </div>
                 <div className="input-field">
-                    <label for="login-password">Password</label>
+                    <label htmlFor="login-password">Password</label>
                     <input id="login-password" value={props.user.password} onChange={props.onChange} name="password" type="password"></input>
                 </div>
                 <Button className="auth-button" onClick={props.handleLogin}>Login</Button>
