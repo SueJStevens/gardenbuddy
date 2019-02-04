@@ -7,12 +7,11 @@ import PlantAttributes from "../PlantAttributes";
 
 class PlantDetails extends React.Component{
     state = {
-        item: "",
+        item: [],
         plantAttributes: []
     };
 
     componentDidMount() {
-        console.log("david is awesome", this.props.location.state.id);
         let id = this.props.location.state.id;
         API.getAPlant(id)
             .then((res) => this.setItem(res.data))
@@ -20,7 +19,6 @@ class PlantDetails extends React.Component{
     }
 
     setItem(data) {
-        console.log(data);
         this.setState({item: data});
         this.setPlantAttributes();
     }
