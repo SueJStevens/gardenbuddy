@@ -8,7 +8,9 @@ function AboutMe(props) {
     // The render method returns the JSX that should be rendered
     return (
         <wrapper className="container">
-            <Card className="hoverable" title='About Me' actions={[<a href='#'><i className="fas fa-pencil-alt"></i> Click Here To Edit</a>]}>
+            <Card className="hoverable" title='About Me' 
+            // actions={[<a href='#'><i className="fas fa-pencil-alt"></i> Click Here To Edit</a>]}
+            >
                 <div>
                     <table className="striped">
                         <tbody>
