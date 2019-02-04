@@ -30,6 +30,11 @@ export default {
   // User's Virtual Garden
   getVirtualGarden : function(userID) {
     return axios.get("/api/profile/virtualgarden/" + userID)
+  },
+
+  // Add plant to virtual garden
+  addPlant : function(userID, newPlant) {
+    return axios.post("/api/profile/virtualgarden/" + userID, newPlant);
   }
 
 };
