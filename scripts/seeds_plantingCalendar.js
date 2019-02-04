@@ -15,70 +15,70 @@ const plantingCalendarSeed = [
     "sowCal": [
       {
         "zone": "11",
-        "zones": "[11a, 11b]",
+        "zones": ["11a", "11b"],
         "sowType": "Direct Sow",
         "dtRangeStart": "2019-02-15",
         "dtRangeEnd": "2019-04-25"
       },
       {
         "zone": "3-4",
-        "zones": "[3a, 3b, 4a, 4b]",
+        "zones": ["3a", "3b", "4a", "4b"],
         "sowType": "Direct Sow",
         "dtRangeStart": "2019-06-02",
         "dtRangeEnd": "2019-06-30"
       },
       {
         "zone": "5-6",
-        "zones": "[5a, 5b, 6a, 6b]",
+        "zones": ["5a", "5b", "6a", "6b"],
         "sowType": "Direct Sow",
         "dtRangeStart": "2019-05-16",
         "dtRangeEnd": "2019-06-13"
       },
       {
         "zone": "7-8",
-        "zones": "[7a, 7b, 8a, 8b]",
+        "zones": ["7a", "7b", "8a", "8b"],
         "sowType": "Direct Sow",
         "dtRangeStart": "2019-03-01",
         "dtRangeEnd": "2019-04-25"
       },
       {
         "zone": "9-10",
-        "zones": "[9a, 9b, 10a, 10b]",
+        "zones": ["9a", "9b", "10a", "10b"],
         "sowType": "Direct Sow",
         "dtRangeStart": "2019-03-01",
         "dtRangeEnd": "2019-04-25"
       },
       {
         "zone": "11",
-        "zones": "[11a, 11b]",
+        "zones": ["11a", "11b"],
         "sowType": "Direct Sow",
         "dtRangeStart": "2019-02-15",
         "dtRangeEnd": "2019-04-25"
       },
       {
         "zone": "3-4",
-        "zones": "[3a, 3b, 4a, 4b]",
+        "zones": ["3a", "3b", "4a", "4b"],
         "sowType": "Direct Sow",
         "dtRangeStart": "2019-06-02",
         "dtRangeEnd": "2019-06-30"
       },
       {
         "zone": "5-6",
-        "zones": "[5a, 5b, 6a, 6b]",
+        "zones": ["5a", "5b", "6a", "6b"],
         "sowType": "Direct Sow",
         "dtRangeStart": "2019-05-16",
         "dtRangeEnd": "2019-06-13"
       },
       {
         "zone": "7-8",
-        "zones": "[7a, 7b, 8a, 8b]",
+        "zones": ["7a", "7b", "8a", "8b"],
         "sowType": "Direct Sow",
         "dtRangeStart": "2019-03-01",
         "dtRangeEnd": "2019-04-25"
       },
       {
         "zone": "9-10",
-        "zones": "[9a, 9b, 10a, 10b]",
+        "zones": ["9a", "9b", "10a", "10b"],
         "sowType": "Direct Sow",
         "dtRangeStart": "2019-03-01",
         "dtRangeEnd": "2019-04-25"
@@ -91,70 +91,70 @@ const plantingCalendarSeed = [
     "sowCal": [
       {
         "zone": "11",
-        "zones": "[11a, 11b]",
+        "zones": ["11a", "11b"],
         "sowType": "Direct Sow",
         "dtRangeStart": "2019-02-15",
         "dtRangeEnd": "2019-04-25"
       },
       {
         "zone": "3-4",
-        "zones": "[3a, 3b, 4a, 4b]",
+        "zones": ["3a", "3b", "4a", "4b"],
         "sowType": "Direct Sow",
         "dtRangeStart": "2019-06-02",
         "dtRangeEnd": "2019-06-30"
       },
       {
         "zone": "5-6",
-        "zones": "[5a, 5b, 6a, 6b]",
+        "zones": ["5a", "5b", "6a", "6b"],
         "sowType": "Direct Sow",
         "dtRangeStart": "2019-05-16",
         "dtRangeEnd": "2019-06-13"
       },
       {
         "zone": "7-8",
-        "zones": "[7a, 7b, 8a, 8b]",
+        "zones": ["7a", "7b", "8a", "8b"],
         "sowType": "Direct Sow",
         "dtRangeStart": "2019-03-01",
         "dtRangeEnd": "2019-04-25"
       },
       {
         "zone": "9-10",
-        "zones": "[9a, 9b, 10a, 10b]",
+        "zones": ["9a", "9b", "10a", "10b"],
         "sowType": "Direct Sow",
         "dtRangeStart": "2019-03-01",
         "dtRangeEnd": "2019-04-25"
       },
       {
         "zone": "11",
-        "zones": "[11a, 11b]",
+        "zones": ["11a", "11b"],
         "sowType": "Direct Sow",
         "dtRangeStart": "2019-02-15",
         "dtRangeEnd": "2019-04-01"
       },
       {
         "zone": "3-4",
-        "zones": "[3a, 3b, 4a, 4b]",
+        "zones": ["3a", "3b", "4a", "4b"],
         "sowType": "Direct Sow",
         "dtRangeStart": "2019-06-02",
         "dtRangeEnd": "2019-06-30"
       },
       {
         "zone": "5-6",
-        "zones": "[5a, 5b, 6a, 6b]",
+        "zones": ["5a", "5b", "6a", "6b"],
         "sowType": "Direct Sow",
         "dtRangeStart": "2019-05-16",
         "dtRangeEnd": "2019-06-13"
       },
       {
         "zone": "7-8",
-        "zones": "[7a, 7b, 8a, 8b]",
+        "zones": ["7a", "7b", "8a", "8b"],
         "sowType": "Direct Sow",
         "dtRangeStart": "2019-03-01",
         "dtRangeEnd": "2019-04-01"
       },
       {
         "zone": "9-10",
-        "zones": "[9a, 9b, 10a, 10b]",
+        "zones": ["9a", "9b", "10a", "10b"],
         "sowType": "Direct Sow",
         "dtRangeStart": "2019-03-01",
         "dtRangeEnd": "2019-04-01"
@@ -167,168 +167,168 @@ const plantingCalendarSeed = [
     "sowCal": [
       {
         "zone": "11",
-        "zones": "[11a, 11b]",
+        "zones": ["11a", "11b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-01-18",
         "dtRangeEnd": "2019-02-22"
       },
       {
         "zone": "3-4",
-        "zones": "[3a, 3b, 4a, 4b]",
+        "zones": ["3a", "3b", "4a", "4b"],
         "sowType": "Indoor Sow",
         "dtRangeStart": "2019-03-10",
         "dtRangeEnd": "2019-03-24"
       },
       {
         "zone": "3-4",
-        "zones": "[3a, 3b, 4a, 4b]",
+        "zones": ["3a", "3b", "4a", "4b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-05-19",
         "dtRangeEnd": "2019-06-16"
       },
       {
         "zone": "5-6",
-        "zones": "[5a, 5b, 6a, 6b]",
+        "zones": ["5a", "5b", "6a", "6b"],
         "sowType": "Indoor Sow",
         "dtRangeStart": "2019-02-22",
         "dtRangeEnd": "2019-03-07"
       },
       {
         "zone": "7-8",
-        "zones": "[7a, 7b, 8a, 8b]",
+        "zones": ["7a", "7b", "8a", "8b"],
         "sowType": "Indoor Sow",
         "dtRangeStart": "2019-12-21",
         "dtRangeEnd": "2019-01-04"
       },
       {
         "zone": "9-10",
-        "zones": "[9a, 9b, 10a, 10b]",
+        "zones": ["9a", "9b", "10a", "10b"],
         "sowType": "Indoor Sow",
         "dtRangeStart": "2019-12-21",
         "dtRangeEnd": "2019-01-04"
       },
       {
         "zone": "5-6",
-        "zones": "[5a, 5b, 6a, 6b]",
+        "zones": ["5a", "5b", "6a", "6b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-05-02",
         "dtRangeEnd": "2019-06-01"
       },
       {
         "zone": "7-8",
-        "zones": "[7a, 7b, 8a, 8b]",
+        "zones": ["7a", "7b", "8a", "8b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-02-01",
         "dtRangeEnd": "2019-03-01"
       },
       {
         "zone": "9-10",
-        "zones": "[9a, 9b, 10a, 10b]",
+        "zones": ["9a", "9b", "10a", "10b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-02-01",
         "dtRangeEnd": "2019-03-01"
       },
       {
         "zone": "7-8",
-        "zones": "[7a, 7b, 8a, 8b]",
+        "zones": ["7a", "7b", "8a", "8b"],
         "sowType": "Direct Sow",
         "dtRangeStart": "2019-02-01",
         "dtRangeEnd": "2019-04-01"
       },
       {
         "zone": "9-10",
-        "zones": "[9a, 9b, 10a, 10b]",
+        "zones": ["9a", "9b", "10a", "10b"],
         "sowType": "Direct Sow",
         "dtRangeStart": "2019-02-01",
         "dtRangeEnd": "2019-04-01"
       },
       {
         "zone": "11",
-        "zones": "[11a, 11b]",
+        "zones": ["11a", "11b"],
         "sowType": "Indoor Sow",
         "dtRangeStart": "2019-12-21",
         "dtRangeEnd": "2019-01-04"
       },
       {
         "zone": "3-4",
-        "zones": "[3a, 3b, 4a, 4b]",
+        "zones": ["3a", "3b", "4a", "4b"],
         "sowType": "Indoor Sow",
         "dtRangeStart": "2019-03-24",
         "dtRangeEnd": "2019-04-07"
       },
       {
         "zone": "5-6",
-        "zones": "[5a, 5b, 6a, 6b]",
+        "zones": ["5a", "5b", "6a", "6b"],
         "sowType": "Indoor Sow",
         "dtRangeStart": "2019-03-07",
         "dtRangeEnd": "2019-03-21"
       },
       {
         "zone": "3-4",
-        "zones": "[3a, 3b, 4a, 4b]",
+        "zones": ["3a", "3b", "4a", "4b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-05-05",
         "dtRangeEnd": "2019-06-02"
       },
       {
         "zone": "11",
-        "zones": "[11a, 11b]",
+        "zones": ["11a", "11b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-02-22",
         "dtRangeEnd": "2019-03-28"
       },
       {
         "zone": "5-6",
-        "zones": "[5a, 5b, 6a, 6b]",
+        "zones": ["5a", "5b", "6a", "6b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-03-28",
         "dtRangeEnd": "2019-05-16"
       },
       {
         "zone": "7-8",
-        "zones": "[7a, 7b, 8a, 8b]",
+        "zones": ["7a", "7b", "8a", "8b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-12-21",
         "dtRangeEnd": "2019-01-04"
       },
       {
         "zone": "9-10",
-        "zones": "[9a, 9b, 10a, 10b]",
+        "zones": ["9a", "9b", "10a", "10b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-12-21",
         "dtRangeEnd": "2019-01-04"
       },
       {
         "zone": "11",
-        "zones": "[11a, 11b]",
+        "zones": ["11a", "11b"],
         "sowType": "Indoor Sow",
         "dtRangeStart": "2019-09-01",
         "dtRangeEnd": "2019-10-06"
       },
       {
         "zone": "5-6",
-        "zones": "[5a, 5b, 6a, 6b]",
+        "zones": ["5a", "5b", "6a", "6b"],
         "sowType": "Indoor Sow",
         "dtRangeStart": "2019-09-03",
         "dtRangeEnd": "2019-09-30"
       },
       {
         "zone": "11",
-        "zones": "[11a, 11b]",
+        "zones": ["11a", "11b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-09-22",
         "dtRangeEnd": "2019-12-29"
       },
       {
         "zone": "3-4",
-        "zones": "[3a, 3b, 4a, 4b]",
+        "zones": ["3a", "3b", "4a", "4b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-09-04",
         "dtRangeEnd": "2019-10-16"
       },
       {
         "zone": "5-6",
-        "zones": "[5a, 5b, 6a, 6b]",
+        "zones": ["5a", "5b", "6a", "6b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-07-23",
         "dtRangeEnd": "2019-08-06"
@@ -341,119 +341,119 @@ const plantingCalendarSeed = [
     "sowCal": [
       {
         "zone": "11",
-        "zones": "[11a, 11b]",
+        "zones": ["11a", "11b"],
         "sowType": "Indoor Sow",
         "dtRangeStart": "2019-01-04",
         "dtRangeEnd": "2019-01-18"
       },
       {
         "zone": "3-4",
-        "zones": "[3a, 3b, 4a, 4b]",
+        "zones": ["3a", "3b", "4a", "4b"],
         "sowType": "Indoor Sow",
         "dtRangeStart": "2019-03-24",
         "dtRangeEnd": "2019-04-07"
       },
       {
         "zone": "3-4",
-        "zones": "[3a, 3b, 4a, 4b]",
+        "zones": ["3a", "3b", "4a", "4b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-06-05",
         "dtRangeEnd": "2019-06-16"
       },
       {
         "zone": "5-6",
-        "zones": "[5a, 5b, 6a, 6b]",
+        "zones": ["5a", "5b", "6a", "6b"],
         "sowType": "Indoor Sow",
         "dtRangeStart": "2019-03-07",
         "dtRangeEnd": "2019-03-21"
       },
       {
         "zone": "7-8",
-        "zones": "[7a, 7b, 8a, 8b]",
+        "zones": ["7a", "7b", "8a", "8b"],
         "sowType": "Indoor Sow",
         "dtRangeStart": "2019-01-04",
         "dtRangeEnd": "2019-01-18"
       },
       {
         "zone": "9-10",
-        "zones": "[9a, 9b, 10a, 10b]",
+        "zones": ["9a", "9b", "10a", "10b"],
         "sowType": "Indoor Sow",
         "dtRangeStart": "2019-01-04",
         "dtRangeEnd": "2019-01-18"
       },
       {
         "zone": "11",
-        "zones": "[11a, 11b]",
+        "zones": ["11a", "11b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-02-01",
         "dtRangeEnd": "2019-03-01"
       },
       {
         "zone": "5-6",
-        "zones": "[5a, 5b, 6a, 6b]",
+        "zones": ["5a", "5b", "6a", "6b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-05-09",
         "dtRangeEnd": "2019-06-01"
       },
       {
         "zone": "7-8",
-        "zones": "[7a, 7b, 8a, 8b]",
+        "zones": ["7a", "7b", "8a", "8b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-02-15",
         "dtRangeEnd": "2019-03-01"
       },
       {
         "zone": "9-10",
-        "zones": "[9a, 9b, 10a, 10b]",
+        "zones": ["9a", "9b", "10a", "10b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-02-15",
         "dtRangeEnd": "2019-03-01"
       },
       {
         "zone": "11",
-        "zones": "[11a, 11b]",
+        "zones": ["11a", "11b"],
         "sowType": "Direct Sow",
         "dtRangeStart": "2019-02-22",
         "dtRangeEnd": "2019-04-01"
       },
       {
         "zone": "3-4",
-        "zones": "[3a, 3b, 4a, 4b]",
+        "zones": ["3a", "3b", "4a", "4b"],
         "sowType": "Direct Sow",
         "dtRangeStart": "2019-06-05",
         "dtRangeEnd": "2019-06-16"
       },
       {
         "zone": "5-6",
-        "zones": "[5a, 5b, 6a, 6b]",
+        "zones": ["5a", "5b", "6a", "6b"],
         "sowType": "Direct Sow",
         "dtRangeStart": "2019-05-09",
         "dtRangeEnd": "2019-06-01"
       },
       {
         "zone": "7-8",
-        "zones": "[7a, 7b, 8a, 8b]",
+        "zones": ["7a", "7b", "8a", "8b"],
         "sowType": "Direct Sow",
         "dtRangeStart": "2019-02-15",
         "dtRangeEnd": "2019-04-01"
       },
       {
         "zone": "9-10",
-        "zones": "[9a, 9b, 10a, 10b]",
+        "zones": ["9a", "9b", "10a", "10b"],
         "sowType": "Direct Sow",
         "dtRangeStart": "2019-02-15",
         "dtRangeEnd": "2019-04-01"
       },
       {
         "zone": "5-6",
-        "zones": "[5a, 5b, 6a, 6b]",
+        "zones": ["5a", "5b", "6a", "6b"],
         "sowType": "Indoor Sow",
         "dtRangeStart": "2019-03-07",
         "dtRangeEnd": "2019-03-21"
       },
       {
         "zone": "5-6",
-        "zones": "[5a, 5b, 6a, 6b]",
+        "zones": ["5a", "5b", "6a", "6b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-04-16",
         "dtRangeEnd": "2019-05-16"
@@ -466,91 +466,91 @@ const plantingCalendarSeed = [
     "sowCal": [
       {
         "zone": "11",
-        "zones": "[11a, 11b]",
+        "zones": ["11a", "11b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-12-21",
         "dtRangeEnd": "2019-02-22"
       },
       {
         "zone": "3-4",
-        "zones": "[3a, 3b, 4a, 4b]",
+        "zones": ["3a", "3b", "4a", "4b"],
         "sowType": "Indoor Sow",
         "dtRangeStart": "2019-03-24",
         "dtRangeEnd": "2019-04-07"
       },
       {
         "zone": "5-6",
-        "zones": "[5a, 5b, 6a, 6b]",
+        "zones": ["5a", "5b", "6a", "6b"],
         "sowType": "Indoor Sow",
         "dtRangeStart": "2019-03-07",
         "dtRangeEnd": "2019-03-21"
       },
       {
         "zone": "3-4",
-        "zones": "[3a, 3b, 4a, 4b]",
+        "zones": ["3a", "3b", "4a", "4b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-05-26",
         "dtRangeEnd": "2019-06-16"
       },
       {
         "zone": "7-8",
-        "zones": "[7a, 7b, 8a, 8b]",
+        "zones": ["7a", "7b", "8a", "8b"],
         "sowType": "Indoor Sow",
         "dtRangeStart": "2019-12-21",
         "dtRangeEnd": "2019-01-04"
       },
       {
         "zone": "9-10",
-        "zones": "[9a, 9b, 10a, 10b]",
+        "zones": ["9a", "9b", "10a", "10b"],
         "sowType": "Indoor Sow",
         "dtRangeStart": "2019-12-21",
         "dtRangeEnd": "2019-01-04"
       },
       {
         "zone": "5-6",
-        "zones": "[5a, 5b, 6a, 6b]",
+        "zones": ["5a", "5b", "6a", "6b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-05-02",
         "dtRangeEnd": "2019-05-16"
       },
       {
         "zone": "7-8",
-        "zones": "[7a, 7b, 8a, 8b]",
+        "zones": ["7a", "7b", "8a", "8b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-02-15",
         "dtRangeEnd": "2019-04-01"
       },
       {
         "zone": "9-10",
-        "zones": "[9a, 9b, 10a, 10b]",
+        "zones": ["9a", "9b", "10a", "10b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-02-15",
         "dtRangeEnd": "2019-04-01"
       },
       {
         "zone": "7-8",
-        "zones": "[7a, 7b, 8a, 8b]",
+        "zones": ["7a", "7b", "8a", "8b"],
         "sowType": "Direct Sow",
         "dtRangeStart": "2019-02-15",
         "dtRangeEnd": "2019-04-01"
       },
       {
         "zone": "9-10",
-        "zones": "[9a, 9b, 10a, 10b]",
+        "zones": ["9a", "9b", "10a", "10b"],
         "sowType": "Direct Sow",
         "dtRangeStart": "2019-02-15",
         "dtRangeEnd": "2019-04-01"
       },
       {
         "zone": "5-6",
-        "zones": "[5a, 5b, 6a, 6b]",
+        "zones": ["5a", "5b", "6a", "6b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-03-28",
         "dtRangeEnd": "2019-05-16"
       },
       {
         "zone": "3-4",
-        "zones": "[3a, 3b, 4a, 4b]",
+        "zones": ["3a", "3b", "4a", "4b"],
         "sowType": "Direct Sow",
         "dtRangeStart": "2019-05-26",
         "dtRangeEnd": "2019-06-02"
@@ -563,91 +563,91 @@ const plantingCalendarSeed = [
     "sowCal": [
       {
         "zone": "11",
-        "zones": "[11a, 11b]",
+        "zones": ["11a", "11b"],
         "sowType": "Indoor Sow",
         "dtRangeStart": "2019-12-07",
         "dtRangeEnd": "2019-12-21"
       },
       {
         "zone": "3-4",
-        "zones": "[3a, 3b, 4a, 4b]",
+        "zones": ["3a", "3b", "4a", "4b"],
         "sowType": "Indoor Sow",
         "dtRangeStart": "2019-03-24",
         "dtRangeEnd": "2019-04-07"
       },
       {
         "zone": "5-6",
-        "zones": "[5a, 5b, 6a, 6b]",
+        "zones": ["5a", "5b", "6a", "6b"],
         "sowType": "Indoor Sow",
         "dtRangeStart": "2019-03-07",
         "dtRangeEnd": "2019-03-21"
       },
       {
         "zone": "3-4",
-        "zones": "[3a, 3b, 4a, 4b]",
+        "zones": ["3a", "3b", "4a", "4b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-05-19",
         "dtRangeEnd": "2019-06-16"
       },
       {
         "zone": "11",
-        "zones": "[11a, 11b]",
+        "zones": ["11a", "11b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-02-01",
         "dtRangeEnd": "2019-03-01"
       },
       {
         "zone": "5-6",
-        "zones": "[5a, 5b, 6a, 6b]",
+        "zones": ["5a", "5b", "6a", "6b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-05-02",
         "dtRangeEnd": "2019-05-16"
       },
       {
         "zone": "11",
-        "zones": "[11a, 11b]",
+        "zones": ["11a", "11b"],
         "sowType": "Direct Sow",
         "dtRangeStart": "2019-02-01",
         "dtRangeEnd": "2019-03-01"
       },
       {
         "zone": "3-4",
-        "zones": "[3a, 3b, 4a, 4b]",
+        "zones": ["3a", "3b", "4a", "4b"],
         "sowType": "Indoor Sow",
         "dtRangeStart": "2019-03-24",
         "dtRangeEnd": "2019-04-07"
       },
       {
         "zone": "5-6",
-        "zones": "[5a, 5b, 6a, 6b]",
+        "zones": ["5a", "5b", "6a", "6b"],
         "sowType": "Indoor Sow",
         "dtRangeStart": "2019-03-07",
         "dtRangeEnd": "2019-03-21"
       },
       {
         "zone": "3-4",
-        "zones": "[3a, 3b, 4a, 4b]",
+        "zones": ["3a", "3b", "4a", "4b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-05-05",
         "dtRangeEnd": "2019-06-02"
       },
       {
         "zone": "5-6",
-        "zones": "[5a, 5b, 6a, 6b]",
+        "zones": ["5a", "5b", "6a", "6b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-03-28",
         "dtRangeEnd": "2019-05-16"
       },
       {
         "zone": "3-4",
-        "zones": "[3a, 3b, 4a, 4b]",
+        "zones": ["3a", "3b", "4a", "4b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-09-04",
         "dtRangeEnd": "2019-10-16"
       },
       {
         "zone": "5-6",
-        "zones": "[5a, 5b, 6a, 6b]",
+        "zones": ["5a", "5b", "6a", "6b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-07-23",
         "dtRangeEnd": "2019-08-06"
@@ -660,105 +660,105 @@ const plantingCalendarSeed = [
     "sowCal": [
       {
         "zone": "11",
-        "zones": "[11a, 11b]",
+        "zones": ["11a", "11b"],
         "sowType": "Indoor Sow",
         "dtRangeStart": "2019-11-23",
         "dtRangeEnd": "2019-12-07"
       },
       {
         "zone": "3-4",
-        "zones": "[3a, 3b, 4a, 4b]",
+        "zones": ["3a", "3b", "4a", "4b"],
         "sowType": "Indoor Sow",
         "dtRangeStart": "2019-03-10",
         "dtRangeEnd": "2019-03-24"
       },
       {
         "zone": "5-6",
-        "zones": "[5a, 5b, 6a, 6b]",
+        "zones": ["5a", "5b", "6a", "6b"],
         "sowType": "Indoor Sow",
         "dtRangeStart": "2019-02-22",
         "dtRangeEnd": "2019-03-07"
       },
       {
         "zone": "3-4",
-        "zones": "[3a, 3b, 4a, 4b]",
+        "zones": ["3a", "3b", "4a", "4b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-05-19",
         "dtRangeEnd": "2019-06-16"
       },
       {
         "zone": "7-8",
-        "zones": "[7a, 7b, 8a, 8b]",
+        "zones": ["7a", "7b", "8a", "8b"],
         "sowType": "Indoor Sow",
         "dtRangeStart": "2019-12-07",
         "dtRangeEnd": "2019-12-21"
       },
       {
         "zone": "9-10",
-        "zones": "[9a, 9b, 10a, 10b]",
+        "zones": ["9a", "9b", "10a", "10b"],
         "sowType": "Indoor Sow",
         "dtRangeStart": "2019-12-07",
         "dtRangeEnd": "2019-12-21"
       },
       {
         "zone": "11",
-        "zones": "[11a, 11b]",
+        "zones": ["11a", "11b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-02-22",
         "dtRangeEnd": "2019-04-15"
       },
       {
         "zone": "5-6",
-        "zones": "[5a, 5b, 6a, 6b]",
+        "zones": ["5a", "5b", "6a", "6b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-05-09",
         "dtRangeEnd": "2019-05-16"
       },
       {
         "zone": "7-8",
-        "zones": "[7a, 7b, 8a, 8b]",
+        "zones": ["7a", "7b", "8a", "8b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-02-15",
         "dtRangeEnd": "2019-03-01"
       },
       {
         "zone": "9-10",
-        "zones": "[9a, 9b, 10a, 10b]",
+        "zones": ["9a", "9b", "10a", "10b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-02-15",
         "dtRangeEnd": "2019-03-01"
       },
       {
         "zone": "7-8",
-        "zones": "[7a, 7b, 8a, 8b]",
+        "zones": ["7a", "7b", "8a", "8b"],
         "sowType": "Direct Sow",
         "dtRangeStart": "2019-02-22",
         "dtRangeEnd": "2019-03-01"
       },
       {
         "zone": "9-10",
-        "zones": "[9a, 9b, 10a, 10b]",
+        "zones": ["9a", "9b", "10a", "10b"],
         "sowType": "Direct Sow",
         "dtRangeStart": "2019-02-22",
         "dtRangeEnd": "2019-03-01"
       },
       {
         "zone": "5-6",
-        "zones": "[5a, 5b, 6a, 6b]",
+        "zones": ["5a", "5b", "6a", "6b"],
         "sowType": "Indoor Sow",
         "dtRangeStart": "2019-03-07",
         "dtRangeEnd": "2019-03-21"
       },
       {
         "zone": "5-6",
-        "zones": "[5a, 5b, 6a, 6b]",
+        "zones": ["5a", "5b", "6a", "6b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-03-28",
         "dtRangeEnd": "2019-05-16"
       },
       {
         "zone": "5-6",
-        "zones": "[5a, 5b, 6a, 6b]",
+        "zones": ["5a", "5b", "6a", "6b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-09-17",
         "dtRangeEnd": "2019-10-29"
@@ -771,49 +771,49 @@ const plantingCalendarSeed = [
     "sowCal": [
       {
         "zone": "11",
-        "zones": "[11a, 11b]",
+        "zones": ["11a", "11b"],
         "sowType": "Indoor Sow",
         "dtRangeStart": "2019-12-07",
         "dtRangeEnd": "2019-12-21"
       },
       {
         "zone": "3-4",
-        "zones": "[3a, 3b, 4a, 4b]",
+        "zones": ["3a", "3b", "4a", "4b"],
         "sowType": "Indoor Sow",
         "dtRangeStart": "2019-02-25",
         "dtRangeEnd": "2019-03-10"
       },
       {
         "zone": "5-6",
-        "zones": "[5a, 5b, 6a, 6b]",
+        "zones": ["5a", "5b", "6a", "6b"],
         "sowType": "Indoor Sow",
         "dtRangeStart": "2019-02-08",
         "dtRangeEnd": "2019-02-22"
       },
       {
         "zone": "3-4",
-        "zones": "[3a, 3b, 4a, 4b]",
+        "zones": ["3a", "3b", "4a", "4b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-05-19",
         "dtRangeEnd": "2019-06-16"
       },
       {
         "zone": "11",
-        "zones": "[11a, 11b]",
+        "zones": ["11a", "11b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-02-22",
         "dtRangeEnd": "2019-04-15"
       },
       {
         "zone": "5-6",
-        "zones": "[5a, 5b, 6a, 6b]",
+        "zones": ["5a", "5b", "6a", "6b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-05-02",
         "dtRangeEnd": "2019-06-01"
       },
       {
         "zone": "5-6",
-        "zones": "[5a, 5b, 6a, 6b]",
+        "zones": ["5a", "5b", "6a", "6b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-03-28",
         "dtRangeEnd": "2019-05-16"
@@ -826,77 +826,77 @@ const plantingCalendarSeed = [
     "sowCal": [
       {
         "zone": "11",
-        "zones": "[11a, 11b]",
+        "zones": ["11a", "11b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-02-22",
         "dtRangeEnd": "2019-04-15"
       },
       {
         "zone": "3-4",
-        "zones": "[3a, 3b, 4a, 4b]",
+        "zones": ["3a", "3b", "4a", "4b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-05-19",
         "dtRangeEnd": "2019-06-16"
       },
       {
         "zone": "7-8",
-        "zones": "[7a, 7b, 8a, 8b]",
+        "zones": ["7a", "7b", "8a", "8b"],
         "sowType": "Indoor Sow",
         "dtRangeStart": "2019-01-04",
         "dtRangeEnd": "2019-01-18"
       },
       {
         "zone": "9-10",
-        "zones": "[9a, 9b, 10a, 10b]",
+        "zones": ["9a", "9b", "10a", "10b"],
         "sowType": "Indoor Sow",
         "dtRangeStart": "2019-01-04",
         "dtRangeEnd": "2019-01-18"
       },
       {
         "zone": "5-6",
-        "zones": "[5a, 5b, 6a, 6b]",
+        "zones": ["5a", "5b", "6a", "6b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-03-28",
         "dtRangeEnd": "2019-05-30"
       },
       {
         "zone": "7-8",
-        "zones": "[7a, 7b, 8a, 8b]",
+        "zones": ["7a", "7b", "8a", "8b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-02-15",
         "dtRangeEnd": "2019-03-01"
       },
       {
         "zone": "9-10",
-        "zones": "[9a, 9b, 10a, 10b]",
+        "zones": ["9a", "9b", "10a", "10b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-02-15",
         "dtRangeEnd": "2019-03-01"
       },
       {
         "zone": "7-8",
-        "zones": "[7a, 7b, 8a, 8b]",
+        "zones": ["7a", "7b", "8a", "8b"],
         "sowType": "Direct Sow",
         "dtRangeStart": "2019-02-22",
         "dtRangeEnd": "2019-03-01"
       },
       {
         "zone": "9-10",
-        "zones": "[9a, 9b, 10a, 10b]",
+        "zones": ["9a", "9b", "10a", "10b"],
         "sowType": "Direct Sow",
         "dtRangeStart": "2019-02-22",
         "dtRangeEnd": "2019-03-01"
       },
       {
         "zone": "3-4",
-        "zones": "[3a, 3b, 4a, 4b]",
+        "zones": ["3a", "3b", "4a", "4b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-05-05",
         "dtRangeEnd": "2019-06-02"
       },
       {
         "zone": "5-6",
-        "zones": "[5a, 5b, 6a, 6b]",
+        "zones": ["5a", "5b", "6a", "6b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-03-28",
         "dtRangeEnd": "2019-05-16"
@@ -909,140 +909,140 @@ const plantingCalendarSeed = [
     "sowCal": [
       {
         "zone": "11",
-        "zones": "[11a, 11b]",
+        "zones": ["11a", "11b"],
         "sowType": "Indoor Sow",
         "dtRangeStart": "2019-01-04",
         "dtRangeEnd": "2019-01-18"
       },
       {
         "zone": "3-4",
-        "zones": "[3a, 3b, 4a, 4b]",
+        "zones": ["3a", "3b", "4a", "4b"],
         "sowType": "Indoor Sow",
         "dtRangeStart": "2019-03-10",
         "dtRangeEnd": "2019-03-24"
       },
       {
         "zone": "5-6",
-        "zones": "[5a, 5b, 6a, 6b]",
+        "zones": ["5a", "5b", "6a", "6b"],
         "sowType": "Indoor Sow",
         "dtRangeStart": "2019-02-22",
         "dtRangeEnd": "2019-03-07"
       },
       {
         "zone": "3-4",
-        "zones": "[3a, 3b, 4a, 4b]",
+        "zones": ["3a", "3b", "4a", "4b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-05-26",
         "dtRangeEnd": "2019-06-16"
       },
       {
         "zone": "7-8",
-        "zones": "[7a, 7b, 8a, 8b]",
+        "zones": ["7a", "7b", "8a", "8b"],
         "sowType": "Indoor Sow",
         "dtRangeStart": "2019-12-07",
         "dtRangeEnd": "2019-12-21"
       },
       {
         "zone": "9-10",
-        "zones": "[9a, 9b, 10a, 10b]",
+        "zones": ["9a", "9b", "10a", "10b"],
         "sowType": "Indoor Sow",
         "dtRangeStart": "2019-12-07",
         "dtRangeEnd": "2019-12-21"
       },
       {
         "zone": "11",
-        "zones": "[11a, 11b]",
+        "zones": ["11a", "11b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-02-22",
         "dtRangeEnd": "2019-03-01"
       },
       {
         "zone": "5-6",
-        "zones": "[5a, 5b, 6a, 6b]",
+        "zones": ["5a", "5b", "6a", "6b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-05-09",
         "dtRangeEnd": "2019-05-16"
       },
       {
         "zone": "7-8",
-        "zones": "[7a, 7b, 8a, 8b]",
+        "zones": ["7a", "7b", "8a", "8b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-02-15",
         "dtRangeEnd": "2019-03-28"
       },
       {
         "zone": "9-10",
-        "zones": "[9a, 9b, 10a, 10b]",
+        "zones": ["9a", "9b", "10a", "10b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-02-15",
         "dtRangeEnd": "2019-03-28"
       },
       {
         "zone": "11",
-        "zones": "[11a, 11b]",
+        "zones": ["11a", "11b"],
         "sowType": "Direct Sow",
         "dtRangeStart": "2019-02-22",
         "dtRangeEnd": "2019-03-01"
       },
       {
         "zone": "7-8",
-        "zones": "[7a, 7b, 8a, 8b]",
+        "zones": ["7a", "7b", "8a", "8b"],
         "sowType": "Direct Sow",
         "dtRangeStart": "2019-02-22",
         "dtRangeEnd": "2019-03-01"
       },
       {
         "zone": "9-10",
-        "zones": "[9a, 9b, 10a, 10b]",
+        "zones": ["9a", "9b", "10a", "10b"],
         "sowType": "Direct Sow",
         "dtRangeStart": "2019-02-22",
         "dtRangeEnd": "2019-03-01"
       },
       {
         "zone": "5-6",
-        "zones": "[5a, 5b, 6a, 6b]",
+        "zones": ["5a", "5b", "6a", "6b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-03-28",
         "dtRangeEnd": "2019-05-16"
       },
       {
         "zone": "7-8",
-        "zones": "[7a, 7b, 8a, 8b]",
+        "zones": ["7a", "7b", "8a", "8b"],
         "sowType": "Indoor Sow",
         "dtRangeStart": "2019-12-21",
         "dtRangeEnd": "2019-01-04"
       },
       {
         "zone": "9-10",
-        "zones": "[9a, 9b, 10a, 10b]",
+        "zones": ["9a", "9b", "10a", "10b"],
         "sowType": "Indoor Sow",
         "dtRangeStart": "2019-12-21",
         "dtRangeEnd": "2019-01-04"
       },
       {
         "zone": "7-8",
-        "zones": "[7a, 7b, 8a, 8b]",
+        "zones": ["7a", "7b", "8a", "8b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-02-15",
         "dtRangeEnd": "2019-03-28"
       },
       {
         "zone": "9-10",
-        "zones": "[9a, 9b, 10a, 10b]",
+        "zones": ["9a", "9b", "10a", "10b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-02-15",
         "dtRangeEnd": "2019-03-28"
       },
       {
         "zone": "7-8",
-        "zones": "[7a, 7b, 8a, 8b]",
+        "zones": ["7a", "7b", "8a", "8b"],
         "sowType": "Direct Sow",
         "dtRangeStart": "2019-02-22",
         "dtRangeEnd": "2019-03-15"
       },
       {
         "zone": "9-10",
-        "zones": "[9a, 9b, 10a, 10b]",
+        "zones": ["9a", "9b", "10a", "10b"],
         "sowType": "Direct Sow",
         "dtRangeStart": "2019-02-22",
         "dtRangeEnd": "2019-03-15"
@@ -1055,119 +1055,119 @@ const plantingCalendarSeed = [
     "sowCal": [
       {
         "zone": "3-4",
-        "zones": "[3a, 3b, 4a, 4b]",
+        "zones": ["3a", "3b", "4a", "4b"],
         "sowType": "Indoor Sow",
         "dtRangeStart": "2019-03-24",
         "dtRangeEnd": "2019-04-07"
       },
       {
         "zone": "3-4",
-        "zones": "[3a, 3b, 4a, 4b]",
+        "zones": ["3a", "3b", "4a", "4b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-05-05",
         "dtRangeEnd": "2019-06-02"
       },
       {
         "zone": "5-6",
-        "zones": "[5a, 5b, 6a, 6b]",
+        "zones": ["5a", "5b", "6a", "6b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-03-28",
         "dtRangeEnd": "2019-05-16"
       },
       {
         "zone": "7-8",
-        "zones": "[7a, 7b, 8a, 8b]",
+        "zones": ["7a", "7b", "8a", "8b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-12-07",
         "dtRangeEnd": "2019-12-21"
       },
       {
         "zone": "9-10",
-        "zones": "[9a, 9b, 10a, 10b]",
+        "zones": ["9a", "9b", "10a", "10b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-12-07",
         "dtRangeEnd": "2019-12-21"
       },
       {
         "zone": "3-4",
-        "zones": "[3a, 3b, 4a, 4b]",
+        "zones": ["3a", "3b", "4a", "4b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-09-04",
         "dtRangeEnd": "2019-10-16"
       },
       {
         "zone": "11",
-        "zones": "[11a, 11b]",
+        "zones": ["11a", "11b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-01-04",
         "dtRangeEnd": "2019-02-22"
       },
       {
         "zone": "3-4",
-        "zones": "[3a, 3b, 4a, 4b]",
+        "zones": ["3a", "3b", "4a", "4b"],
         "sowType": "Indoor Sow",
         "dtRangeStart": "2019-02-25",
         "dtRangeEnd": "2019-03-10"
       },
       {
         "zone": "5-6",
-        "zones": "[5a, 5b, 6a, 6b]",
+        "zones": ["5a", "5b", "6a", "6b"],
         "sowType": "Indoor Sow",
         "dtRangeStart": "2019-02-08",
         "dtRangeEnd": "2019-02-22"
       },
       {
         "zone": "3-4",
-        "zones": "[3a, 3b, 4a, 4b]",
+        "zones": ["3a", "3b", "4a", "4b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-05-19",
         "dtRangeEnd": "2019-06-16"
       },
       {
         "zone": "7-8",
-        "zones": "[7a, 7b, 8a, 8b]",
+        "zones": ["7a", "7b", "8a", "8b"],
         "sowType": "Indoor Sow",
         "dtRangeStart": "2019-11-23",
         "dtRangeEnd": "2019-12-07"
       },
       {
         "zone": "9-10",
-        "zones": "[9a, 9b, 10a, 10b]",
+        "zones": ["9a", "9b", "10a", "10b"],
         "sowType": "Indoor Sow",
         "dtRangeStart": "2019-11-23",
         "dtRangeEnd": "2019-12-07"
       },
       {
         "zone": "5-6",
-        "zones": "[5a, 5b, 6a, 6b]",
+        "zones": ["5a", "5b", "6a", "6b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-05-09",
         "dtRangeEnd": "2019-05-16"
       },
       {
         "zone": "7-8",
-        "zones": "[7a, 7b, 8a, 8b]",
+        "zones": ["7a", "7b", "8a", "8b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-02-15",
         "dtRangeEnd": "2019-04-01"
       },
       {
         "zone": "9-10",
-        "zones": "[9a, 9b, 10a, 10b]",
+        "zones": ["9a", "9b", "10a", "10b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-02-15",
         "dtRangeEnd": "2019-04-01"
       },
       {
         "zone": "7-8",
-        "zones": "[7a, 7b, 8a, 8b]",
+        "zones": ["7a", "7b", "8a", "8b"],
         "sowType": "Direct Sow",
         "dtRangeStart": "2019-02-15",
         "dtRangeEnd": "2019-04-01"
       },
       {
         "zone": "9-10",
-        "zones": "[9a, 9b, 10a, 10b]",
+        "zones": ["9a", "9b", "10a", "10b"],
         "sowType": "Direct Sow",
         "dtRangeStart": "2019-02-15",
         "dtRangeEnd": "2019-04-01"
@@ -1180,133 +1180,133 @@ const plantingCalendarSeed = [
     "sowCal": [
       {
         "zone": "5-6",
-        "zones": "[5a, 5b, 6a, 6b]",
+        "zones": ["5a", "5b", "6a", "6b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-03-28",
         "dtRangeEnd": "2019-05-16"
       },
       {
         "zone": "7-8",
-        "zones": "[7a, 7b, 8a, 8b]",
+        "zones": ["7a", "7b", "8a", "8b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-02-15",
         "dtRangeEnd": "2019-03-28"
       },
       {
         "zone": "9-10",
-        "zones": "[9a, 9b, 10a, 10b]",
+        "zones": ["9a", "9b", "10a", "10b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-02-15",
         "dtRangeEnd": "2019-03-28"
       },
       {
         "zone": "11",
-        "zones": "[11a, 11b]",
+        "zones": ["11a", "11b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-02-22",
         "dtRangeEnd": "2019-03-28"
       },
       {
         "zone": "3-4",
-        "zones": "[3a, 3b, 4a, 4b]",
+        "zones": ["3a", "3b", "4a", "4b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-05-05",
         "dtRangeEnd": "2019-06-02"
       },
       {
         "zone": "5-6",
-        "zones": "[5a, 5b, 6a, 6b]",
+        "zones": ["5a", "5b", "6a", "6b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-03-28",
         "dtRangeEnd": "2019-05-16"
       },
       {
         "zone": "7-8",
-        "zones": "[7a, 7b, 8a, 8b]",
+        "zones": ["7a", "7b", "8a", "8b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-02-15",
         "dtRangeEnd": "2019-03-28"
       },
       {
         "zone": "9-10",
-        "zones": "[9a, 9b, 10a, 10b]",
+        "zones": ["9a", "9b", "10a", "10b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-02-15",
         "dtRangeEnd": "2019-03-28"
       },
       {
         "zone": "11",
-        "zones": "[11a, 11b]",
+        "zones": ["11a", "11b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-01-04",
         "dtRangeEnd": "2019-02-22"
       },
       {
         "zone": "3-4",
-        "zones": "[3a, 3b, 4a, 4b]",
+        "zones": ["3a", "3b", "4a", "4b"],
         "sowType": "Indoor Sow",
         "dtRangeStart": "2019-03-24",
         "dtRangeEnd": "2019-04-07"
       },
       {
         "zone": "5-6",
-        "zones": "[5a, 5b, 6a, 6b]",
+        "zones": ["5a", "5b", "6a", "6b"],
         "sowType": "Indoor Sow",
         "dtRangeStart": "2019-03-07",
         "dtRangeEnd": "2019-03-21"
       },
       {
         "zone": "3-4",
-        "zones": "[3a, 3b, 4a, 4b]",
+        "zones": ["3a", "3b", "4a", "4b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-05-26",
         "dtRangeEnd": "2019-06-16"
       },
       {
         "zone": "7-8",
-        "zones": "[7a, 7b, 8a, 8b]",
+        "zones": ["7a", "7b", "8a", "8b"],
         "sowType": "Indoor Sow",
         "dtRangeStart": "2019-12-21",
         "dtRangeEnd": "2019-01-04"
       },
       {
         "zone": "9-10",
-        "zones": "[9a, 9b, 10a, 10b]",
+        "zones": ["9a", "9b", "10a", "10b"],
         "sowType": "Indoor Sow",
         "dtRangeStart": "2019-12-21",
         "dtRangeEnd": "2019-01-04"
       },
       {
         "zone": "5-6",
-        "zones": "[5a, 5b, 6a, 6b]",
+        "zones": ["5a", "5b", "6a", "6b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-05-09",
         "dtRangeEnd": "2019-06-01"
       },
       {
         "zone": "7-8",
-        "zones": "[7a, 7b, 8a, 8b]",
+        "zones": ["7a", "7b", "8a", "8b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-02-15",
         "dtRangeEnd": "2019-04-01"
       },
       {
         "zone": "9-10",
-        "zones": "[9a, 9b, 10a, 10b]",
+        "zones": ["9a", "9b", "10a", "10b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-02-15",
         "dtRangeEnd": "2019-04-01"
       },
       {
         "zone": "7-8",
-        "zones": "[7a, 7b, 8a, 8b]",
+        "zones": ["7a", "7b", "8a", "8b"],
         "sowType": "Direct Sow",
         "dtRangeStart": "2019-02-15",
         "dtRangeEnd": "2019-04-01"
       },
       {
         "zone": "9-10",
-        "zones": "[9a, 9b, 10a, 10b]",
+        "zones": ["9a", "9b", "10a", "10b"],
         "sowType": "Direct Sow",
         "dtRangeStart": "2019-02-15",
         "dtRangeEnd": "2019-04-01"
@@ -1319,42 +1319,42 @@ const plantingCalendarSeed = [
     "sowCal": [
       {
         "zone": "11",
-        "zones": "[11a, 11b]",
+        "zones": ["11a", "11b"],
         "sowType": "Direct Sow",
         "dtRangeStart": "2019-02-15",
         "dtRangeEnd": "2019-04-25"
       },
       {
         "zone": "3-4",
-        "zones": "[3a, 3b, 4a, 4b]",
+        "zones": ["3a", "3b", "4a", "4b"],
         "sowType": "Direct Sow",
         "dtRangeStart": "2019-06-02",
         "dtRangeEnd": "2019-06-30"
       },
       {
         "zone": "5-6",
-        "zones": "[5a, 5b, 6a, 6b]",
+        "zones": ["5a", "5b", "6a", "6b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-03-28",
         "dtRangeEnd": "2019-05-16"
       },
       {
         "zone": "5-6",
-        "zones": "[5a, 5b, 6a, 6b]",
+        "zones": ["5a", "5b", "6a", "6b"],
         "sowType": "Direct Sow",
         "dtRangeStart": "2019-05-16",
         "dtRangeEnd": "2019-06-13"
       },
       {
         "zone": "7-8",
-        "zones": "[7a, 7b, 8a, 8b]",
+        "zones": ["7a", "7b", "8a", "8b"],
         "sowType": "Direct Sow",
         "dtRangeStart": "2019-03-01",
         "dtRangeEnd": "2019-04-25"
       },
       {
         "zone": "9-10",
-        "zones": "[9a, 9b, 10a, 10b]",
+        "zones": ["9a", "9b", "10a", "10b"],
         "sowType": "Direct Sow",
         "dtRangeStart": "2019-03-01",
         "dtRangeEnd": "2019-04-25"
@@ -1367,98 +1367,98 @@ const plantingCalendarSeed = [
     "sowCal": [
       {
         "zone": "11",
-        "zones": "[11a, 11b]",
+        "zones": ["11a", "11b"],
         "sowType": "Indoor Sow",
         "dtRangeStart": "2019-12-21",
         "dtRangeEnd": "2019-01-04"
       },
       {
         "zone": "3-4",
-        "zones": "[3a, 3b, 4a, 4b]",
+        "zones": ["3a", "3b", "4a", "4b"],
         "sowType": "Indoor Sow",
         "dtRangeStart": "2019-03-24",
         "dtRangeEnd": "2019-04-07"
       },
       {
         "zone": "5-6",
-        "zones": "[5a, 5b, 6a, 6b]",
+        "zones": ["5a", "5b", "6a", "6b"],
         "sowType": "Indoor Sow",
         "dtRangeStart": "2019-03-07",
         "dtRangeEnd": "2019-03-21"
       },
       {
         "zone": "7-8",
-        "zones": "[7a, 7b, 8a, 8b]",
+        "zones": ["7a", "7b", "8a", "8b"],
         "sowType": "Indoor Sow",
         "dtRangeStart": "2019-12-21",
         "dtRangeEnd": "2019-01-04"
       },
       {
         "zone": "9-10",
-        "zones": "[9a, 9b, 10a, 10b]",
+        "zones": ["9a", "9b", "10a", "10b"],
         "sowType": "Indoor Sow",
         "dtRangeStart": "2019-12-21",
         "dtRangeEnd": "2019-01-04"
       },
       {
         "zone": "11",
-        "zones": "[11a, 11b]",
+        "zones": ["11a", "11b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-02-15",
         "dtRangeEnd": "2019-04-15"
       },
       {
         "zone": "5-6",
-        "zones": "[5a, 5b, 6a, 6b]",
+        "zones": ["5a", "5b", "6a", "6b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-05-02",
         "dtRangeEnd": "2019-05-30"
       },
       {
         "zone": "7-8",
-        "zones": "[7a, 7b, 8a, 8b]",
+        "zones": ["7a", "7b", "8a", "8b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-02-01",
         "dtRangeEnd": "2019-03-15"
       },
       {
         "zone": "9-10",
-        "zones": "[9a, 9b, 10a, 10b]",
+        "zones": ["9a", "9b", "10a", "10b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-02-01",
         "dtRangeEnd": "2019-03-15"
       },
       {
         "zone": "11",
-        "zones": "[11a, 11b]",
+        "zones": ["11a", "11b"],
         "sowType": "Direct Sow",
         "dtRangeStart": "2019-02-15",
         "dtRangeEnd": "2019-03-14"
       },
       {
         "zone": "3-4",
-        "zones": "[3a, 3b, 4a, 4b]",
+        "zones": ["3a", "3b", "4a", "4b"],
         "sowType": "Direct Sow",
         "dtRangeStart": "2019-05-26",
         "dtRangeEnd": "2019-06-02"
       },
       {
         "zone": "5-6",
-        "zones": "[5a, 5b, 6a, 6b]",
+        "zones": ["5a", "5b", "6a", "6b"],
         "sowType": "Direct Sow",
         "dtRangeStart": "2019-05-09",
         "dtRangeEnd": "2019-05-30"
       },
       {
         "zone": "7-8",
-        "zones": "[7a, 7b, 8a, 8b]",
+        "zones": ["7a", "7b", "8a", "8b"],
         "sowType": "Direct Sow",
         "dtRangeStart": "2019-02-01",
         "dtRangeEnd": "2019-03-14"
       },
       {
         "zone": "9-10",
-        "zones": "[9a, 9b, 10a, 10b]",
+        "zones": ["9a", "9b", "10a", "10b"],
         "sowType": "Direct Sow",
         "dtRangeStart": "2019-02-01",
         "dtRangeEnd": "2019-03-14"
@@ -1471,91 +1471,91 @@ const plantingCalendarSeed = [
     "sowCal": [
       {
         "zone": "11",
-        "zones": "[11a, 11b]",
+        "zones": ["11a", "11b"],
         "sowType": "Indoor Sow",
         "dtRangeStart": "2019-01-04",
         "dtRangeEnd": "2019-01-18"
       },
       {
         "zone": "3-4",
-        "zones": "[3a, 3b, 4a, 4b]",
+        "zones": ["3a", "3b", "4a", "4b"],
         "sowType": "Indoor Sow",
         "dtRangeStart": "2019-03-24",
         "dtRangeEnd": "2019-04-07"
       },
       {
         "zone": "3-4",
-        "zones": "[3a, 3b, 4a, 4b]",
+        "zones": ["3a", "3b", "4a", "4b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-06-05",
         "dtRangeEnd": "2019-06-16"
       },
       {
         "zone": "5-6",
-        "zones": "[5a, 5b, 6a, 6b]",
+        "zones": ["5a", "5b", "6a", "6b"],
         "sowType": "Indoor Sow",
         "dtRangeStart": "2019-03-07",
         "dtRangeEnd": "2019-03-21"
       },
       {
         "zone": "7-8",
-        "zones": "[7a, 7b, 8a, 8b]",
+        "zones": ["7a", "7b", "8a", "8b"],
         "sowType": "Indoor Sow",
         "dtRangeStart": "2019-01-04",
         "dtRangeEnd": "2019-01-18"
       },
       {
         "zone": "9-10",
-        "zones": "[9a, 9b, 10a, 10b]",
+        "zones": ["9a", "9b", "10a", "10b"],
         "sowType": "Indoor Sow",
         "dtRangeStart": "2019-01-04",
         "dtRangeEnd": "2019-01-18"
       },
       {
         "zone": "11",
-        "zones": "[11a, 11b]",
+        "zones": ["11a", "11b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-03-01",
         "dtRangeEnd": "2019-04-15"
       },
       {
         "zone": "5-6",
-        "zones": "[5a, 5b, 6a, 6b]",
+        "zones": ["5a", "5b", "6a", "6b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-05-09",
         "dtRangeEnd": "2019-06-01"
       },
       {
         "zone": "7-8",
-        "zones": "[7a, 7b, 8a, 8b]",
+        "zones": ["7a", "7b", "8a", "8b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-02-15",
         "dtRangeEnd": "2019-03-15"
       },
       {
         "zone": "9-10",
-        "zones": "[9a, 9b, 10a, 10b]",
+        "zones": ["9a", "9b", "10a", "10b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-02-15",
         "dtRangeEnd": "2019-03-15"
       },
       {
         "zone": "11",
-        "zones": "[11a, 11b]",
+        "zones": ["11a", "11b"],
         "sowType": "Direct Sow",
         "dtRangeStart": "2019-03-01",
         "dtRangeEnd": "2019-03-14"
       },
       {
         "zone": "7-8",
-        "zones": "[7a, 7b, 8a, 8b]",
+        "zones": ["7a", "7b", "8a", "8b"],
         "sowType": "Direct Sow",
         "dtRangeStart": "2019-02-15",
         "dtRangeEnd": "2019-03-14"
       },
       {
         "zone": "9-10",
-        "zones": "[9a, 9b, 10a, 10b]",
+        "zones": ["9a", "9b", "10a", "10b"],
         "sowType": "Direct Sow",
         "dtRangeStart": "2019-02-15",
         "dtRangeEnd": "2019-03-14"
@@ -1568,84 +1568,84 @@ const plantingCalendarSeed = [
     "sowCal": [
       {
         "zone": "3-4",
-        "zones": "[3a, 3b, 4a, 4b]",
+        "zones": ["3a", "3b", "4a", "4b"],
         "sowType": "Indoor Sow",
         "dtRangeStart": "2019-03-24",
         "dtRangeEnd": "2019-04-07"
       },
       {
         "zone": "3-4",
-        "zones": "[3a, 3b, 4a, 4b]",
+        "zones": ["3a", "3b", "4a", "4b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-05-15",
         "dtRangeEnd": "2019-06-02"
       },
       {
         "zone": "5-6",
-        "zones": "[5a, 5b, 6a, 6b]",
+        "zones": ["5a", "5b", "6a", "6b"],
         "sowType": "Indoor Sow",
         "dtRangeStart": "2019-03-07",
         "dtRangeEnd": "2019-03-21"
       },
       {
         "zone": "7-8",
-        "zones": "[7a, 7b, 8a, 8b]",
+        "zones": ["7a", "7b", "8a", "8b"],
         "sowType": "Indoor Sow",
         "dtRangeStart": "2019-01-04",
         "dtRangeEnd": "2019-01-18"
       },
       {
         "zone": "9-10",
-        "zones": "[9a, 9b, 10a, 10b]",
+        "zones": ["9a", "9b", "10a", "10b"],
         "sowType": "Indoor Sow",
         "dtRangeStart": "2019-01-04",
         "dtRangeEnd": "2019-01-18"
       },
       {
         "zone": "5-6",
-        "zones": "[5a, 5b, 6a, 6b]",
+        "zones": ["5a", "5b", "6a", "6b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-05-09",
         "dtRangeEnd": "2019-05-16"
       },
       {
         "zone": "7-8",
-        "zones": "[7a, 7b, 8a, 8b]",
+        "zones": ["7a", "7b", "8a", "8b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-02-01",
         "dtRangeEnd": "2019-03-15"
       },
       {
         "zone": "9-10",
-        "zones": "[9a, 9b, 10a, 10b]",
+        "zones": ["9a", "9b", "10a", "10b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-02-01",
         "dtRangeEnd": "2019-03-15"
       },
       {
         "zone": "5-6",
-        "zones": "[5a, 5b, 6a, 6b]",
+        "zones": ["5a", "5b", "6a", "6b"],
         "sowType": "Direct Sow",
         "dtRangeStart": "2019-05-09",
         "dtRangeEnd": "2019-05-16"
       },
       {
         "zone": "7-8",
-        "zones": "[7a, 7b, 8a, 8b]",
+        "zones": ["7a", "7b", "8a", "8b"],
         "sowType": "Direct Sow",
         "dtRangeStart": "2019-02-01",
         "dtRangeEnd": "2019-03-15"
       },
       {
         "zone": "9-10",
-        "zones": "[9a, 9b, 10a, 10b]",
+        "zones": ["9a", "9b", "10a", "10b"],
         "sowType": "Direct Sow",
         "dtRangeStart": "2019-02-01",
         "dtRangeEnd": "2019-03-15"
       },
       {
         "zone": "3-4",
-        "zones": "[3a, 3b, 4a, 4b]",
+        "zones": ["3a", "3b", "4a", "4b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-05-26",
         "dtRangeEnd": "2019-06-02"
@@ -1658,49 +1658,49 @@ const plantingCalendarSeed = [
     "sowCal": [
       {
         "zone": "11",
-        "zones": "[11a, 11b]",
+        "zones": ["11a", "11b"],
         "sowType": "Indoor Sow",
         "dtRangeStart": "2019-01-04",
         "dtRangeEnd": "2019-01-18"
       },
       {
         "zone": "11",
-        "zones": "[11a, 11b]",
+        "zones": ["11a", "11b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-02-22",
         "dtRangeEnd": "2019-03-15"
       },
       {
         "zone": "3-4",
-        "zones": "[3a, 3b, 4a, 4b]",
+        "zones": ["3a", "3b", "4a", "4b"],
         "sowType": "Indoor Sow",
         "dtRangeStart": "2019-03-24",
         "dtRangeEnd": "2019-04-07"
       },
       {
         "zone": "3-4",
-        "zones": "[3a, 3b, 4a, 4b]",
+        "zones": ["3a", "3b", "4a", "4b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-06-02",
         "dtRangeEnd": "2019-06-16"
       },
       {
         "zone": "5-6",
-        "zones": "[5a, 5b, 6a, 6b]",
+        "zones": ["5a", "5b", "6a", "6b"],
         "sowType": "Indoor Sow",
         "dtRangeStart": "2019-03-07",
         "dtRangeEnd": "2019-03-21"
       },
       {
         "zone": "5-6",
-        "zones": "[5a, 5b, 6a, 6b]",
+        "zones": ["5a", "5b", "6a", "6b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-05-09",
         "dtRangeEnd": "2019-06-01"
       },
       {
         "zone": "11",
-        "zones": "[11a, 11b]",
+        "zones": ["11a", "11b"],
         "sowType": "Direct Sow",
         "dtRangeStart": "2019-02-22",
         "dtRangeEnd": "2019-03-15"
@@ -1713,91 +1713,91 @@ const plantingCalendarSeed = [
     "sowCal": [
       {
         "zone": "11",
-        "zones": "[11a, 11b]",
+        "zones": ["11a", "11b"],
         "sowType": "Indoor Sow",
         "dtRangeStart": "2019-12-21",
         "dtRangeEnd": "2019-01-04"
       },
       {
         "zone": "3-4",
-        "zones": "[3a, 3b, 4a, 4b]",
+        "zones": ["3a", "3b", "4a", "4b"],
         "sowType": "Indoor Sow",
         "dtRangeStart": "2019-04-07",
         "dtRangeEnd": "2019-04-21"
       },
       {
         "zone": "3-4",
-        "zones": "[3a, 3b, 4a, 4b]",
+        "zones": ["3a", "3b", "4a", "4b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-06-05",
         "dtRangeEnd": "2019-06-16"
       },
       {
         "zone": "5-6",
-        "zones": "[5a, 5b, 6a, 6b]",
+        "zones": ["5a", "5b", "6a", "6b"],
         "sowType": "Indoor Sow",
         "dtRangeStart": "2019-03-21",
         "dtRangeEnd": "2019-04-04"
       },
       {
         "zone": "7-8",
-        "zones": "[7a, 7b, 8a, 8b]",
+        "zones": ["7a", "7b", "8a", "8b"],
         "sowType": "Indoor Sow",
         "dtRangeStart": "2019-01-04",
         "dtRangeEnd": "2019-01-18"
       },
       {
         "zone": "9-10",
-        "zones": "[9a, 9b, 10a, 10b]",
+        "zones": ["9a", "9b", "10a", "10b"],
         "sowType": "Indoor Sow",
         "dtRangeStart": "2019-01-04",
         "dtRangeEnd": "2019-01-18"
       },
       {
         "zone": "11",
-        "zones": "[11a, 11b]",
+        "zones": ["11a", "11b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-02-01",
         "dtRangeEnd": "2019-03-01"
       },
       {
         "zone": "5-6",
-        "zones": "[5a, 5b, 6a, 6b]",
+        "zones": ["5a", "5b", "6a", "6b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-05-02",
         "dtRangeEnd": "2019-05-16"
       },
       {
         "zone": "7-8",
-        "zones": "[7a, 7b, 8a, 8b]",
+        "zones": ["7a", "7b", "8a", "8b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-02-01",
         "dtRangeEnd": "2019-03-01"
       },
       {
         "zone": "9-10",
-        "zones": "[9a, 9b, 10a, 10b]",
+        "zones": ["9a", "9b", "10a", "10b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-02-01",
         "dtRangeEnd": "2019-03-01"
       },
       {
         "zone": "11",
-        "zones": "[11a, 11b]",
+        "zones": ["11a", "11b"],
         "sowType": "Direct Sow",
         "dtRangeStart": "2019-02-22",
         "dtRangeEnd": "2019-04-01"
       },
       {
         "zone": "7-8",
-        "zones": "[7a, 7b, 8a, 8b]",
+        "zones": ["7a", "7b", "8a", "8b"],
         "sowType": "Direct Sow",
         "dtRangeStart": "2019-02-01",
         "dtRangeEnd": "2019-04-01"
       },
       {
         "zone": "9-10",
-        "zones": "[9a, 9b, 10a, 10b]",
+        "zones": ["9a", "9b", "10a", "10b"],
         "sowType": "Direct Sow",
         "dtRangeStart": "2019-02-01",
         "dtRangeEnd": "2019-04-01"
@@ -1810,49 +1810,49 @@ const plantingCalendarSeed = [
     "sowCal": [
       {
         "zone": "11",
-        "zones": "[11a, 11b]",
+        "zones": ["11a", "11b"],
         "sowType": "Indoor Sow",
         "dtRangeStart": "2019-01-04",
         "dtRangeEnd": "2019-01-18"
       },
       {
         "zone": "3-4",
-        "zones": "[3a, 3b, 4a, 4b]",
+        "zones": ["3a", "3b", "4a", "4b"],
         "sowType": "Indoor Sow",
         "dtRangeStart": "2019-03-10",
         "dtRangeEnd": "2019-03-24"
       },
       {
         "zone": "3-4",
-        "zones": "[3a, 3b, 4a, 4b]",
+        "zones": ["3a", "3b", "4a", "4b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-06-02",
         "dtRangeEnd": "2019-06-05"
       },
       {
         "zone": "5-6",
-        "zones": "[5a, 5b, 6a, 6b]",
+        "zones": ["5a", "5b", "6a", "6b"],
         "sowType": "Indoor Sow",
         "dtRangeStart": "2019-02-22",
         "dtRangeEnd": "2019-03-07"
       },
       {
         "zone": "11",
-        "zones": "[11a, 11b]",
+        "zones": ["11a", "11b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-02-15",
         "dtRangeEnd": "2019-03-01"
       },
       {
         "zone": "5-6",
-        "zones": "[5a, 5b, 6a, 6b]",
+        "zones": ["5a", "5b", "6a", "6b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-05-09",
         "dtRangeEnd": "2019-05-16"
       },
       {
         "zone": "11",
-        "zones": "[11a, 11b]",
+        "zones": ["11a", "11b"],
         "sowType": "Direct Sow",
         "dtRangeStart": "2019-02-22",
         "dtRangeEnd": "2019-04-01"
@@ -1865,35 +1865,35 @@ const plantingCalendarSeed = [
     "sowCal": [
       {
         "zone": "11",
-        "zones": "[11a, 11b]",
+        "zones": ["11a", "11b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-01-18",
         "dtRangeEnd": "2019-02-15"
       },
       {
         "zone": "3-4",
-        "zones": "[3a, 3b, 4a, 4b]",
+        "zones": ["3a", "3b", "4a", "4b"],
         "sowType": "Indoor Sow",
         "dtRangeStart": "2019-03-10",
         "dtRangeEnd": "2019-03-24"
       },
       {
         "zone": "3-4",
-        "zones": "[3a, 3b, 4a, 4b]",
+        "zones": ["3a", "3b", "4a", "4b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-06-05",
         "dtRangeEnd": "2019-06-16"
       },
       {
         "zone": "5-6",
-        "zones": "[5a, 5b, 6a, 6b]",
+        "zones": ["5a", "5b", "6a", "6b"],
         "sowType": "Indoor Sow",
         "dtRangeStart": "2019-02-22",
         "dtRangeEnd": "2019-03-07"
       },
       {
         "zone": "5-6",
-        "zones": "[5a, 5b, 6a, 6b]",
+        "zones": ["5a", "5b", "6a", "6b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-05-02",
         "dtRangeEnd": "2019-06-01"
@@ -1906,84 +1906,84 @@ const plantingCalendarSeed = [
     "sowCal": [
       {
         "zone": "11",
-        "zones": "[11a, 11b]",
+        "zones": ["11a", "11b"],
         "sowType": "Indoor Sow",
         "dtRangeStart": "2019-12-07",
         "dtRangeEnd": "2019-12-21"
       },
       {
         "zone": "3-4",
-        "zones": "[3a, 3b, 4a, 4b]",
+        "zones": ["3a", "3b", "4a", "4b"],
         "sowType": "Indoor Sow",
         "dtRangeStart": "2019-04-07",
         "dtRangeEnd": "2019-04-21"
       },
       {
         "zone": "3-4",
-        "zones": "[3a, 3b, 4a, 4b]",
+        "zones": ["3a", "3b", "4a", "4b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-05-19",
         "dtRangeEnd": "2019-06-16"
       },
       {
         "zone": "5-6",
-        "zones": "[5a, 5b, 6a, 6b]",
+        "zones": ["5a", "5b", "6a", "6b"],
         "sowType": "Indoor Sow",
         "dtRangeStart": "2019-03-21",
         "dtRangeEnd": "2019-04-04"
       },
       {
         "zone": "7-8",
-        "zones": "[7a, 7b, 8a, 8b]",
+        "zones": ["7a", "7b", "8a", "8b"],
         "sowType": "Indoor Sow",
         "dtRangeStart": "2019-01-04",
         "dtRangeEnd": "2019-01-18"
       },
       {
         "zone": "9-10",
-        "zones": "[9a, 9b, 10a, 10b]",
+        "zones": ["9a", "9b", "10a", "10b"],
         "sowType": "Indoor Sow",
         "dtRangeStart": "2019-01-04",
         "dtRangeEnd": "2019-01-18"
       },
       {
         "zone": "11",
-        "zones": "[11a, 11b]",
+        "zones": ["11a", "11b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-02-22",
         "dtRangeEnd": "2019-04-15"
       },
       {
         "zone": "5-6",
-        "zones": "[5a, 5b, 6a, 6b]",
+        "zones": ["5a", "5b", "6a", "6b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-05-09",
         "dtRangeEnd": "2019-05-16"
       },
       {
         "zone": "7-8",
-        "zones": "[7a, 7b, 8a, 8b]",
+        "zones": ["7a", "7b", "8a", "8b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-02-15",
         "dtRangeEnd": "2019-03-01"
       },
       {
         "zone": "9-10",
-        "zones": "[9a, 9b, 10a, 10b]",
+        "zones": ["9a", "9b", "10a", "10b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-02-15",
         "dtRangeEnd": "2019-03-01"
       },
       {
         "zone": "7-8",
-        "zones": "[7a, 7b, 8a, 8b]",
+        "zones": ["7a", "7b", "8a", "8b"],
         "sowType": "Direct Sow",
         "dtRangeStart": "2019-02-22",
         "dtRangeEnd": "2019-03-01"
       },
       {
         "zone": "9-10",
-        "zones": "[9a, 9b, 10a, 10b]",
+        "zones": ["9a", "9b", "10a", "10b"],
         "sowType": "Direct Sow",
         "dtRangeStart": "2019-02-22",
         "dtRangeEnd": "2019-03-01"
@@ -1996,91 +1996,91 @@ const plantingCalendarSeed = [
     "sowCal": [
       {
         "zone": "11",
-        "zones": "[11a, 11b]",
+        "zones": ["11a", "11b"],
         "sowType": "Indoor Sow",
         "dtRangeStart": "2019-01-04",
         "dtRangeEnd": "2019-01-18"
       },
       {
         "zone": "3-4",
-        "zones": "[3a, 3b, 4a, 4b]",
+        "zones": ["3a", "3b", "4a", "4b"],
         "sowType": "Indoor Sow",
         "dtRangeStart": "2019-03-24",
         "dtRangeEnd": "2019-04-07"
       },
       {
         "zone": "3-4",
-        "zones": "[3a, 3b, 4a, 4b]",
+        "zones": ["3a", "3b", "4a", "4b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-05-19",
         "dtRangeEnd": "2019-06-16"
       },
       {
         "zone": "5-6",
-        "zones": "[5a, 5b, 6a, 6b]",
+        "zones": ["5a", "5b", "6a", "6b"],
         "sowType": "Indoor Sow",
         "dtRangeStart": "2019-03-07",
         "dtRangeEnd": "2019-03-21"
       },
       {
         "zone": "7-8",
-        "zones": "[7a, 7b, 8a, 8b]",
+        "zones": ["7a", "7b", "8a", "8b"],
         "sowType": "Indoor Sow",
         "dtRangeStart": "2019-12-21",
         "dtRangeEnd": "2019-01-04"
       },
       {
         "zone": "9-10",
-        "zones": "[9a, 9b, 10a, 10b]",
+        "zones": ["9a", "9b", "10a", "10b"],
         "sowType": "Indoor Sow",
         "dtRangeStart": "2019-12-21",
         "dtRangeEnd": "2019-01-04"
       },
       {
         "zone": "11",
-        "zones": "[11a, 11b]",
+        "zones": ["11a", "11b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-02-22",
         "dtRangeEnd": "2019-03-01"
       },
       {
         "zone": "5-6",
-        "zones": "[5a, 5b, 6a, 6b]",
+        "zones": ["5a", "5b", "6a", "6b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-05-09",
         "dtRangeEnd": "2019-05-16"
       },
       {
         "zone": "7-8",
-        "zones": "[7a, 7b, 8a, 8b]",
+        "zones": ["7a", "7b", "8a", "8b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-02-15",
         "dtRangeEnd": "2019-04-01"
       },
       {
         "zone": "9-10",
-        "zones": "[9a, 9b, 10a, 10b]",
+        "zones": ["9a", "9b", "10a", "10b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-02-15",
         "dtRangeEnd": "2019-04-01"
       },
       {
         "zone": "11",
-        "zones": "[11a, 11b]",
+        "zones": ["11a", "11b"],
         "sowType": "Direct Sow",
         "dtRangeStart": "2019-02-22",
         "dtRangeEnd": "2019-03-01"
       },
       {
         "zone": "7-8",
-        "zones": "[7a, 7b, 8a, 8b]",
+        "zones": ["7a", "7b", "8a", "8b"],
         "sowType": "Direct Sow",
         "dtRangeStart": "2019-02-22",
         "dtRangeEnd": "2019-04-01"
       },
       {
         "zone": "9-10",
-        "zones": "[9a, 9b, 10a, 10b]",
+        "zones": ["9a", "9b", "10a", "10b"],
         "sowType": "Direct Sow",
         "dtRangeStart": "2019-02-22",
         "dtRangeEnd": "2019-04-01"
@@ -2093,84 +2093,84 @@ const plantingCalendarSeed = [
     "sowCal": [
       {
         "zone": "11",
-        "zones": "[11a, 11b]",
+        "zones": ["11a", "11b"],
         "sowType": "Indoor Sow",
         "dtRangeStart": "2019-12-21",
         "dtRangeEnd": "2019-01-04"
       },
       {
         "zone": "3-4",
-        "zones": "[3a, 3b, 4a, 4b]",
+        "zones": ["3a", "3b", "4a", "4b"],
         "sowType": "Indoor Sow",
         "dtRangeStart": "2019-04-07",
         "dtRangeEnd": "2019-04-21"
       },
       {
         "zone": "3-4",
-        "zones": "[3a, 3b, 4a, 4b]",
+        "zones": ["3a", "3b", "4a", "4b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-06-05",
         "dtRangeEnd": "2019-06-16"
       },
       {
         "zone": "3-4",
-        "zones": "[3a, 3b, 4a, 4b]",
+        "zones": ["3a", "3b", "4a", "4b"],
         "sowType": "Indoor Sow",
         "dtRangeStart": "2019-03-24",
         "dtRangeEnd": "2019-04-07"
       },
       {
         "zone": "3-4",
-        "zones": "[3a, 3b, 4a, 4b]",
+        "zones": ["3a", "3b", "4a", "4b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-06-05",
         "dtRangeEnd": "2019-06-16"
       },
       {
         "zone": "5-6",
-        "zones": "[5a, 5b, 6a, 6b]",
+        "zones": ["5a", "5b", "6a", "6b"],
         "sowType": "Indoor Sow",
         "dtRangeStart": "2019-03-07",
         "dtRangeEnd": "2019-03-21"
       },
       {
         "zone": "7-8",
-        "zones": "[7a, 7b, 8a, 8b]",
+        "zones": ["7a", "7b", "8a", "8b"],
         "sowType": "Indoor Sow",
         "dtRangeStart": "2019-01-04",
         "dtRangeEnd": "2019-01-18"
       },
       {
         "zone": "11",
-        "zones": "[11a, 11b]",
+        "zones": ["11a", "11b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-02-22",
         "dtRangeEnd": "2019-04-01"
       },
       {
         "zone": "5-6",
-        "zones": "[5a, 5b, 6a, 6b]",
+        "zones": ["5a", "5b", "6a", "6b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-05-02",
         "dtRangeEnd": "2019-05-30"
       },
       {
         "zone": "7-8",
-        "zones": "[7a, 7b, 8a, 8b]",
+        "zones": ["7a", "7b", "8a", "8b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-02-15",
         "dtRangeEnd": "2019-04-15"
       },
       {
         "zone": "9-10",
-        "zones": "[9a, 9b, 10a, 10b]",
+        "zones": ["9a", "9b", "10a", "10b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-02-15",
         "dtRangeEnd": "2019-04-15"
       },
       {
         "zone": "11",
-        "zones": "[11a, 11b]",
+        "zones": ["11a", "11b"],
         "sowType": "Direct Sow",
         "dtRangeStart": "2019-02-22",
         "dtRangeEnd": "2019-04-01"
@@ -2183,63 +2183,63 @@ const plantingCalendarSeed = [
     "sowCal": [
       {
         "zone": "11",
-        "zones": "[11a, 11b]",
+        "zones": ["11a", "11b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-02-01",
         "dtRangeEnd": "2019-04-15"
       },
       {
         "zone": "5-6",
-        "zones": "[5a, 5b, 6a, 6b]",
+        "zones": ["5a", "5b", "6a", "6b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-05-02",
         "dtRangeEnd": "2019-06-01"
       },
       {
         "zone": "7-8",
-        "zones": "[7a, 7b, 8a, 8b]",
+        "zones": ["7a", "7b", "8a", "8b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-02-01",
         "dtRangeEnd": "2019-03-01"
       },
       {
         "zone": "9-10",
-        "zones": "[9a, 9b, 10a, 10b]",
+        "zones": ["9a", "9b", "10a", "10b"],
         "sowType": "Indoor Sow",
         "dtRangeStart": "2019-01-04",
         "dtRangeEnd": "2019-01-18"
       },
       {
         "zone": "9-10",
-        "zones": "[9a, 9b, 10a, 10b]",
+        "zones": ["9a", "9b", "10a", "10b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-02-01",
         "dtRangeEnd": "2019-03-01"
       },
       {
         "zone": "3-4",
-        "zones": "[3a, 3b, 4a, 4b]",
+        "zones": ["3a", "3b", "4a", "4b"],
         "sowType": "Direct Sow",
         "dtRangeStart": "2019-05-19",
         "dtRangeEnd": "2019-06-16"
       },
       {
         "zone": "5-6",
-        "zones": "[5a, 5b, 6a, 6b]",
+        "zones": ["5a", "5b", "6a", "6b"],
         "sowType": "Direct Sow",
         "dtRangeStart": "2019-05-16",
         "dtRangeEnd": "2019-06-01"
       },
       {
         "zone": "7-8",
-        "zones": "[7a, 7b, 8a, 8b]",
+        "zones": ["7a", "7b", "8a", "8b"],
         "sowType": "Direct Sow",
         "dtRangeStart": "2019-02-01",
         "dtRangeEnd": "2019-03-01"
       },
       {
         "zone": "9-10",
-        "zones": "[9a, 9b, 10a, 10b]",
+        "zones": ["9a", "9b", "10a", "10b"],
         "sowType": "Direct Sow",
         "dtRangeStart": "2019-02-01",
         "dtRangeEnd": "2019-03-01"
@@ -2252,56 +2252,56 @@ const plantingCalendarSeed = [
     "sowCal": [
       {
         "zone": "11",
-        "zones": "[11a, 11b]",
+        "zones": ["11a", "11b"],
         "sowType": "Indoor Sow",
         "dtRangeStart": "2019-01-04",
         "dtRangeEnd": "2019-01-18"
       },
       {
         "zone": "3-4",
-        "zones": "[3a, 3b, 4a, 4b]",
+        "zones": ["3a", "3b", "4a", "4b"],
         "sowType": "Indoor Sow",
         "dtRangeStart": "2019-03-10",
         "dtRangeEnd": "2019-03-24"
       },
       {
         "zone": "3-4",
-        "zones": "[3a, 3b, 4a, 4b]",
+        "zones": ["3a", "3b", "4a", "4b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-05-19",
         "dtRangeEnd": "2019-06-16"
       },
       {
         "zone": "3-4",
-        "zones": "[3a, 3b, 4a, 4b]",
+        "zones": ["3a", "3b", "4a", "4b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-05-19",
         "dtRangeEnd": "2019-06-16"
       },
       {
         "zone": "5-6",
-        "zones": "[5a, 5b, 6a, 6b]",
+        "zones": ["5a", "5b", "6a", "6b"],
         "sowType": "Indoor Sow",
         "dtRangeStart": "2019-02-22",
         "dtRangeEnd": "2019-03-07"
       },
       {
         "zone": "11",
-        "zones": "[11a, 11b]",
+        "zones": ["11a", "11b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-02-22",
         "dtRangeEnd": "2019-03-01"
       },
       {
         "zone": "5-6",
-        "zones": "[5a, 5b, 6a, 6b]",
+        "zones": ["5a", "5b", "6a", "6b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-05-02",
         "dtRangeEnd": "2019-06-01"
       },
       {
         "zone": "11",
-        "zones": "[11a, 11b]",
+        "zones": ["11a", "11b"],
         "sowType": "Direct Sow",
         "dtRangeStart": "2019-02-22",
         "dtRangeEnd": "2019-03-01"
@@ -2314,42 +2314,42 @@ const plantingCalendarSeed = [
     "sowCal": [
       {
         "zone": "11",
-        "zones": "[11a, 11b]",
+        "zones": ["11a", "11b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-12-21",
         "dtRangeEnd": "2019-02-22"
       },
       {
         "zone": "3-4",
-        "zones": "[3a, 3b, 4a, 4b]",
+        "zones": ["3a", "3b", "4a", "4b"],
         "sowType": "Indoor Sow",
         "dtRangeStart": "2019-03-24",
         "dtRangeEnd": "2019-04-07"
       },
       {
         "zone": "3-4",
-        "zones": "[3a, 3b, 4a, 4b]",
+        "zones": ["3a", "3b", "4a", "4b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-05-19",
         "dtRangeEnd": "2019-06-16"
       },
       {
         "zone": "5-6",
-        "zones": "[5a, 5b, 6a, 6b]",
+        "zones": ["5a", "5b", "6a", "6b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-05-02",
         "dtRangeEnd": "2019-06-01"
       },
       {
         "zone": "7-8",
-        "zones": "[7a, 7b, 8a, 8b]",
+        "zones": ["7a", "7b", "8a", "8b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-02-15",
         "dtRangeEnd": "2019-04-15"
       },
       {
         "zone": "9-10",
-        "zones": "[9a, 9b, 10a, 10b]",
+        "zones": ["9a", "9b", "10a", "10b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-02-15",
         "dtRangeEnd": "2019-04-15"
@@ -2362,42 +2362,42 @@ const plantingCalendarSeed = [
     "sowCal": [
       {
         "zone": "11",
-        "zones": "[11a, 11b]",
+        "zones": ["11a", "11b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-02-22",
         "dtRangeEnd": "2019-04-15"
       },
       {
         "zone": "3-4",
-        "zones": "[3a, 3b, 4a, 4b]",
+        "zones": ["3a", "3b", "4a", "4b"],
         "sowType": "Indoor Sow",
         "dtRangeStart": "2019-03-24",
         "dtRangeEnd": "2019-04-07"
       },
       {
         "zone": "3-4",
-        "zones": "[3a, 3b, 4a, 4b]",
+        "zones": ["3a", "3b", "4a", "4b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-05-26",
         "dtRangeEnd": "2019-06-16"
       },
       {
         "zone": "5-6",
-        "zones": "[5a, 5b, 6a, 6b]",
+        "zones": ["5a", "5b", "6a", "6b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-05-02",
         "dtRangeEnd": "2019-06-01"
       },
       {
         "zone": "7-8",
-        "zones": "[7a, 7b, 8a, 8b]",
+        "zones": ["7a", "7b", "8a", "8b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-02-15",
         "dtRangeEnd": "2019-04-15"
       },
       {
         "zone": "9-10",
-        "zones": "[9a, 9b, 10a, 10b]",
+        "zones": ["9a", "9b", "10a", "10b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-02-15",
         "dtRangeEnd": "2019-04-15"
@@ -2410,77 +2410,77 @@ const plantingCalendarSeed = [
     "sowCal": [
       {
         "zone": "11",
-        "zones": "[11a, 11b]",
+        "zones": ["11a", "11b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-02-22",
         "dtRangeEnd": "2019-04-15"
       },
       {
         "zone": "3-4",
-        "zones": "[3a, 3b, 4a, 4b]",
+        "zones": ["3a", "3b", "4a", "4b"],
         "sowType": "Indoor Sow",
         "dtRangeStart": "2019-04-07",
         "dtRangeEnd": "2019-04-21"
       },
       {
         "zone": "3-4",
-        "zones": "[3a, 3b, 4a, 4b]",
+        "zones": ["3a", "3b", "4a", "4b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-05-26",
         "dtRangeEnd": "2019-06-16"
       },
       {
         "zone": "5-6",
-        "zones": "[5a, 5b, 6a, 6b]",
+        "zones": ["5a", "5b", "6a", "6b"],
         "sowType": "Indoor Sow",
         "dtRangeStart": "2019-03-21",
         "dtRangeEnd": "2019-04-04"
       },
       {
         "zone": "7-8",
-        "zones": "[7a, 7b, 8a, 8b]",
+        "zones": ["7a", "7b", "8a", "8b"],
         "sowType": "Indoor Sow",
         "dtRangeStart": "2019-01-04",
         "dtRangeEnd": "2019-01-18"
       },
       {
         "zone": "9-10",
-        "zones": "[9a, 9b, 10a, 10b]",
+        "zones": ["9a", "9b", "10a", "10b"],
         "sowType": "Indoor Sow",
         "dtRangeStart": "2019-01-04",
         "dtRangeEnd": "2019-01-18"
       },
       {
         "zone": "5-6",
-        "zones": "[5a, 5b, 6a, 6b]",
+        "zones": ["5a", "5b", "6a", "6b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-05-09",
         "dtRangeEnd": "2019-06-01"
       },
       {
         "zone": "7-8",
-        "zones": "[7a, 7b, 8a, 8b]",
+        "zones": ["7a", "7b", "8a", "8b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-02-15",
         "dtRangeEnd": "2019-04-01"
       },
       {
         "zone": "9-10",
-        "zones": "[9a, 9b, 10a, 10b]",
+        "zones": ["9a", "9b", "10a", "10b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-02-15",
         "dtRangeEnd": "2019-04-01"
       },
       {
         "zone": "7-8",
-        "zones": "[7a, 7b, 8a, 8b]",
+        "zones": ["7a", "7b", "8a", "8b"],
         "sowType": "Direct Sow",
         "dtRangeStart": "2019-02-15",
         "dtRangeEnd": "2019-04-01"
       },
       {
         "zone": "9-10",
-        "zones": "[9a, 9b, 10a, 10b]",
+        "zones": ["9a", "9b", "10a", "10b"],
         "sowType": "Direct Sow",
         "dtRangeStart": "2019-02-15",
         "dtRangeEnd": "2019-04-01"
@@ -2493,91 +2493,91 @@ const plantingCalendarSeed = [
     "sowCal": [
       {
         "zone": "11",
-        "zones": "[11a, 11b]",
+        "zones": ["11a", "11b"],
         "sowType": "Indoor Sow",
         "dtRangeStart": "2019-01-04",
         "dtRangeEnd": "2019-01-18"
       },
       {
         "zone": "3-4",
-        "zones": "[3a, 3b, 4a, 4b]",
+        "zones": ["3a", "3b", "4a", "4b"],
         "sowType": "Indoor Sow",
         "dtRangeStart": "2019-03-24",
         "dtRangeEnd": "2019-04-07"
       },
       {
         "zone": "3-4",
-        "zones": "[3a, 3b, 4a, 4b]",
+        "zones": ["3a", "3b", "4a", "4b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-05-19",
         "dtRangeEnd": "2019-06-16"
       },
       {
         "zone": "5-6",
-        "zones": "[5a, 5b, 6a, 6b]",
+        "zones": ["5a", "5b", "6a", "6b"],
         "sowType": "Indoor Sow",
         "dtRangeStart": "2019-03-21",
         "dtRangeEnd": "2019-04-04"
       },
       {
         "zone": "7-8",
-        "zones": "[7a, 7b, 8a, 8b]",
+        "zones": ["7a", "7b", "8a", "8b"],
         "sowType": "Indoor Sow",
         "dtRangeStart": "2019-01-04",
         "dtRangeEnd": "2019-01-18"
       },
       {
         "zone": "9-10",
-        "zones": "[9a, 9b, 10a, 10b]",
+        "zones": ["9a", "9b", "10a", "10b"],
         "sowType": "Indoor Sow",
         "dtRangeStart": "2019-01-04",
         "dtRangeEnd": "2019-01-18"
       },
       {
         "zone": "11",
-        "zones": "[11a, 11b]",
+        "zones": ["11a", "11b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-02-22",
         "dtRangeEnd": "2019-04-01"
       },
       {
         "zone": "5-6",
-        "zones": "[5a, 5b, 6a, 6b]",
+        "zones": ["5a", "5b", "6a", "6b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-05-02",
         "dtRangeEnd": "2019-06-01"
       },
       {
         "zone": "7-8",
-        "zones": "[7a, 7b, 8a, 8b]",
+        "zones": ["7a", "7b", "8a", "8b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-02-15",
         "dtRangeEnd": "2019-04-01"
       },
       {
         "zone": "9-10",
-        "zones": "[9a, 9b, 10a, 10b]",
+        "zones": ["9a", "9b", "10a", "10b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-02-15",
         "dtRangeEnd": "2019-04-01"
       },
       {
         "zone": "11",
-        "zones": "[11a, 11b]",
+        "zones": ["11a", "11b"],
         "sowType": "Direct Sow",
         "dtRangeStart": "2019-02-22",
         "dtRangeEnd": "2019-04-01"
       },
       {
         "zone": "7-8",
-        "zones": "[7a, 7b, 8a, 8b]",
+        "zones": ["7a", "7b", "8a", "8b"],
         "sowType": "Direct Sow",
         "dtRangeStart": "2019-02-15",
         "dtRangeEnd": "2019-04-01"
       },
       {
         "zone": "9-10",
-        "zones": "[9a, 9b, 10a, 10b]",
+        "zones": ["9a", "9b", "10a", "10b"],
         "sowType": "Direct Sow",
         "dtRangeStart": "2019-02-15",
         "dtRangeEnd": "2019-04-01"
@@ -2590,98 +2590,98 @@ const plantingCalendarSeed = [
     "sowCal": [
       {
         "zone": "11",
-        "zones": "[11a, 11b]",
+        "zones": ["11a", "11b"],
         "sowType": "Indoor Sow",
         "dtRangeStart": "2019-01-04",
         "dtRangeEnd": "2019-01-18"
       },
       {
         "zone": "3-4",
-        "zones": "[3a, 3b, 4a, 4b]",
+        "zones": ["3a", "3b", "4a", "4b"],
         "sowType": "Indoor Sow",
         "dtRangeStart": "2019-03-24",
         "dtRangeEnd": "2019-04-07"
       },
       {
         "zone": "3-4",
-        "zones": "[3a, 3b, 4a, 4b]",
+        "zones": ["3a", "3b", "4a", "4b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-05-19",
         "dtRangeEnd": "2019-06-16"
       },
       {
         "zone": "3-4",
-        "zones": "[3a, 3b, 4a, 4b]",
+        "zones": ["3a", "3b", "4a", "4b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-05-26",
         "dtRangeEnd": "2019-06-02"
       },
       {
         "zone": "5-6",
-        "zones": "[5a, 5b, 6a, 6b]",
+        "zones": ["5a", "5b", "6a", "6b"],
         "sowType": "Indoor Sow",
         "dtRangeStart": "2019-03-21",
         "dtRangeEnd": "2019-04-04"
       },
       {
         "zone": "7-8",
-        "zones": "[7a, 7b, 8a, 8b]",
+        "zones": ["7a", "7b", "8a", "8b"],
         "sowType": "Indoor Sow",
         "dtRangeStart": "2019-01-04",
         "dtRangeEnd": "2019-01-18"
       },
       {
         "zone": "9-10",
-        "zones": "[9a, 9b, 10a, 10b]",
+        "zones": ["9a", "9b", "10a", "10b"],
         "sowType": "Indoor Sow",
         "dtRangeStart": "2019-01-04",
         "dtRangeEnd": "2019-01-18"
       },
       {
         "zone": "11",
-        "zones": "[11a, 11b]",
+        "zones": ["11a", "11b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-02-22",
         "dtRangeEnd": "2019-04-01"
       },
       {
         "zone": "5-6",
-        "zones": "[5a, 5b, 6a, 6b]",
+        "zones": ["5a", "5b", "6a", "6b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-05-09",
         "dtRangeEnd": "2019-05-16"
       },
       {
         "zone": "7-8",
-        "zones": "[7a, 7b, 8a, 8b]",
+        "zones": ["7a", "7b", "8a", "8b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-02-15",
         "dtRangeEnd": "2019-04-01"
       },
       {
         "zone": "9-10",
-        "zones": "[9a, 9b, 10a, 10b]",
+        "zones": ["9a", "9b", "10a", "10b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-02-15",
         "dtRangeEnd": "2019-04-01"
       },
       {
         "zone": "11",
-        "zones": "[11a, 11b]",
+        "zones": ["11a", "11b"],
         "sowType": "Direct Sow",
         "dtRangeStart": "2019-02-22",
         "dtRangeEnd": "2019-04-01"
       },
       {
         "zone": "7-8",
-        "zones": "[7a, 7b, 8a, 8b]",
+        "zones": ["7a", "7b", "8a", "8b"],
         "sowType": "Direct Sow",
         "dtRangeStart": "2019-02-15",
         "dtRangeEnd": "2019-04-01"
       },
       {
         "zone": "9-10",
-        "zones": "[9a, 9b, 10a, 10b]",
+        "zones": ["9a", "9b", "10a", "10b"],
         "sowType": "Direct Sow",
         "dtRangeStart": "2019-02-15",
         "dtRangeEnd": "2019-04-01"
@@ -2694,49 +2694,49 @@ const plantingCalendarSeed = [
     "sowCal": [
       {
         "zone": "11",
-        "zones": "[11a, 11b]",
+        "zones": ["11a", "11b"],
         "sowType": "Indoor Sow",
         "dtRangeStart": "2019-01-04",
         "dtRangeEnd": "2019-01-18"
       },
       {
         "zone": "3-4",
-        "zones": "[3a, 3b, 4a, 4b]",
+        "zones": ["3a", "3b", "4a", "4b"],
         "sowType": "Indoor Sow",
         "dtRangeStart": "2019-03-10",
         "dtRangeEnd": "2019-03-24"
       },
       {
         "zone": "3-4",
-        "zones": "[3a, 3b, 4a, 4b]",
+        "zones": ["3a", "3b", "4a", "4b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-06-05",
         "dtRangeEnd": "2019-06-16"
       },
       {
         "zone": "5-6",
-        "zones": "[5a, 5b, 6a, 6b]",
+        "zones": ["5a", "5b", "6a", "6b"],
         "sowType": "Indoor Sow",
         "dtRangeStart": "2019-02-22",
         "dtRangeEnd": "2019-03-07"
       },
       {
         "zone": "11",
-        "zones": "[11a, 11b]",
+        "zones": ["11a", "11b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-02-22",
         "dtRangeEnd": "2019-04-01"
       },
       {
         "zone": "5-6",
-        "zones": "[5a, 5b, 6a, 6b]",
+        "zones": ["5a", "5b", "6a", "6b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-05-09",
         "dtRangeEnd": "2019-06-01"
       },
       {
         "zone": "11",
-        "zones": "[11a, 11b]",
+        "zones": ["11a", "11b"],
         "sowType": "Direct Sow",
         "dtRangeStart": "2019-02-22",
         "dtRangeEnd": "2019-04-01"
@@ -2749,77 +2749,77 @@ const plantingCalendarSeed = [
     "sowCal": [
       {
         "zone": "11",
-        "zones": "[11a, 11b]",
+        "zones": ["11a", "11b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-12-21",
         "dtRangeEnd": "2019-02-01"
       },
       {
         "zone": "3-4",
-        "zones": "[3a, 3b, 4a, 4b]",
+        "zones": ["3a", "3b", "4a", "4b"],
         "sowType": "Indoor Sow",
         "dtRangeStart": "2019-03-24",
         "dtRangeEnd": "2019-04-07"
       },
       {
         "zone": "3-4",
-        "zones": "[3a, 3b, 4a, 4b]",
+        "zones": ["3a", "3b", "4a", "4b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-05-19",
         "dtRangeEnd": "2019-06-02"
       },
       {
         "zone": "5-6",
-        "zones": "[5a, 5b, 6a, 6b]",
+        "zones": ["5a", "5b", "6a", "6b"],
         "sowType": "Indoor Sow",
         "dtRangeStart": "2019-03-21",
         "dtRangeEnd": "2019-04-04"
       },
       {
         "zone": "7-8",
-        "zones": "[7a, 7b, 8a, 8b]",
+        "zones": ["7a", "7b", "8a", "8b"],
         "sowType": "Indoor Sow",
         "dtRangeStart": "2019-01-04",
         "dtRangeEnd": "2019-01-18"
       },
       {
         "zone": "9-10",
-        "zones": "[9a, 9b, 10a, 10b]",
+        "zones": ["9a", "9b", "10a", "10b"],
         "sowType": "Indoor Sow",
         "dtRangeStart": "2019-01-04",
         "dtRangeEnd": "2019-01-18"
       },
       {
         "zone": "5-6",
-        "zones": "[5a, 5b, 6a, 6b]",
+        "zones": ["5a", "5b", "6a", "6b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-05-02",
         "dtRangeEnd": "2019-05-16"
       },
       {
         "zone": "7-8",
-        "zones": "[7a, 7b, 8a, 8b]",
+        "zones": ["7a", "7b", "8a", "8b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-02-01",
         "dtRangeEnd": "2019-03-01"
       },
       {
         "zone": "9-10",
-        "zones": "[9a, 9b, 10a, 10b]",
+        "zones": ["9a", "9b", "10a", "10b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-02-01",
         "dtRangeEnd": "2019-03-01"
       },
       {
         "zone": "7-8",
-        "zones": "[7a, 7b, 8a, 8b]",
+        "zones": ["7a", "7b", "8a", "8b"],
         "sowType": "Direct Sow",
         "dtRangeStart": "2019-02-01",
         "dtRangeEnd": "2019-03-01"
       },
       {
         "zone": "9-10",
-        "zones": "[9a, 9b, 10a, 10b]",
+        "zones": ["9a", "9b", "10a", "10b"],
         "sowType": "Direct Sow",
         "dtRangeStart": "2019-02-01",
         "dtRangeEnd": "2019-03-01"
@@ -2832,98 +2832,98 @@ const plantingCalendarSeed = [
     "sowCal": [
       {
         "zone": "11",
-        "zones": "[11a, 11b]",
+        "zones": ["11a", "11b"],
         "sowType": "Indoor Sow",
         "dtRangeStart": "2019-01-04",
         "dtRangeEnd": "2019-01-18"
       },
       {
         "zone": "3-4",
-        "zones": "[3a, 3b, 4a, 4b]",
+        "zones": ["3a", "3b", "4a", "4b"],
         "sowType": "Indoor Sow",
         "dtRangeStart": "2019-03-24",
         "dtRangeEnd": "2019-04-07"
       },
       {
         "zone": "5-6",
-        "zones": "[5a, 5b, 6a, 6b]",
+        "zones": ["5a", "5b", "6a", "6b"],
         "sowType": "Indoor Sow",
         "dtRangeStart": "2019-03-21",
         "dtRangeEnd": "2019-04-04"
       },
       {
         "zone": "3-4",
-        "zones": "[3a, 3b, 4a, 4b]",
+        "zones": ["3a", "3b", "4a", "4b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-05-26",
         "dtRangeEnd": "2019-06-16"
       },
       {
         "zone": "7-8",
-        "zones": "[7a, 7b, 8a, 8b]",
+        "zones": ["7a", "7b", "8a", "8b"],
         "sowType": "Indoor Sow",
         "dtRangeStart": "2019-01-04",
         "dtRangeEnd": "2019-01-18"
       },
       {
         "zone": "9-10",
-        "zones": "[9a, 9b, 10a, 10b]",
+        "zones": ["9a", "9b", "10a", "10b"],
         "sowType": "Indoor Sow",
         "dtRangeStart": "2019-01-04",
         "dtRangeEnd": "2019-01-18"
       },
       {
         "zone": "11",
-        "zones": "[11a, 11b]",
+        "zones": ["11a", "11b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-02-22",
         "dtRangeEnd": "2019-03-01"
       },
       {
         "zone": "5-6",
-        "zones": "[5a, 5b, 6a, 6b]",
+        "zones": ["5a", "5b", "6a", "6b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-05-09",
         "dtRangeEnd": "2019-05-16"
       },
       {
         "zone": "7-8",
-        "zones": "[7a, 7b, 8a, 8b]",
+        "zones": ["7a", "7b", "8a", "8b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-02-15",
         "dtRangeEnd": "2019-03-01"
       },
       {
         "zone": "9-10",
-        "zones": "[9a, 9b, 10a, 10b]",
+        "zones": ["9a", "9b", "10a", "10b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-02-15",
         "dtRangeEnd": "2019-03-01"
       },
       {
         "zone": "11",
-        "zones": "[11a, 11b]",
+        "zones": ["11a", "11b"],
         "sowType": "Direct Sow",
         "dtRangeStart": "2019-02-22",
         "dtRangeEnd": "2019-03-01"
       },
       {
         "zone": "5-6",
-        "zones": "[5a, 5b, 6a, 6b]",
+        "zones": ["5a", "5b", "6a", "6b"],
         "sowType": "Direct Sow",
         "dtRangeStart": "2019-05-09",
         "dtRangeEnd": "2019-05-16"
       },
       {
         "zone": "7-8",
-        "zones": "[7a, 7b, 8a, 8b]",
+        "zones": ["7a", "7b", "8a", "8b"],
         "sowType": "Direct Sow",
         "dtRangeStart": "2019-02-22",
         "dtRangeEnd": "2019-03-01"
       },
       {
         "zone": "9-10",
-        "zones": "[9a, 9b, 10a, 10b]",
+        "zones": ["9a", "9b", "10a", "10b"],
         "sowType": "Direct Sow",
         "dtRangeStart": "2019-02-22",
         "dtRangeEnd": "2019-03-01"
@@ -2936,91 +2936,91 @@ const plantingCalendarSeed = [
     "sowCal": [
       {
         "zone": "11",
-        "zones": "[11a, 11b]",
+        "zones": ["11a", "11b"],
         "sowType": "Indoor Sow",
         "dtRangeStart": "2019-01-04",
         "dtRangeEnd": "2019-01-18"
       },
       {
         "zone": "3-4",
-        "zones": "[3a, 3b, 4a, 4b]",
+        "zones": ["3a", "3b", "4a", "4b"],
         "sowType": "Indoor Sow",
         "dtRangeStart": "2019-03-24",
         "dtRangeEnd": "2019-04-07"
       },
       {
         "zone": "5-6",
-        "zones": "[5a, 5b, 6a, 6b]",
+        "zones": ["5a", "5b", "6a", "6b"],
         "sowType": "Indoor Sow",
         "dtRangeStart": "2019-03-21",
         "dtRangeEnd": "2019-04-04"
       },
       {
         "zone": "3-4",
-        "zones": "[3a, 3b, 4a, 4b]",
+        "zones": ["3a", "3b", "4a", "4b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-05-26",
         "dtRangeEnd": "2019-06-16"
       },
       {
         "zone": "7-8",
-        "zones": "[7a, 7b, 8a, 8b]",
+        "zones": ["7a", "7b", "8a", "8b"],
         "sowType": "Indoor Sow",
         "dtRangeStart": "2019-01-04",
         "dtRangeEnd": "2019-01-18"
       },
       {
         "zone": "9-10",
-        "zones": "[9a, 9b, 10a, 10b]",
+        "zones": ["9a", "9b", "10a", "10b"],
         "sowType": "Indoor Sow",
         "dtRangeStart": "2019-01-04",
         "dtRangeEnd": "2019-01-18"
       },
       {
         "zone": "11",
-        "zones": "[11a, 11b]",
+        "zones": ["11a", "11b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-02-22",
         "dtRangeEnd": "2019-03-01"
       },
       {
         "zone": "5-6",
-        "zones": "[5a, 5b, 6a, 6b]",
+        "zones": ["5a", "5b", "6a", "6b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-05-09",
         "dtRangeEnd": "2019-05-16"
       },
       {
         "zone": "7-8",
-        "zones": "[7a, 7b, 8a, 8b]",
+        "zones": ["7a", "7b", "8a", "8b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-02-15",
         "dtRangeEnd": "2019-03-15"
       },
       {
         "zone": "9-10",
-        "zones": "[9a, 9b, 10a, 10b]",
+        "zones": ["9a", "9b", "10a", "10b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-02-15",
         "dtRangeEnd": "2019-03-15"
       },
       {
         "zone": "11",
-        "zones": "[11a, 11b]",
+        "zones": ["11a", "11b"],
         "sowType": "Direct Sow",
         "dtRangeStart": "2019-02-22",
         "dtRangeEnd": "2019-03-01"
       },
       {
         "zone": "7-8",
-        "zones": "[7a, 7b, 8a, 8b]",
+        "zones": ["7a", "7b", "8a", "8b"],
         "sowType": "Direct Sow",
         "dtRangeStart": "2019-02-22",
         "dtRangeEnd": "2019-03-01"
       },
       {
         "zone": "9-10",
-        "zones": "[9a, 9b, 10a, 10b]",
+        "zones": ["9a", "9b", "10a", "10b"],
         "sowType": "Direct Sow",
         "dtRangeStart": "2019-02-22",
         "dtRangeEnd": "2019-03-01"
@@ -3033,91 +3033,91 @@ const plantingCalendarSeed = [
     "sowCal": [
       {
         "zone": "11",
-        "zones": "[11a, 11b]",
+        "zones": ["11a", "11b"],
         "sowType": "Indoor Sow",
         "dtRangeStart": "2019-01-04",
         "dtRangeEnd": "2019-01-18"
       },
       {
         "zone": "3-4",
-        "zones": "[3a, 3b, 4a, 4b]",
+        "zones": ["3a", "3b", "4a", "4b"],
         "sowType": "Indoor Sow",
         "dtRangeStart": "2019-03-24",
         "dtRangeEnd": "2019-04-07"
       },
       {
         "zone": "5-6",
-        "zones": "[5a, 5b, 6a, 6b]",
+        "zones": ["5a", "5b", "6a", "6b"],
         "sowType": "Indoor Sow",
         "dtRangeStart": "2019-03-21",
         "dtRangeEnd": "2019-04-04"
       },
       {
         "zone": "3-4",
-        "zones": "[3a, 3b, 4a, 4b]",
+        "zones": ["3a", "3b", "4a", "4b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-05-19",
         "dtRangeEnd": "2019-06-02"
       },
       {
         "zone": "7-8",
-        "zones": "[7a, 7b, 8a, 8b]",
+        "zones": ["7a", "7b", "8a", "8b"],
         "sowType": "Indoor Sow",
         "dtRangeStart": "2019-01-04",
         "dtRangeEnd": "2019-01-18"
       },
       {
         "zone": "9-10",
-        "zones": "[9a, 9b, 10a, 10b]",
+        "zones": ["9a", "9b", "10a", "10b"],
         "sowType": "Indoor Sow",
         "dtRangeStart": "2019-01-04",
         "dtRangeEnd": "2019-01-18"
       },
       {
         "zone": "11",
-        "zones": "[11a, 11b]",
+        "zones": ["11a", "11b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-02-22",
         "dtRangeEnd": "2019-03-15"
       },
       {
         "zone": "5-6",
-        "zones": "[5a, 5b, 6a, 6b]",
+        "zones": ["5a", "5b", "6a", "6b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-05-09",
         "dtRangeEnd": "2019-05-16"
       },
       {
         "zone": "7-8",
-        "zones": "[7a, 7b, 8a, 8b]",
+        "zones": ["7a", "7b", "8a", "8b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-02-15",
         "dtRangeEnd": "2019-03-01"
       },
       {
         "zone": "9-10",
-        "zones": "[9a, 9b, 10a, 10b]",
+        "zones": ["9a", "9b", "10a", "10b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-02-15",
         "dtRangeEnd": "2019-03-01"
       },
       {
         "zone": "11",
-        "zones": "[11a, 11b]",
+        "zones": ["11a", "11b"],
         "sowType": "Direct Sow",
         "dtRangeStart": "2019-02-22",
         "dtRangeEnd": "2019-03-01"
       },
       {
         "zone": "7-8",
-        "zones": "[7a, 7b, 8a, 8b]",
+        "zones": ["7a", "7b", "8a", "8b"],
         "sowType": "Direct Sow",
         "dtRangeStart": "2019-02-22",
         "dtRangeEnd": "2019-03-01"
       },
       {
         "zone": "9-10",
-        "zones": "[9a, 9b, 10a, 10b]",
+        "zones": ["9a", "9b", "10a", "10b"],
         "sowType": "Direct Sow",
         "dtRangeStart": "2019-02-22",
         "dtRangeEnd": "2019-03-01"
@@ -3130,63 +3130,63 @@ const plantingCalendarSeed = [
     "sowCal": [
       {
         "zone": "11",
-        "zones": "[11a, 11b]",
+        "zones": ["11a", "11b"],
         "sowType": "Indoor Sow",
         "dtRangeStart": "2019-01-04",
         "dtRangeEnd": "2019-01-18"
       },
       {
         "zone": "3-4",
-        "zones": "[3a, 3b, 4a, 4b]",
+        "zones": ["3a", "3b", "4a", "4b"],
         "sowType": "Indoor Sow",
         "dtRangeStart": "2019-02-25",
         "dtRangeEnd": "2019-03-10"
       },
       {
         "zone": "5-6",
-        "zones": "[5a, 5b, 6a, 6b]",
+        "zones": ["5a", "5b", "6a", "6b"],
         "sowType": "Indoor Sow",
         "dtRangeStart": "2019-02-08",
         "dtRangeEnd": "2019-02-22"
       },
       {
         "zone": "3-4",
-        "zones": "[3a, 3b, 4a, 4b]",
+        "zones": ["3a", "3b", "4a", "4b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-05-26",
         "dtRangeEnd": "2019-06-16"
       },
       {
         "zone": "11",
-        "zones": "[11a, 11b]",
+        "zones": ["11a", "11b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-02-22",
         "dtRangeEnd": "2019-03-01"
       },
       {
         "zone": "5-6",
-        "zones": "[5a, 5b, 6a, 6b]",
+        "zones": ["5a", "5b", "6a", "6b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-05-02",
         "dtRangeEnd": "2019-06-01"
       },
       {
         "zone": "7-8",
-        "zones": "[7a, 7b, 8a, 8b]",
+        "zones": ["7a", "7b", "8a", "8b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-11-23",
         "dtRangeEnd": "2019-12-07"
       },
       {
         "zone": "9-10",
-        "zones": "[9a, 9b, 10a, 10b]",
+        "zones": ["9a", "9b", "10a", "10b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-11-23",
         "dtRangeEnd": "2019-12-07"
       },
       {
         "zone": "11",
-        "zones": "[11a, 11b]",
+        "zones": ["11a", "11b"],
         "sowType": "Direct Sow",
         "dtRangeStart": "2019-02-22",
         "dtRangeEnd": "2019-03-01"
@@ -3199,49 +3199,49 @@ const plantingCalendarSeed = [
     "sowCal": [
       {
         "zone": "11",
-        "zones": "[11a, 11b]",
+        "zones": ["11a", "11b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-01-04",
         "dtRangeEnd": "2019-02-22"
       },
       {
         "zone": "3-4",
-        "zones": "[3a, 3b, 4a, 4b]",
+        "zones": ["3a", "3b", "4a", "4b"],
         "sowType": "Indoor Sow",
         "dtRangeStart": "2019-03-24",
         "dtRangeEnd": "2019-04-07"
       },
       {
         "zone": "5-6",
-        "zones": "[5a, 5b, 6a, 6b]",
+        "zones": ["5a", "5b", "6a", "6b"],
         "sowType": "Indoor Sow",
         "dtRangeStart": "2019-03-07",
         "dtRangeEnd": "2019-03-21"
       },
       {
         "zone": "3-4",
-        "zones": "[3a, 3b, 4a, 4b]",
+        "zones": ["3a", "3b", "4a", "4b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-05-19",
         "dtRangeEnd": "2019-06-16"
       },
       {
         "zone": "5-6",
-        "zones": "[5a, 5b, 6a, 6b]",
+        "zones": ["5a", "5b", "6a", "6b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-05-02",
         "dtRangeEnd": "2019-05-16"
       },
       {
         "zone": "7-8",
-        "zones": "[7a, 7b, 8a, 8b]",
+        "zones": ["7a", "7b", "8a", "8b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-12-21",
         "dtRangeEnd": "2019-01-04"
       },
       {
         "zone": "9-10",
-        "zones": "[9a, 9b, 10a, 10b]",
+        "zones": ["9a", "9b", "10a", "10b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-12-21",
         "dtRangeEnd": "2019-01-04"
@@ -3254,56 +3254,56 @@ const plantingCalendarSeed = [
     "sowCal": [
       {
         "zone": "11",
-        "zones": "[11a, 11b]",
+        "zones": ["11a", "11b"],
         "sowType": "Indoor Sow",
         "dtRangeStart": "2019-12-21",
         "dtRangeEnd": "2019-01-04"
       },
       {
         "zone": "3-4",
-        "zones": "[3a, 3b, 4a, 4b]",
+        "zones": ["3a", "3b", "4a", "4b"],
         "sowType": "Indoor Sow",
         "dtRangeStart": "2019-03-24",
         "dtRangeEnd": "2019-04-07"
       },
       {
         "zone": "5-6",
-        "zones": "[5a, 5b, 6a, 6b]",
+        "zones": ["5a", "5b", "6a", "6b"],
         "sowType": "Indoor Sow",
         "dtRangeStart": "2019-03-07",
         "dtRangeEnd": "2019-03-21"
       },
       {
         "zone": "3-4",
-        "zones": "[3a, 3b, 4a, 4b]",
+        "zones": ["3a", "3b", "4a", "4b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-05-19",
         "dtRangeEnd": "2019-06-16"
       },
       {
         "zone": "11",
-        "zones": "[11a, 11b]",
+        "zones": ["11a", "11b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-02-22",
         "dtRangeEnd": "2019-03-15"
       },
       {
         "zone": "5-6",
-        "zones": "[5a, 5b, 6a, 6b]",
+        "zones": ["5a", "5b", "6a", "6b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-05-02",
         "dtRangeEnd": "2019-06-01"
       },
       {
         "zone": "7-8",
-        "zones": "[7a, 7b, 8a, 8b]",
+        "zones": ["7a", "7b", "8a", "8b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-12-21",
         "dtRangeEnd": "2019-01-04"
       },
       {
         "zone": "9-10",
-        "zones": "[9a, 9b, 10a, 10b]",
+        "zones": ["9a", "9b", "10a", "10b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-12-21",
         "dtRangeEnd": "2019-01-04"
@@ -3316,42 +3316,42 @@ const plantingCalendarSeed = [
     "sowCal": [
       {
         "zone": "11",
-        "zones": "[11a, 11b]",
+        "zones": ["11a", "11b"],
         "sowType": "Indoor Sow",
         "dtRangeStart": "2019-12-21",
         "dtRangeEnd": "2019-01-04"
       },
       {
         "zone": "3-4",
-        "zones": "[3a, 3b, 4a, 4b]",
+        "zones": ["3a", "3b", "4a", "4b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-05-19",
         "dtRangeEnd": "2019-06-16"
       },
       {
         "zone": "11",
-        "zones": "[11a, 11b]",
+        "zones": ["11a", "11b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-02-22",
         "dtRangeEnd": "2019-03-15"
       },
       {
         "zone": "5-6",
-        "zones": "[5a, 5b, 6a, 6b]",
+        "zones": ["5a", "5b", "6a", "6b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-05-02",
         "dtRangeEnd": "2019-05-30"
       },
       {
         "zone": "7-8",
-        "zones": "[7a, 7b, 8a, 8b]",
+        "zones": ["7a", "7b", "8a", "8b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-02-15",
         "dtRangeEnd": "2019-04-15"
       },
       {
         "zone": "9-10",
-        "zones": "[9a, 9b, 10a, 10b]",
+        "zones": ["9a", "9b", "10a", "10b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-02-15",
         "dtRangeEnd": "2019-04-15"
@@ -3364,77 +3364,77 @@ const plantingCalendarSeed = [
     "sowCal": [
       {
         "zone": "11",
-        "zones": "[11a, 11b]",
+        "zones": ["11a", "11b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-02-22",
         "dtRangeEnd": "2019-04-15"
       },
       {
         "zone": "3-4",
-        "zones": "[3a, 3b, 4a, 4b]",
+        "zones": ["3a", "3b", "4a", "4b"],
         "sowType": "Indoor Sow",
         "dtRangeStart": "2019-04-07",
         "dtRangeEnd": "2019-04-21"
       },
       {
         "zone": "5-6",
-        "zones": "[5a, 5b, 6a, 6b]",
+        "zones": ["5a", "5b", "6a", "6b"],
         "sowType": "Indoor Sow",
         "dtRangeStart": "2019-03-21",
         "dtRangeEnd": "2019-04-04"
       },
       {
         "zone": "3-4",
-        "zones": "[3a, 3b, 4a, 4b]",
+        "zones": ["3a", "3b", "4a", "4b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-05-26",
         "dtRangeEnd": "2019-06-16"
       },
       {
         "zone": "7-8",
-        "zones": "[7a, 7b, 8a, 8b]",
+        "zones": ["7a", "7b", "8a", "8b"],
         "sowType": "Indoor Sow",
         "dtRangeStart": "2019-01-04",
         "dtRangeEnd": "2019-01-18"
       },
       {
         "zone": "9-10",
-        "zones": "[9a, 9b, 10a, 10b]",
+        "zones": ["9a", "9b", "10a", "10b"],
         "sowType": "Indoor Sow",
         "dtRangeStart": "2019-01-04",
         "dtRangeEnd": "2019-01-18"
       },
       {
         "zone": "5-6",
-        "zones": "[5a, 5b, 6a, 6b]",
+        "zones": ["5a", "5b", "6a", "6b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-05-09",
         "dtRangeEnd": "2019-05-16"
       },
       {
         "zone": "7-8",
-        "zones": "[7a, 7b, 8a, 8b]",
+        "zones": ["7a", "7b", "8a", "8b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-02-15",
         "dtRangeEnd": "2019-04-01"
       },
       {
         "zone": "9-10",
-        "zones": "[9a, 9b, 10a, 10b]",
+        "zones": ["9a", "9b", "10a", "10b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-02-15",
         "dtRangeEnd": "2019-04-01"
       },
       {
         "zone": "7-8",
-        "zones": "[7a, 7b, 8a, 8b]",
+        "zones": ["7a", "7b", "8a", "8b"],
         "sowType": "Direct Sow",
         "dtRangeStart": "2019-02-22",
         "dtRangeEnd": "2019-04-01"
       },
       {
         "zone": "9-10",
-        "zones": "[9a, 9b, 10a, 10b]",
+        "zones": ["9a", "9b", "10a", "10b"],
         "sowType": "Direct Sow",
         "dtRangeStart": "2019-02-22",
         "dtRangeEnd": "2019-04-01"
@@ -3447,91 +3447,91 @@ const plantingCalendarSeed = [
     "sowCal": [
       {
         "zone": "11",
-        "zones": "[11a, 11b]",
+        "zones": ["11a", "11b"],
         "sowType": "Indoor Sow",
         "dtRangeStart": "2019-01-04",
         "dtRangeEnd": "2019-01-18"
       },
       {
         "zone": "3-4",
-        "zones": "[3a, 3b, 4a, 4b]",
+        "zones": ["3a", "3b", "4a", "4b"],
         "sowType": "Indoor Sow",
         "dtRangeStart": "2019-04-07",
         "dtRangeEnd": "2019-04-21"
       },
       {
         "zone": "5-6",
-        "zones": "[5a, 5b, 6a, 6b]",
+        "zones": ["5a", "5b", "6a", "6b"],
         "sowType": "Indoor Sow",
         "dtRangeStart": "2019-03-21",
         "dtRangeEnd": "2019-04-04"
       },
       {
         "zone": "3-4",
-        "zones": "[3a, 3b, 4a, 4b]",
+        "zones": ["3a", "3b", "4a", "4b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-05-26",
         "dtRangeEnd": "2019-06-16"
       },
       {
         "zone": "7-8",
-        "zones": "[7a, 7b, 8a, 8b]",
+        "zones": ["7a", "7b", "8a", "8b"],
         "sowType": "Indoor Sow",
         "dtRangeStart": "2019-01-04",
         "dtRangeEnd": "2019-01-18"
       },
       {
         "zone": "9-10",
-        "zones": "[9a, 9b, 10a, 10b]",
+        "zones": ["9a", "9b", "10a", "10b"],
         "sowType": "Indoor Sow",
         "dtRangeStart": "2019-01-04",
         "dtRangeEnd": "2019-01-18"
       },
       {
         "zone": "11",
-        "zones": "[11a, 11b]",
+        "zones": ["11a", "11b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-02-22",
         "dtRangeEnd": "2019-04-01"
       },
       {
         "zone": "5-6",
-        "zones": "[5a, 5b, 6a, 6b]",
+        "zones": ["5a", "5b", "6a", "6b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-05-02",
         "dtRangeEnd": "2019-05-16"
       },
       {
         "zone": "7-8",
-        "zones": "[7a, 7b, 8a, 8b]",
+        "zones": ["7a", "7b", "8a", "8b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-02-15",
         "dtRangeEnd": "2019-04-01"
       },
       {
         "zone": "9-10",
-        "zones": "[9a, 9b, 10a, 10b]",
+        "zones": ["9a", "9b", "10a", "10b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-02-15",
         "dtRangeEnd": "2019-04-01"
       },
       {
         "zone": "11",
-        "zones": "[11a, 11b]",
+        "zones": ["11a", "11b"],
         "sowType": "Direct Sow",
         "dtRangeStart": "2019-02-22",
         "dtRangeEnd": "2019-04-01"
       },
       {
         "zone": "7-8",
-        "zones": "[7a, 7b, 8a, 8b]",
+        "zones": ["7a", "7b", "8a", "8b"],
         "sowType": "Direct Sow",
         "dtRangeStart": "2019-02-22",
         "dtRangeEnd": "2019-04-01"
       },
       {
         "zone": "9-10",
-        "zones": "[9a, 9b, 10a, 10b]",
+        "zones": ["9a", "9b", "10a", "10b"],
         "sowType": "Direct Sow",
         "dtRangeStart": "2019-02-22",
         "dtRangeEnd": "2019-04-01"
@@ -3544,63 +3544,63 @@ const plantingCalendarSeed = [
     "sowCal": [
       {
         "zone": "11",
-        "zones": "[11a, 11b]",
+        "zones": ["11a", "11b"],
         "sowType": "Indoor Sow",
         "dtRangeStart": "2019-01-04",
         "dtRangeEnd": "2019-01-18"
       },
       {
         "zone": "3-4",
-        "zones": "[3a, 3b, 4a, 4b]",
+        "zones": ["3a", "3b", "4a", "4b"],
         "sowType": "Indoor Sow",
         "dtRangeStart": "2019-03-10",
         "dtRangeEnd": "2019-03-24"
       },
       {
         "zone": "5-6",
-        "zones": "[5a, 5b, 6a, 6b]",
+        "zones": ["5a", "5b", "6a", "6b"],
         "sowType": "Indoor Sow",
         "dtRangeStart": "2019-02-22",
         "dtRangeEnd": "2019-03-07"
       },
       {
         "zone": "3-4",
-        "zones": "[3a, 3b, 4a, 4b]",
+        "zones": ["3a", "3b", "4a", "4b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-05-26",
         "dtRangeEnd": "2019-06-16"
       },
       {
         "zone": "11",
-        "zones": "[11a, 11b]",
+        "zones": ["11a", "11b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-02-22",
         "dtRangeEnd": "2019-04-01"
       },
       {
         "zone": "5-6",
-        "zones": "[5a, 5b, 6a, 6b]",
+        "zones": ["5a", "5b", "6a", "6b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-05-09",
         "dtRangeEnd": "2019-06-01"
       },
       {
         "zone": "7-8",
-        "zones": "[7a, 7b, 8a, 8b]",
+        "zones": ["7a", "7b", "8a", "8b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-12-07",
         "dtRangeEnd": "2019-12-21"
       },
       {
         "zone": "9-10",
-        "zones": "[9a, 9b, 10a, 10b]",
+        "zones": ["9a", "9b", "10a", "10b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-12-07",
         "dtRangeEnd": "2019-12-21"
       },
       {
         "zone": "11",
-        "zones": "[11a, 11b]",
+        "zones": ["11a", "11b"],
         "sowType": "Direct Sow",
         "dtRangeStart": "2019-02-22",
         "dtRangeEnd": "2019-04-01"
@@ -3613,35 +3613,35 @@ const plantingCalendarSeed = [
     "sowCal": [
       {
         "zone": "11",
-        "zones": "[11a, 11b]",
+        "zones": ["11a", "11b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-12-07",
         "dtRangeEnd": "2019-02-01"
       },
       {
         "zone": "3-4",
-        "zones": "[3a, 3b, 4a, 4b]",
+        "zones": ["3a", "3b", "4a", "4b"],
         "sowType": "Indoor Sow",
         "dtRangeStart": "2019-02-25",
         "dtRangeEnd": "2019-03-10"
       },
       {
         "zone": "5-6",
-        "zones": "[5a, 5b, 6a, 6b]",
+        "zones": ["5a", "5b", "6a", "6b"],
         "sowType": "Indoor Sow",
         "dtRangeStart": "2019-02-08",
         "dtRangeEnd": "2019-02-22"
       },
       {
         "zone": "3-4",
-        "zones": "[3a, 3b, 4a, 4b]",
+        "zones": ["3a", "3b", "4a", "4b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-05-19",
         "dtRangeEnd": "2019-06-16"
       },
       {
         "zone": "5-6",
-        "zones": "[5a, 5b, 6a, 6b]",
+        "zones": ["5a", "5b", "6a", "6b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-05-02",
         "dtRangeEnd": "2019-05-16"
@@ -3654,42 +3654,42 @@ const plantingCalendarSeed = [
     "sowCal": [
       {
         "zone": "11",
-        "zones": "[11a, 11b]",
+        "zones": ["11a", "11b"],
         "sowType": "Indoor Sow",
         "dtRangeStart": "2019-11-23",
         "dtRangeEnd": "2019-12-07"
       },
       {
         "zone": "3-4",
-        "zones": "[3a, 3b, 4a, 4b]",
+        "zones": ["3a", "3b", "4a", "4b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-05-19",
         "dtRangeEnd": "2019-06-16"
       },
       {
         "zone": "11",
-        "zones": "[11a, 11b]",
+        "zones": ["11a", "11b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-02-22",
         "dtRangeEnd": "2019-04-01"
       },
       {
         "zone": "5-6",
-        "zones": "[5a, 5b, 6a, 6b]",
+        "zones": ["5a", "5b", "6a", "6b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-05-02",
         "dtRangeEnd": "2019-05-30"
       },
       {
         "zone": "7-8",
-        "zones": "[7a, 7b, 8a, 8b]",
+        "zones": ["7a", "7b", "8a", "8b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-02-15",
         "dtRangeEnd": "2019-04-15"
       },
       {
         "zone": "9-10",
-        "zones": "[9a, 9b, 10a, 10b]",
+        "zones": ["9a", "9b", "10a", "10b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-02-15",
         "dtRangeEnd": "2019-04-15"
@@ -3702,77 +3702,77 @@ const plantingCalendarSeed = [
     "sowCal": [
       {
         "zone": "11",
-        "zones": "[11a, 11b]",
+        "zones": ["11a", "11b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-02-22",
         "dtRangeEnd": "2019-04-15"
       },
       {
         "zone": "3-4",
-        "zones": "[3a, 3b, 4a, 4b]",
+        "zones": ["3a", "3b", "4a", "4b"],
         "sowType": "Indoor Sow",
         "dtRangeStart": "2019-04-07",
         "dtRangeEnd": "2019-04-21"
       },
       {
         "zone": "5-6",
-        "zones": "[5a, 5b, 6a, 6b]",
+        "zones": ["5a", "5b", "6a", "6b"],
         "sowType": "Indoor Sow",
         "dtRangeStart": "2019-03-21",
         "dtRangeEnd": "2019-04-04"
       },
       {
         "zone": "3-4",
-        "zones": "[3a, 3b, 4a, 4b]",
+        "zones": ["3a", "3b", "4a", "4b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-05-19",
         "dtRangeEnd": "2019-06-16"
       },
       {
         "zone": "7-8",
-        "zones": "[7a, 7b, 8a, 8b]",
+        "zones": ["7a", "7b", "8a", "8b"],
         "sowType": "Indoor Sow",
         "dtRangeStart": "2019-01-04",
         "dtRangeEnd": "2019-01-18"
       },
       {
         "zone": "9-10",
-        "zones": "[9a, 9b, 10a, 10b]",
+        "zones": ["9a", "9b", "10a", "10b"],
         "sowType": "Indoor Sow",
         "dtRangeStart": "2019-01-04",
         "dtRangeEnd": "2019-01-18"
       },
       {
         "zone": "5-6",
-        "zones": "[5a, 5b, 6a, 6b]",
+        "zones": ["5a", "5b", "6a", "6b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-05-09",
         "dtRangeEnd": "2019-06-01"
       },
       {
         "zone": "7-8",
-        "zones": "[7a, 7b, 8a, 8b]",
+        "zones": ["7a", "7b", "8a", "8b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-02-15",
         "dtRangeEnd": "2019-04-15"
       },
       {
         "zone": "9-10",
-        "zones": "[9a, 9b, 10a, 10b]",
+        "zones": ["9a", "9b", "10a", "10b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-02-15",
         "dtRangeEnd": "2019-04-15"
       },
       {
         "zone": "7-8",
-        "zones": "[7a, 7b, 8a, 8b]",
+        "zones": ["7a", "7b", "8a", "8b"],
         "sowType": "Direct Sow",
         "dtRangeStart": "2019-02-22",
         "dtRangeEnd": "2019-04-15"
       },
       {
         "zone": "9-10",
-        "zones": "[9a, 9b, 10a, 10b]",
+        "zones": ["9a", "9b", "10a", "10b"],
         "sowType": "Direct Sow",
         "dtRangeStart": "2019-02-22",
         "dtRangeEnd": "2019-04-15"
@@ -3785,91 +3785,91 @@ const plantingCalendarSeed = [
     "sowCal": [
       {
         "zone": "11",
-        "zones": "[11a, 11b]",
+        "zones": ["11a", "11b"],
         "sowType": "Indoor Sow",
         "dtRangeStart": "2019-01-04",
         "dtRangeEnd": "2019-01-18"
       },
       {
         "zone": "3-4",
-        "zones": "[3a, 3b, 4a, 4b]",
+        "zones": ["3a", "3b", "4a", "4b"],
         "sowType": "Indoor Sow",
         "dtRangeStart": "2019-04-07",
         "dtRangeEnd": "2019-04-21"
       },
       {
         "zone": "5-6",
-        "zones": "[5a, 5b, 6a, 6b]",
+        "zones": ["5a", "5b", "6a", "6b"],
         "sowType": "Indoor Sow",
         "dtRangeStart": "2019-03-07",
         "dtRangeEnd": "2019-03-21"
       },
       {
         "zone": "3-4",
-        "zones": "[3a, 3b, 4a, 4b]",
+        "zones": ["3a", "3b", "4a", "4b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-05-26",
         "dtRangeEnd": "2019-06-16"
       },
       {
         "zone": "7-8",
-        "zones": "[7a, 7b, 8a, 8b]",
+        "zones": ["7a", "7b", "8a", "8b"],
         "sowType": "Indoor Sow",
         "dtRangeStart": "2019-12-21",
         "dtRangeEnd": "2019-01-04"
       },
       {
         "zone": "9-10",
-        "zones": "[9a, 9b, 10a, 10b]",
+        "zones": ["9a", "9b", "10a", "10b"],
         "sowType": "Indoor Sow",
         "dtRangeStart": "2019-12-21",
         "dtRangeEnd": "2019-01-04"
       },
       {
         "zone": "11",
-        "zones": "[11a, 11b]",
+        "zones": ["11a", "11b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-02-22",
         "dtRangeEnd": "2019-04-15"
       },
       {
         "zone": "5-6",
-        "zones": "[5a, 5b, 6a, 6b]",
+        "zones": ["5a", "5b", "6a", "6b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-05-09",
         "dtRangeEnd": "2019-06-01"
       },
       {
         "zone": "7-8",
-        "zones": "[7a, 7b, 8a, 8b]",
+        "zones": ["7a", "7b", "8a", "8b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-02-15",
         "dtRangeEnd": "2019-04-01"
       },
       {
         "zone": "9-10",
-        "zones": "[9a, 9b, 10a, 10b]",
+        "zones": ["9a", "9b", "10a", "10b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-02-15",
         "dtRangeEnd": "2019-04-01"
       },
       {
         "zone": "11",
-        "zones": "[11a, 11b]",
+        "zones": ["11a", "11b"],
         "sowType": "Direct Sow",
         "dtRangeStart": "2019-02-22",
         "dtRangeEnd": "2019-04-15"
       },
       {
         "zone": "7-8",
-        "zones": "[7a, 7b, 8a, 8b]",
+        "zones": ["7a", "7b", "8a", "8b"],
         "sowType": "Direct Sow",
         "dtRangeStart": "2019-02-22",
         "dtRangeEnd": "2019-03-01"
       },
       {
         "zone": "9-10",
-        "zones": "[9a, 9b, 10a, 10b]",
+        "zones": ["9a", "9b", "10a", "10b"],
         "sowType": "Direct Sow",
         "dtRangeStart": "2019-02-22",
         "dtRangeEnd": "2019-03-01"
@@ -3882,49 +3882,49 @@ const plantingCalendarSeed = [
     "sowCal": [
       {
         "zone": "11",
-        "zones": "[11a, 11b]",
+        "zones": ["11a", "11b"],
         "sowType": "Indoor Sow",
         "dtRangeStart": "2019-12-21",
         "dtRangeEnd": "2019-01-04"
       },
       {
         "zone": "3-4",
-        "zones": "[3a, 3b, 4a, 4b]",
+        "zones": ["3a", "3b", "4a", "4b"],
         "sowType": "Indoor Sow",
         "dtRangeStart": "2019-02-25",
         "dtRangeEnd": "2019-03-10"
       },
       {
         "zone": "5-6",
-        "zones": "[5a, 5b, 6a, 6b]",
+        "zones": ["5a", "5b", "6a", "6b"],
         "sowType": "Indoor Sow",
         "dtRangeStart": "2019-02-08",
         "dtRangeEnd": "2019-02-22"
       },
       {
         "zone": "3-4",
-        "zones": "[3a, 3b, 4a, 4b]",
+        "zones": ["3a", "3b", "4a", "4b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-05-26",
         "dtRangeEnd": "2019-06-16"
       },
       {
         "zone": "11",
-        "zones": "[11a, 11b]",
+        "zones": ["11a", "11b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-02-22",
         "dtRangeEnd": "2019-04-01"
       },
       {
         "zone": "5-6",
-        "zones": "[5a, 5b, 6a, 6b]",
+        "zones": ["5a", "5b", "6a", "6b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-05-09",
         "dtRangeEnd": "2019-05-30"
       },
       {
         "zone": "11",
-        "zones": "[11a, 11b]",
+        "zones": ["11a", "11b"],
         "sowType": "Direct Sow",
         "dtRangeStart": "2019-02-22",
         "dtRangeEnd": "2019-03-01"
@@ -3937,77 +3937,77 @@ const plantingCalendarSeed = [
     "sowCal": [
       {
         "zone": "3-4",
-        "zones": "[3a, 3b, 4a, 4b]",
+        "zones": ["3a", "3b", "4a", "4b"],
         "sowType": "Indoor Sow",
         "dtRangeStart": "2019-03-10",
         "dtRangeEnd": "2019-03-24"
       },
       {
         "zone": "5-6",
-        "zones": "[5a, 5b, 6a, 6b]",
+        "zones": ["5a", "5b", "6a", "6b"],
         "sowType": "Indoor Sow",
         "dtRangeStart": "2019-02-22",
         "dtRangeEnd": "2019-03-07"
       },
       {
         "zone": "3-4",
-        "zones": "[3a, 3b, 4a, 4b]",
+        "zones": ["3a", "3b", "4a", "4b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-05-19",
         "dtRangeEnd": "2019-06-16"
       },
       {
         "zone": "7-8",
-        "zones": "[7a, 7b, 8a, 8b]",
+        "zones": ["7a", "7b", "8a", "8b"],
         "sowType": "Indoor Sow",
         "dtRangeStart": "2019-12-07",
         "dtRangeEnd": "2019-12-21"
       },
       {
         "zone": "9-10",
-        "zones": "[9a, 9b, 10a, 10b]",
+        "zones": ["9a", "9b", "10a", "10b"],
         "sowType": "Indoor Sow",
         "dtRangeStart": "2019-12-07",
         "dtRangeEnd": "2019-12-21"
       },
       {
         "zone": "11",
-        "zones": "[11a, 11b]",
+        "zones": ["11a", "11b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-12-07",
         "dtRangeEnd": "2019-02-22"
       },
       {
         "zone": "5-6",
-        "zones": "[5a, 5b, 6a, 6b]",
+        "zones": ["5a", "5b", "6a", "6b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-05-09",
         "dtRangeEnd": "2019-05-16"
       },
       {
         "zone": "7-8",
-        "zones": "[7a, 7b, 8a, 8b]",
+        "zones": ["7a", "7b", "8a", "8b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-02-15",
         "dtRangeEnd": "2019-03-01"
       },
       {
         "zone": "9-10",
-        "zones": "[9a, 9b, 10a, 10b]",
+        "zones": ["9a", "9b", "10a", "10b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-02-15",
         "dtRangeEnd": "2019-03-01"
       },
       {
         "zone": "7-8",
-        "zones": "[7a, 7b, 8a, 8b]",
+        "zones": ["7a", "7b", "8a", "8b"],
         "sowType": "Direct Sow",
         "dtRangeStart": "2019-02-22",
         "dtRangeEnd": "2019-03-01"
       },
       {
         "zone": "9-10",
-        "zones": "[9a, 9b, 10a, 10b]",
+        "zones": ["9a", "9b", "10a", "10b"],
         "sowType": "Direct Sow",
         "dtRangeStart": "2019-02-22",
         "dtRangeEnd": "2019-03-01"
@@ -4020,49 +4020,49 @@ const plantingCalendarSeed = [
     "sowCal": [
       {
         "zone": "11",
-        "zones": "[11a, 11b]",
+        "zones": ["11a", "11b"],
         "sowType": "Indoor Sow",
         "dtRangeStart": "2019-12-07",
         "dtRangeEnd": "2019-12-21"
       },
       {
         "zone": "3-4",
-        "zones": "[3a, 3b, 4a, 4b]",
+        "zones": ["3a", "3b", "4a", "4b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-05-19",
         "dtRangeEnd": "2019-06-16"
       },
       {
         "zone": "11",
-        "zones": "[11a, 11b]",
+        "zones": ["11a", "11b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-02-22",
         "dtRangeEnd": "2019-03-01"
       },
       {
         "zone": "5-6",
-        "zones": "[5a, 5b, 6a, 6b]",
+        "zones": ["5a", "5b", "6a", "6b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-05-02",
         "dtRangeEnd": "2019-05-30"
       },
       {
         "zone": "7-8",
-        "zones": "[7a, 7b, 8a, 8b]",
+        "zones": ["7a", "7b", "8a", "8b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-02-15",
         "dtRangeEnd": "2019-04-15"
       },
       {
         "zone": "9-10",
-        "zones": "[9a, 9b, 10a, 10b]",
+        "zones": ["9a", "9b", "10a", "10b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-02-15",
         "dtRangeEnd": "2019-04-15"
       },
       {
         "zone": "11",
-        "zones": "[11a, 11b]",
+        "zones": ["11a", "11b"],
         "sowType": "Direct Sow",
         "dtRangeStart": "2019-02-22",
         "dtRangeEnd": "2019-03-01"
@@ -4075,105 +4075,105 @@ const plantingCalendarSeed = [
     "sowCal": [
       {
         "zone": "11",
-        "zones": "[11a, 11b]",
+        "zones": ["11a", "11b"],
         "sowType": "Indoor Sow",
         "dtRangeStart": "2019-12-07",
         "dtRangeEnd": "2019-12-21"
       },
       {
         "zone": "3-4",
-        "zones": "[3a, 3b, 4a, 4b]",
+        "zones": ["3a", "3b", "4a", "4b"],
         "sowType": "Indoor Sow",
         "dtRangeStart": "2019-04-07",
         "dtRangeEnd": "2019-03-24"
       },
       {
         "zone": "5-6",
-        "zones": "[5a, 5b, 6a, 6b]",
+        "zones": ["5a", "5b", "6a", "6b"],
         "sowType": "Indoor Sow",
         "dtRangeStart": "2019-03-07",
         "dtRangeEnd": "2019-03-21"
       },
       {
         "zone": "3-4",
-        "zones": "[3a, 3b, 4a, 4b]",
+        "zones": ["3a", "3b", "4a", "4b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-05-19",
         "dtRangeEnd": "2019-06-16"
       },
       {
         "zone": "7-8",
-        "zones": "[7a, 7b, 8a, 8b]",
+        "zones": ["7a", "7b", "8a", "8b"],
         "sowType": "Indoor Sow",
         "dtRangeStart": "2019-12-21",
         "dtRangeEnd": "2019-01-04"
       },
       {
         "zone": "9-10",
-        "zones": "[9a, 9b, 10a, 10b]",
+        "zones": ["9a", "9b", "10a", "10b"],
         "sowType": "Indoor Sow",
         "dtRangeStart": "2019-12-21",
         "dtRangeEnd": "2019-01-04"
       },
       {
         "zone": "11",
-        "zones": "[11a, 11b]",
+        "zones": ["11a", "11b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-02-22",
         "dtRangeEnd": "2019-03-28"
       },
       {
         "zone": "5-6",
-        "zones": "[5a, 5b, 6a, 6b]",
+        "zones": ["5a", "5b", "6a", "6b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-05-02",
         "dtRangeEnd": "2019-05-30"
       },
       {
         "zone": "7-8",
-        "zones": "[7a, 7b, 8a, 8b]",
+        "zones": ["7a", "7b", "8a", "8b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-02-15",
         "dtRangeEnd": "2019-04-15"
       },
       {
         "zone": "9-10",
-        "zones": "[9a, 9b, 10a, 10b]",
+        "zones": ["9a", "9b", "10a", "10b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-02-15",
         "dtRangeEnd": "2019-04-15"
       },
       {
         "zone": "11",
-        "zones": "[11a, 11b]",
+        "zones": ["11a", "11b"],
         "sowType": "Direct Sow",
         "dtRangeStart": "2019-02-22",
         "dtRangeEnd": "2019-03-01"
       },
       {
         "zone": "3-4",
-        "zones": "[3a, 3b, 4a, 4b]",
+        "zones": ["3a", "3b", "4a", "4b"],
         "sowType": "Direct Sow",
         "dtRangeStart": "2019-06-02",
         "dtRangeEnd": "2019-06-16"
       },
       {
         "zone": "5-6",
-        "zones": "[5a, 5b, 6a, 6b]",
+        "zones": ["5a", "5b", "6a", "6b"],
         "sowType": "Direct Sow",
         "dtRangeStart": "2019-05-16",
         "dtRangeEnd": "2019-05-16"
       },
       {
         "zone": "7-8",
-        "zones": "[7a, 7b, 8a, 8b]",
+        "zones": ["7a", "7b", "8a", "8b"],
         "sowType": "Direct Sow",
         "dtRangeStart": "2019-02-22",
         "dtRangeEnd": "2019-04-15"
       },
       {
         "zone": "9-10",
-        "zones": "[9a, 9b, 10a, 10b]",
+        "zones": ["9a", "9b", "10a", "10b"],
         "sowType": "Direct Sow",
         "dtRangeStart": "2019-02-22",
         "dtRangeEnd": "2019-04-15"
@@ -4186,91 +4186,91 @@ const plantingCalendarSeed = [
     "sowCal": [
       {
         "zone": "11",
-        "zones": "[11a, 11b]",
+        "zones": ["11a", "11b"],
         "sowType": "Indoor Sow",
         "dtRangeStart": "2019-12-21",
         "dtRangeEnd": "2019-01-04"
       },
       {
         "zone": "3-4",
-        "zones": "[3a, 3b, 4a, 4b]",
+        "zones": ["3a", "3b", "4a", "4b"],
         "sowType": "Indoor Sow",
         "dtRangeStart": "2019-03-24",
         "dtRangeEnd": "2019-04-07"
       },
       {
         "zone": "5-6",
-        "zones": "[5a, 5b, 6a, 6b]",
+        "zones": ["5a", "5b", "6a", "6b"],
         "sowType": "Indoor Sow",
         "dtRangeStart": "2019-03-07",
         "dtRangeEnd": "2019-03-21"
       },
       {
         "zone": "3-4",
-        "zones": "[3a, 3b, 4a, 4b]",
+        "zones": ["3a", "3b", "4a", "4b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-05-26",
         "dtRangeEnd": "2019-06-16"
       },
       {
         "zone": "7-8",
-        "zones": "[7a, 7b, 8a, 8b]",
+        "zones": ["7a", "7b", "8a", "8b"],
         "sowType": "Indoor Sow",
         "dtRangeStart": "2019-12-21",
         "dtRangeEnd": "2019-01-04"
       },
       {
         "zone": "9-10",
-        "zones": "[9a, 9b, 10a, 10b]",
+        "zones": ["9a", "9b", "10a", "10b"],
         "sowType": "Indoor Sow",
         "dtRangeStart": "2019-12-21",
         "dtRangeEnd": "2019-01-04"
       },
       {
         "zone": "11",
-        "zones": "[11a, 11b]",
+        "zones": ["11a", "11b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-02-22",
         "dtRangeEnd": "2019-04-15"
       },
       {
         "zone": "5-6",
-        "zones": "[5a, 5b, 6a, 6b]",
+        "zones": ["5a", "5b", "6a", "6b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-05-09",
         "dtRangeEnd": "2019-06-01"
       },
       {
         "zone": "7-8",
-        "zones": "[7a, 7b, 8a, 8b]",
+        "zones": ["7a", "7b", "8a", "8b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-02-15",
         "dtRangeEnd": "2019-03-01"
       },
       {
         "zone": "9-10",
-        "zones": "[9a, 9b, 10a, 10b]",
+        "zones": ["9a", "9b", "10a", "10b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-02-15",
         "dtRangeEnd": "2019-03-01"
       },
       {
         "zone": "11",
-        "zones": "[11a, 11b]",
+        "zones": ["11a", "11b"],
         "sowType": "Direct Sow",
         "dtRangeStart": "2019-02-22",
         "dtRangeEnd": "2019-04-15"
       },
       {
         "zone": "7-8",
-        "zones": "[7a, 7b, 8a, 8b]",
+        "zones": ["7a", "7b", "8a", "8b"],
         "sowType": "Direct Sow",
         "dtRangeStart": "2019-02-22",
         "dtRangeEnd": "2019-03-01"
       },
       {
         "zone": "9-10",
-        "zones": "[9a, 9b, 10a, 10b]",
+        "zones": ["9a", "9b", "10a", "10b"],
         "sowType": "Direct Sow",
         "dtRangeStart": "2019-02-22",
         "dtRangeEnd": "2019-03-01"
@@ -4283,49 +4283,49 @@ const plantingCalendarSeed = [
     "sowCal": [
       {
         "zone": "11",
-        "zones": "[11a, 11b]",
+        "zones": ["11a", "11b"],
         "sowType": "Indoor Sow",
         "dtRangeStart": "2019-12-21",
         "dtRangeEnd": "2019-01-04"
       },
       {
         "zone": "11",
-        "zones": "[11a, 11b]",
+        "zones": ["11a", "11b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-02-22",
         "dtRangeEnd": "2019-03-01"
       },
       {
         "zone": "11",
-        "zones": "[11a, 11b]",
+        "zones": ["11a", "11b"],
         "sowType": "Direct Sow",
         "dtRangeStart": "2019-02-22",
         "dtRangeEnd": "2019-03-01"
       },
       {
         "zone": "3-4",
-        "zones": "[3a, 3b, 4a, 4b]",
+        "zones": ["3a", "3b", "4a", "4b"],
         "sowType": "Direct Sow",
         "dtRangeStart": "2019-05-26",
         "dtRangeEnd": "2019-06-02"
       },
       {
         "zone": "5-6",
-        "zones": "[5a, 5b, 6a, 6b]",
+        "zones": ["5a", "5b", "6a", "6b"],
         "sowType": "Direct Sow",
         "dtRangeStart": "2019-05-09",
         "dtRangeEnd": "2019-05-16"
       },
       {
         "zone": "7-8",
-        "zones": "[7a, 7b, 8a, 8b]",
+        "zones": ["7a", "7b", "8a", "8b"],
         "sowType": "Direct Sow",
         "dtRangeStart": "2019-02-22",
         "dtRangeEnd": "2019-04-01"
       },
       {
         "zone": "9-10",
-        "zones": "[9a, 9b, 10a, 10b]",
+        "zones": ["9a", "9b", "10a", "10b"],
         "sowType": "Direct Sow",
         "dtRangeStart": "2019-02-22",
         "dtRangeEnd": "2019-04-01"
@@ -4338,35 +4338,35 @@ const plantingCalendarSeed = [
     "sowCal": [
       {
         "zone": "11",
-        "zones": "[11a, 11b]",
+        "zones": ["11a", "11b"],
         "sowType": "Direct Sow",
         "dtRangeStart": "2019-02-22",
         "dtRangeEnd": "2019-04-01"
       },
       {
         "zone": "3-4",
-        "zones": "[3a, 3b, 4a, 4b]",
+        "zones": ["3a", "3b", "4a", "4b"],
         "sowType": "Direct Sow",
         "dtRangeStart": "2019-05-26",
         "dtRangeEnd": "2019-06-02"
       },
       {
         "zone": "5-6",
-        "zones": "[5a, 5b, 6a, 6b]",
+        "zones": ["5a", "5b", "6a", "6b"],
         "sowType": "Direct Sow",
         "dtRangeStart": "2019-05-09",
         "dtRangeEnd": "2019-05-16"
       },
       {
         "zone": "7-8",
-        "zones": "[7a, 7b, 8a, 8b]",
+        "zones": ["7a", "7b", "8a", "8b"],
         "sowType": "Direct Sow",
         "dtRangeStart": "2019-02-22",
         "dtRangeEnd": "2019-04-01"
       },
       {
         "zone": "9-10",
-        "zones": "[9a, 9b, 10a, 10b]",
+        "zones": ["9a", "9b", "10a", "10b"],
         "sowType": "Direct Sow",
         "dtRangeStart": "2019-02-22",
         "dtRangeEnd": "2019-04-01"
@@ -4379,91 +4379,91 @@ const plantingCalendarSeed = [
     "sowCal": [
       {
         "zone": "3-4",
-        "zones": "[3a, 3b, 4a, 4b]",
+        "zones": ["3a", "3b", "4a", "4b"],
         "sowType": "Indoor Sow",
         "dtRangeStart": "2019-04-07",
         "dtRangeEnd": "2019-04-21"
       },
       {
         "zone": "5-6",
-        "zones": "[5a, 5b, 6a, 6b]",
+        "zones": ["5a", "5b", "6a", "6b"],
         "sowType": "Indoor Sow",
         "dtRangeStart": "2019-03-21",
         "dtRangeEnd": "2019-04-04"
       },
       {
         "zone": "3-4",
-        "zones": "[3a, 3b, 4a, 4b]",
+        "zones": ["3a", "3b", "4a", "4b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-05-26",
         "dtRangeEnd": "2019-06-16"
       },
       {
         "zone": "7-8",
-        "zones": "[7a, 7b, 8a, 8b]",
+        "zones": ["7a", "7b", "8a", "8b"],
         "sowType": "Indoor Sow",
         "dtRangeStart": "2019-01-04",
         "dtRangeEnd": "2019-01-18"
       },
       {
         "zone": "9-10",
-        "zones": "[9a, 9b, 10a, 10b]",
+        "zones": ["9a", "9b", "10a", "10b"],
         "sowType": "Indoor Sow",
         "dtRangeStart": "2019-01-04",
         "dtRangeEnd": "2019-01-18"
       },
       {
         "zone": "5-6",
-        "zones": "[5a, 5b, 6a, 6b]",
+        "zones": ["5a", "5b", "6a", "6b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-05-09",
         "dtRangeEnd": "2019-06-01"
       },
       {
         "zone": "7-8",
-        "zones": "[7a, 7b, 8a, 8b]",
+        "zones": ["7a", "7b", "8a", "8b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-02-22",
         "dtRangeEnd": "2019-04-01"
       },
       {
         "zone": "9-10",
-        "zones": "[9a, 9b, 10a, 10b]",
+        "zones": ["9a", "9b", "10a", "10b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-02-22",
         "dtRangeEnd": "2019-04-01"
       },
       {
         "zone": "11",
-        "zones": "[11a, 11b]",
+        "zones": ["11a", "11b"],
         "sowType": "Direct Sow",
         "dtRangeStart": "2019-02-22",
         "dtRangeEnd": "2019-04-01"
       },
       {
         "zone": "3-4",
-        "zones": "[3a, 3b, 4a, 4b]",
+        "zones": ["3a", "3b", "4a", "4b"],
         "sowType": "Direct Sow",
         "dtRangeStart": "2019-05-26",
         "dtRangeEnd": "2019-06-16"
       },
       {
         "zone": "5-6",
-        "zones": "[5a, 5b, 6a, 6b]",
+        "zones": ["5a", "5b", "6a", "6b"],
         "sowType": "Direct Sow",
         "dtRangeStart": "2019-05-09",
         "dtRangeEnd": "2019-06-01"
       },
       {
         "zone": "7-8",
-        "zones": "[7a, 7b, 8a, 8b]",
+        "zones": ["7a", "7b", "8a", "8b"],
         "sowType": "Direct Sow",
         "dtRangeStart": "2019-02-22",
         "dtRangeEnd": "2019-04-01"
       },
       {
         "zone": "9-10",
-        "zones": "[9a, 9b, 10a, 10b]",
+        "zones": ["9a", "9b", "10a", "10b"],
         "sowType": "Direct Sow",
         "dtRangeStart": "2019-02-22",
         "dtRangeEnd": "2019-04-01"
@@ -4476,49 +4476,49 @@ const plantingCalendarSeed = [
     "sowCal": [
       {
         "zone": "11",
-        "zones": "[11a, 11b]",
+        "zones": ["11a", "11b"],
         "sowType": "Indoor Sow",
         "dtRangeStart": "2019-01-04",
         "dtRangeEnd": "2019-01-18"
       },
       {
         "zone": "11",
-        "zones": "[11a, 11b]",
+        "zones": ["11a", "11b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-02-22",
         "dtRangeEnd": "2019-04-01"
       },
       {
         "zone": "11",
-        "zones": "[11a, 11b]",
+        "zones": ["11a", "11b"],
         "sowType": "Direct Sow",
         "dtRangeStart": "2019-02-22",
         "dtRangeEnd": "2019-04-01"
       },
       {
         "zone": "3-4",
-        "zones": "[3a, 3b, 4a, 4b]",
+        "zones": ["3a", "3b", "4a", "4b"],
         "sowType": "Direct Sow",
         "dtRangeStart": "2019-05-26",
         "dtRangeEnd": "2019-06-16"
       },
       {
         "zone": "5-6",
-        "zones": "[5a, 5b, 6a, 6b]",
+        "zones": ["5a", "5b", "6a", "6b"],
         "sowType": "Direct Sow",
         "dtRangeStart": "2019-05-09",
         "dtRangeEnd": "2019-05-16"
       },
       {
         "zone": "7-8",
-        "zones": "[7a, 7b, 8a, 8b]",
+        "zones": ["7a", "7b", "8a", "8b"],
         "sowType": "Direct Sow",
         "dtRangeStart": "2019-02-22",
         "dtRangeEnd": "2019-04-01"
       },
       {
         "zone": "9-10",
-        "zones": "[9a, 9b, 10a, 10b]",
+        "zones": ["9a", "9b", "10a", "10b"],
         "sowType": "Direct Sow",
         "dtRangeStart": "2019-02-22",
         "dtRangeEnd": "2019-04-01"
@@ -4531,77 +4531,77 @@ const plantingCalendarSeed = [
     "sowCal": [
       {
         "zone": "3-4",
-        "zones": "[3a, 3b, 4a, 4b]",
+        "zones": ["3a", "3b", "4a", "4b"],
         "sowType": "Indoor Sow",
         "dtRangeStart": "2019-03-24",
         "dtRangeEnd": "2019-04-07"
       },
       {
         "zone": "5-6",
-        "zones": "[5a, 5b, 6a, 6b]",
+        "zones": ["5a", "5b", "6a", "6b"],
         "sowType": "Indoor Sow",
         "dtRangeStart": "2019-03-21",
         "dtRangeEnd": "2019-04-04"
       },
       {
         "zone": "3-4",
-        "zones": "[3a, 3b, 4a, 4b]",
+        "zones": ["3a", "3b", "4a", "4b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-05-19",
         "dtRangeEnd": "2019-06-16"
       },
       {
         "zone": "7-8",
-        "zones": "[7a, 7b, 8a, 8b]",
+        "zones": ["7a", "7b", "8a", "8b"],
         "sowType": "Indoor Sow",
         "dtRangeStart": "2019-01-04",
         "dtRangeEnd": "2019-01-18"
       },
       {
         "zone": "9-10",
-        "zones": "[9a, 9b, 10a, 10b]",
+        "zones": ["9a", "9b", "10a", "10b"],
         "sowType": "Indoor Sow",
         "dtRangeStart": "2019-01-04",
         "dtRangeEnd": "2019-01-18"
       },
       {
         "zone": "5-6",
-        "zones": "[5a, 5b, 6a, 6b]",
+        "zones": ["5a", "5b", "6a", "6b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-05-09",
         "dtRangeEnd": "2019-05-16"
       },
       {
         "zone": "7-8",
-        "zones": "[7a, 7b, 8a, 8b]",
+        "zones": ["7a", "7b", "8a", "8b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-02-22",
         "dtRangeEnd": "2019-04-01"
       },
       {
         "zone": "9-10",
-        "zones": "[9a, 9b, 10a, 10b]",
+        "zones": ["9a", "9b", "10a", "10b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-02-22",
         "dtRangeEnd": "2019-04-01"
       },
       {
         "zone": "11",
-        "zones": "[11a, 11b]",
+        "zones": ["11a", "11b"],
         "sowType": "Direct Sow",
         "dtRangeStart": "2019-02-01",
         "dtRangeEnd": "2019-04-01"
       },
       {
         "zone": "7-8",
-        "zones": "[7a, 7b, 8a, 8b]",
+        "zones": ["7a", "7b", "8a", "8b"],
         "sowType": "Direct Sow",
         "dtRangeStart": "2019-02-22",
         "dtRangeEnd": "2019-04-01"
       },
       {
         "zone": "9-10",
-        "zones": "[9a, 9b, 10a, 10b]",
+        "zones": ["9a", "9b", "10a", "10b"],
         "sowType": "Direct Sow",
         "dtRangeStart": "2019-02-22",
         "dtRangeEnd": "2019-04-01"
@@ -4614,56 +4614,56 @@ const plantingCalendarSeed = [
     "sowCal": [
       {
         "zone": "11",
-        "zones": "[11a, 11b]",
+        "zones": ["11a", "11b"],
         "sowType": "Indoor Sow",
         "dtRangeStart": "2019-09-01",
         "dtRangeEnd": "2019-11-03"
       },
       {
         "zone": "3-4",
-        "zones": "[3a, 3b, 4a, 4b]",
+        "zones": ["3a", "3b", "4a", "4b"],
         "sowType": "Indoor Sow",
         "dtRangeStart": "2019-08-01",
         "dtRangeEnd": "2019-08-16"
       },
       {
         "zone": "5-6",
-        "zones": "[5a, 5b, 6a, 6b]",
+        "zones": ["5a", "5b", "6a", "6b"],
         "sowType": "Indoor Sow",
         "dtRangeStart": "2019-09-03",
         "dtRangeEnd": "2019-09-30"
       },
       {
         "zone": "9-10",
-        "zones": "[9a, 9b, 10a, 10b]",
+        "zones": ["9a", "9b", "10a", "10b"],
         "sowType": "Indoor Sow",
         "dtRangeStart": "2019-09-01",
         "dtRangeEnd": "2019-11-03"
       },
       {
         "zone": "11",
-        "zones": "[11a, 11b]",
+        "zones": ["11a", "11b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-09-01",
         "dtRangeEnd": "2019-12-29"
       },
       {
         "zone": "3-4",
-        "zones": "[3a, 3b, 4a, 4b]",
+        "zones": ["3a", "3b", "4a", "4b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-08-21",
         "dtRangeEnd": "2019-10-02"
       },
       {
         "zone": "5-6",
-        "zones": "[5a, 5b, 6a, 6b]",
+        "zones": ["5a", "5b", "6a", "6b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-09-17",
         "dtRangeEnd": "2019-10-29"
       },
       {
         "zone": "9-10",
-        "zones": "[9a, 9b, 10a, 10b]",
+        "zones": ["9a", "9b", "10a", "10b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-11-17",
         "dtRangeEnd": "2019-12-29"
@@ -4676,84 +4676,84 @@ const plantingCalendarSeed = [
     "sowCal": [
       {
         "zone": "3-4",
-        "zones": "[3a, 3b, 4a, 4b]",
+        "zones": ["3a", "3b", "4a", "4b"],
         "sowType": "Indoor Sow",
         "dtRangeStart": "2019-02-25",
         "dtRangeEnd": "2019-03-10"
       },
       {
         "zone": "5-6",
-        "zones": "[5a, 5b, 6a, 6b]",
+        "zones": ["5a", "5b", "6a", "6b"],
         "sowType": "Indoor Sow",
         "dtRangeStart": "2019-02-08",
         "dtRangeEnd": "2019-02-22"
       },
       {
         "zone": "3-4",
-        "zones": "[3a, 3b, 4a, 4b]",
+        "zones": ["3a", "3b", "4a", "4b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-04-25",
         "dtRangeEnd": "2019-05-26"
       },
       {
         "zone": "5-6",
-        "zones": "[5a, 5b, 6a, 6b]",
+        "zones": ["5a", "5b", "6a", "6b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-04-15",
         "dtRangeEnd": "2019-05-02"
       },
       {
         "zone": "3-4",
-        "zones": "[3a, 3b, 4a, 4b]",
+        "zones": ["3a", "3b", "4a", "4b"],
         "sowType": "Indoor Sow",
         "dtRangeStart": "2019-08-01",
         "dtRangeEnd": "2019-08-16"
       },
       {
         "zone": "5-6",
-        "zones": "[5a, 5b, 6a, 6b]",
+        "zones": ["5a", "5b", "6a", "6b"],
         "sowType": "Indoor Sow",
         "dtRangeStart": "2019-09-03",
         "dtRangeEnd": "2019-09-30"
       },
       {
         "zone": "9-10",
-        "zones": "[9a, 9b, 10a, 10b]",
+        "zones": ["9a", "9b", "10a", "10b"],
         "sowType": "Indoor Sow",
         "dtRangeStart": "2019-09-01",
         "dtRangeEnd": "2019-11-03"
       },
       {
         "zone": "11",
-        "zones": "[11a, 11b]",
+        "zones": ["11a", "11b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-09-01",
         "dtRangeEnd": "2019-11-03"
       },
       {
         "zone": "3-4",
-        "zones": "[3a, 3b, 4a, 4b]",
+        "zones": ["3a", "3b", "4a", "4b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-08-21",
         "dtRangeEnd": "2019-10-02"
       },
       {
         "zone": "5-6",
-        "zones": "[5a, 5b, 6a, 6b]",
+        "zones": ["5a", "5b", "6a", "6b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-09-17",
         "dtRangeEnd": "2019-10-29"
       },
       {
         "zone": "9-10",
-        "zones": "[9a, 9b, 10a, 10b]",
+        "zones": ["9a", "9b", "10a", "10b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-11-17",
         "dtRangeEnd": "2019-12-29"
       },
       { 
           "zone" : "11", 
-          "zones" : "[11a, 11b]", 
+          "zones" : ["11a", "11b"], 
           "sowType": "Direct Sow",
           "dtRangeStart" : "2019-11-17", 
           "dtRangeEnd" : "2019-12-29"
@@ -4766,42 +4766,42 @@ const plantingCalendarSeed = [
     "sowCal": [
       {
         "zone": "3-4",
-        "zones": "[3a, 3b, 4a, 4b]",
+        "zones": ["3a", "3b", "4a", "4b"],
         "sowType": "Indoor Sow",
         "dtRangeStart": "2019-03-10",
         "dtRangeEnd": "2019-03-24"
       },
       {
         "zone": "5-6",
-        "zones": "[5a, 5b, 6a, 6b]",
+        "zones": ["5a", "5b", "6a", "6b"],
         "sowType": "Indoor Sow",
         "dtRangeStart": "2019-02-22",
         "dtRangeEnd": "2019-03-07"
       },
       {
         "zone": "3-4",
-        "zones": "[3a, 3b, 4a, 4b]",
+        "zones": ["3a", "3b", "4a", "4b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-05-19",
         "dtRangeEnd": "2019-05-26"
       },
       {
         "zone": "5-6",
-        "zones": "[5a, 5b, 6a, 6b]",
+        "zones": ["5a", "5b", "6a", "6b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-05-02",
         "dtRangeEnd": "2019-06-01"
       },
       {
         "zone": "11",
-        "zones": "[11a, 11b]",
+        "zones": ["11a", "11b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-09-01",
         "dtRangeEnd": "2019-11-03"
       },
       { 
         "zone" : "11", 
-        "zones" : "[11a, 11b]", 
+        "zones" : ["11a", "11b"], 
         "sowType": "Direct Sow",
         "dtRangeStart" : "2019-11-17", 
         "dtRangeEnd" : "2019-12-29"
@@ -4814,35 +4814,35 @@ const plantingCalendarSeed = [
     "sowCal": [
       {
         "zone": "11",
-        "zones": "[11a, 11b]",
+        "zones": ["11a", "11b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-12-21",
         "dtRangeEnd": "2019-02-22"
       },
       {
         "zone": "3-4",
-        "zones": "[3a, 3b, 4a, 4b]",
+        "zones": ["3a", "3b", "4a", "4b"],
         "sowType": "Indoor Sow",
         "dtRangeStart": "2019-02-25",
         "dtRangeEnd": "2019-03-10"
       },
       {
         "zone": "5-6",
-        "zones": "[5a, 5b, 6a, 6b]",
+        "zones": ["5a", "5b", "6a", "6b"],
         "sowType": "Indoor Sow",
         "dtRangeStart": "2019-02-08",
         "dtRangeEnd": "2019-02-22"
       },
       {
         "zone": "3-4",
-        "zones": "[3a, 3b, 4a, 4b]",
+        "zones": ["3a", "3b", "4a", "4b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-05-19",
         "dtRangeEnd": "2019-06-16"
       },
       {
         "zone": "5-6",
-        "zones": "[5a, 5b, 6a, 6b]",
+        "zones": ["5a", "5b", "6a", "6b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-05-02",
         "dtRangeEnd": "2019-06-01"
@@ -4855,35 +4855,35 @@ const plantingCalendarSeed = [
     "sowCal": [
       {
         "zone": "11",
-        "zones": "[11a, 11b]",
+        "zones": ["11a", "11b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-12-07",
         "dtRangeEnd": "2019-02-22"
       },
       {
         "zone": "3-4",
-        "zones": "[3a, 3b, 4a, 4b]",
+        "zones": ["3a", "3b", "4a", "4b"],
         "sowType": "Indoor Sow",
         "dtRangeStart": "2019-03-10",
         "dtRangeEnd": "2019-03-24"
       },
       {
         "zone": "5-6",
-        "zones": "[5a, 5b, 6a, 6b]",
+        "zones": ["5a", "5b", "6a", "6b"],
         "sowType": "Indoor Sow",
         "dtRangeStart": "2019-02-22",
         "dtRangeEnd": "2019-03-07"
       },
       {
         "zone": "3-4",
-        "zones": "[3a, 3b, 4a, 4b]",
+        "zones": ["3a", "3b", "4a", "4b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-05-19",
         "dtRangeEnd": "2019-06-16"
       },
       {
         "zone": "5-6",
-        "zones": "[5a, 5b, 6a, 6b]",
+        "zones": ["5a", "5b", "6a", "6b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-05-02",
         "dtRangeEnd": "2019-05-16"
@@ -4896,35 +4896,35 @@ const plantingCalendarSeed = [
     "sowCal": [
       {
         "zone": "11",
-        "zones": "[11a, 11b]",
+        "zones": ["11a", "11b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-12-21",
         "dtRangeEnd": "2019-02-22"
       },
       {
         "zone": "3-4",
-        "zones": "[3a, 3b, 4a, 4b]",
+        "zones": ["3a", "3b", "4a", "4b"],
         "sowType": "Indoor Sow",
         "dtRangeStart": "2019-03-24",
         "dtRangeEnd": "2019-04-07"
       },
       {
         "zone": "5-6",
-        "zones": "[5a, 5b, 6a, 6b]",
+        "zones": ["5a", "5b", "6a", "6b"],
         "sowType": "Indoor Sow",
         "dtRangeStart": "2019-03-07",
         "dtRangeEnd": "2019-03-21"
       },
       {
         "zone": "3-4",
-        "zones": "[3a, 3b, 4a, 4b]",
+        "zones": ["3a", "3b", "4a", "4b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-05-19",
         "dtRangeEnd": "2019-06-16"
       },
       {
         "zone": "5-6",
-        "zones": "[5a, 5b, 6a, 6b]",
+        "zones": ["5a", "5b", "6a", "6b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-05-09",
         "dtRangeEnd": "2019-06-01"
@@ -4937,35 +4937,35 @@ const plantingCalendarSeed = [
     "sowCal": [
       {
         "zone": "11",
-        "zones": "[11a, 11b]",
+        "zones": ["11a", "11b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-01-04",
         "dtRangeEnd": "2019-02-22"
       },
       {
         "zone": "3-4",
-        "zones": "[3a, 3b, 4a, 4b]",
+        "zones": ["3a", "3b", "4a", "4b"],
         "sowType": "Indoor Sow",
         "dtRangeStart": "2019-03-10",
         "dtRangeEnd": "2019-03-24"
       },
       {
         "zone": "5-6",
-        "zones": "[5a, 5b, 6a, 6b]",
+        "zones": ["5a", "5b", "6a", "6b"],
         "sowType": "Indoor Sow",
         "dtRangeStart": "2019-02-22",
         "dtRangeEnd": "2019-03-07"
       },
       {
         "zone": "3-4",
-        "zones": "[3a, 3b, 4a, 4b]",
+        "zones": ["3a", "3b", "4a", "4b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-05-19",
         "dtRangeEnd": "2019-06-02"
       },
       {
         "zone": "5-6",
-        "zones": "[5a, 5b, 6a, 6b]",
+        "zones": ["5a", "5b", "6a", "6b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-05-02",
         "dtRangeEnd": "2019-05-16"
@@ -4978,49 +4978,49 @@ const plantingCalendarSeed = [
     "sowCal": [
       {
         "zone": "11",
-        "zones": "[11a, 11b]",
+        "zones": ["11a", "11b"],
         "sowType": "Indoor Sow",
         "dtRangeStart": "2019-12-21",
         "dtRangeEnd": "2019-01-04"
       },
       {
         "zone": "3-4",
-        "zones": "[3a, 3b, 4a, 4b]",
+        "zones": ["3a", "3b", "4a", "4b"],
         "sowType": "Indoor Sow",
         "dtRangeStart": "2019-02-25",
         "dtRangeEnd": "2019-03-10"
       },
       {
         "zone": "5-6",
-        "zones": "[5a, 5b, 6a, 6b]",
+        "zones": ["5a", "5b", "6a", "6b"],
         "sowType": "Indoor Sow",
         "dtRangeStart": "2019-02-08",
         "dtRangeEnd": "2019-02-22"
       },
       {
         "zone": "3-4",
-        "zones": "[3a, 3b, 4a, 4b]",
+        "zones": ["3a", "3b", "4a", "4b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-06-05",
         "dtRangeEnd": "2019-06-16"
       },
       {
         "zone": "11",
-        "zones": "[11a, 11b]",
+        "zones": ["11a", "11b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-02-22",
         "dtRangeEnd": "2019-04-01"
       },
       {
         "zone": "5-6",
-        "zones": "[5a, 5b, 6a, 6b]",
+        "zones": ["5a", "5b", "6a", "6b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-05-09",
         "dtRangeEnd": "2019-06-01"
       },
       {
         "zone": "11",
-        "zones": "[11a, 11b]",
+        "zones": ["11a", "11b"],
         "sowType": "Direct Sow",
         "dtRangeStart": "2019-02-22",
         "dtRangeEnd": "2019-04-01"
@@ -5033,49 +5033,49 @@ const plantingCalendarSeed = [
     "sowCal": [
       {
         "zone": "11",
-        "zones": "[11a, 11b]",
+        "zones": ["11a", "11b"],
         "sowType": "Indoor Sow",
         "dtRangeStart": "2019-11-23",
         "dtRangeEnd": "2019-12-07"
       },
       {
         "zone": "3-4",
-        "zones": "[3a, 3b, 4a, 4b]",
+        "zones": ["3a", "3b", "4a", "4b"],
         "sowType": "Indoor Sow",
         "dtRangeStart": "2019-03-24",
         "dtRangeEnd": "2019-04-07"
       },
       {
         "zone": "5-6",
-        "zones": "[5a, 5b, 6a, 6b]",
+        "zones": ["5a", "5b", "6a", "6b"],
         "sowType": "Indoor Sow",
         "dtRangeStart": "2019-03-07",
         "dtRangeEnd": "2019-03-21"
       },
       {
         "zone": "3-4",
-        "zones": "[3a, 3b, 4a, 4b]",
+        "zones": ["3a", "3b", "4a", "4b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-05-26",
         "dtRangeEnd": "2019-06-16"
       },
       {
         "zone": "11",
-        "zones": "[11a, 11b]",
+        "zones": ["11a", "11b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-02-22",
         "dtRangeEnd": "2019-04-01"
       },
       {
         "zone": "5-6",
-        "zones": "[5a, 5b, 6a, 6b]",
+        "zones": ["5a", "5b", "6a", "6b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-05-09",
         "dtRangeEnd": "2019-05-16"
       },
       {
         "zone": "11",
-        "zones": "[11a, 11b]",
+        "zones": ["11a", "11b"],
         "sowType": "Direct Sow",
         "dtRangeStart": "2019-02-22",
         "dtRangeEnd": "2019-04-01"
@@ -5088,91 +5088,91 @@ const plantingCalendarSeed = [
     "sowCal": [
       {
         "zone": "11",
-        "zones": "[11a, 11b]",
+        "zones": ["11a", "11b"],
         "sowType": "Indoor Sow",
         "dtRangeStart": "2019-12-21",
         "dtRangeEnd": "2019-01-04"
       },
       {
         "zone": "3-4",
-        "zones": "[3a, 3b, 4a, 4b]",
+        "zones": ["3a", "3b", "4a", "4b"],
         "sowType": "Indoor Sow",
         "dtRangeStart": "2019-03-24",
         "dtRangeEnd": "2019-04-07"
       },
       {
         "zone": "5-6",
-        "zones": "[5a, 5b, 6a, 6b]",
+        "zones": ["5a", "5b", "6a", "6b"],
         "sowType": "Indoor Sow",
         "dtRangeStart": "2019-03-07",
         "dtRangeEnd": "2019-03-21"
       },
       {
         "zone": "3-4",
-        "zones": "[3a, 3b, 4a, 4b]",
+        "zones": ["3a", "3b", "4a", "4b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-05-26",
         "dtRangeEnd": "2019-06-16"
       },
       {
         "zone": "7-8",
-        "zones": "[7a, 7b, 8a, 8b]",
+        "zones": ["7a", "7b", "8a", "8b"],
         "sowType": "Indoor Sow",
         "dtRangeStart": "2019-12-21",
         "dtRangeEnd": "2019-01-04"
       },
       {
         "zone": "9-10",
-        "zones": "[9a, 9b, 10a, 10b]",
+        "zones": ["9a", "9b", "10a", "10b"],
         "sowType": "Indoor Sow",
         "dtRangeStart": "2019-12-21",
         "dtRangeEnd": "2019-01-04"
       },
       {
         "zone": "11",
-        "zones": "[11a, 11b]",
+        "zones": ["11a", "11b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-02-22",
         "dtRangeEnd": "2019-04-01"
       },
       {
         "zone": "5-6",
-        "zones": "[5a, 5b, 6a, 6b]",
+        "zones": ["5a", "5b", "6a", "6b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-05-09",
         "dtRangeEnd": "2019-06-01"
       },
       {
         "zone": "7-8",
-        "zones": "[7a, 7b, 8a, 8b]",
+        "zones": ["7a", "7b", "8a", "8b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-02-15",
         "dtRangeEnd": "2019-04-01"
       },
       {
         "zone": "9-10",
-        "zones": "[9a, 9b, 10a, 10b]",
+        "zones": ["9a", "9b", "10a", "10b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-02-15",
         "dtRangeEnd": "2019-04-01"
       },
       {
         "zone": "11",
-        "zones": "[11a, 11b]",
+        "zones": ["11a", "11b"],
         "sowType": "Direct Sow",
         "dtRangeStart": "2019-02-22",
         "dtRangeEnd": "2019-04-01"
       },
       {
         "zone": "7-8",
-        "zones": "[7a, 7b, 8a, 8b]",
+        "zones": ["7a", "7b", "8a", "8b"],
         "sowType": "Direct Sow",
         "dtRangeStart": "2019-02-15",
         "dtRangeEnd": "2019-04-01"
       },
       {
         "zone": "9-10",
-        "zones": "[9a, 9b, 10a, 10b]",
+        "zones": ["9a", "9b", "10a", "10b"],
         "sowType": "Direct Sow",
         "dtRangeStart": "2019-02-15",
         "dtRangeEnd": "2019-04-01"
@@ -5185,49 +5185,49 @@ const plantingCalendarSeed = [
     "sowCal": [
       {
         "zone": "11",
-        "zones": "[11a, 11b]",
+        "zones": ["11a", "11b"],
         "sowType": "Indoor Sow",
         "dtRangeStart": "2019-12-21",
         "dtRangeEnd": "2019-01-04"
       },
       {
         "zone": "3-4",
-        "zones": "[3a, 3b, 4a, 4b]",
+        "zones": ["3a", "3b", "4a", "4b"],
         "sowType": "Indoor Sow",
         "dtRangeStart": "2019-02-25",
         "dtRangeEnd": "2019-03-10"
       },
       {
         "zone": "5-6",
-        "zones": "[5a, 5b, 6a, 6b]",
+        "zones": ["5a", "5b", "6a", "6b"],
         "sowType": "Indoor Sow",
         "dtRangeStart": "2019-02-08",
         "dtRangeEnd": "2019-02-22"
       },
       {
         "zone": "3-4",
-        "zones": "[3a, 3b, 4a, 4b]",
+        "zones": ["3a", "3b", "4a", "4b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-05-26",
         "dtRangeEnd": "2019-06-16"
       },
       {
         "zone": "11",
-        "zones": "[11a, 11b]",
+        "zones": ["11a", "11b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-02-22",
         "dtRangeEnd": "2019-04-01"
       },
       {
         "zone": "5-6",
-        "zones": "[5a, 5b, 6a, 6b]",
+        "zones": ["5a", "5b", "6a", "6b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-05-09",
         "dtRangeEnd": "2019-06-01"
       },
       {
         "zone": "11",
-        "zones": "[11a, 11b]",
+        "zones": ["11a", "11b"],
         "sowType": "Direct Sow",
         "dtRangeStart": "2019-02-22",
         "dtRangeEnd": "2019-04-01"
@@ -5240,77 +5240,77 @@ const plantingCalendarSeed = [
     "sowCal": [
       {
         "zone": "11",
-        "zones": "[11a, 11b]",
+        "zones": ["11a", "11b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-12-07",
         "dtRangeEnd": "2019-02-22"
       },
       {
         "zone": "3-4",
-        "zones": "[3a, 3b, 4a, 4b]",
+        "zones": ["3a", "3b", "4a", "4b"],
         "sowType": "Indoor Sow",
         "dtRangeStart": "2019-03-10",
         "dtRangeEnd": "2019-02-25"
       },
       {
         "zone": "5-6",
-        "zones": "[5a, 5b, 6a, 6b]",
+        "zones": ["5a", "5b", "6a", "6b"],
         "sowType": "Indoor Sow",
         "dtRangeStart": "2019-02-08",
         "dtRangeEnd": "2019-02-22"
       },
       {
         "zone": "3-4",
-        "zones": "[3a, 3b, 4a, 4b]",
+        "zones": ["3a", "3b", "4a", "4b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-05-19",
         "dtRangeEnd": "2019-06-16"
       },
       {
         "zone": "7-8",
-        "zones": "[7a, 7b, 8a, 8b]",
+        "zones": ["7a", "7b", "8a", "8b"],
         "sowType": "Indoor Sow",
         "dtRangeStart": "2019-11-23",
         "dtRangeEnd": "2019-12-07"
       },
       {
         "zone": "9-10",
-        "zones": "[9a, 9b, 10a, 10b]",
+        "zones": ["9a", "9b", "10a", "10b"],
         "sowType": "Indoor Sow",
         "dtRangeStart": "2019-11-23",
         "dtRangeEnd": "2019-12-07"
       },
       {
         "zone": "5-6",
-        "zones": "[5a, 5b, 6a, 6b]",
+        "zones": ["5a", "5b", "6a", "6b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-05-02",
         "dtRangeEnd": "2019-05-16"
       },
       {
         "zone": "7-8",
-        "zones": "[7a, 7b, 8a, 8b]",
+        "zones": ["7a", "7b", "8a", "8b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-02-01",
         "dtRangeEnd": "2019-03-15"
       },
       {
         "zone": "9-10",
-        "zones": "[9a, 9b, 10a, 10b]",
+        "zones": ["9a", "9b", "10a", "10b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-02-01",
         "dtRangeEnd": "2019-03-15"
       },
       {
         "zone": "7-8",
-        "zones": "[7a, 7b, 8a, 8b]",
+        "zones": ["7a", "7b", "8a", "8b"],
         "sowType": "Direct Sow",
         "dtRangeStart": "2019-02-15",
         "dtRangeEnd": "2019-04-01"
       },
       {
         "zone": "9-10",
-        "zones": "[9a, 9b, 10a, 10b]",
+        "zones": ["9a", "9b", "10a", "10b"],
         "sowType": "Direct Sow",
         "dtRangeStart": "2019-02-15",
         "dtRangeEnd": "2019-04-01"
@@ -5323,63 +5323,63 @@ const plantingCalendarSeed = [
     "sowCal": [
       {
         "zone": "11",
-        "zones": "[11a, 11b]",
+        "zones": ["11a", "11b"],
         "sowType": "Indoor Sow",
         "dtRangeStart": "2019-11-23",
         "dtRangeEnd": "2019-12-07"
       },
       {
         "zone": "3-4",
-        "zones": "[3a, 3b, 4a, 4b]",
+        "zones": ["3a", "3b", "4a", "4b"],
         "sowType": "Indoor Sow",
         "dtRangeStart": "2019-02-25",
         "dtRangeEnd": "2019-03-10"
       },
       {
         "zone": "5-6",
-        "zones": "[5a, 5b, 6a, 6b]",
+        "zones": ["5a", "5b", "6a", "6b"],
         "sowType": "Indoor Sow",
         "dtRangeStart": "2019-02-08",
         "dtRangeEnd": "2019-02-22"
       },
       {
         "zone": "3-4",
-        "zones": "[3a, 3b, 4a, 4b]",
+        "zones": ["3a", "3b", "4a", "4b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-05-26",
         "dtRangeEnd": "2019-06-16"
       },
       {
         "zone": "11",
-        "zones": "[11a, 11b]",
+        "zones": ["11a", "11b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-02-22",
         "dtRangeEnd": "2019-04-01"
       },
       {
         "zone": "5-6",
-        "zones": "[5a, 5b, 6a, 6b]",
+        "zones": ["5a", "5b", "6a", "6b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-05-09",
         "dtRangeEnd": "2019-06-01"
       },
       {
         "zone": "11",
-        "zones": "[11a, 11b]",
+        "zones": ["11a", "11b"],
         "sowType": "Direct Sow",
         "dtRangeStart": "2019-02-22",
         "dtRangeEnd": "2019-04-01"
       },
       {
         "zone": "7-8",
-        "zones": "[7a, 7b, 8a, 8b]",
+        "zones": ["7a", "7b", "8a", "8b"],
         "sowType": "Direct Sow",
         "dtRangeStart": "2019-02-22",
         "dtRangeEnd": "2019-04-15"
       },
       {
         "zone": "9-10",
-        "zones": "[9a, 9b, 10a, 10b]",
+        "zones": ["9a", "9b", "10a", "10b"],
         "sowType": "Direct Sow",
         "dtRangeStart": "2019-02-22",
         "dtRangeEnd": "2019-04-15"
@@ -5392,35 +5392,35 @@ const plantingCalendarSeed = [
     "sowCal": [
       {
         "zone": "3-4",
-        "zones": "[3a, 3b, 4a, 4b]",
+        "zones": ["3a", "3b", "4a", "4b"],
         "sowType": "Indoor Sow",
         "dtRangeStart": "2019-02-25",
         "dtRangeEnd": "2019-03-10"
       },
       {
         "zone": "5-6",
-        "zones": "[5a, 5b, 6a, 6b]",
+        "zones": ["5a", "5b", "6a", "6b"],
         "sowType": "Indoor Sow",
         "dtRangeStart": "2019-02-08",
         "dtRangeEnd": "2019-02-22"
       },
       {
         "zone": "3-4",
-        "zones": "[3a, 3b, 4a, 4b]",
+        "zones": ["3a", "3b", "4a", "4b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-05-19",
         "dtRangeEnd": "2019-06-16"
       },
       {
         "zone": "5-6",
-        "zones": "[5a, 5b, 6a, 6b]",
+        "zones": ["5a", "5b", "6a", "6b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-05-09",
         "dtRangeEnd": "2019-05-16"
       },
       {
         "zone": "11",
-        "zones": "[11a, 11b]",
+        "zones": ["11a", "11b"],
         "sowType": "Direct Sow",
         "dtRangeStart": "2019-02-22",
         "dtRangeEnd": "2019-04-15"
@@ -5433,77 +5433,77 @@ const plantingCalendarSeed = [
     "sowCal": [
       {
         "zone": "11",
-        "zones": "[11a, 11b]",
+        "zones": ["11a", "11b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-12-07",
         "dtRangeEnd": "2019-02-22"
       },
       {
         "zone": "3-4",
-        "zones": "[3a, 3b, 4a, 4b]",
+        "zones": ["3a", "3b", "4a", "4b"],
         "sowType": "Indoor Sow",
         "dtRangeStart": "2019-04-07",
         "dtRangeEnd": "2019-04-21"
       },
       {
         "zone": "5-6",
-        "zones": "[5a, 5b, 6a, 6b]",
+        "zones": ["5a", "5b", "6a", "6b"],
         "sowType": "Indoor Sow",
         "dtRangeStart": "2019-03-21",
         "dtRangeEnd": "2019-04-04"
       },
       {
         "zone": "3-4",
-        "zones": "[3a, 3b, 4a, 4b]",
+        "zones": ["3a", "3b", "4a", "4b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-05-26",
         "dtRangeEnd": "2019-06-16"
       },
       {
         "zone": "7-8",
-        "zones": "[7a, 7b, 8a, 8b]",
+        "zones": ["7a", "7b", "8a", "8b"],
         "sowType": "Indoor Sow",
         "dtRangeStart": "2019-01-04",
         "dtRangeEnd": "2019-01-18"
       },
       {
         "zone": "9-10",
-        "zones": "[9a, 9b, 10a, 10b]",
+        "zones": ["9a", "9b", "10a", "10b"],
         "sowType": "Indoor Sow",
         "dtRangeStart": "2019-01-04",
         "dtRangeEnd": "2019-01-18"
       },
       {
         "zone": "5-6",
-        "zones": "[5a, 5b, 6a, 6b]",
+        "zones": ["5a", "5b", "6a", "6b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-05-09",
         "dtRangeEnd": "2019-05-30"
       },
       {
         "zone": "7-8",
-        "zones": "[7a, 7b, 8a, 8b]",
+        "zones": ["7a", "7b", "8a", "8b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-02-15",
         "dtRangeEnd": "2019-04-01"
       },
       {
         "zone": "9-10",
-        "zones": "[9a, 9b, 10a, 10b]",
+        "zones": ["9a", "9b", "10a", "10b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-02-15",
         "dtRangeEnd": "2019-04-01"
       },
       {
         "zone": "7-8",
-        "zones": "[7a, 7b, 8a, 8b]",
+        "zones": ["7a", "7b", "8a", "8b"],
         "sowType": "Direct Sow",
         "dtRangeStart": "2019-02-15",
         "dtRangeEnd": "2019-04-01"
       },
       {
         "zone": "9-10",
-        "zones": "[9a, 9b, 10a, 10b]",
+        "zones": ["9a", "9b", "10a", "10b"],
         "sowType": "Direct Sow",
         "dtRangeStart": "2019-02-15",
         "dtRangeEnd": "2019-04-01"
@@ -5516,42 +5516,42 @@ const plantingCalendarSeed = [
     "sowCal": [
       {
         "zone": "11",
-        "zones": "[11a, 11b]",
+        "zones": ["11a", "11b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-02-22",
         "dtRangeEnd": "2019-04-01"
       },
       {
         "zone": "11",
-        "zones": "[11a, 11b]",
+        "zones": ["11a", "11b"],
         "sowType": "Direct Sow",
         "dtRangeStart": "2019-02-22",
         "dtRangeEnd": "2019-04-01"
       },
       {
         "zone": "3-4",
-        "zones": "[3a, 3b, 4a, 4b]",
+        "zones": ["3a", "3b", "4a", "4b"],
         "sowType": "Direct Sow",
         "dtRangeStart": "2019-05-26",
         "dtRangeEnd": "2019-06-02"
       },
       {
         "zone": "5-6",
-        "zones": "[5a, 5b, 6a, 6b]",
+        "zones": ["5a", "5b", "6a", "6b"],
         "sowType": "Direct Sow",
         "dtRangeStart": "2019-05-09",
         "dtRangeEnd": "2019-05-16"
       },
       {
         "zone": "7-8",
-        "zones": "[7a, 7b, 8a, 8b]",
+        "zones": ["7a", "7b", "8a", "8b"],
         "sowType": "Direct Sow",
         "dtRangeStart": "2019-02-22",
         "dtRangeEnd": "2019-04-25"
       },
       {
         "zone": "9-10",
-        "zones": "[9a, 9b, 10a, 10b]",
+        "zones": ["9a", "9b", "10a", "10b"],
         "sowType": "Direct Sow",
         "dtRangeStart": "2019-02-22",
         "dtRangeEnd": "2019-04-25"
@@ -5564,56 +5564,56 @@ const plantingCalendarSeed = [
     "sowCal": [
       {
         "zone": "3-4",
-        "zones": "[3a, 3b, 4a, 4b]",
+        "zones": ["3a", "3b", "4a", "4b"],
         "sowType": "Indoor Sow",
         "dtRangeStart": "2019-04-07",
         "dtRangeEnd": "2019-04-21"
       },
       {
         "zone": "5-6",
-        "zones": "[5a, 5b, 6a, 6b]",
+        "zones": ["5a", "5b", "6a", "6b"],
         "sowType": "Indoor Sow",
         "dtRangeStart": "2019-03-21",
         "dtRangeEnd": "2019-04-04"
       },
       {
         "zone": "3-4",
-        "zones": "[3a, 3b, 4a, 4b]",
+        "zones": ["3a", "3b", "4a", "4b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-05-19",
         "dtRangeEnd": "2019-06-05"
       },
       {
         "zone": "5-6",
-        "zones": "[5a, 5b, 6a, 6b]",
+        "zones": ["5a", "5b", "6a", "6b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-05-02",
         "dtRangeEnd": "2019-05-16"
       },
       {
         "zone": "11",
-        "zones": "[11a, 11b]",
+        "zones": ["11a", "11b"],
         "sowType": "Direct Sow",
         "dtRangeStart": "2019-02-01",
         "dtRangeEnd": "2019-04-25"
       },
       {
         "zone": "5-6",
-        "zones": "[5a, 5b, 6a, 6b]",
+        "zones": ["5a", "5b", "6a", "6b"],
         "sowType": "Direct Sow",
         "dtRangeStart": "2019-05-09",
         "dtRangeEnd": "2019-05-16"
       },
       {
         "zone": "7-8",
-        "zones": "[7a, 7b, 8a, 8b]",
+        "zones": ["7a", "7b", "8a", "8b"],
         "sowType": "Direct Sow",
         "dtRangeStart": "2019-02-01",
         "dtRangeEnd": "2019-03-01"
       },
       {
         "zone": "9-10",
-        "zones": "[9a, 9b, 10a, 10b]",
+        "zones": ["9a", "9b", "10a", "10b"],
         "sowType": "Direct Sow",
         "dtRangeStart": "2019-02-01",
         "dtRangeEnd": "2019-03-01"
@@ -5626,84 +5626,84 @@ const plantingCalendarSeed = [
     "sowCal": [
       {
         "zone": "3-4",
-        "zones": "[3a, 3b, 4a, 4b]",
+        "zones": ["3a", "3b", "4a", "4b"],
         "sowType": "Indoor Sow",
         "dtRangeStart": "2019-03-24",
         "dtRangeEnd": "2019-04-07"
       },
       {
         "zone": "5-6",
-        "zones": "[5a, 5b, 6a, 6b]",
+        "zones": ["5a", "5b", "6a", "6b"],
         "sowType": "Indoor Sow",
         "dtRangeStart": "2019-03-07",
         "dtRangeEnd": "2019-03-21"
       },
       {
         "zone": "3-4",
-        "zones": "[3a, 3b, 4a, 4b]",
+        "zones": ["3a", "3b", "4a", "4b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-05-26",
         "dtRangeEnd": "2019-06-05"
       },
       {
         "zone": "7-8",
-        "zones": "[7a, 7b, 8a, 8b]",
+        "zones": ["7a", "7b", "8a", "8b"],
         "sowType": "Indoor Sow",
         "dtRangeStart": "2019-12-21",
         "dtRangeEnd": "2019-01-04"
       },
       {
         "zone": "9-10",
-        "zones": "[9a, 9b, 10a, 10b]",
+        "zones": ["9a", "9b", "10a", "10b"],
         "sowType": "Indoor Sow",
         "dtRangeStart": "2019-12-21",
         "dtRangeEnd": "2019-01-04"
       },
       {
         "zone": "5-6",
-        "zones": "[5a, 5b, 6a, 6b]",
+        "zones": ["5a", "5b", "6a", "6b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-05-09",
         "dtRangeEnd": "2019-05-16"
       },
       {
         "zone": "7-8",
-        "zones": "[7a, 7b, 8a, 8b]",
+        "zones": ["7a", "7b", "8a", "8b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-02-15",
         "dtRangeEnd": "2019-04-01"
       },
       {
         "zone": "9-10",
-        "zones": "[9a, 9b, 10a, 10b]",
+        "zones": ["9a", "9b", "10a", "10b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-02-15",
         "dtRangeEnd": "2019-04-01"
       },
       {
         "zone": "11",
-        "zones": "[11a, 11b]",
+        "zones": ["11a", "11b"],
         "sowType": "Direct Sow",
         "dtRangeStart": "2019-02-22",
         "dtRangeEnd": "2019-03-01"
       },
       {
         "zone": "5-6",
-        "zones": "[5a, 5b, 6a, 6b]",
+        "zones": ["5a", "5b", "6a", "6b"],
         "sowType": "Direct Sow",
         "dtRangeStart": "2019-05-09",
         "dtRangeEnd": "2019-05-16"
       },
       {
         "zone": "7-8",
-        "zones": "[7a, 7b, 8a, 8b]",
+        "zones": ["7a", "7b", "8a", "8b"],
         "sowType": "Direct Sow",
         "dtRangeStart": "2019-02-15",
         "dtRangeEnd": "2019-04-01"
       },
       {
         "zone": "9-10",
-        "zones": "[9a, 9b, 10a, 10b]",
+        "zones": ["9a", "9b", "10a", "10b"],
         "sowType": "Direct Sow",
         "dtRangeStart": "2019-02-15",
         "dtRangeEnd": "2019-04-01"
@@ -5716,84 +5716,84 @@ const plantingCalendarSeed = [
     "sowCal": [
       {
         "zone": "11",
-        "zones": "[11a, 11b]",
+        "zones": ["11a", "11b"],
         "sowType": "Indoor Sow",
         "dtRangeStart": "2019-12-21",
         "dtRangeEnd": "2019-01-04"
       },
       {
         "zone": "3-4",
-        "zones": "[3a, 3b, 4a, 4b]",
+        "zones": ["3a", "3b", "4a", "4b"],
         "sowType": "Indoor Sow",
         "dtRangeStart": "2019-03-24",
         "dtRangeEnd": "2019-04-07"
       },
       {
         "zone": "3-4",
-        "zones": "[3a, 3b, 4a, 4b]",
+        "zones": ["3a", "3b", "4a", "4b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-05-26",
         "dtRangeEnd": "2019-06-02"
       },
       {
         "zone": "7-8",
-        "zones": "[7a, 7b, 8a, 8b]",
+        "zones": ["7a", "7b", "8a", "8b"],
         "sowType": "Indoor Sow",
         "dtRangeStart": "2019-01-04",
         "dtRangeEnd": "2019-01-18"
       },
       {
         "zone": "9-10",
-        "zones": "[9a, 9b, 10a, 10b]",
+        "zones": ["9a", "9b", "10a", "10b"],
         "sowType": "Indoor Sow",
         "dtRangeStart": "2019-01-04",
         "dtRangeEnd": "2019-01-18"
       },
       {
         "zone": "11",
-        "zones": "[11a, 11b]",
+        "zones": ["11a", "11b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-02-22",
         "dtRangeEnd": "2019-04-01"
       },
       {
         "zone": "7-8",
-        "zones": "[7a, 7b, 8a, 8b]",
+        "zones": ["7a", "7b", "8a", "8b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-02-15",
         "dtRangeEnd": "2019-04-01"
       },
       {
         "zone": "9-10",
-        "zones": "[9a, 9b, 10a, 10b]",
+        "zones": ["9a", "9b", "10a", "10b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-02-15",
         "dtRangeEnd": "2019-04-01"
       },
       {
         "zone": "11",
-        "zones": "[11a, 11b]",
+        "zones": ["11a", "11b"],
         "sowType": "Direct Sow",
         "dtRangeStart": "2019-02-22",
         "dtRangeEnd": "2019-04-01"
       },
       {
         "zone": "5-6",
-        "zones": "[5a, 5b, 6a, 6b]",
+        "zones": ["5a", "5b", "6a", "6b"],
         "sowType": "Direct Sow",
         "dtRangeStart": "2019-05-09",
         "dtRangeEnd": "2019-05-16"
       },
       {
         "zone": "7-8",
-        "zones": "[7a, 7b, 8a, 8b]",
+        "zones": ["7a", "7b", "8a", "8b"],
         "sowType": "Direct Sow",
         "dtRangeStart": "2019-02-15",
         "dtRangeEnd": "2019-04-01"
       },
       {
         "zone": "9-10",
-        "zones": "[9a, 9b, 10a, 10b]",
+        "zones": ["9a", "9b", "10a", "10b"],
         "sowType": "Direct Sow",
         "dtRangeStart": "2019-02-15",
         "dtRangeEnd": "2019-04-01"
@@ -5806,91 +5806,91 @@ const plantingCalendarSeed = [
     "sowCal": [
       {
         "zone": "11",
-        "zones": "[11a, 11b]",
+        "zones": ["11a", "11b"],
         "sowType": "Indoor Sow",
         "dtRangeStart": "2019-01-04",
         "dtRangeEnd": "2019-01-18"
       },
       {
         "zone": "3-4",
-        "zones": "[3a, 3b, 4a, 4b]",
+        "zones": ["3a", "3b", "4a", "4b"],
         "sowType": "Indoor Sow",
         "dtRangeStart": "2019-03-24",
         "dtRangeEnd": "2019-04-07"
       },
       {
         "zone": "5-6",
-        "zones": "[5a, 5b, 6a, 6b]",
+        "zones": ["5a", "5b", "6a", "6b"],
         "sowType": "Indoor Sow",
         "dtRangeStart": "2019-03-07",
         "dtRangeEnd": "2019-03-21"
       },
       {
         "zone": "3-4",
-        "zones": "[3a, 3b, 4a, 4b]",
+        "zones": ["3a", "3b", "4a", "4b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-05-18",
         "dtRangeEnd": "2019-06-02"
       },
       {
         "zone": "7-8",
-        "zones": "[7a, 7b, 8a, 8b]",
+        "zones": ["7a", "7b", "8a", "8b"],
         "sowType": "Indoor Sow",
         "dtRangeStart": "2019-12-21",
         "dtRangeEnd": "2019-01-04"
       },
       {
         "zone": "9-10",
-        "zones": "[9a, 9b, 10a, 10b]",
+        "zones": ["9a", "9b", "10a", "10b"],
         "sowType": "Indoor Sow",
         "dtRangeStart": "2019-12-21",
         "dtRangeEnd": "2019-01-04"
       },
       {
         "zone": "11",
-        "zones": "[11a, 11b]",
+        "zones": ["11a", "11b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-02-22",
         "dtRangeEnd": "2019-04-01"
       },
       {
         "zone": "5-6",
-        "zones": "[5a, 5b, 6a, 6b]",
+        "zones": ["5a", "5b", "6a", "6b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-05-09",
         "dtRangeEnd": "2019-05-16"
       },
       {
         "zone": "7-8",
-        "zones": "[7a, 7b, 8a, 8b]",
+        "zones": ["7a", "7b", "8a", "8b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-02-15",
         "dtRangeEnd": "2019-04-01"
       },
       {
         "zone": "9-10",
-        "zones": "[9a, 9b, 10a, 10b]",
+        "zones": ["9a", "9b", "10a", "10b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-02-15",
         "dtRangeEnd": "2019-04-01"
       },
       {
         "zone": "11",
-        "zones": "[11a, 11b]",
+        "zones": ["11a", "11b"],
         "sowType": "Direct Sow",
         "dtRangeStart": "2019-02-22",
         "dtRangeEnd": "2019-04-01"
       },
       {
         "zone": "7-8",
-        "zones": "[7a, 7b, 8a, 8b]",
+        "zones": ["7a", "7b", "8a", "8b"],
         "sowType": "Direct Sow",
         "dtRangeStart": "2019-02-15",
         "dtRangeEnd": "2019-04-01"
       },
       {
         "zone": "9-10",
-        "zones": "[9a, 9b, 10a, 10b]",
+        "zones": ["9a", "9b", "10a", "10b"],
         "sowType": "Direct Sow",
         "dtRangeStart": "2019-02-15",
         "dtRangeEnd": "2019-04-01"
@@ -5903,77 +5903,77 @@ const plantingCalendarSeed = [
     "sowCal": [
       {
         "zone": "11",
-        "zones": "[11a, 11b]",
+        "zones": ["11a", "11b"],
         "sowType": "Indoor Sow",
         "dtRangeStart": "2019-12-21",
         "dtRangeEnd": "2019-01-04"
       },
       {
         "zone": "3-4",
-        "zones": "[3a, 3b, 4a, 4b]",
+        "zones": ["3a", "3b", "4a", "4b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-05-19",
         "dtRangeEnd": "2019-06-02"
       },
       {
         "zone": "7-8",
-        "zones": "[7a, 7b, 8a, 8b]",
+        "zones": ["7a", "7b", "8a", "8b"],
         "sowType": "Indoor Sow",
         "dtRangeStart": "2019-01-04",
         "dtRangeEnd": "2019-01-18"
       },
       {
         "zone": "9-10",
-        "zones": "[9a, 9b, 10a, 10b]",
+        "zones": ["9a", "9b", "10a", "10b"],
         "sowType": "Indoor Sow",
         "dtRangeStart": "2019-01-04",
         "dtRangeEnd": "2019-01-18"
       },
       {
         "zone": "11",
-        "zones": "[11a, 11b]",
+        "zones": ["11a", "11b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-02-22",
         "dtRangeEnd": "2019-04-01"
       },
       {
         "zone": "5-6",
-        "zones": "[5a, 5b, 6a, 6b]",
+        "zones": ["5a", "5b", "6a", "6b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-05-02",
         "dtRangeEnd": "2019-05-30"
       },
       {
         "zone": "7-8",
-        "zones": "[7a, 7b, 8a, 8b]",
+        "zones": ["7a", "7b", "8a", "8b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-02-15",
         "dtRangeEnd": "2019-04-01"
       },
       {
         "zone": "9-10",
-        "zones": "[9a, 9b, 10a, 10b]",
+        "zones": ["9a", "9b", "10a", "10b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-02-15",
         "dtRangeEnd": "2019-04-01"
       },
       {
         "zone": "11",
-        "zones": "[11a, 11b]",
+        "zones": ["11a", "11b"],
         "sowType": "Direct Sow",
         "dtRangeStart": "2019-02-22",
         "dtRangeEnd": "2019-04-01"
       },
       {
         "zone": "7-8",
-        "zones": "[7a, 7b, 8a, 8b]",
+        "zones": ["7a", "7b", "8a", "8b"],
         "sowType": "Direct Sow",
         "dtRangeStart": "2019-02-15",
         "dtRangeEnd": "2019-04-01"
       },
       {
         "zone": "9-10",
-        "zones": "[9a, 9b, 10a, 10b]",
+        "zones": ["9a", "9b", "10a", "10b"],
         "sowType": "Direct Sow",
         "dtRangeStart": "2019-02-15",
         "dtRangeEnd": "2019-04-01"
@@ -5986,49 +5986,49 @@ const plantingCalendarSeed = [
     "sowCal": [
       {
         "zone": "11",
-        "zones": "[11a, 11b]",
+        "zones": ["11a", "11b"],
         "sowType": "Indoor Sow",
         "dtRangeStart": "2019-01-04",
         "dtRangeEnd": "2019-01-18"
       },
       {
         "zone": "3-4",
-        "zones": "[3a, 3b, 4a, 4b]",
+        "zones": ["3a", "3b", "4a", "4b"],
         "sowType": "Indoor Sow",
         "dtRangeStart": "2019-03-24",
         "dtRangeEnd": "2019-04-07"
       },
       {
         "zone": "5-6",
-        "zones": "[5a, 5b, 6a, 6b]",
+        "zones": ["5a", "5b", "6a", "6b"],
         "sowType": "Indoor Sow",
         "dtRangeStart": "2019-03-07",
         "dtRangeEnd": "2019-03-21"
       },
       {
         "zone": "3-4",
-        "zones": "[3a, 3b, 4a, 4b]",
+        "zones": ["3a", "3b", "4a", "4b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-05-26",
         "dtRangeEnd": "2019-06-02"
       },
       {
         "zone": "11",
-        "zones": "[11a, 11b]",
+        "zones": ["11a", "11b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-02-22",
         "dtRangeEnd": "2019-04-01"
       },
       {
         "zone": "5-6",
-        "zones": "[5a, 5b, 6a, 6b]",
+        "zones": ["5a", "5b", "6a", "6b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-05-09",
         "dtRangeEnd": "2019-05-16"
       },
       {
         "zone": "11",
-        "zones": "[11a, 11b]",
+        "zones": ["11a", "11b"],
         "sowType": "Direct Sow",
         "dtRangeStart": "2019-02-22",
         "dtRangeEnd": "2019-04-01"
@@ -6041,35 +6041,35 @@ const plantingCalendarSeed = [
     "sowCal": [
       {
         "zone": "11",
-        "zones": "[11a, 11b]",
+        "zones": ["11a", "11b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-01-04",
         "dtRangeEnd": "2019-02-22"
       },
       {
         "zone": "3-4",
-        "zones": "[3a, 3b, 4a, 4b]",
+        "zones": ["3a", "3b", "4a", "4b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-05-19",
         "dtRangeEnd": "2019-06-16"
       },
       {
         "zone": "5-6",
-        "zones": "[5a, 5b, 6a, 6b]",
+        "zones": ["5a", "5b", "6a", "6b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-05-02",
         "dtRangeEnd": "2019-05-30"
       },
       {
         "zone": "7-8",
-        "zones": "[7a, 7b, 8a, 8b]",
+        "zones": ["7a", "7b", "8a", "8b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-02-15",
         "dtRangeEnd": "2019-04-15"
       },
       {
         "zone": "9-10",
-        "zones": "[9a, 9b, 10a, 10b]",
+        "zones": ["9a", "9b", "10a", "10b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-02-15",
         "dtRangeEnd": "2019-04-15"
@@ -6082,35 +6082,35 @@ const plantingCalendarSeed = [
     "sowCal": [
       {
         "zone": "11",
-        "zones": "[11a, 11b]",
+        "zones": ["11a", "11b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-02-22",
         "dtRangeEnd": "2019-04-15"
       },
       {
         "zone": "3-4",
-        "zones": "[3a, 3b, 4a, 4b]",
+        "zones": ["3a", "3b", "4a", "4b"],
         "sowType": "Indoor Sow",
         "dtRangeStart": "2019-03-10",
         "dtRangeEnd": "2019-03-24"
       },
       {
         "zone": "5-6",
-        "zones": "[5a, 5b, 6a, 6b]",
+        "zones": ["5a", "5b", "6a", "6b"],
         "sowType": "Indoor Sow",
         "dtRangeStart": "2019-02-22",
         "dtRangeEnd": "2019-03-07"
       },
       {
         "zone": "3-4",
-        "zones": "[3a, 3b, 4a, 4b]",
+        "zones": ["3a", "3b", "4a", "4b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-05-19",
         "dtRangeEnd": "2019-06-16"
       },
       {
         "zone": "5-6",
-        "zones": "[5a, 5b, 6a, 6b]",
+        "zones": ["5a", "5b", "6a", "6b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-05-02",
         "dtRangeEnd": "2019-05-30"
@@ -6123,84 +6123,84 @@ const plantingCalendarSeed = [
     "sowCal": [
       {
         "zone": "3-4",
-        "zones": "[3a, 3b, 4a, 4b]",
+        "zones": ["3a", "3b", "4a", "4b"],
         "sowType": "Indoor Sow",
         "dtRangeStart": "2019-02-25",
         "dtRangeEnd": "2019-03-10"
       },
       {
         "zone": "5-6",
-        "zones": "[5a, 5b, 6a, 6b]",
+        "zones": ["5a", "5b", "6a", "6b"],
         "sowType": "Indoor Sow",
         "dtRangeStart": "2019-02-08",
         "dtRangeEnd": "2019-02-22"
       },
       {
         "zone": "3-4",
-        "zones": "[3a, 3b, 4a, 4b]",
+        "zones": ["3a", "3b", "4a", "4b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-04-25",
         "dtRangeEnd": "2019-05-26"
       },
       {
         "zone": "5-6",
-        "zones": "[5a, 5b, 6a, 6b]",
+        "zones": ["5a", "5b", "6a", "6b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-04-15",
         "dtRangeEnd": "2019-05-02"
       },
       {
         "zone": "3-4",
-        "zones": "[3a, 3b, 4a, 4b]",
+        "zones": ["3a", "3b", "4a", "4b"],
         "sowType": "Indoor Sow",
         "dtRangeStart": "2019-08-01",
         "dtRangeEnd": "2019-08-16"
       },
       {
         "zone": "5-6",
-        "zones": "[5a, 5b, 6a, 6b]",
+        "zones": ["5a", "5b", "6a", "6b"],
         "sowType": "Indoor Sow",
         "dtRangeStart": "2019-09-03",
         "dtRangeEnd": "2019-09-30"
       },
       {
         "zone": "9-10",
-        "zones": "[9a, 9b, 10a, 10b]",
+        "zones": ["9a", "9b", "10a", "10b"],
         "sowType": "Indoor Sow",
         "dtRangeStart": "2019-09-01",
         "dtRangeEnd": "2019-11-03"
       },
       {
         "zone": "11",
-        "zones": "[11a, 11b]",
+        "zones": ["11a", "11b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-09-01",
         "dtRangeEnd": "2019-11-03"
       },
       {
         "zone": "3-4",
-        "zones": "[3a, 3b, 4a, 4b]",
+        "zones": ["3a", "3b", "4a", "4b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-08-21",
         "dtRangeEnd": "2019-10-30"
       },
       {
         "zone": "5-6",
-        "zones": "[5a, 5b, 6a, 6b]",
+        "zones": ["5a", "5b", "6a", "6b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-09-17",
         "dtRangeEnd": "2019-10-29"
       },
       {
         "zone": "9-10",
-        "zones": "[9a, 9b, 10a, 10b]",
+        "zones": ["9a", "9b", "10a", "10b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-11-17",
         "dtRangeEnd": "2019-12-29"
       },
       { 
         "zone" : "11", 
-        "zones" : "[11a, 11b]", 
+        "zones" : ["11a", "11b"], 
         "sowType": "Direct Sow",
         "dtRangeStart" : "2019-09-01", 
         "dtRangeEnd" : "2019-12-29"
@@ -6213,91 +6213,91 @@ const plantingCalendarSeed = [
     "sowCal": [
       {
         "zone": "11",
-        "zones": "[11a, 11b]",
+        "zones": ["11a", "11b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-01-04",
         "dtRangeEnd": "2019-02-22"
       },
       {
         "zone": "3-4",
-        "zones": "[3a, 3b, 4a, 4b]",
+        "zones": ["3a", "3b", "4a", "4b"],
         "sowType": "Indoor Sow",
         "dtRangeStart": "2019-04-21",
         "dtRangeEnd": "2019-05-05"
       },
       {
         "zone": "5-6",
-        "zones": "[5a, 5b, 6a, 6b]",
+        "zones": ["5a", "5b", "6a", "6b"],
         "sowType": "Indoor Sow",
         "dtRangeStart": "2019-04-04",
         "dtRangeEnd": "2019-04-18"
       },
       {
         "zone": "3-4",
-        "zones": "[3a, 3b, 4a, 4b]",
+        "zones": ["3a", "3b", "4a", "4b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-05-19",
         "dtRangeEnd": "2019-06-16"
       },
       {
         "zone": "7-8",
-        "zones": "[7a, 7b, 8a, 8b]",
+        "zones": ["7a", "7b", "8a", "8b"],
         "sowType": "Indoor Sow",
         "dtRangeStart": "2019-01-18",
         "dtRangeEnd": "2019-02-01"
       },
       {
         "zone": "9-10",
-        "zones": "[9a, 9b, 10a, 10b]",
+        "zones": ["9a", "9b", "10a", "10b"],
         "sowType": "Indoor Sow",
         "dtRangeStart": "2019-01-18",
         "dtRangeEnd": "2019-02-01"
       },
       {
         "zone": "5-6",
-        "zones": "[5a, 5b, 6a, 6b]",
+        "zones": ["5a", "5b", "6a", "6b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-05-02",
         "dtRangeEnd": "2019-05-30"
       },
       {
         "zone": "7-8",
-        "zones": "[7a, 7b, 8a, 8b]",
+        "zones": ["7a", "7b", "8a", "8b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-02-15",
         "dtRangeEnd": "2019-04-15"
       },
       {
         "zone": "9-10",
-        "zones": "[9a, 9b, 10a, 10b]",
+        "zones": ["9a", "9b", "10a", "10b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-02-15",
         "dtRangeEnd": "2019-04-15"
       },
       {
         "zone": "3-4",
-        "zones": "[3a, 3b, 4a, 4b]",
+        "zones": ["3a", "3b", "4a", "4b"],
         "sowType": "Direct Sow",
         "dtRangeStart": "2019-05-26",
         "dtRangeEnd": "2019-06-16"
       },
       {
         "zone": "5-6",
-        "zones": "[5a, 5b, 6a, 6b]",
+        "zones": ["5a", "5b", "6a", "6b"],
         "sowType": "Direct Sow",
         "dtRangeStart": "2019-05-02",
         "dtRangeEnd": "2019-05-16"
       },
       {
         "zone": "7-8",
-        "zones": "[7a, 7b, 8a, 8b]",
+        "zones": ["7a", "7b", "8a", "8b"],
         "sowType": "Direct Sow",
         "dtRangeStart": "2019-02-15",
         "dtRangeEnd": "2019-04-15"
       },
       {
         "zone": "9-10",
-        "zones": "[9a, 9b, 10a, 10b]",
+        "zones": ["9a", "9b", "10a", "10b"],
         "sowType": "Direct Sow",
         "dtRangeStart": "2019-02-15",
         "dtRangeEnd": "2019-04-15"
@@ -6310,42 +6310,42 @@ const plantingCalendarSeed = [
     "sowCal": [
       {
         "zone": "5-6",
-        "zones": "[5a, 5b, 6a, 6b]",
+        "zones": ["5a", "5b", "6a", "6b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-03-28",
         "dtRangeEnd": "2019-05-16"
       },
       {
         "zone": "11",
-        "zones": "[11a, 11b]",
+        "zones": ["11a", "11b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-02-22",
         "dtRangeEnd": "2019-03-28"
       },
       {
         "zone": "3-4",
-        "zones": "[3a, 3b, 4a, 4b]",
+        "zones": ["3a", "3b", "4a", "4b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-05-05",
         "dtRangeEnd": "2019-06-02"
       },
       {
         "zone": "7-8",
-        "zones": "[7a, 7b, 8a, 8b]",
+        "zones": ["7a", "7b", "8a", "8b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-02-15",
         "dtRangeEnd": "2019-03-28"
       },
       {
         "zone": "9-10",
-        "zones": "[9a, 9b, 10a, 10b]",
+        "zones": ["9a", "9b", "10a", "10b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-02-15",
         "dtRangeEnd": "2019-03-28"
       },
       {
         "zone": "5-6",
-        "zones": "[5a, 5b, 6a, 6b]",
+        "zones": ["5a", "5b", "6a", "6b"],
         "sowType": "Direct Sow",
         "dtRangeStart": "2019-05-16",
         "dtRangeEnd": "2019-06-13"
@@ -6358,14 +6358,14 @@ const plantingCalendarSeed = [
     "sowCal": [
       {
         "zone": "3-4",
-        "zones": "[3a, 3b, 4a, 4b]",
+        "zones": ["3a", "3b", "4a", "4b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-05-05",
         "dtRangeEnd": "2019-06-02"
       },
       {
         "zone": "5-6",
-        "zones": "[5a, 5b, 6a, 6b]",
+        "zones": ["5a", "5b", "6a", "6b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-03-28",
         "dtRangeEnd": "2019-05-16"
@@ -6378,28 +6378,28 @@ const plantingCalendarSeed = [
     "sowCal": [
       {
         "zone": "11",
-        "zones": "[11a, 11b]",
+        "zones": ["11a", "11b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-02-22",
         "dtRangeEnd": "2019-03-28"
       },
       {
         "zone": "5-6",
-        "zones": "[5a, 5b, 6a, 6b]",
+        "zones": ["5a", "5b", "6a", "6b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-03-28",
         "dtRangeEnd": "2019-05-16"
       },
       {
         "zone": "7-8",
-        "zones": "[7a, 7b, 8a, 8b]",
+        "zones": ["7a", "7b", "8a", "8b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-02-15",
         "dtRangeEnd": "2019-03-28"
       },
       {
         "zone": "9-10",
-        "zones": "[9a, 9b, 10a, 10b]",
+        "zones": ["9a", "9b", "10a", "10b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-02-15",
         "dtRangeEnd": "2019-03-28"
@@ -6412,7 +6412,7 @@ const plantingCalendarSeed = [
     "sowCal": [
       {
         "zone": "5-6",
-        "zones": "[5a, 5b, 6a, 6b]",
+        "zones": ["5a", "5b", "6a", "6b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-03-28",
         "dtRangeEnd": "2019-05-16"
@@ -6425,7 +6425,7 @@ const plantingCalendarSeed = [
     "sowCal": [
       {
         "zone": "5-6",
-        "zones": "[5a, 5b, 6a, 6b]",
+        "zones": ["5a", "5b", "6a", "6b"],
         "sowType": "Direct Sow",
         "dtRangeStart": "2019-05-16",
         "dtRangeEnd": "2019-06-13"
@@ -6438,35 +6438,35 @@ const plantingCalendarSeed = [
     "sowCal": [
       {
         "zone": "5-6",
-        "zones": "[5a, 5b, 6a, 6b]",
+        "zones": ["5a", "5b", "6a", "6b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-03-28",
         "dtRangeEnd": "2019-05-16"
       },
       {
         "zone": "11",
-        "zones": "[11a, 11b]",
+        "zones": ["11a", "11b"],
         "sowType": "Direct Sow",
         "dtRangeStart": "2019-02-15",
         "dtRangeEnd": "2019-04-25"
       },
       {
         "zone": "3-4",
-        "zones": "[3a, 3b, 4a, 4b]",
+        "zones": ["3a", "3b", "4a", "4b"],
         "sowType": "Direct Sow",
         "dtRangeStart": "2019-06-02",
         "dtRangeEnd": "2019-06-30"
       },
       {
         "zone": "7-8",
-        "zones": "[7a, 7b, 8a, 8b]",
+        "zones": ["7a", "7b", "8a", "8b"],
         "sowType": "Direct Sow",
         "dtRangeStart": "2019-03-01",
         "dtRangeEnd": "2019-04-25"
       },
       {
         "zone": "9-10",
-        "zones": "[9a, 9b, 10a, 10b]",
+        "zones": ["9a", "9b", "10a", "10b"],
         "sowType": "Direct Sow",
         "dtRangeStart": "2019-03-01",
         "dtRangeEnd": "2019-04-25"
@@ -6479,7 +6479,7 @@ const plantingCalendarSeed = [
     "sowCal": [
       {
         "zone": "5-6",
-        "zones": "[5a, 5b, 6a, 6b]",
+        "zones": ["5a", "5b", "6a", "6b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-03-28",
         "dtRangeEnd": "2019-05-16"
@@ -6492,49 +6492,49 @@ const plantingCalendarSeed = [
     "sowCal": [
       {
         "zone": "11",
-        "zones": "[11a, 11b]",
+        "zones": ["11a", "11b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-02-22",
         "dtRangeEnd": "2019-03-28"
       },
       {
         "zone": "5-6",
-        "zones": "[5a, 5b, 6a, 6b]",
+        "zones": ["5a", "5b", "6a", "6b"],
         "sowType": "Indoor Sow",
         "dtRangeStart": "2019-02-22",
         "dtRangeEnd": "2019-03-07"
       },
       {
         "zone": "3-4",
-        "zones": "[3a, 3b, 4a, 4b]",
+        "zones": ["3a", "3b", "4a", "4b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-05-05",
         "dtRangeEnd": "2019-06-02"
       },
       {
         "zone": "5-6",
-        "zones": "[5a, 5b, 6a, 6b]",
+        "zones": ["5a", "5b", "6a", "6b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-03-28",
         "dtRangeEnd": "2019-05-16"
       },
       {
         "zone": "7-8",
-        "zones": "[7a, 7b, 8a, 8b]",
+        "zones": ["7a", "7b", "8a", "8b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-02-15",
         "dtRangeEnd": "2019-03-28"
       },
       {
         "zone": "9-10",
-        "zones": "[9a, 9b, 10a, 10b]",
+        "zones": ["9a", "9b", "10a", "10b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-02-15",
         "dtRangeEnd": "2019-03-28"
       },
       {
         "zone": "5-6",
-        "zones": "[5a, 5b, 6a, 6b]",
+        "zones": ["5a", "5b", "6a", "6b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-09-17",
         "dtRangeEnd": "2019-10-29"
@@ -6547,7 +6547,7 @@ const plantingCalendarSeed = [
     "sowCal": [
       {
         "zone": "5-6",
-        "zones": "[5a, 5b, 6a, 6b]",
+        "zones": ["5a", "5b", "6a", "6b"],
         "sowType": "Direct Sow",
         "dtRangeStart": "2019-05-16",
         "dtRangeEnd": "2019-06-13"
@@ -6560,105 +6560,105 @@ const plantingCalendarSeed = [
     "sowCal": [
       {
         "zone": "11",
-        "zones": "[11a, 11b]",
+        "zones": ["11a", "11b"],
         "sowType": "Indoor Sow",
         "dtRangeStart": "2019-12-21",
         "dtRangeEnd": "2019-01-04"
       },
       {
         "zone": "3-4",
-        "zones": "[3a, 3b, 4a, 4b]",
+        "zones": ["3a", "3b", "4a", "4b"],
         "sowType": "Indoor Sow",
         "dtRangeStart": "2019-03-24",
         "dtRangeEnd": "2019-04-07"
       },
       {
         "zone": "3-4",
-        "zones": "[3a, 3b, 4a, 4b]",
+        "zones": ["3a", "3b", "4a", "4b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-05-19",
         "dtRangeEnd": "2019-06-16"
       },
       {
         "zone": "5-6",
-        "zones": "[5a, 5b, 6a, 6b]",
+        "zones": ["5a", "5b", "6a", "6b"],
         "sowType": "Indoor Sow",
         "dtRangeStart": "2019-03-07",
         "dtRangeEnd": "2019-03-21"
       },
       {
         "zone": "7-8",
-        "zones": "[7a, 7b, 8a, 8b]",
+        "zones": ["7a", "7b", "8a", "8b"],
         "sowType": "Indoor Sow",
         "dtRangeStart": "2019-12-21",
         "dtRangeEnd": "2019-01-04"
       },
       {
         "zone": "9-10",
-        "zones": "[9a, 9b, 10a, 10b]",
+        "zones": ["9a", "9b", "10a", "10b"],
         "sowType": "Indoor Sow",
         "dtRangeStart": "2019-12-21",
         "dtRangeEnd": "2019-01-04"
       },
       {
         "zone": "5-6",
-        "zones": "[5a, 5b, 6a, 6b]",
+        "zones": ["5a", "5b", "6a", "6b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-05-02",
         "dtRangeEnd": "2019-05-30"
       },
       {
         "zone": "11",
-        "zones": "[11a, 11b]",
+        "zones": ["11a", "11b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-02-22",
         "dtRangeEnd": "2019-04-15"
       },
       {
         "zone": "7-8",
-        "zones": "[7a, 7b, 8a, 8b]",
+        "zones": ["7a", "7b", "8a", "8b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-02-15",
         "dtRangeEnd": "2019-04-15"
       },
       {
         "zone": "9-10",
-        "zones": "[9a, 9b, 10a, 10b]",
+        "zones": ["9a", "9b", "10a", "10b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-02-15",
         "dtRangeEnd": "2019-04-15"
       },
       {
         "zone": "11",
-        "zones": "[11a, 11b]",
+        "zones": ["11a", "11b"],
         "sowType": "Direct Sow",
         "dtRangeStart": "2019-02-22",
         "dtRangeEnd": "2019-04-15"
       },
       {
         "zone": "3-4",
-        "zones": "[3a, 3b, 4a, 4b]",
+        "zones": ["3a", "3b", "4a", "4b"],
         "sowType": "Direct Sow",
         "dtRangeStart": "2019-06-02",
         "dtRangeEnd": "2019-06-16"
       },
       {
         "zone": "5-6",
-        "zones": "[5a, 5b, 6a, 6b]",
+        "zones": ["5a", "5b", "6a", "6b"],
         "sowType": "Direct Sow",
         "dtRangeStart": "2019-05-02",
         "dtRangeEnd": "2019-05-30"
       },
       {
         "zone": "7-8",
-        "zones": "[7a, 7b, 8a, 8b]",
+        "zones": ["7a", "7b", "8a", "8b"],
         "sowType": "Direct Sow",
         "dtRangeStart": "2019-02-15",
         "dtRangeEnd": "2019-04-15"
       },
       {
         "zone": "9-10",
-        "zones": "[9a, 9b, 10a, 10b]",
+        "zones": ["9a", "9b", "10a", "10b"],
         "sowType": "Direct Sow",
         "dtRangeStart": "2019-02-15",
         "dtRangeEnd": "2019-04-15"
@@ -6671,35 +6671,35 @@ const plantingCalendarSeed = [
     "sowCal": [
       {
         "zone": "11",
-        "zones": "[11a, 11b]",
+        "zones": ["11a", "11b"],
         "sowType": "Direct Sow",
         "dtRangeStart": "2019-02-15",
         "dtRangeEnd": "2019-03-14"
       },
       {
         "zone": "3-4",
-        "zones": "[3a, 3b, 4a, 4b]",
+        "zones": ["3a", "3b", "4a", "4b"],
         "sowType": "Direct Sow",
         "dtRangeStart": "2019-05-19",
         "dtRangeEnd": "2019-06-16"
       },
       {
         "zone": "5-6",
-        "zones": "[5a, 5b, 6a, 6b]",
+        "zones": ["5a", "5b", "6a", "6b"],
         "sowType": "Direct Sow",
         "dtRangeStart": "2019-05-02",
         "dtRangeEnd": "2019-05-30"
       },
       {
         "zone": "7-8",
-        "zones": "[7a, 7b, 8a, 8b]",
+        "zones": ["7a", "7b", "8a", "8b"],
         "sowType": "Direct Sow",
         "dtRangeStart": "2019-02-15",
         "dtRangeEnd": "2019-03-14"
       },
       {
         "zone": "9-10",
-        "zones": "[9a, 9b, 10a, 10b]",
+        "zones": ["9a", "9b", "10a", "10b"],
         "sowType": "Direct Sow",
         "dtRangeStart": "2019-02-15",
         "dtRangeEnd": "2019-03-14"
@@ -6712,35 +6712,35 @@ const plantingCalendarSeed = [
     "sowCal": [
       {
         "zone": "11",
-        "zones": "[11a, 11b]",
+        "zones": ["11a", "11b"],
         "sowType": "Direct Sow",
         "dtRangeStart": "2019-02-15",
         "dtRangeEnd": "2019-03-14"
       },
       {
         "zone": "3-4",
-        "zones": "[3a, 3b, 4a, 4b]",
+        "zones": ["3a", "3b", "4a", "4b"],
         "sowType": "Direct Sow",
         "dtRangeStart": "2019-05-19",
         "dtRangeEnd": "2019-06-16"
       },
       {
         "zone": "5-6",
-        "zones": "[5a, 5b, 6a, 6b]",
+        "zones": ["5a", "5b", "6a", "6b"],
         "sowType": "Direct Sow",
         "dtRangeStart": "2019-05-02",
         "dtRangeEnd": "2019-05-30"
       },
       {
         "zone": "7-8",
-        "zones": "[7a, 7b, 8a, 8b]",
+        "zones": ["7a", "7b", "8a", "8b"],
         "sowType": "Direct Sow",
         "dtRangeStart": "2019-02-15",
         "dtRangeEnd": "2019-03-14"
       },
       {
         "zone": "9-10",
-        "zones": "[9a, 9b, 10a, 10b]",
+        "zones": ["9a", "9b", "10a", "10b"],
         "sowType": "Direct Sow",
         "dtRangeStart": "2019-02-15",
         "dtRangeEnd": "2019-03-14"
@@ -6753,63 +6753,63 @@ const plantingCalendarSeed = [
     "sowCal": [
       {
         "zone": "3-4",
-        "zones": "[3a, 3b, 4a, 4b]",
+        "zones": ["3a", "3b", "4a", "4b"],
         "sowType": "Indoor Sow",
         "dtRangeStart": "2019-03-25",
         "dtRangeEnd": "2019-04-07"
       },
       {
         "zone": "3-4",
-        "zones": "[3a, 3b, 4a, 4b]",
+        "zones": ["3a", "3b", "4a", "4b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-05-19",
         "dtRangeEnd": "2019-06-16"
       },
       {
         "zone": "5-6",
-        "zones": "[5a, 5b, 6a, 6b]",
+        "zones": ["5a", "5b", "6a", "6b"],
         "sowType": "Indoor Sow",
         "dtRangeStart": "2019-03-07",
         "dtRangeEnd": "2019-03-21"
       },
       {
         "zone": "5-6",
-        "zones": "[5a, 5b, 6a, 6b]",
+        "zones": ["5a", "5b", "6a", "6b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-05-02",
         "dtRangeEnd": "2019-05-30"
       },
       {
         "zone": "11",
-        "zones": "[11a, 11b]",
+        "zones": ["11a", "11b"],
         "sowType": "Direct Sow",
         "dtRangeStart": "2019-02-15",
         "dtRangeEnd": "2019-03-14"
       },
       {
         "zone": "3-4",
-        "zones": "[3a, 3b, 4a, 4b]",
+        "zones": ["3a", "3b", "4a", "4b"],
         "sowType": "Direct Sow",
         "dtRangeStart": "2019-05-19",
         "dtRangeEnd": "2019-06-16"
       },
       {
         "zone": "5-6",
-        "zones": "[5a, 5b, 6a, 6b]",
+        "zones": ["5a", "5b", "6a", "6b"],
         "sowType": "Direct Sow",
         "dtRangeStart": "2019-05-02",
         "dtRangeEnd": "2019-05-30"
       },
       {
         "zone": "7-8",
-        "zones": "[7a, 7b, 8a, 8b]",
+        "zones": ["7a", "7b", "8a", "8b"],
         "sowType": "Direct Sow",
         "dtRangeStart": "2019-02-15",
         "dtRangeEnd": "2019-03-14"
       },
       {
         "zone": "9-10",
-        "zones": "[9a, 9b, 10a, 10b]",
+        "zones": ["9a", "9b", "10a", "10b"],
         "sowType": "Direct Sow",
         "dtRangeStart": "2019-02-15",
         "dtRangeEnd": "2019-03-14"
@@ -6822,35 +6822,35 @@ const plantingCalendarSeed = [
     "sowCal": [
       {
         "zone": "11",
-        "zones": "[11a, 11b]",
+        "zones": ["11a", "11b"],
         "sowType": "Direct Sow",
         "dtRangeStart": "2019-02-15",
         "dtRangeEnd": "2019-03-14"
       },
       {
         "zone": "3-4",
-        "zones": "[3a, 3b, 4a, 4b]",
+        "zones": ["3a", "3b", "4a", "4b"],
         "sowType": "Direct Sow",
         "dtRangeStart": "2019-05-19",
         "dtRangeEnd": "2019-06-16"
       },
       {
         "zone": "5-6",
-        "zones": "[5a, 5b, 6a, 6b]",
+        "zones": ["5a", "5b", "6a", "6b"],
         "sowType": "Direct Sow",
         "dtRangeStart": "2019-05-02",
         "dtRangeEnd": "2019-05-30"
       },
       {
         "zone": "7-8",
-        "zones": "[7a, 7b, 8a, 8b]",
+        "zones": ["7a", "7b", "8a", "8b"],
         "sowType": "Direct Sow",
         "dtRangeStart": "2019-02-15",
         "dtRangeEnd": "2019-03-14"
       },
       {
         "zone": "9-10",
-        "zones": "[9a, 9b, 10a, 10b]",
+        "zones": ["9a", "9b", "10a", "10b"],
         "sowType": "Direct Sow",
         "dtRangeStart": "2019-02-15",
         "dtRangeEnd": "2019-03-14"
@@ -6863,35 +6863,35 @@ const plantingCalendarSeed = [
     "sowCal": [
       {
         "zone": "11",
-        "zones": "[11a, 11b]",
+        "zones": ["11a", "11b"],
         "sowType": "Direct Sow",
         "dtRangeStart": "2019-02-15",
         "dtRangeEnd": "2019-03-14"
       },
       {
         "zone": "3-4",
-        "zones": "[3a, 3b, 4a, 4b]",
+        "zones": ["3a", "3b", "4a", "4b"],
         "sowType": "Direct Sow",
         "dtRangeStart": "2019-05-05",
         "dtRangeEnd": "2019-06-16"
       },
       {
         "zone": "5-6",
-        "zones": "[5a, 5b, 6a, 6b]",
+        "zones": ["5a", "5b", "6a", "6b"],
         "sowType": "Direct Sow",
         "dtRangeStart": "2019-05-02",
         "dtRangeEnd": "2019-05-30"
       },
       {
         "zone": "7-8",
-        "zones": "[7a, 7b, 8a, 8b]",
+        "zones": ["7a", "7b", "8a", "8b"],
         "sowType": "Direct Sow",
         "dtRangeStart": "2019-02-15",
         "dtRangeEnd": "2019-03-14"
       },
       {
         "zone": "9-10",
-        "zones": "[9a, 9b, 10a, 10b]",
+        "zones": ["9a", "9b", "10a", "10b"],
         "sowType": "Direct Sow",
         "dtRangeStart": "2019-02-15",
         "dtRangeEnd": "2019-03-14"
@@ -6904,49 +6904,49 @@ const plantingCalendarSeed = [
     "sowCal": [
       {
         "zone": "11",
-        "zones": "[11a, 11b]",
+        "zones": ["11a", "11b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-01-04",
         "dtRangeEnd": "2019-02-15"
       },
       {
         "zone": "3-4",
-        "zones": "[3a, 3b, 4a, 4b]",
+        "zones": ["3a", "3b", "4a", "4b"],
         "sowType": "Indoor Sow",
         "dtRangeStart": "2019-03-24",
         "dtRangeEnd": "2019-04-07"
       },
       {
         "zone": "3-4",
-        "zones": "[3a, 3b, 4a, 4b]",
+        "zones": ["3a", "3b", "4a", "4b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-05-19",
         "dtRangeEnd": "2019-06-16"
       },
       {
         "zone": "5-6",
-        "zones": "[5a, 5b, 6a, 6b]",
+        "zones": ["5a", "5b", "6a", "6b"],
         "sowType": "Indoor Sow",
         "dtRangeStart": "2019-03-07",
         "dtRangeEnd": "2019-03-21"
       },
       {
         "zone": "5-6",
-        "zones": "[5a, 5b, 6a, 6b]",
+        "zones": ["5a", "5b", "6a", "6b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-05-02",
         "dtRangeEnd": "2019-05-30"
       },
       {
         "zone": "3-4",
-        "zones": "[3a, 3b, 4a, 4b]",
+        "zones": ["3a", "3b", "4a", "4b"],
         "sowType": "Direct Sow",
         "dtRangeStart": "2019-05-19",
         "dtRangeEnd": "2019-06-16"
       },
       {
         "zone": "5-6",
-        "zones": "[5a, 5b, 6a, 6b]",
+        "zones": ["5a", "5b", "6a", "6b"],
         "sowType": "Direct Sow",
         "dtRangeStart": "2019-05-02",
         "dtRangeEnd": "2019-05-30"
@@ -6959,105 +6959,105 @@ const plantingCalendarSeed = [
     "sowCal": [
       {
         "zone": "11",
-        "zones": "[11a, 11b]",
+        "zones": ["11a", "11b"],
         "sowType": "Indoor Sow",
         "dtRangeStart": "2019-12-21",
         "dtRangeEnd": "2019-01-04"
       },
       {
         "zone": "3-4",
-        "zones": "[3a, 3b, 4a, 4b]",
+        "zones": ["3a", "3b", "4a", "4b"],
         "sowType": "Indoor Sow",
         "dtRangeStart": "2019-03-24",
         "dtRangeEnd": "2019-04-07"
       },
       {
         "zone": "3-4",
-        "zones": "[3a, 3b, 4a, 4b]",
+        "zones": ["3a", "3b", "4a", "4b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-05-19",
         "dtRangeEnd": "2019-06-16"
       },
       {
         "zone": "5-6",
-        "zones": "[5a, 5b, 6a, 6b]",
+        "zones": ["5a", "5b", "6a", "6b"],
         "sowType": "Indoor Sow",
         "dtRangeStart": "2019-03-07",
         "dtRangeEnd": "2019-03-21"
       },
       {
         "zone": "7-8",
-        "zones": "[7a, 7b, 8a, 8b]",
+        "zones": ["7a", "7b", "8a", "8b"],
         "sowType": "Indoor Sow",
         "dtRangeStart": "2019-12-21",
         "dtRangeEnd": "2019-01-04"
       },
       {
         "zone": "9-10",
-        "zones": "[9a, 9b, 10a, 10b]",
+        "zones": ["9a", "9b", "10a", "10b"],
         "sowType": "Indoor Sow",
         "dtRangeStart": "2019-12-21",
         "dtRangeEnd": "2019-01-04"
       },
       {
         "zone": "5-6",
-        "zones": "[5a, 5b, 6a, 6b]",
+        "zones": ["5a", "5b", "6a", "6b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-05-02",
         "dtRangeEnd": "2019-05-30"
       },
       {
         "zone": "11",
-        "zones": "[11a, 11b]",
+        "zones": ["11a", "11b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-02-15",
         "dtRangeEnd": "2019-04-15"
       },
       {
         "zone": "7-8",
-        "zones": "[7a, 7b, 8a, 8b]",
+        "zones": ["7a", "7b", "8a", "8b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-02-15",
         "dtRangeEnd": "2019-04-15"
       },
       {
         "zone": "9-10",
-        "zones": "[9a, 9b, 10a, 10b]",
+        "zones": ["9a", "9b", "10a", "10b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-02-15",
         "dtRangeEnd": "2019-04-15"
       },
       {
         "zone": "11",
-        "zones": "[11a, 11b]",
+        "zones": ["11a", "11b"],
         "sowType": "Direct Sow",
         "dtRangeStart": "2019-02-15",
         "dtRangeEnd": "2019-04-15"
       },
       {
         "zone": "3-4",
-        "zones": "[3a, 3b, 4a, 4b]",
+        "zones": ["3a", "3b", "4a", "4b"],
         "sowType": "Direct Sow",
         "dtRangeStart": "2019-05-19",
         "dtRangeEnd": "2019-06-16"
       },
       {
         "zone": "5-6",
-        "zones": "[5a, 5b, 6a, 6b]",
+        "zones": ["5a", "5b", "6a", "6b"],
         "sowType": "Direct Sow",
         "dtRangeStart": "2019-05-02",
         "dtRangeEnd": "2019-05-30"
       },
       {
         "zone": "7-8",
-        "zones": "[7a, 7b, 8a, 8b]",
+        "zones": ["7a", "7b", "8a", "8b"],
         "sowType": "Direct Sow",
         "dtRangeStart": "2019-02-15",
         "dtRangeEnd": "2019-04-15"
       },
       {
         "zone": "9-10",
-        "zones": "[9a, 9b, 10a, 10b]",
+        "zones": ["9a", "9b", "10a", "10b"],
         "sowType": "Direct Sow",
         "dtRangeStart": "2019-02-15",
         "dtRangeEnd": "2019-04-15"
@@ -7070,105 +7070,105 @@ const plantingCalendarSeed = [
     "sowCal": [
       {
         "zone": "11",
-        "zones": "[11a, 11b]",
+        "zones": ["11a", "11b"],
         "sowType": "Indoor Sow",
         "dtRangeStart": "2019-12-21",
         "dtRangeEnd": "2019-01-04"
       },
       {
         "zone": "3-4",
-        "zones": "[3a, 3b, 4a, 4b]",
+        "zones": ["3a", "3b", "4a", "4b"],
         "sowType": "Indoor Sow",
         "dtRangeStart": "2019-03-24",
         "dtRangeEnd": "2019-04-07"
       },
       {
         "zone": "3-4",
-        "zones": "[3a, 3b, 4a, 4b]",
+        "zones": ["3a", "3b", "4a", "4b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-05-19",
         "dtRangeEnd": "2019-06-16"
       },
       {
         "zone": "5-6",
-        "zones": "[5a, 5b, 6a, 6b]",
+        "zones": ["5a", "5b", "6a", "6b"],
         "sowType": "Indoor Sow",
         "dtRangeStart": "2019-03-07",
         "dtRangeEnd": "2019-03-21"
       },
       {
         "zone": "7-8",
-        "zones": "[7a, 7b, 8a, 8b]",
+        "zones": ["7a", "7b", "8a", "8b"],
         "sowType": "Indoor Sow",
         "dtRangeStart": "2019-12-21",
         "dtRangeEnd": "2019-01-04"
       },
       {
         "zone": "9-10",
-        "zones": "[9a, 9b, 10a, 10b]",
+        "zones": ["9a", "9b", "10a", "10b"],
         "sowType": "Indoor Sow",
         "dtRangeStart": "2019-12-21",
         "dtRangeEnd": "2019-01-04"
       },
       {
         "zone": "5-6",
-        "zones": "[5a, 5b, 6a, 6b]",
+        "zones": ["5a", "5b", "6a", "6b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-05-02",
         "dtRangeEnd": "2019-05-30"
       },
       {
         "zone": "11",
-        "zones": "[11a, 11b]",
+        "zones": ["11a", "11b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-02-15",
         "dtRangeEnd": "2019-04-15"
       },
       {
         "zone": "7-8",
-        "zones": "[7a, 7b, 8a, 8b]",
+        "zones": ["7a", "7b", "8a", "8b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-02-15",
         "dtRangeEnd": "2019-04-15"
       },
       {
         "zone": "9-10",
-        "zones": "[9a, 9b, 10a, 10b]",
+        "zones": ["9a", "9b", "10a", "10b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-02-15",
         "dtRangeEnd": "2019-04-15"
       },
       {
         "zone": "11",
-        "zones": "[11a, 11b]",
+        "zones": ["11a", "11b"],
         "sowType": "Direct Sow",
         "dtRangeStart": "2019-02-15",
         "dtRangeEnd": "2019-04-15"
       },
       {
         "zone": "3-4",
-        "zones": "[3a, 3b, 4a, 4b]",
+        "zones": ["3a", "3b", "4a", "4b"],
         "sowType": "Direct Sow",
         "dtRangeStart": "2019-05-19",
         "dtRangeEnd": "2019-06-16"
       },
       {
         "zone": "5-6",
-        "zones": "[5a, 5b, 6a, 6b]",
+        "zones": ["5a", "5b", "6a", "6b"],
         "sowType": "Direct Sow",
         "dtRangeStart": "2019-05-02",
         "dtRangeEnd": "2019-05-30"
       },
       {
         "zone": "7-8",
-        "zones": "[7a, 7b, 8a, 8b]",
+        "zones": ["7a", "7b", "8a", "8b"],
         "sowType": "Direct Sow",
         "dtRangeStart": "2019-02-15",
         "dtRangeEnd": "2019-04-15"
       },
       {
         "zone": "9-10",
-        "zones": "[9a, 9b, 10a, 10b]",
+        "zones": ["9a", "9b", "10a", "10b"],
         "sowType": "Direct Sow",
         "dtRangeStart": "2019-02-15",
         "dtRangeEnd": "2019-04-15"
@@ -7181,105 +7181,105 @@ const plantingCalendarSeed = [
     "sowCal": [
       {
         "zone": "11",
-        "zones": "[11a, 11b]",
+        "zones": ["11a", "11b"],
         "sowType": "Indoor Sow",
         "dtRangeStart": "2019-12-21",
         "dtRangeEnd": "2019-01-04"
       },
       {
         "zone": "3-4",
-        "zones": "[3a, 3b, 4a, 4b]",
+        "zones": ["3a", "3b", "4a", "4b"],
         "sowType": "Indoor Sow",
         "dtRangeStart": "2019-03-24",
         "dtRangeEnd": "2019-04-07"
       },
       {
         "zone": "3-4",
-        "zones": "[3a, 3b, 4a, 4b]",
+        "zones": ["3a", "3b", "4a", "4b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-05-19",
         "dtRangeEnd": "2019-06-16"
       },
       {
         "zone": "5-6",
-        "zones": "[5a, 5b, 6a, 6b]",
+        "zones": ["5a", "5b", "6a", "6b"],
         "sowType": "Indoor Sow",
         "dtRangeStart": "2019-03-07",
         "dtRangeEnd": "2019-03-21"
       },
       {
         "zone": "7-8",
-        "zones": "[7a, 7b, 8a, 8b]",
+        "zones": ["7a", "7b", "8a", "8b"],
         "sowType": "Indoor Sow",
         "dtRangeStart": "2019-12-21",
         "dtRangeEnd": "2019-01-04"
       },
       {
         "zone": "9-10",
-        "zones": "[9a, 9b, 10a, 10b]",
+        "zones": ["9a", "9b", "10a", "10b"],
         "sowType": "Indoor Sow",
         "dtRangeStart": "2019-12-21",
         "dtRangeEnd": "2019-01-04"
       },
       {
         "zone": "5-6",
-        "zones": "[5a, 5b, 6a, 6b]",
+        "zones": ["5a", "5b", "6a", "6b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-05-02",
         "dtRangeEnd": "2019-05-30"
       },
       {
         "zone": "11",
-        "zones": "[11a, 11b]",
+        "zones": ["11a", "11b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-02-15",
         "dtRangeEnd": "2019-04-15"
       },
       {
         "zone": "7-8",
-        "zones": "[7a, 7b, 8a, 8b]",
+        "zones": ["7a", "7b", "8a", "8b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-02-15",
         "dtRangeEnd": "2019-04-15"
       },
       {
         "zone": "9-10",
-        "zones": "[9a, 9b, 10a, 10b]",
+        "zones": ["9a", "9b", "10a", "10b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-02-15",
         "dtRangeEnd": "2019-04-15"
       },
       {
         "zone": "11",
-        "zones": "[11a, 11b]",
+        "zones": ["11a", "11b"],
         "sowType": "Direct Sow",
         "dtRangeStart": "2019-02-15",
         "dtRangeEnd": "2019-04-15"
       },
       {
         "zone": "3-4",
-        "zones": "[3a, 3b, 4a, 4b]",
+        "zones": ["3a", "3b", "4a", "4b"],
         "sowType": "Direct Sow",
         "dtRangeStart": "2019-05-19",
         "dtRangeEnd": "2019-06-16"
       },
       {
         "zone": "5-6",
-        "zones": "[5a, 5b, 6a, 6b]",
+        "zones": ["5a", "5b", "6a", "6b"],
         "sowType": "Direct Sow",
         "dtRangeStart": "2019-05-02",
         "dtRangeEnd": "2019-05-30"
       },
       {
         "zone": "7-8",
-        "zones": "[7a, 7b, 8a, 8b]",
+        "zones": ["7a", "7b", "8a", "8b"],
         "sowType": "Direct Sow",
         "dtRangeStart": "2019-02-15",
         "dtRangeEnd": "2019-04-15"
       },
       {
         "zone": "9-10",
-        "zones": "[9a, 9b, 10a, 10b]",
+        "zones": ["9a", "9b", "10a", "10b"],
         "sowType": "Direct Sow",
         "dtRangeStart": "2019-02-15",
         "dtRangeEnd": "2019-04-15"
@@ -7292,63 +7292,63 @@ const plantingCalendarSeed = [
     "sowCal": [
       {
         "zone": "3-4",
-        "zones": "[3a, 3b, 4a, 4b]",
+        "zones": ["3a", "3b", "4a", "4b"],
         "sowType": "Indoor Sow",
         "dtRangeStart": "2019-03-24",
         "dtRangeEnd": "2019-04-07"
       },
       {
         "zone": "3-4",
-        "zones": "[3a, 3b, 4a, 4b]",
+        "zones": ["3a", "3b", "4a", "4b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-05-19",
         "dtRangeEnd": "2019-06-16"
       },
       {
         "zone": "5-6",
-        "zones": "[5a, 5b, 6a, 6b]",
+        "zones": ["5a", "5b", "6a", "6b"],
         "sowType": "Indoor Sow",
         "dtRangeStart": "2019-03-07",
         "dtRangeEnd": "2019-03-21"
       },
       {
         "zone": "5-6",
-        "zones": "[5a, 5b, 6a, 6b]",
+        "zones": ["5a", "5b", "6a", "6b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-05-02",
         "dtRangeEnd": "2019-05-30"
       },
       {
         "zone": "11",
-        "zones": "[11a, 11b]",
+        "zones": ["11a", "11b"],
         "sowType": "Direct Sow",
         "dtRangeStart": "2019-02-01",
         "dtRangeEnd": "2019-03-14"
       },
       {
         "zone": "3-4",
-        "zones": "[3a, 3b, 4a, 4b]",
+        "zones": ["3a", "3b", "4a", "4b"],
         "sowType": "Direct Sow",
         "dtRangeStart": "2019-05-05",
         "dtRangeEnd": "2019-06-16"
       },
       {
         "zone": "5-6",
-        "zones": "[5a, 5b, 6a, 6b]",
+        "zones": ["5a", "5b", "6a", "6b"],
         "sowType": "Direct Sow",
         "dtRangeStart": "2019-04-18",
         "dtRangeEnd": "2019-05-30"
       },
       {
         "zone": "7-8",
-        "zones": "[7a, 7b, 8a, 8b]",
+        "zones": ["7a", "7b", "8a", "8b"],
         "sowType": "Direct Sow",
         "dtRangeStart": "2019-02-01",
         "dtRangeEnd": "2019-03-14"
       },
       {
         "zone": "9-10",
-        "zones": "[9a, 9b, 10a, 10b]",
+        "zones": ["9a", "9b", "10a", "10b"],
         "sowType": "Direct Sow",
         "dtRangeStart": "2019-02-01",
         "dtRangeEnd": "2019-03-14"
@@ -7361,14 +7361,14 @@ const plantingCalendarSeed = [
     "sowCal": [
       {
         "zone": "5-6",
-        "zones": "[5a, 5b, 6a, 6b]",
+        "zones": ["5a", "5b", "6a", "6b"],
         "sowType": "Indoor Sow",
         "dtRangeStart": "2019-02-22",
         "dtRangeEnd": "2019-03-21"
       },
       {
         "zone": "5-6",
-        "zones": "[5a, 5b, 6a, 6b]",
+        "zones": ["5a", "5b", "6a", "6b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-05-02",
         "dtRangeEnd": "2019-05-30"
@@ -7381,49 +7381,49 @@ const plantingCalendarSeed = [
     "sowCal": [
       {
         "zone": "3-4",
-        "zones": "[3a, 3b, 4a, 4b]",
+        "zones": ["3a", "3b", "4a", "4b"],
         "sowType": "Indoor Sow",
         "dtRangeStart": "2019-03-24",
         "dtRangeEnd": "2019-04-07"
       },
       {
         "zone": "3-4",
-        "zones": "[3a, 3b, 4a, 4b]",
+        "zones": ["3a", "3b", "4a", "4b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-05-19",
         "dtRangeEnd": "2019-06-16"
       },
       {
         "zone": "5-6",
-        "zones": "[5a, 5b, 6a, 6b]",
+        "zones": ["5a", "5b", "6a", "6b"],
         "sowType": "Indoor Sow",
         "dtRangeStart": "2019-03-07",
         "dtRangeEnd": "2019-03-21"
       },
       {
         "zone": "5-6",
-        "zones": "[5a, 5b, 6a, 6b]",
+        "zones": ["5a", "5b", "6a", "6b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-05-02",
         "dtRangeEnd": "2019-05-30"
       },
       {
         "zone": "11",
-        "zones": "[11a, 11b]",
+        "zones": ["11a", "11b"],
         "sowType": "Direct Sow",
         "dtRangeStart": "2019-02-15",
         "dtRangeEnd": "2019-03-14"
       },
       {
         "zone": "7-8",
-        "zones": "[7a, 7b, 8a, 8b]",
+        "zones": ["7a", "7b", "8a", "8b"],
         "sowType": "Direct Sow",
         "dtRangeStart": "2019-02-15",
         "dtRangeEnd": "2019-03-14"
       },
       {
         "zone": "9-10",
-        "zones": "[9a, 9b, 10a, 10b]",
+        "zones": ["9a", "9b", "10a", "10b"],
         "sowType": "Direct Sow",
         "dtRangeStart": "2019-02-15",
         "dtRangeEnd": "2019-03-14"
@@ -7436,56 +7436,56 @@ const plantingCalendarSeed = [
     "sowCal": [
       {
         "zone": "11",
-        "zones": "[11a, 11b]",
+        "zones": ["11a", "11b"],
         "sowType": "Indoor Sow",
         "dtRangeStart": "2019-12-21",
         "dtRangeEnd": "2019-01-04"
       },
       {
         "zone": "3-4",
-        "zones": "[3a, 3b, 4a, 4b]",
+        "zones": ["3a", "3b", "4a", "4b"],
         "sowType": "Indoor Sow",
         "dtRangeStart": "2019-03-24",
         "dtRangeEnd": "2019-04-07"
       },
       {
         "zone": "3-4",
-        "zones": "[3a, 3b, 4a, 4b]",
+        "zones": ["3a", "3b", "4a", "4b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-05-19",
         "dtRangeEnd": "2019-06-16"
       },
       {
         "zone": "5-6",
-        "zones": "[5a, 5b, 6a, 6b]",
+        "zones": ["5a", "5b", "6a", "6b"],
         "sowType": "Indoor Sow",
         "dtRangeStart": "2019-03-07",
         "dtRangeEnd": "2019-03-21"
       },
       {
         "zone": "5-6",
-        "zones": "[5a, 5b, 6a, 6b]",
+        "zones": ["5a", "5b", "6a", "6b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-05-02",
         "dtRangeEnd": "2019-05-30"
       },
       {
         "zone": "11",
-        "zones": "[11a, 11b]",
+        "zones": ["11a", "11b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-02-22",
         "dtRangeEnd": "2019-04-15"
       },
       {
         "zone": "7-8",
-        "zones": "[7a, 7b, 8a, 8b]",
+        "zones": ["7a", "7b", "8a", "8b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-12-21",
         "dtRangeEnd": "2019-01-04"
       },
       {
         "zone": "9-10",
-        "zones": "[9a, 9b, 10a, 10b]",
+        "zones": ["9a", "9b", "10a", "10b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-12-21",
         "dtRangeEnd": "2019-01-04"
@@ -7498,35 +7498,35 @@ const plantingCalendarSeed = [
     "sowCal": [
       {
         "zone": "11",
-        "zones": "[11a, 11b]",
+        "zones": ["11a", "11b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-02-15",
         "dtRangeEnd": "2019-04-15"
       },
       {
         "zone": "3-4",
-        "zones": "[3a, 3b, 4a, 4b]",
+        "zones": ["3a", "3b", "4a", "4b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-05-19",
         "dtRangeEnd": "2019-06-16"
       },
       {
         "zone": "5-6",
-        "zones": "[5a, 5b, 6a, 6b]",
+        "zones": ["5a", "5b", "6a", "6b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-05-02",
         "dtRangeEnd": "2019-05-30"
       },
       {
         "zone": "7-8",
-        "zones": "[7a, 7b, 8a, 8b]",
+        "zones": ["7a", "7b", "8a", "8b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-02-15",
         "dtRangeEnd": "2019-04-15"
       },
       {
         "zone": "9-10",
-        "zones": "[9a, 9b, 10a, 10b]",
+        "zones": ["9a", "9b", "10a", "10b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-02-15",
         "dtRangeEnd": "2019-04-15"
@@ -7539,35 +7539,35 @@ const plantingCalendarSeed = [
     "sowCal": [
       {
         "zone": "11",
-        "zones": "[11a, 11b]",
+        "zones": ["11a", "11b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-12-21",
         "dtRangeEnd": "2019-02-15"
       },
       {
         "zone": "3-4",
-        "zones": "[3a, 3b, 4a, 4b]",
+        "zones": ["3a", "3b", "4a", "4b"],
         "sowType": "Indoor Sow",
         "dtRangeStart": "2019-03-10",
         "dtRangeEnd": "2019-03-24"
       },
       {
         "zone": "3-4",
-        "zones": "[3a, 3b, 4a, 4b]",
+        "zones": ["3a", "3b", "4a", "4b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-05-19",
         "dtRangeEnd": "2019-06-16"
       },
       {
         "zone": "5-6",
-        "zones": "[5a, 5b, 6a, 6b]",
+        "zones": ["5a", "5b", "6a", "6b"],
         "sowType": "Indoor Sow",
         "dtRangeStart": "2019-03-07",
         "dtRangeEnd": "2019-03-21"
       },
       {
         "zone": "5-6",
-        "zones": "[5a, 5b, 6a, 6b]",
+        "zones": ["5a", "5b", "6a", "6b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-05-02",
         "dtRangeEnd": "2019-05-30"
@@ -7580,35 +7580,35 @@ const plantingCalendarSeed = [
     "sowCal": [
       {
         "zone": "11",
-        "zones": "[11a, 11b]",
+        "zones": ["11a", "11b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-12-21",
         "dtRangeEnd": "2019-02-15"
       },
       {
         "zone": "3-4",
-        "zones": "[3a, 3b, 4a, 4b]",
+        "zones": ["3a", "3b", "4a", "4b"],
         "sowType": "Indoor Sow",
         "dtRangeStart": "2019-03-10",
         "dtRangeEnd": "2019-03-24"
       },
       {
         "zone": "3-4",
-        "zones": "[3a, 3b, 4a, 4b]",
+        "zones": ["3a", "3b", "4a", "4b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-05-19",
         "dtRangeEnd": "2019-06-16"
       },
       {
         "zone": "5-6",
-        "zones": "[5a, 5b, 6a, 6b]",
+        "zones": ["5a", "5b", "6a", "6b"],
         "sowType": "Indoor Sow",
         "dtRangeStart": "2019-02-22",
         "dtRangeEnd": "2019-03-21"
       },
       {
         "zone": "5-6",
-        "zones": "[5a, 5b, 6a, 6b]",
+        "zones": ["5a", "5b", "6a", "6b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-05-02",
         "dtRangeEnd": "2019-05-30"
@@ -7621,91 +7621,91 @@ const plantingCalendarSeed = [
     "sowCal": [
       {
         "zone": "11",
-        "zones": "[11a, 11b]",
+        "zones": ["11a", "11b"],
         "sowType": "Indoor Sow",
         "dtRangeStart": "2019-12-21",
         "dtRangeEnd": "2019-01-04"
       },
       {
         "zone": "3-4",
-        "zones": "[3a, 3b, 4a, 4b]",
+        "zones": ["3a", "3b", "4a", "4b"],
         "sowType": "Indoor Sow",
         "dtRangeStart": "2019-03-10",
         "dtRangeEnd": "2019-03-17"
       },
       {
         "zone": "3-4",
-        "zones": "[3a, 3b, 4a, 4b]",
+        "zones": ["3a", "3b", "4a", "4b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-05-19",
         "dtRangeEnd": "2019-06-16"
       },
       {
         "zone": "5-6",
-        "zones": "[5a, 5b, 6a, 6b]",
+        "zones": ["5a", "5b", "6a", "6b"],
         "sowType": "Indoor Sow",
         "dtRangeStart": "2019-03-07",
         "dtRangeEnd": "2019-03-21"
       },
       {
         "zone": "7-8",
-        "zones": "[7a, 7b, 8a, 8b]",
+        "zones": ["7a", "7b", "8a", "8b"],
         "sowType": "Indoor Sow",
         "dtRangeStart": "2019-12-21",
         "dtRangeEnd": "2019-01-04"
       },
       {
         "zone": "9-10",
-        "zones": "[9a, 9b, 10a, 10b]",
+        "zones": ["9a", "9b", "10a", "10b"],
         "sowType": "Indoor Sow",
         "dtRangeStart": "2019-12-21",
         "dtRangeEnd": "2019-01-04"
       },
       {
         "zone": "5-6",
-        "zones": "[5a, 5b, 6a, 6b]",
+        "zones": ["5a", "5b", "6a", "6b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-05-02",
         "dtRangeEnd": "2019-05-30"
       },
       {
         "zone": "11",
-        "zones": "[11a, 11b]",
+        "zones": ["11a", "11b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-02-15",
         "dtRangeEnd": "2019-04-15"
       },
       {
         "zone": "7-8",
-        "zones": "[7a, 7b, 8a, 8b]",
+        "zones": ["7a", "7b", "8a", "8b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-02-15",
         "dtRangeEnd": "2019-04-15"
       },
       {
         "zone": "9-10",
-        "zones": "[9a, 9b, 10a, 10b]",
+        "zones": ["9a", "9b", "10a", "10b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-02-15",
         "dtRangeEnd": "2019-04-15"
       },
       {
         "zone": "11",
-        "zones": "[11a, 11b]",
+        "zones": ["11a", "11b"],
         "sowType": "Direct Sow",
         "dtRangeStart": "2019-02-01",
         "dtRangeEnd": "2019-04-15"
       },
       {
         "zone": "7-8",
-        "zones": "[7a, 7b, 8a, 8b]",
+        "zones": ["7a", "7b", "8a", "8b"],
         "sowType": "Direct Sow",
         "dtRangeStart": "2019-02-01",
         "dtRangeEnd": "2019-04-15"
       },
       {
         "zone": "9-10",
-        "zones": "[9a, 9b, 10a, 10b]",
+        "zones": ["9a", "9b", "10a", "10b"],
         "sowType": "Direct Sow",
         "dtRangeStart": "2019-02-01",
         "dtRangeEnd": "2019-04-15"
@@ -7718,98 +7718,98 @@ const plantingCalendarSeed = [
     "sowCal": [
       {
         "zone": "11",
-        "zones": "[11a, 11b]",
+        "zones": ["11a", "11b"],
         "sowType": "Indoor Sow",
         "dtRangeStart": "2019-12-21",
         "dtRangeEnd": "2019-01-04"
       },
       {
         "zone": "3-4",
-        "zones": "[3a, 3b, 4a, 4b]",
+        "zones": ["3a", "3b", "4a", "4b"],
         "sowType": "Indoor Sow",
         "dtRangeStart": "2019-03-10",
         "dtRangeEnd": "2019-03-17"
       },
       {
         "zone": "3-4",
-        "zones": "[3a, 3b, 4a, 4b]",
+        "zones": ["3a", "3b", "4a", "4b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-05-19",
         "dtRangeEnd": "2019-06-16"
       },
       {
         "zone": "5-6",
-        "zones": "[5a, 5b, 6a, 6b]",
+        "zones": ["5a", "5b", "6a", "6b"],
         "sowType": "Indoor Sow",
         "dtRangeStart": "2019-03-07",
         "dtRangeEnd": "2019-03-21"
       },
       {
         "zone": "7-8",
-        "zones": "[7a, 7b, 8a, 8b]",
+        "zones": ["7a", "7b", "8a", "8b"],
         "sowType": "Indoor Sow",
         "dtRangeStart": "2019-12-21",
         "dtRangeEnd": "2019-01-04"
       },
       {
         "zone": "9-10",
-        "zones": "[9a, 9b, 10a, 10b]",
+        "zones": ["9a", "9b", "10a", "10b"],
         "sowType": "Indoor Sow",
         "dtRangeStart": "2019-12-21",
         "dtRangeEnd": "2019-01-04"
       },
       {
         "zone": "5-6",
-        "zones": "[5a, 5b, 6a, 6b]",
+        "zones": ["5a", "5b", "6a", "6b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-05-02",
         "dtRangeEnd": "2019-05-30"
       },
       {
         "zone": "11",
-        "zones": "[11a, 11b]",
+        "zones": ["11a", "11b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-02-15",
         "dtRangeEnd": "2019-04-15"
       },
       {
         "zone": "7-8",
-        "zones": "[7a, 7b, 8a, 8b]",
+        "zones": ["7a", "7b", "8a", "8b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-02-15",
         "dtRangeEnd": "2019-04-15"
       },
       {
         "zone": "9-10",
-        "zones": "[9a, 9b, 10a, 10b]",
+        "zones": ["9a", "9b", "10a", "10b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-02-15",
         "dtRangeEnd": "2019-04-15"
       },
       {
         "zone": "11",
-        "zones": "[11a, 11b]",
+        "zones": ["11a", "11b"],
         "sowType": "Direct Sow",
         "dtRangeStart": "2019-02-15",
         "dtRangeEnd": "2019-04-15"
       },
       {
         "zone": "5-6",
-        "zones": "[5a, 5b, 6a, 6b]",
+        "zones": ["5a", "5b", "6a", "6b"],
         "sowType": "Direct Sow",
         "dtRangeStart": "2019-05-02",
         "dtRangeEnd": "2019-05-30"
       },
       {
         "zone": "7-8",
-        "zones": "[7a, 7b, 8a, 8b]",
+        "zones": ["7a", "7b", "8a", "8b"],
         "sowType": "Direct Sow",
         "dtRangeStart": "2019-02-15",
         "dtRangeEnd": "2019-04-15"
       },
       {
         "zone": "9-10",
-        "zones": "[9a, 9b, 10a, 10b]",
+        "zones": ["9a", "9b", "10a", "10b"],
         "sowType": "Direct Sow",
         "dtRangeStart": "2019-02-15",
         "dtRangeEnd": "2019-04-15"
@@ -7822,35 +7822,35 @@ const plantingCalendarSeed = [
     "sowCal": [
       {
         "zone": "11",
-        "zones": "[11a, 11b]",
+        "zones": ["11a", "11b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-12-07",
         "dtRangeEnd": "2019-02-15"
       },
       {
         "zone": "3-4",
-        "zones": "[3a, 3b, 4a, 4b]",
+        "zones": ["3a", "3b", "4a", "4b"],
         "sowType": "Indoor Sow",
         "dtRangeStart": "2019-02-25",
         "dtRangeEnd": "2019-03-10"
       },
       {
         "zone": "3-4",
-        "zones": "[3a, 3b, 4a, 4b]",
+        "zones": ["3a", "3b", "4a", "4b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-05-19",
         "dtRangeEnd": "2019-06-16"
       },
       {
         "zone": "5-6",
-        "zones": "[5a, 5b, 6a, 6b]",
+        "zones": ["5a", "5b", "6a", "6b"],
         "sowType": "Indoor Sow",
         "dtRangeStart": "2019-02-08",
         "dtRangeEnd": "2019-02-22"
       },
       {
         "zone": "5-6",
-        "zones": "[5a, 5b, 6a, 6b]",
+        "zones": ["5a", "5b", "6a", "6b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-05-02",
         "dtRangeEnd": "2019-05-30"
@@ -7863,35 +7863,35 @@ const plantingCalendarSeed = [
     "sowCal": [
       {
         "zone": "11",
-        "zones": "[11a, 11b]",
+        "zones": ["11a", "11b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-12-21",
         "dtRangeEnd": "2019-02-15"
       },
       {
         "zone": "3-4",
-        "zones": "[3a, 3b, 4a, 4b]",
+        "zones": ["3a", "3b", "4a", "4b"],
         "sowType": "Indoor Sow",
         "dtRangeStart": "2019-03-10",
         "dtRangeEnd": "2019-03-24"
       },
       {
         "zone": "3-4",
-        "zones": "[3a, 3b, 4a, 4b]",
+        "zones": ["3a", "3b", "4a", "4b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-05-19",
         "dtRangeEnd": "2019-06-16"
       },
       {
         "zone": "5-6",
-        "zones": "[5a, 5b, 6a, 6b]",
+        "zones": ["5a", "5b", "6a", "6b"],
         "sowType": "Indoor Sow",
         "dtRangeStart": "2019-02-22",
         "dtRangeEnd": "2019-03-07"
       },
       {
         "zone": "5-6",
-        "zones": "[5a, 5b, 6a, 6b]",
+        "zones": ["5a", "5b", "6a", "6b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-05-02",
         "dtRangeEnd": "2019-05-30"
@@ -7904,28 +7904,28 @@ const plantingCalendarSeed = [
     "sowCal": [
       {
         "zone": "11",
-        "zones": "[11a, 11b]",
+        "zones": ["11a", "11b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-12-21",
         "dtRangeEnd": "2019-02-22"
       },
       {
         "zone": "3-4",
-        "zones": "[3a, 3b, 4a, 4b]",
+        "zones": ["3a", "3b", "4a", "4b"],
         "sowType": "Indoor Sow",
         "dtRangeStart": "2019-03-10",
         "dtRangeEnd": "2019-03-24"
       },
       {
         "zone": "3-4",
-        "zones": "[3a, 3b, 4a, 4b]",
+        "zones": ["3a", "3b", "4a", "4b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-05-19",
         "dtRangeEnd": "2019-06-16"
       },
       {
         "zone": "5-6",
-        "zones": "[5a, 5b, 6a, 6b]",
+        "zones": ["5a", "5b", "6a", "6b"],
         "sowType": "Indoor Sow",
         "dtRangeStart": "2019-02-22",
         "dtRangeEnd": "2019-03-07"
@@ -7938,35 +7938,35 @@ const plantingCalendarSeed = [
     "sowCal": [
       {
         "zone": "11",
-        "zones": "[11a, 11b]",
+        "zones": ["11a", "11b"],
         "sowType": "Direct Sow",
         "dtRangeStart": "2019-02-15",
         "dtRangeEnd": "2019-03-14"
       },
       {
         "zone": "3-4",
-        "zones": "[3a, 3b, 4a, 4b]",
+        "zones": ["3a", "3b", "4a", "4b"],
         "sowType": "Direct Sow",
         "dtRangeStart": "2019-06-02",
         "dtRangeEnd": "2019-06-16"
       },
       {
         "zone": "5-6",
-        "zones": "[5a, 5b, 6a, 6b]",
+        "zones": ["5a", "5b", "6a", "6b"],
         "sowType": "Direct Sow",
         "dtRangeStart": "2019-05-16",
         "dtRangeEnd": "2019-06-13"
       },
       {
         "zone": "7-8",
-        "zones": "[7a, 7b, 8a, 8b]",
+        "zones": ["7a", "7b", "8a", "8b"],
         "sowType": "Direct Sow",
         "dtRangeStart": "2019-02-15",
         "dtRangeEnd": "2019-03-14"
       },
       {
         "zone": "9-10",
-        "zones": "[9a, 9b, 10a, 10b]",
+        "zones": ["9a", "9b", "10a", "10b"],
         "sowType": "Direct Sow",
         "dtRangeStart": "2019-02-15",
         "dtRangeEnd": "2019-03-14"
@@ -7979,35 +7979,35 @@ const plantingCalendarSeed = [
     "sowCal": [
       {
         "zone": "11",
-        "zones": "[11a, 11b]",
+        "zones": ["11a", "11b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-01-04",
         "dtRangeEnd": "2019-02-15"
       },
       {
         "zone": "3-4",
-        "zones": "[3a, 3b, 4a, 4b]",
+        "zones": ["3a", "3b", "4a", "4b"],
         "sowType": "Indoor Sow",
         "dtRangeStart": "2019-03-24",
         "dtRangeEnd": "2019-04-07"
       },
       {
         "zone": "3-4",
-        "zones": "[3a, 3b, 4a, 4b]",
+        "zones": ["3a", "3b", "4a", "4b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-05-19",
         "dtRangeEnd": "2019-06-16"
       },
       {
         "zone": "5-6",
-        "zones": "[5a, 5b, 6a, 6b]",
+        "zones": ["5a", "5b", "6a", "6b"],
         "sowType": "Indoor Sow",
         "dtRangeStart": "2019-03-07",
         "dtRangeEnd": "2019-03-21"
       },
       {
         "zone": "5-6",
-        "zones": "[5a, 5b, 6a, 6b]",
+        "zones": ["5a", "5b", "6a", "6b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-05-02",
         "dtRangeEnd": "2019-05-30"
@@ -8020,42 +8020,42 @@ const plantingCalendarSeed = [
     "sowCal": [
       {
         "zone": "3-4",
-        "zones": "[3a, 3b, 4a, 4b]",
+        "zones": ["3a", "3b", "4a", "4b"],
         "sowType": "Indoor Sow",
         "dtRangeStart": "2019-03-24",
         "dtRangeEnd": "2019-04-07"
       },
       {
         "zone": "5-6",
-        "zones": "[5a, 5b, 6a, 6b]",
+        "zones": ["5a", "5b", "6a", "6b"],
         "sowType": "Indoor Sow",
         "dtRangeStart": "2019-03-07",
         "dtRangeEnd": "2019-03-21"
       },
       {
         "zone": "3-4",
-        "zones": "[3a, 3b, 4a, 4b]",
+        "zones": ["3a", "3b", "4a", "4b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-05-05",
         "dtRangeEnd": "2019-06-02"
       },
       {
         "zone": "5-6",
-        "zones": "[5a, 5b, 6a, 6b]",
+        "zones": ["5a", "5b", "6a", "6b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-03-28",
         "dtRangeEnd": "2019-05-16"
       },
       {
         "zone": "3-4",
-        "zones": "[3a, 3b, 4a, 4b]",
+        "zones": ["3a", "3b", "4a", "4b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-06-26",
         "dtRangeEnd": "2019-07-10"
       },
       {
         "zone": "5-6",
-        "zones": "[5a, 5b, 6a, 6b]",
+        "zones": ["5a", "5b", "6a", "6b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-07-23",
         "dtRangeEnd": "2019-08-06"
@@ -8068,14 +8068,14 @@ const plantingCalendarSeed = [
     "sowCal": [
       {
         "zone": "7-8",
-        "zones": "[7a, 7b, 8a, 8b]",
+        "zones": ["7a", "7b", "8a", "8b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-02-15",
         "dtRangeEnd": "2019-03-28"
       },
       {
         "zone": "9-10",
-        "zones": "[9a, 9b, 10a, 10b]",
+        "zones": ["9a", "9b", "10a", "10b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-02-15",
         "dtRangeEnd": "2019-03-28"
@@ -8088,35 +8088,35 @@ const plantingCalendarSeed = [
     "sowCal": [
       {
         "zone": "5-6",
-        "zones": "[5a, 5b, 6a, 6b]",
+        "zones": ["5a", "5b", "6a", "6b"],
         "sowType": "Indoor Sow",
         "dtRangeStart": "2019-03-07",
         "dtRangeEnd": "2019-03-21"
       },
       {
         "zone": "5-6",
-        "zones": "[5a, 5b, 6a, 6b]",
+        "zones": ["5a", "5b", "6a", "6b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-03-28",
         "dtRangeEnd": "2019-05-16"
       },
       {
         "zone": "7-8",
-        "zones": "[7a, 7b, 8a, 8b]",
+        "zones": ["7a", "7b", "8a", "8b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-12-21",
         "dtRangeEnd": "2019-01-04"
       },
       {
         "zone": "9-10",
-        "zones": "[9a, 9b, 10a, 10b]",
+        "zones": ["9a", "9b", "10a", "10b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-12-21",
         "dtRangeEnd": "2019-01-04"
       },
       {
         "zone": "5-6",
-        "zones": "[5a, 5b, 6a, 6b]",
+        "zones": ["5a", "5b", "6a", "6b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-07-23",
         "dtRangeEnd": "2019-08-06"
@@ -8129,7 +8129,7 @@ const plantingCalendarSeed = [
     "sowCal": [
       {
         "zone": "5-6",
-        "zones": "[5a, 5b, 6a, 6b]",
+        "zones": ["5a", "5b", "6a", "6b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-03-28",
         "dtRangeEnd": "2019-05-16"
@@ -8142,7 +8142,7 @@ const plantingCalendarSeed = [
     "sowCal": [
       {
         "zone": "5-6",
-        "zones": "[5a, 5b, 6a, 6b]",
+        "zones": ["5a", "5b", "6a", "6b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-03-28",
         "dtRangeEnd": "2019-05-16"
@@ -8155,7 +8155,7 @@ const plantingCalendarSeed = [
     "sowCal": [
       {
         "zone": "5-6",
-        "zones": "[5a, 5b, 6a, 6b]",
+        "zones": ["5a", "5b", "6a", "6b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-03-28",
         "dtRangeEnd": "2019-05-16"
@@ -8168,28 +8168,28 @@ const plantingCalendarSeed = [
     "sowCal": [
       {
         "zone": "5-6",
-        "zones": "[5a, 5b, 6a, 6b]",
+        "zones": ["5a", "5b", "6a", "6b"],
         "sowType": "Indoor Sow",
         "dtRangeStart": "2019-03-07",
         "dtRangeEnd": "2019-07-11"
       },
       {
         "zone": "5-6",
-        "zones": "[5a, 5b, 6a, 6b]",
+        "zones": ["5a", "5b", "6a", "6b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-03-28",
         "dtRangeEnd": "2019-05-16"
       },
       {
         "zone": "7-8",
-        "zones": "[7a, 7b, 8a, 8b]",
+        "zones": ["7a", "7b", "8a", "8b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-12-21",
         "dtRangeEnd": "2019-01-04"
       },
       {
         "zone": "9-10",
-        "zones": "[9a, 9b, 10a, 10b]",
+        "zones": ["9a", "9b", "10a", "10b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-12-21",
         "dtRangeEnd": "2019-01-04"
@@ -8202,21 +8202,21 @@ const plantingCalendarSeed = [
     "sowCal": [
       {
         "zone": "5-6",
-        "zones": "[5a, 5b, 6a, 6b]",
+        "zones": ["5a", "5b", "6a", "6b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-03-28",
         "dtRangeEnd": "2019-05-16"
       },
       {
         "zone": "7-8",
-        "zones": "[7a, 7b, 8a, 8b]",
+        "zones": ["7a", "7b", "8a", "8b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-02-15",
         "dtRangeEnd": "2019-03-28"
       },
       {
         "zone": "9-10",
-        "zones": "[9a, 9b, 10a, 10b]",
+        "zones": ["9a", "9b", "10a", "10b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-02-15",
         "dtRangeEnd": "2019-03-28"
@@ -8229,7 +8229,7 @@ const plantingCalendarSeed = [
     "sowCal": [
       {
         "zone": "5-6",
-        "zones": "[5a, 5b, 6a, 6b]",
+        "zones": ["5a", "5b", "6a", "6b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-03-28",
         "dtRangeEnd": "2019-05-16"
@@ -8242,28 +8242,28 @@ const plantingCalendarSeed = [
     "sowCal": [
       {
         "zone": "5-6",
-        "zones": "[5a, 5b, 6a, 6b]",
+        "zones": ["5a", "5b", "6a", "6b"],
         "sowType": "Indoor Sow",
         "dtRangeStart": "2019-02-22",
         "dtRangeEnd": "2019-03-07"
       },
       {
         "zone": "5-6",
-        "zones": "[5a, 5b, 6a, 6b]",
+        "zones": ["5a", "5b", "6a", "6b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-03-28",
         "dtRangeEnd": "2019-05-16"
       },
       {
         "zone": "5-6",
-        "zones": "[5a, 5b, 6a, 6b]",
+        "zones": ["5a", "5b", "6a", "6b"],
         "sowType": "Indoor Sow",
         "dtRangeStart": "2019-08-06",
         "dtRangeEnd": "2019-08-20"
       },
       {
         "zone": "5-6",
-        "zones": "[5a, 5b, 6a, 6b]",
+        "zones": ["5a", "5b", "6a", "6b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-09-17",
         "dtRangeEnd": "2019-10-22"
@@ -8276,63 +8276,63 @@ const plantingCalendarSeed = [
     "sowCal": [
       {
         "zone": "5-6",
-        "zones": "[5a, 5b, 6a, 6b]",
+        "zones": ["5a", "5b", "6a", "6b"],
         "sowType": "Indoor Sow",
         "dtRangeStart": "2019-02-22",
         "dtRangeEnd": "2019-03-07"
       },
       {
         "zone": "7-8",
-        "zones": "[7a, 7b, 8a, 8b]",
+        "zones": ["7a", "7b", "8a", "8b"],
         "sowType": "Indoor Sow",
         "dtRangeStart": "2019-12-07",
         "dtRangeEnd": "2019-12-21"
       },
       {
         "zone": "9-10",
-        "zones": "[9a, 9b, 10a, 10b]",
+        "zones": ["9a", "9b", "10a", "10b"],
         "sowType": "Indoor Sow",
         "dtRangeStart": "2019-12-07",
         "dtRangeEnd": "2019-12-21"
       },
       {
         "zone": "5-6",
-        "zones": "[5a, 5b, 6a, 6b]",
+        "zones": ["5a", "5b", "6a", "6b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-03-28",
         "dtRangeEnd": "2019-05-16"
       },
       {
         "zone": "7-8",
-        "zones": "[7a, 7b, 8a, 8b]",
+        "zones": ["7a", "7b", "8a", "8b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-02-15",
         "dtRangeEnd": "2019-03-28"
       },
       {
         "zone": "9-10",
-        "zones": "[9a, 9b, 10a, 10b]",
+        "zones": ["9a", "9b", "10a", "10b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-02-15",
         "dtRangeEnd": "2019-03-28"
       },
       {
         "zone": "5-6",
-        "zones": "[5a, 5b, 6a, 6b]",
+        "zones": ["5a", "5b", "6a", "6b"],
         "sowType": "Direct Sow",
         "dtRangeStart": "2019-04-16",
         "dtRangeEnd": "2019-05-16"
       },
       {
         "zone": "7-8",
-        "zones": "[7a, 7b, 8a, 8b]",
+        "zones": ["7a", "7b", "8a", "8b"],
         "sowType": "Direct Sow",
         "dtRangeStart": "2019-02-15",
         "dtRangeEnd": "2019-03-01"
       },
       {
         "zone": "9-10",
-        "zones": "[9a, 9b, 10a, 10b]",
+        "zones": ["9a", "9b", "10a", "10b"],
         "sowType": "Direct Sow",
         "dtRangeStart": "2019-02-15",
         "dtRangeEnd": "2019-03-01"
@@ -8345,21 +8345,21 @@ const plantingCalendarSeed = [
     "sowCal": [
       {
         "zone": "5-6",
-        "zones": "[5a, 5b, 6a, 6b]",
+        "zones": ["5a", "5b", "6a", "6b"],
         "sowType": "Indoor Sow",
         "dtRangeStart": "2019-03-07",
         "dtRangeEnd": "2019-03-21"
       },
       {
         "zone": "5-6",
-        "zones": "[5a, 5b, 6a, 6b]",
+        "zones": ["5a", "5b", "6a", "6b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-03-28",
         "dtRangeEnd": "2019-05-16"
       },
       {
         "zone": "5-6",
-        "zones": "[5a, 5b, 6a, 6b]",
+        "zones": ["5a", "5b", "6a", "6b"],
         "sowType": "Direct Sow",
         "dtRangeStart": "2019-04-16",
         "dtRangeEnd": "2019-05-16"
@@ -8372,14 +8372,14 @@ const plantingCalendarSeed = [
     "sowCal": [
       {
         "zone": "5-6",
-        "zones": "[5a, 5b, 6a, 6b]",
+        "zones": ["5a", "5b", "6a", "6b"],
         "sowType": "Indoor Sow",
         "dtRangeStart": "2019-03-07",
         "dtRangeEnd": "2019-03-21"
       },
       {
         "zone": "5-6",
-        "zones": "[5a, 5b, 6a, 6b]",
+        "zones": ["5a", "5b", "6a", "6b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-03-28",
         "dtRangeEnd": "2019-05-16"
@@ -8392,42 +8392,42 @@ const plantingCalendarSeed = [
     "sowCal": [
       {
         "zone": "3-4",
-        "zones": "[3a, 3b, 4a, 4b]",
+        "zones": ["3a", "3b", "4a", "4b"],
         "sowType": "Indoor Sow",
         "dtRangeStart": "2019-03-24",
         "dtRangeEnd": "2019-04-07"
       },
       {
         "zone": "5-6",
-        "zones": "[5a, 5b, 6a, 6b]",
+        "zones": ["5a", "5b", "6a", "6b"],
         "sowType": "Indoor Sow",
         "dtRangeStart": "2019-02-22",
         "dtRangeEnd": "2019-03-07"
       },
       {
         "zone": "3-4",
-        "zones": "[3a, 3b, 4a, 4b]",
+        "zones": ["3a", "3b", "4a", "4b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-05-05",
         "dtRangeEnd": "2019-06-02"
       },
       {
         "zone": "5-6",
-        "zones": "[5a, 5b, 6a, 6b]",
+        "zones": ["5a", "5b", "6a", "6b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-03-28",
         "dtRangeEnd": "2019-05-16"
       },
       {
         "zone": "5-6",
-        "zones": "[5a, 5b, 6a, 6b]",
+        "zones": ["5a", "5b", "6a", "6b"],
         "sowType": "Direct Sow",
         "dtRangeStart": "2019-04-16",
         "dtRangeEnd": "2019-05-16"
       },
       {
         "zone": "3-4",
-        "zones": "[3a, 3b, 4a, 4b]",
+        "zones": ["3a", "3b", "4a", "4b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-09-04",
         "dtRangeEnd": "2019-10-15"
@@ -8440,7 +8440,7 @@ const plantingCalendarSeed = [
     "sowCal": [
       {
         "zone": "5-6",
-        "zones": "[5a, 5b, 6a, 6b]",
+        "zones": ["5a", "5b", "6a", "6b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-03-28",
         "dtRangeEnd": "2019-05-16"
@@ -8453,21 +8453,21 @@ const plantingCalendarSeed = [
     "sowCal": [
       {
         "zone": "5-6",
-        "zones": "[5a, 5b, 6a, 6b]",
+        "zones": ["5a", "5b", "6a", "6b"],
         "sowType": "Indoor Sow",
         "dtRangeStart": "2019-03-07",
         "dtRangeEnd": "2019-03-21"
       },
       {
         "zone": "5-6",
-        "zones": "[5a, 5b, 6a, 6b]",
+        "zones": ["5a", "5b", "6a", "6b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-03-28",
         "dtRangeEnd": "2019-05-16"
       },
       {
         "zone": "5-6",
-        "zones": "[5a, 5b, 6a, 6b]",
+        "zones": ["5a", "5b", "6a", "6b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-09-17",
         "dtRangeEnd": "2019-10-29"
@@ -8480,21 +8480,21 @@ const plantingCalendarSeed = [
     "sowCal": [
       {
         "zone": "5-6",
-        "zones": "[5a, 5b, 6a, 6b]",
+        "zones": ["5a", "5b", "6a", "6b"],
         "sowType": "Indoor Sow",
         "dtRangeStart": "2019-03-07",
         "dtRangeEnd": "2019-03-21"
       },
       {
         "zone": "5-6",
-        "zones": "[5a, 5b, 6a, 6b]",
+        "zones": ["5a", "5b", "6a", "6b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-03-28",
         "dtRangeEnd": "2019-05-16"
       },
       {
         "zone": "5-6",
-        "zones": "[5a, 5b, 6a, 6b]",
+        "zones": ["5a", "5b", "6a", "6b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-09-17",
         "dtRangeEnd": "2019-10-29"
@@ -8507,14 +8507,14 @@ const plantingCalendarSeed = [
     "sowCal": [
       {
         "zone": "3-4",
-        "zones": "[3a, 3b, 4a, 4b]",
+        "zones": ["3a", "3b", "4a", "4b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-09-04",
         "dtRangeEnd": "2019-10-16"
       },
       {
         "zone": "5-6",
-        "zones": "[5a, 5b, 6a, 6b]",
+        "zones": ["5a", "5b", "6a", "6b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-09-17",
         "dtRangeEnd": "2019-10-29"
@@ -8527,14 +8527,14 @@ const plantingCalendarSeed = [
     "sowCal": [
       {
         "zone": "3-4",
-        "zones": "[3a, 3b, 4a, 4b]",
+        "zones": ["3a", "3b", "4a", "4b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-09-04",
         "dtRangeEnd": "2019-10-16"
       },
       {
         "zone": "5-6",
-        "zones": "[5a, 5b, 6a, 6b]",
+        "zones": ["5a", "5b", "6a", "6b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-09-17",
         "dtRangeEnd": "2019-10-29"
@@ -8547,14 +8547,14 @@ const plantingCalendarSeed = [
     "sowCal": [
       {
         "zone": "3-4",
-        "zones": "[3a, 3b, 4a, 4b]",
+        "zones": ["3a", "3b", "4a", "4b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-05-05",
         "dtRangeEnd": "2019-06-02"
       },
       {
         "zone": "5-6",
-        "zones": "[5a, 5b, 6a, 6b]",
+        "zones": ["5a", "5b", "6a", "6b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-03-28",
         "dtRangeEnd": "2019-05-16"
@@ -8567,21 +8567,21 @@ const plantingCalendarSeed = [
     "sowCal": [
       {
         "zone": "5-6",
-        "zones": "[5a, 5b, 6a, 6b]",
+        "zones": ["5a", "5b", "6a", "6b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-03-28",
         "dtRangeEnd": "2019-05-16"
       },
       {
         "zone": "7-8",
-        "zones": "[7a, 7b, 8a, 8b]",
+        "zones": ["7a", "7b", "8a", "8b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-02-15",
         "dtRangeEnd": "2019-03-28"
       },
       {
         "zone": "9-10",
-        "zones": "[9a, 9b, 10a, 10b]",
+        "zones": ["9a", "9b", "10a", "10b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-02-15",
         "dtRangeEnd": "2019-03-28"
@@ -8594,42 +8594,42 @@ const plantingCalendarSeed = [
     "sowCal": [
       {
         "zone": "3-4",
-        "zones": "[3a, 3b, 4a, 4b]",
+        "zones": ["3a", "3b", "4a", "4b"],
         "sowType": "Indoor Sow",
         "dtRangeStart": "2019-03-24",
         "dtRangeEnd": "2019-04-07"
       },
       {
         "zone": "5-6",
-        "zones": "[5a, 5b, 6a, 6b]",
+        "zones": ["5a", "5b", "6a", "6b"],
         "sowType": "Indoor Sow",
         "dtRangeStart": "2019-02-22",
         "dtRangeEnd": "2019-03-07"
       },
       {
         "zone": "3-4",
-        "zones": "[3a, 3b, 4a, 4b]",
+        "zones": ["3a", "3b", "4a", "4b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-05-05",
         "dtRangeEnd": "2019-06-02"
       },
       {
         "zone": "5-6",
-        "zones": "[5a, 5b, 6a, 6b]",
+        "zones": ["5a", "5b", "6a", "6b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-03-28",
         "dtRangeEnd": "2019-05-16"
       },
       {
         "zone": "3-4",
-        "zones": "[3a, 3b, 4a, 4b]",
+        "zones": ["3a", "3b", "4a", "4b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-09-04",
         "dtRangeEnd": "2019-10-16"
       },
       {
         "zone": "5-6",
-        "zones": "[5a, 5b, 6a, 6b]",
+        "zones": ["5a", "5b", "6a", "6b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-09-17",
         "dtRangeEnd": "2019-10-29"
@@ -8642,84 +8642,84 @@ const plantingCalendarSeed = [
     "sowCal": [
       {
         "zone": "3-4",
-        "zones": "[3a, 3b, 4a, 4b]",
+        "zones": ["3a", "3b", "4a", "4b"],
         "sowType": "Indoor Sow",
         "dtRangeStart": "2019-03-10",
         "dtRangeEnd": "2019-03-24"
       },
       {
         "zone": "5-6",
-        "zones": "[5a, 5b, 6a, 6b]",
+        "zones": ["5a", "5b", "6a", "6b"],
         "sowType": "Indoor Sow",
         "dtRangeStart": "2019-02-22",
         "dtRangeEnd": "2019-03-07"
       },
       {
         "zone": "3-4",
-        "zones": "[3a, 3b, 4a, 4b]",
+        "zones": ["3a", "3b", "4a", "4b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-05-05",
         "dtRangeEnd": "2019-06-02"
       },
       {
         "zone": "7-8",
-        "zones": "[7a, 7b, 8a, 8b]",
+        "zones": ["7a", "7b", "8a", "8b"],
         "sowType": "Indoor Sow",
         "dtRangeStart": "2019-12-21",
         "dtRangeEnd": "2019-01-04"
       },
       {
         "zone": "9-10",
-        "zones": "[9a, 9b, 10a, 10b]",
+        "zones": ["9a", "9b", "10a", "10b"],
         "sowType": "Indoor Sow",
         "dtRangeStart": "2019-12-21",
         "dtRangeEnd": "2019-01-04"
       },
       {
         "zone": "5-6",
-        "zones": "[5a, 5b, 6a, 6b]",
+        "zones": ["5a", "5b", "6a", "6b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-03-28",
         "dtRangeEnd": "2019-05-16"
       },
       {
         "zone": "7-8",
-        "zones": "[7a, 7b, 8a, 8b]",
+        "zones": ["7a", "7b", "8a", "8b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-02-15",
         "dtRangeEnd": "2019-03-28"
       },
       {
         "zone": "9-10",
-        "zones": "[9a, 9b, 10a, 10b]",
+        "zones": ["9a", "9b", "10a", "10b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-02-15",
         "dtRangeEnd": "2019-03-28"
       },
       {
         "zone": "7-8",
-        "zones": "[7a, 7b, 8a, 8b]",
+        "zones": ["7a", "7b", "8a", "8b"],
         "sowType": "Direct Sow",
         "dtRangeStart": "2019-02-15",
         "dtRangeEnd": "2019-03-01"
       },
       {
         "zone": "9-10",
-        "zones": "[9a, 9b, 10a, 10b]",
+        "zones": ["9a", "9b", "10a", "10b"],
         "sowType": "Direct Sow",
         "dtRangeStart": "2019-02-15",
         "dtRangeEnd": "2019-03-01"
       },
       {
         "zone": "3-4",
-        "zones": "[3a, 3b, 4a, 4b]",
+        "zones": ["3a", "3b", "4a", "4b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-09-04",
         "dtRangeEnd": "2019-10-16"
       },
       {
         "zone": "5-6",
-        "zones": "[5a, 5b, 6a, 6b]",
+        "zones": ["5a", "5b", "6a", "6b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-09-17",
         "dtRangeEnd": "2019-10-29"
@@ -8732,14 +8732,14 @@ const plantingCalendarSeed = [
     "sowCal": [
       {
         "zone": "3-4",
-        "zones": "[3a, 3b, 4a, 4b]",
+        "zones": ["3a", "3b", "4a", "4b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-05-05",
         "dtRangeEnd": "2019-06-02"
       },
       {
         "zone": "5-6",
-        "zones": "[5a, 5b, 6a, 6b]",
+        "zones": ["5a", "5b", "6a", "6b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-03-28",
         "dtRangeEnd": "2019-05-16"
@@ -8752,42 +8752,42 @@ const plantingCalendarSeed = [
     "sowCal": [
       {
         "zone": "3-4",
-        "zones": "[3a, 3b, 4a, 4b]",
+        "zones": ["3a", "3b", "4a", "4b"],
         "sowType": "Indoor Sow",
         "dtRangeStart": "2019-03-24",
         "dtRangeEnd": "2019-04-07"
       },
       {
         "zone": "5-6",
-        "zones": "[5a, 5b, 6a, 6b]",
+        "zones": ["5a", "5b", "6a", "6b"],
         "sowType": "Indoor Sow",
         "dtRangeStart": "2019-02-22",
         "dtRangeEnd": "2019-03-21"
       },
       {
         "zone": "3-4",
-        "zones": "[3a, 3b, 4a, 4b]",
+        "zones": ["3a", "3b", "4a", "4b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-05-05",
         "dtRangeEnd": "2019-06-02"
       },
       {
         "zone": "5-6",
-        "zones": "[5a, 5b, 6a, 6b]",
+        "zones": ["5a", "5b", "6a", "6b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-03-28",
         "dtRangeEnd": "2019-05-16"
       },
       {
         "zone": "3-4",
-        "zones": "[3a, 3b, 4a, 4b]",
+        "zones": ["3a", "3b", "4a", "4b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-09-04",
         "dtRangeEnd": "2019-10-16"
       },
       {
         "zone": "5-6",
-        "zones": "[5a, 5b, 6a, 6b]",
+        "zones": ["5a", "5b", "6a", "6b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-09-17",
         "dtRangeEnd": "2019-10-29"
@@ -8800,21 +8800,21 @@ const plantingCalendarSeed = [
     "sowCal": [
       {
         "zone": "5-6",
-        "zones": "[5a, 5b, 6a, 6b]",
+        "zones": ["5a", "5b", "6a", "6b"],
         "sowType": "Indoor Sow",
         "dtRangeStart": "2019-03-07",
         "dtRangeEnd": "2019-03-21"
       },
       {
         "zone": "5-6",
-        "zones": "[5a, 5b, 6a, 6b]",
+        "zones": ["5a", "5b", "6a", "6b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-03-28",
         "dtRangeEnd": "2019-05-16"
       },
       {
         "zone": "5-6",
-        "zones": "[5a, 5b, 6a, 6b]",
+        "zones": ["5a", "5b", "6a", "6b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-09-17",
         "dtRangeEnd": "2019-10-29"
@@ -8827,84 +8827,84 @@ const plantingCalendarSeed = [
     "sowCal": [
       {
         "zone": "11",
-        "zones": "[11a, 11b]",
+        "zones": ["11a", "11b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-02-22",
         "dtRangeEnd": "2019-03-28"
       },
       {
         "zone": "3-4",
-        "zones": "[3a, 3b, 4a, 4b]",
+        "zones": ["3a", "3b", "4a", "4b"],
         "sowType": "Indoor Sow",
         "dtRangeStart": "2019-03-24",
         "dtRangeEnd": "2019-04-07"
       },
       {
         "zone": "5-6",
-        "zones": "[5a, 5b, 6a, 6b]",
+        "zones": ["5a", "5b", "6a", "6b"],
         "sowType": "Indoor Sow",
         "dtRangeStart": "2019-03-07",
         "dtRangeEnd": "2019-03-21"
       },
       {
         "zone": "3-4",
-        "zones": "[3a, 3b, 4a, 4b]",
+        "zones": ["3a", "3b", "4a", "4b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-05-05",
         "dtRangeEnd": "2019-06-02"
       },
       {
         "zone": "5-6",
-        "zones": "[5a, 5b, 6a, 6b]",
+        "zones": ["5a", "5b", "6a", "6b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-03-28",
         "dtRangeEnd": "2019-05-16"
       },
       {
         "zone": "7-8",
-        "zones": "[7a, 7b, 8a, 8b]",
+        "zones": ["7a", "7b", "8a", "8b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-12-21",
         "dtRangeEnd": "2019-01-04"
       },
       {
         "zone": "9-10",
-        "zones": "[9a, 9b, 10a, 10b]",
+        "zones": ["9a", "9b", "10a", "10b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-12-21",
         "dtRangeEnd": "2019-01-04"
       },
       {
         "zone": "11",
-        "zones": "[11a, 11b]",
+        "zones": ["11a", "11b"],
         "sowType": "Direct Sow",
         "dtRangeStart": "2019-02-01",
         "dtRangeEnd": "2019-02-22"
       },
       {
         "zone": "11",
-        "zones": "[11a, 11b]",
+        "zones": ["11a", "11b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-09-22",
         "dtRangeEnd": "2019-11-05"
       },
       {
         "zone": "3-4",
-        "zones": "[3a, 3b, 4a, 4b]",
+        "zones": ["3a", "3b", "4a", "4b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-09-04",
         "dtRangeEnd": "2019-10-16"
       },
       {
         "zone": "5-6",
-        "zones": "[5a, 5b, 6a, 6b]",
+        "zones": ["5a", "5b", "6a", "6b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-09-17",
         "dtRangeEnd": "2019-10-29"
       },
       { 
         "zone" : "11", 
-        "zones" : "[11a, 11b]", 
+        "zones" : ["11a", "11b"], 
         "sowType": "Direct Sow",
         "dtRangeStart" : "2019-09-22", 
         "dtRangeEnd" : "2019-10-20"
@@ -8917,14 +8917,14 @@ const plantingCalendarSeed = [
     "sowCal": [
       {
         "zone": "3-4",
-        "zones": "[3a, 3b, 4a, 4b]",
+        "zones": ["3a", "3b", "4a", "4b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-09-04",
         "dtRangeEnd": "2019-10-16"
       },
       {
         "zone": "5-6",
-        "zones": "[5a, 5b, 6a, 6b]",
+        "zones": ["5a", "5b", "6a", "6b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-09-17",
         "dtRangeEnd": "2019-10-29"
@@ -8937,14 +8937,14 @@ const plantingCalendarSeed = [
     "sowCal": [
       {
         "zone": "5-6",
-        "zones": "[5a, 5b, 6a, 6b]",
+        "zones": ["5a", "5b", "6a", "6b"],
         "sowType": "Indoor Sow",
         "dtRangeStart": "2019-02-22",
         "dtRangeEnd": "2019-03-07"
       },
       {
         "zone": "5-6",
-        "zones": "[5a, 5b, 6a, 6b]",
+        "zones": ["5a", "5b", "6a", "6b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-03-28",
         "dtRangeEnd": "2019-05-16"
@@ -8957,28 +8957,28 @@ const plantingCalendarSeed = [
     "sowCal": [
       {
         "zone": "3-4",
-        "zones": "[3a, 3b, 4a, 4b]",
+        "zones": ["3a", "3b", "4a", "4b"],
         "sowType": "Indoor Sow",
         "dtRangeStart": "2019-03-24",
         "dtRangeEnd": "2019-04-07"
       },
       {
         "zone": "3-4",
-        "zones": "[3a, 3b, 4a, 4b]",
+        "zones": ["3a", "3b", "4a", "4b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-05-05",
         "dtRangeEnd": "2019-06-02"
       },
       {
         "zone": "5-6",
-        "zones": "[5a, 5b, 6a, 6b]",
+        "zones": ["5a", "5b", "6a", "6b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-03-28",
         "dtRangeEnd": "2019-05-16"
       },
       {
         "zone": "3-4",
-        "zones": "[3a, 3b, 4a, 4b]",
+        "zones": ["3a", "3b", "4a", "4b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-09-04",
         "dtRangeEnd": "2019-10-16"
@@ -8991,7 +8991,7 @@ const plantingCalendarSeed = [
     "sowCal": [
       {
         "zone": "5-6",
-        "zones": "[5a, 5b, 6a, 6b]",
+        "zones": ["5a", "5b", "6a", "6b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-03-28",
         "dtRangeEnd": "2019-05-16"
@@ -9004,7 +9004,7 @@ const plantingCalendarSeed = [
     "sowCal": [
       {
         "zone": "5-6",
-        "zones": "[5a, 5b, 6a, 6b]",
+        "zones": ["5a", "5b", "6a", "6b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-03-28",
         "dtRangeEnd": "2019-05-16"
@@ -9017,14 +9017,14 @@ const plantingCalendarSeed = [
     "sowCal": [
       {
         "zone": "3-4",
-        "zones": "[3a, 3b, 4a, 4b]",
+        "zones": ["3a", "3b", "4a", "4b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-05-05",
         "dtRangeEnd": "2019-06-02"
       },
       {
         "zone": "5-6",
-        "zones": "[5a, 5b, 6a, 6b]",
+        "zones": ["5a", "5b", "6a", "6b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-03-28",
         "dtRangeEnd": "2019-05-16"
@@ -9037,21 +9037,21 @@ const plantingCalendarSeed = [
     "sowCal": [
       {
         "zone": "5-6",
-        "zones": "[5a, 5b, 6a, 6b]",
+        "zones": ["5a", "5b", "6a", "6b"],
         "sowType": "Indoor Sow",
         "dtRangeStart": "2019-01-25",
         "dtRangeEnd": "2019-02-22"
       },
       {
         "zone": "5-6",
-        "zones": "[5a, 5b, 6a, 6b]",
+        "zones": ["5a", "5b", "6a", "6b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-03-28",
         "dtRangeEnd": "2019-05-16"
       },
       {
         "zone": "5-6",
-        "zones": "[5a, 5b, 6a, 6b]",
+        "zones": ["5a", "5b", "6a", "6b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-09-17",
         "dtRangeEnd": "2019-10-29"
@@ -9064,42 +9064,42 @@ const plantingCalendarSeed = [
     "sowCal": [
       {
         "zone": "3-4",
-        "zones": "[3a, 3b, 4a, 4b]",
+        "zones": ["3a", "3b", "4a", "4b"],
         "sowType": "Indoor Sow",
         "dtRangeStart": "2019-03-24",
         "dtRangeEnd": "2019-04-07"
       },
       {
         "zone": "5-6",
-        "zones": "[5a, 5b, 6a, 6b]",
+        "zones": ["5a", "5b", "6a", "6b"],
         "sowType": "Indoor Sow",
         "dtRangeStart": "2019-03-07",
         "dtRangeEnd": "2019-03-21"
       },
       {
         "zone": "3-4",
-        "zones": "[3a, 3b, 4a, 4b]",
+        "zones": ["3a", "3b", "4a", "4b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-05-05",
         "dtRangeEnd": "2019-06-02"
       },
       {
         "zone": "5-6",
-        "zones": "[5a, 5b, 6a, 6b]",
+        "zones": ["5a", "5b", "6a", "6b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-03-28",
         "dtRangeEnd": "2019-05-16"
       },
       {
         "zone": "3-4",
-        "zones": "[3a, 3b, 4a, 4b]",
+        "zones": ["3a", "3b", "4a", "4b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-09-04",
         "dtRangeEnd": "2019-10-16"
       },
       {
         "zone": "5-6",
-        "zones": "[5a, 5b, 6a, 6b]",
+        "zones": ["5a", "5b", "6a", "6b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-09-17",
         "dtRangeEnd": "2019-10-29"
@@ -9112,14 +9112,14 @@ const plantingCalendarSeed = [
     "sowCal": [
       {
         "zone": "3-4",
-        "zones": "[3a, 3b, 4a, 4b]",
+        "zones": ["3a", "3b", "4a", "4b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-05-05",
         "dtRangeEnd": "2019-06-02"
       },
       {
         "zone": "5-6",
-        "zones": "[5a, 5b, 6a, 6b]",
+        "zones": ["5a", "5b", "6a", "6b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-03-28",
         "dtRangeEnd": "2019-05-16"
@@ -9132,7 +9132,7 @@ const plantingCalendarSeed = [
     "sowCal": [
       {
         "zone": "5-6",
-        "zones": "[5a, 5b, 6a, 6b]",
+        "zones": ["5a", "5b", "6a", "6b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-09-17",
         "dtRangeEnd": "2019-11-12"
@@ -9145,14 +9145,14 @@ const plantingCalendarSeed = [
     "sowCal": [
       {
         "zone": "5-6",
-        "zones": "[5a, 5b, 6a, 6b]",
+        "zones": ["5a", "5b", "6a", "6b"],
         "sowType": "Indoor Sow",
         "dtRangeStart": "2019-03-07",
         "dtRangeEnd": "2019-03-21"
       },
       {
         "zone": "5-6",
-        "zones": "[5a, 5b, 6a, 6b]",
+        "zones": ["5a", "5b", "6a", "6b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-03-28",
         "dtRangeEnd": "2019-05-16"
@@ -9165,7 +9165,7 @@ const plantingCalendarSeed = [
     "sowCal": [
       {
         "zone": "5-6",
-        "zones": "[5a, 5b, 6a, 6b]",
+        "zones": ["5a", "5b", "6a", "6b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-03-28",
         "dtRangeEnd": "2019-05-16"
@@ -9178,42 +9178,42 @@ const plantingCalendarSeed = [
     "sowCal": [
       {
         "zone": "5-6",
-        "zones": "[5a, 5b, 6a, 6b]",
+        "zones": ["5a", "5b", "6a", "6b"],
         "sowType": "Indoor Sow",
         "dtRangeStart": "2019-03-07",
         "dtRangeEnd": "2019-03-21"
       },
       {
         "zone": "5-6",
-        "zones": "[5a, 5b, 6a, 6b]",
+        "zones": ["5a", "5b", "6a", "6b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-03-28",
         "dtRangeEnd": "2019-05-16"
       },
       {
         "zone": "7-8",
-        "zones": "[7a, 7b, 8a, 8b]",
+        "zones": ["7a", "7b", "8a", "8b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-12-21",
         "dtRangeEnd": "2019-01-04"
       },
       {
         "zone": "9-10",
-        "zones": "[9a, 9b, 10a, 10b]",
+        "zones": ["9a", "9b", "10a", "10b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-12-21",
         "dtRangeEnd": "2019-01-04"
       },
       {
         "zone": "5-6",
-        "zones": "[5a, 5b, 6a, 6b]",
+        "zones": ["5a", "5b", "6a", "6b"],
         "sowType": "Indoor Sow",
         "dtRangeStart": "2019-08-20",
         "dtRangeEnd": "2019-09-03"
       },
       {
         "zone": "5-6",
-        "zones": "[5a, 5b, 6a, 6b]",
+        "zones": ["5a", "5b", "6a", "6b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-09-17",
         "dtRangeEnd": "2019-10-29"
@@ -9226,42 +9226,42 @@ const plantingCalendarSeed = [
     "sowCal": [
       {
         "zone": "5-6",
-        "zones": "[5a, 5b, 6a, 6b]",
+        "zones": ["5a", "5b", "6a", "6b"],
         "sowType": "Indoor Sow",
         "dtRangeStart": "2019-02-22",
         "dtRangeEnd": "2019-03-21"
       },
       {
         "zone": "5-6",
-        "zones": "[5a, 5b, 6a, 6b]",
+        "zones": ["5a", "5b", "6a", "6b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-03-28",
         "dtRangeEnd": "2019-05-16"
       },
       {
         "zone": "7-8",
-        "zones": "[7a, 7b, 8a, 8b]",
+        "zones": ["7a", "7b", "8a", "8b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-12-07",
         "dtRangeEnd": "2019-01-04"
       },
       {
         "zone": "9-10",
-        "zones": "[9a, 9b, 10a, 10b]",
+        "zones": ["9a", "9b", "10a", "10b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-12-07",
         "dtRangeEnd": "2019-01-04"
       },
       {
         "zone": "5-6",
-        "zones": "[5a, 5b, 6a, 6b]",
+        "zones": ["5a", "5b", "6a", "6b"],
         "sowType": "Indoor Sow",
         "dtRangeStart": "2019-08-06",
         "dtRangeEnd": "2019-09-03"
       },
       {
         "zone": "5-6",
-        "zones": "[5a, 5b, 6a, 6b]",
+        "zones": ["5a", "5b", "6a", "6b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-09-17",
         "dtRangeEnd": "2019-10-29"
@@ -9274,21 +9274,21 @@ const plantingCalendarSeed = [
     "sowCal": [
       {
         "zone": "5-6",
-        "zones": "[5a, 5b, 6a, 6b]",
+        "zones": ["5a", "5b", "6a", "6b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-03-28",
         "dtRangeEnd": "2019-05-16"
       },
       {
         "zone": "7-8",
-        "zones": "[7a, 7b, 8a, 8b]",
+        "zones": ["7a", "7b", "8a", "8b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-02-15",
         "dtRangeEnd": "2019-03-28"
       },
       {
         "zone": "9-10",
-        "zones": "[9a, 9b, 10a, 10b]",
+        "zones": ["9a", "9b", "10a", "10b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-02-15",
         "dtRangeEnd": "2019-03-28"
@@ -9301,7 +9301,7 @@ const plantingCalendarSeed = [
     "sowCal": [
       {
         "zone": "5-6",
-        "zones": "[5a, 5b, 6a, 6b]",
+        "zones": ["5a", "5b", "6a", "6b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-03-28",
         "dtRangeEnd": "2019-05-16"
@@ -9314,21 +9314,21 @@ const plantingCalendarSeed = [
     "sowCal": [
       {
         "zone": "5-6",
-        "zones": "[5a, 5b, 6a, 6b]",
+        "zones": ["5a", "5b", "6a", "6b"],
         "sowType": "Indoor Sow",
         "dtRangeStart": "2019-02-22",
         "dtRangeEnd": "2019-03-07"
       },
       {
         "zone": "5-6",
-        "zones": "[5a, 5b, 6a, 6b]",
+        "zones": ["5a", "5b", "6a", "6b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-03-28",
         "dtRangeEnd": "2019-05-16"
       },
       {
         "zone": "5-6",
-        "zones": "[5a, 5b, 6a, 6b]",
+        "zones": ["5a", "5b", "6a", "6b"],
         "sowType": "Direct Sow",
         "dtRangeStart": "2019-04-16",
         "dtRangeEnd": "2019-05-16"
@@ -9341,35 +9341,35 @@ const plantingCalendarSeed = [
     "sowCal": [
       {
         "zone": "3-4",
-        "zones": "[3a, 3b, 4a, 4b]",
+        "zones": ["3a", "3b", "4a", "4b"],
         "sowType": "Indoor Sow",
         "dtRangeStart": "2019-03-24",
         "dtRangeEnd": "2019-04-07"
       },
       {
         "zone": "5-6",
-        "zones": "[5a, 5b, 6a, 6b]",
+        "zones": ["5a", "5b", "6a", "6b"],
         "sowType": "Indoor Sow",
         "dtRangeStart": "2019-03-07",
         "dtRangeEnd": "2019-03-21"
       },
       {
         "zone": "5-6",
-        "zones": "[5a, 5b, 6a, 6b]",
+        "zones": ["5a", "5b", "6a", "6b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-03-28",
         "dtRangeEnd": "2019-05-16"
       },
       {
         "zone": "3-4",
-        "zones": "[3a, 3b, 4a, 4b]",
+        "zones": ["3a", "3b", "4a", "4b"],
         "sowType": "Direct Sow",
         "dtRangeStart": "2019-05-26",
         "dtRangeEnd": "2019-06-02"
       },
       {
         "zone": "5-6",
-        "zones": "[5a, 5b, 6a, 6b]",
+        "zones": ["5a", "5b", "6a", "6b"],
         "sowType": "Direct Sow",
         "dtRangeStart": "2019-04-16",
         "dtRangeEnd": "2019-05-16"
@@ -9382,21 +9382,21 @@ const plantingCalendarSeed = [
     "sowCal": [
       {
         "zone": "5-6",
-        "zones": "[5a, 5b, 6a, 6b]",
+        "zones": ["5a", "5b", "6a", "6b"],
         "sowType": "Indoor Sow",
         "dtRangeStart": "2019-03-07",
         "dtRangeEnd": "2019-03-21"
       },
       {
         "zone": "5-6",
-        "zones": "[5a, 5b, 6a, 6b]",
+        "zones": ["5a", "5b", "6a", "6b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-03-28",
         "dtRangeEnd": "2019-05-16"
       },
       {
         "zone": "5-6",
-        "zones": "[5a, 5b, 6a, 6b]",
+        "zones": ["5a", "5b", "6a", "6b"],
         "sowType": "Direct Sow",
         "dtRangeStart": "2019-04-16",
         "dtRangeEnd": "2019-05-16"
@@ -9409,28 +9409,28 @@ const plantingCalendarSeed = [
     "sowCal": [
       {
         "zone": "11",
-        "zones": "[11a, 11b]",
+        "zones": ["11a", "11b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-02-22",
         "dtRangeEnd": "2019-03-28"
       },
       {
         "zone": "5-6",
-        "zones": "[5a, 5b, 6a, 6b]",
+        "zones": ["5a", "5b", "6a", "6b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-03-28",
         "dtRangeEnd": "2019-05-16"
       },
       {
         "zone": "7-8",
-        "zones": "[7a, 7b, 8a, 8b]",
+        "zones": ["7a", "7b", "8a", "8b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-02-15",
         "dtRangeEnd": "2019-04-15"
       },
       {
         "zone": "9-10",
-        "zones": "[9a, 9b, 10a, 10b]",
+        "zones": ["9a", "9b", "10a", "10b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-02-15",
         "dtRangeEnd": "2019-04-15"
@@ -9443,7 +9443,7 @@ const plantingCalendarSeed = [
     "sowCal": [
       {
         "zone": "5-6",
-        "zones": "[5a, 5b, 6a, 6b]",
+        "zones": ["5a", "5b", "6a", "6b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-03-28",
         "dtRangeEnd": "2019-05-16"
@@ -9456,28 +9456,28 @@ const plantingCalendarSeed = [
     "sowCal": [
       {
         "zone": "3-4",
-        "zones": "[3a, 3b, 4a, 4b]",
+        "zones": ["3a", "3b", "4a", "4b"],
         "sowType": "Indoor Sow",
         "dtRangeStart": "2019-03-24",
         "dtRangeEnd": "2019-04-07"
       },
       {
         "zone": "3-4",
-        "zones": "[3a, 3b, 4a, 4b]",
+        "zones": ["3a", "3b", "4a", "4b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-05-05",
         "dtRangeEnd": "2019-06-02"
       },
       {
         "zone": "5-6",
-        "zones": "[5a, 5b, 6a, 6b]",
+        "zones": ["5a", "5b", "6a", "6b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-03-28",
         "dtRangeEnd": "2019-05-16"
       },
       {
         "zone": "3-4",
-        "zones": "[3a, 3b, 4a, 4b]",
+        "zones": ["3a", "3b", "4a", "4b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-09-04",
         "dtRangeEnd": "2019-10-16"
@@ -9490,42 +9490,42 @@ const plantingCalendarSeed = [
     "sowCal": [
       {
         "zone": "11",
-        "zones": "[11a, 11b]",
+        "zones": ["11a", "11b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-02-22",
         "dtRangeEnd": "2019-03-28"
       },
       {
         "zone": "5-6",
-        "zones": "[5a, 5b, 6a, 6b]",
+        "zones": ["5a", "5b", "6a", "6b"],
         "sowType": "Indoor Sow",
         "dtRangeStart": "2019-03-07",
         "dtRangeEnd": "2019-03-21"
       },
       {
         "zone": "5-6",
-        "zones": "[5a, 5b, 6a, 6b]",
+        "zones": ["5a", "5b", "6a", "6b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-03-28",
         "dtRangeEnd": "2019-05-16"
       },
       {
         "zone": "7-8",
-        "zones": "[7a, 7b, 8a, 8b]",
+        "zones": ["7a", "7b", "8a", "8b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-02-15",
         "dtRangeEnd": "2019-03-28"
       },
       {
         "zone": "9-10",
-        "zones": "[9a, 9b, 10a, 10b]",
+        "zones": ["9a", "9b", "10a", "10b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-02-15",
         "dtRangeEnd": "2019-03-28"
       },
       {
         "zone": "5-6",
-        "zones": "[5a, 5b, 6a, 6b]",
+        "zones": ["5a", "5b", "6a", "6b"],
         "sowType": "Direct Sow",
         "dtRangeStart": "2019-04-16",
         "dtRangeEnd": "2019-05-16"
@@ -9538,21 +9538,21 @@ const plantingCalendarSeed = [
     "sowCal": [
       {
         "zone": "5-6",
-        "zones": "[5a, 5b, 6a, 6b]",
+        "zones": ["5a", "5b", "6a", "6b"],
         "sowType": "Indoor Sow",
         "dtRangeStart": "2019-02-22",
         "dtRangeEnd": "2019-03-07"
       },
       {
         "zone": "5-6",
-        "zones": "[5a, 5b, 6a, 6b]",
+        "zones": ["5a", "5b", "6a", "6b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-03-28",
         "dtRangeEnd": "2019-05-16"
       },
       {
         "zone": "5-6",
-        "zones": "[5a, 5b, 6a, 6b]",
+        "zones": ["5a", "5b", "6a", "6b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-09-17",
         "dtRangeEnd": "2019-10-29"
@@ -9565,7 +9565,7 @@ const plantingCalendarSeed = [
     "sowCal": [
       {
         "zone": "5-6",
-        "zones": "[5a, 5b, 6a, 6b]",
+        "zones": ["5a", "5b", "6a", "6b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-03-28",
         "dtRangeEnd": "2019-05-16"
@@ -9578,7 +9578,7 @@ const plantingCalendarSeed = [
     "sowCal": [
       {
         "zone": "5-6",
-        "zones": "[5a, 5b, 6a, 6b]",
+        "zones": ["5a", "5b", "6a", "6b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-03-28",
         "dtRangeEnd": "2019-05-16"
@@ -9591,7 +9591,7 @@ const plantingCalendarSeed = [
     "sowCal": [
       {
         "zone": "5-6",
-        "zones": "[5a, 5b, 6a, 6b]",
+        "zones": ["5a", "5b", "6a", "6b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-03-28",
         "dtRangeEnd": "2019-05-16"
@@ -9604,21 +9604,21 @@ const plantingCalendarSeed = [
     "sowCal": [
       {
         "zone": "5-6",
-        "zones": "[5a, 5b, 6a, 6b]",
+        "zones": ["5a", "5b", "6a", "6b"],
         "sowType": "Indoor Sow",
         "dtRangeStart": "2019-03-07",
         "dtRangeEnd": "2019-03-21"
       },
       {
         "zone": "5-6",
-        "zones": "[5a, 5b, 6a, 6b]",
+        "zones": ["5a", "5b", "6a", "6b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-03-28",
         "dtRangeEnd": "2019-05-16"
       },
       {
         "zone": "5-6",
-        "zones": "[5a, 5b, 6a, 6b]",
+        "zones": ["5a", "5b", "6a", "6b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-09-17",
         "dtRangeEnd": "2019-10-29"
@@ -9631,21 +9631,21 @@ const plantingCalendarSeed = [
     "sowCal": [
       {
         "zone": "5-6",
-        "zones": "[5a, 5b, 6a, 6b]",
+        "zones": ["5a", "5b", "6a", "6b"],
         "sowType": "Indoor Sow",
         "dtRangeStart": "2019-02-15",
         "dtRangeEnd": "2019-03-07"
       },
       {
         "zone": "5-6",
-        "zones": "[5a, 5b, 6a, 6b]",
+        "zones": ["5a", "5b", "6a", "6b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-03-28",
         "dtRangeEnd": "2019-05-16"
       },
       {
         "zone": "5-6",
-        "zones": "[5a, 5b, 6a, 6b]",
+        "zones": ["5a", "5b", "6a", "6b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-09-17",
         "dtRangeEnd": "2019-10-29"
@@ -9658,49 +9658,49 @@ const plantingCalendarSeed = [
     "sowCal": [
       {
         "zone": "11",
-        "zones": "[11a, 11b]",
+        "zones": ["11a", "11b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-02-22",
         "dtRangeEnd": "2019-03-28"
       },
       {
         "zone": "5-6",
-        "zones": "[5a, 5b, 6a, 6b]",
+        "zones": ["5a", "5b", "6a", "6b"],
         "sowType": "Indoor Sow",
         "dtRangeStart": "2019-02-22",
         "dtRangeEnd": "2019-03-07"
       },
       {
         "zone": "3-4",
-        "zones": "[3a, 3b, 4a, 4b]",
+        "zones": ["3a", "3b", "4a", "4b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-05-05",
         "dtRangeEnd": "2019-06-02"
       },
       {
         "zone": "5-6",
-        "zones": "[5a, 5b, 6a, 6b]",
+        "zones": ["5a", "5b", "6a", "6b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-03-28",
         "dtRangeEnd": "2019-05-16"
       },
       {
         "zone": "7-8",
-        "zones": "[7a, 7b, 8a, 8b]",
+        "zones": ["7a", "7b", "8a", "8b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-02-15",
         "dtRangeEnd": "2019-03-28"
       },
       {
         "zone": "9-10",
-        "zones": "[9a, 9b, 10a, 10b]",
+        "zones": ["9a", "9b", "10a", "10b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-02-15",
         "dtRangeEnd": "2019-03-28"
       },
       {
         "zone": "5-6",
-        "zones": "[5a, 5b, 6a, 6b]",
+        "zones": ["5a", "5b", "6a", "6b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-09-17",
         "dtRangeEnd": "2019-10-29"
@@ -9713,21 +9713,21 @@ const plantingCalendarSeed = [
     "sowCal": [
       {
         "zone": "5-6",
-        "zones": "[5a, 5b, 6a, 6b]",
+        "zones": ["5a", "5b", "6a", "6b"],
         "sowType": "Indoor Sow",
         "dtRangeStart": "2019-02-22",
         "dtRangeEnd": "2019-03-07"
       },
       {
         "zone": "5-6",
-        "zones": "[5a, 5b, 6a, 6b]",
+        "zones": ["5a", "5b", "6a", "6b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-03-28",
         "dtRangeEnd": "2019-05-16"
       },
       {
         "zone": "5-6",
-        "zones": "[5a, 5b, 6a, 6b]",
+        "zones": ["5a", "5b", "6a", "6b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-09-17",
         "dtRangeEnd": "2019-10-29"
@@ -9740,7 +9740,7 @@ const plantingCalendarSeed = [
     "sowCal": [
       {
         "zone": "5-6",
-        "zones": "[5a, 5b, 6a, 6b]",
+        "zones": ["5a", "5b", "6a", "6b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-03-28",
         "dtRangeEnd": "2019-05-16"
@@ -9753,7 +9753,7 @@ const plantingCalendarSeed = [
     "sowCal": [
       {
         "zone": "5-6",
-        "zones": "[5a, 5b, 6a, 6b]",
+        "zones": ["5a", "5b", "6a", "6b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-03-28",
         "dtRangeEnd": "2019-05-16"
@@ -9766,7 +9766,7 @@ const plantingCalendarSeed = [
     "sowCal": [
       {
         "zone": "5-6",
-        "zones": "[5a, 5b, 6a, 6b]",
+        "zones": ["5a", "5b", "6a", "6b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-03-28",
         "dtRangeEnd": "2019-05-16"
@@ -9779,21 +9779,21 @@ const plantingCalendarSeed = [
     "sowCal": [
       {
         "zone": "5-6",
-        "zones": "[5a, 5b, 6a, 6b]",
+        "zones": ["5a", "5b", "6a", "6b"],
         "sowType": "Indoor Sow",
         "dtRangeStart": "2019-03-07",
         "dtRangeEnd": "2019-03-21"
       },
       {
         "zone": "5-6",
-        "zones": "[5a, 5b, 6a, 6b]",
+        "zones": ["5a", "5b", "6a", "6b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-03-28",
         "dtRangeEnd": "2019-05-16"
       },
       {
         "zone": "5-6",
-        "zones": "[5a, 5b, 6a, 6b]",
+        "zones": ["5a", "5b", "6a", "6b"],
         "sowType": "Direct Sow",
         "dtRangeStart": "2019-04-16",
         "dtRangeEnd": "2019-05-16"
@@ -9806,70 +9806,70 @@ const plantingCalendarSeed = [
     "sowCal": [
       {
         "zone": "11",
-        "zones": "[11a, 11b]",
+        "zones": ["11a", "11b"],
         "sowType": "Indoor Sow",
         "dtRangeStart": "2019-12-21",
         "dtRangeEnd": "2019-01-04"
       },
       {
         "zone": "7-8",
-        "zones": "[7a, 7b, 8a, 8b]",
+        "zones": ["7a", "7b", "8a", "8b"],
         "sowType": "Indoor Sow",
         "dtRangeStart": "2019-12-21",
         "dtRangeEnd": "2019-01-04"
       },
       {
         "zone": "9-10",
-        "zones": "[9a, 9b, 10a, 10b]",
+        "zones": ["9a", "9b", "10a", "10b"],
         "sowType": "Indoor Sow",
         "dtRangeStart": "2019-12-21",
         "dtRangeEnd": "2019-01-04"
       },
       {
         "zone": "11",
-        "zones": "[11a, 11b]",
+        "zones": ["11a", "11b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-02-22",
         "dtRangeEnd": "2019-03-28"
       },
       {
         "zone": "5-6",
-        "zones": "[5a, 5b, 6a, 6b]",
+        "zones": ["5a", "5b", "6a", "6b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-03-28",
         "dtRangeEnd": "2019-05-16"
       },
       {
         "zone": "7-8",
-        "zones": "[7a, 7b, 8a, 8b]",
+        "zones": ["7a", "7b", "8a", "8b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-02-15",
         "dtRangeEnd": "2019-03-28"
       },
       {
         "zone": "9-10",
-        "zones": "[9a, 9b, 10a, 10b]",
+        "zones": ["9a", "9b", "10a", "10b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-02-15",
         "dtRangeEnd": "2019-03-28"
       },
       {
         "zone": "11",
-        "zones": "[11a, 11b]",
+        "zones": ["11a", "11b"],
         "sowType": "Direct Sow",
         "dtRangeStart": "2019-02-22",
         "dtRangeEnd": "2019-03-28"
       },
       {
         "zone": "7-8",
-        "zones": "[7a, 7b, 8a, 8b]",
+        "zones": ["7a", "7b", "8a", "8b"],
         "sowType": "Direct Sow",
         "dtRangeStart": "2019-02-15",
         "dtRangeEnd": "2019-03-28"
       },
       {
         "zone": "9-10",
-        "zones": "[9a, 9b, 10a, 10b]",
+        "zones": ["9a", "9b", "10a", "10b"],
         "sowType": "Direct Sow",
         "dtRangeStart": "2019-02-15",
         "dtRangeEnd": "2019-03-28"
@@ -9882,28 +9882,28 @@ const plantingCalendarSeed = [
     "sowCal": [
       {
         "zone": "3-4",
-        "zones": "[3a, 3b, 4a, 4b]",
+        "zones": ["3a", "3b", "4a", "4b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-05-05",
         "dtRangeEnd": "2019-06-02"
       },
       {
         "zone": "5-6",
-        "zones": "[5a, 5b, 6a, 6b]",
+        "zones": ["5a", "5b", "6a", "6b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-03-28",
         "dtRangeEnd": "2019-05-16"
       },
       {
         "zone": "5-6",
-        "zones": "[5a, 5b, 6a, 6b]",
+        "zones": ["5a", "5b", "6a", "6b"],
         "sowType": "Direct Sow",
         "dtRangeStart": "2019-04-16",
         "dtRangeEnd": "2019-05-16"
       },
       {
         "zone": "3-4",
-        "zones": "[3a, 3b, 4a, 4b]",
+        "zones": ["3a", "3b", "4a", "4b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-09-04",
         "dtRangeEnd": "2019-10-16"
@@ -9916,7 +9916,7 @@ const plantingCalendarSeed = [
     "sowCal": [
       {
         "zone": "5-6",
-        "zones": "[5a, 5b, 6a, 6b]",
+        "zones": ["5a", "5b", "6a", "6b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-03-28",
         "dtRangeEnd": "2019-05-16"
@@ -9929,7 +9929,7 @@ const plantingCalendarSeed = [
     "sowCal": [
       {
         "zone": "5-6",
-        "zones": "[5a, 5b, 6a, 6b]",
+        "zones": ["5a", "5b", "6a", "6b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-03-28",
         "dtRangeEnd": "2019-05-16"
@@ -9942,56 +9942,56 @@ const plantingCalendarSeed = [
     "sowCal": [
       {
         "zone": "11",
-        "zones": "[11a, 11b]",
+        "zones": ["11a", "11b"],
         "sowType": "Indoor Sow",
         "dtRangeStart": "2019-12-21",
         "dtRangeEnd": "2019-01-04"
       },
       {
         "zone": "3-4",
-        "zones": "[3a, 3b, 4a, 4b]",
+        "zones": ["3a", "3b", "4a", "4b"],
         "sowType": "Indoor Sow",
         "dtRangeStart": "2019-01-14",
         "dtRangeEnd": "2019-04-21"
       },
       {
         "zone": "3-4",
-        "zones": "[3a, 3b, 4a, 4b]",
+        "zones": ["3a", "3b", "4a", "4b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-05-19",
         "dtRangeEnd": "2019-06-16"
       },
       {
         "zone": "5-6",
-        "zones": "[5a, 5b, 6a, 6b]",
+        "zones": ["5a", "5b", "6a", "6b"],
         "sowType": "Indoor Sow",
         "dtRangeStart": "2019-03-07",
         "dtRangeEnd": "2019-03-21"
       },
       {
         "zone": "5-6",
-        "zones": "[5a, 5b, 6a, 6b]",
+        "zones": ["5a", "5b", "6a", "6b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-05-02",
         "dtRangeEnd": "2019-05-30"
       },
       {
         "zone": "11",
-        "zones": "[11a, 11b]",
+        "zones": ["11a", "11b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-02-22",
         "dtRangeEnd": "2019-03-28"
       },
       {
         "zone": "7-8",
-        "zones": "[7a, 7b, 8a, 8b]",
+        "zones": ["7a", "7b", "8a", "8b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-12-21",
         "dtRangeEnd": "2019-01-04"
       },
       {
         "zone": "9-10",
-        "zones": "[9a, 9b, 10a, 10b]",
+        "zones": ["9a", "9b", "10a", "10b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-12-21",
         "dtRangeEnd": "2019-01-04"
@@ -10004,35 +10004,35 @@ const plantingCalendarSeed = [
     "sowCal": [
       {
         "zone": "11",
-        "zones": "[11a, 11b]",
+        "zones": ["11a", "11b"],
         "sowType": "Direct Sow",
         "dtRangeStart": "2019-02-01",
         "dtRangeEnd": "2019-02-28"
       },
       {
         "zone": "3-4",
-        "zones": "[3a, 3b, 4a, 4b]",
+        "zones": ["3a", "3b", "4a", "4b"],
         "sowType": "Direct Sow",
         "dtRangeStart": "2019-05-05",
         "dtRangeEnd": "2019-06-02"
       },
       {
         "zone": "5-6",
-        "zones": "[5a, 5b, 6a, 6b]",
+        "zones": ["5a", "5b", "6a", "6b"],
         "sowType": "Direct Sow",
         "dtRangeStart": "2019-04-18",
         "dtRangeEnd": "2019-05-16"
       },
       {
         "zone": "7-8",
-        "zones": "[7a, 7b, 8a, 8b]",
+        "zones": ["7a", "7b", "8a", "8b"],
         "sowType": "Direct Sow",
         "dtRangeStart": "2019-02-01",
         "dtRangeEnd": "2019-02-28"
       },
       {
         "zone": "9-10",
-        "zones": "[9a, 9b, 10a, 10b]",
+        "zones": ["9a", "9b", "10a", "10b"],
         "sowType": "Direct Sow",
         "dtRangeStart": "2019-02-01",
         "dtRangeEnd": "2019-02-28"
@@ -10045,91 +10045,91 @@ const plantingCalendarSeed = [
     "sowCal": [
       {
         "zone": "11",
-        "zones": "[11a, 11b]",
+        "zones": ["11a", "11b"],
         "sowType": "Indoor Sow",
         "dtRangeStart": "2019-12-21",
         "dtRangeEnd": "2019-01-18"
       },
       {
         "zone": "11",
-        "zones": "[11a, 11b]",
+        "zones": ["11a", "11b"],
         "sowType": "Direct Sow",
         "dtRangeStart": "2019-02-01",
         "dtRangeEnd": "2019-04-01"
       },
       {
         "zone": "3-4",
-        "zones": "[3a, 3b, 4a, 4b]",
+        "zones": ["3a", "3b", "4a", "4b"],
         "sowType": "Direct Sow",
         "dtRangeStart": "2019-05-05",
         "dtRangeEnd": "2019-06-02"
       },
       {
         "zone": "5-6",
-        "zones": "[5a, 5b, 6a, 6b]",
+        "zones": ["5a", "5b", "6a", "6b"],
         "sowType": "Indoor Sow",
         "dtRangeStart": "2019-03-07",
         "dtRangeEnd": "2019-04-04"
       },
       {
         "zone": "5-6",
-        "zones": "[5a, 5b, 6a, 6b]",
+        "zones": ["5a", "5b", "6a", "6b"],
         "sowType": "Direct Sow",
         "dtRangeStart": "2019-04-18",
         "dtRangeEnd": "2019-05-16"
       },
       {
         "zone": "5-6",
-        "zones": "[5a, 5b, 6a, 6b]",
+        "zones": ["5a", "5b", "6a", "6b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-04-18",
         "dtRangeEnd": "2019-05-16"
       },
       {
         "zone": "7-8",
-        "zones": "[7a, 7b, 8a, 8b]",
+        "zones": ["7a", "7b", "8a", "8b"],
         "sowType": "Indoor Sow",
         "dtRangeStart": "2019-12-21",
         "dtRangeEnd": "2019-01-18"
       },
       {
         "zone": "7-8",
-        "zones": "[7a, 7b, 8a, 8b]",
+        "zones": ["7a", "7b", "8a", "8b"],
         "sowType": "Direct Sow",
         "dtRangeStart": "2019-02-01",
         "dtRangeEnd": "2019-04-01"
       },
       {
         "zone": "9-10",
-        "zones": "[9a, 9b, 10a, 10b]",
+        "zones": ["9a", "9b", "10a", "10b"],
         "sowType": "Indoor Sow",
         "dtRangeStart": "2019-12-21",
         "dtRangeEnd": "2019-01-18"
       },
       {
         "zone": "9-10",
-        "zones": "[9a, 9b, 10a, 10b]",
+        "zones": ["9a", "9b", "10a", "10b"],
         "sowType": "Direct Sow",
         "dtRangeStart": "2019-02-01",
         "dtRangeEnd": "2019-04-01"
       },
       {
         "zone": "11",
-        "zones": "[11a, 11b]",
+        "zones": ["11a", "11b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-02-01",
         "dtRangeEnd": "2019-04-01"
       },
       {
         "zone": "7-8",
-        "zones": "[7a, 7b, 8a, 8b]",
+        "zones": ["7a", "7b", "8a", "8b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-02-01",
         "dtRangeEnd": "2019-04-01"
       },
       {
         "zone": "9-10",
-        "zones": "[9a, 9b, 10a, 10b]",
+        "zones": ["9a", "9b", "10a", "10b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-02-01",
         "dtRangeEnd": "2019-04-01"
@@ -10142,21 +10142,21 @@ const plantingCalendarSeed = [
     "sowCal": [
       {
         "zone": "3-4",
-        "zones": "[3a, 3b, 4a, 4b]",
+        "zones": ["3a", "3b", "4a", "4b"],
         "sowType": "Indoor Sow",
         "dtRangeStart": "2019-02-25",
         "dtRangeEnd": "2019-04-21"
       },
       {
         "zone": "3-4",
-        "zones": "[3a, 3b, 4a, 4b]",
+        "zones": ["3a", "3b", "4a", "4b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-05-05",
         "dtRangeEnd": "2019-06-02"
       },
       {
         "zone": "5-6",
-        "zones": "[5a, 5b, 6a, 6b]",
+        "zones": ["5a", "5b", "6a", "6b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-04-04",
         "dtRangeEnd": "2019-03-28"
@@ -10169,35 +10169,35 @@ const plantingCalendarSeed = [
     "sowCal": [
       {
         "zone": "11",
-        "zones": "[11a, 11b]",
+        "zones": ["11a", "11b"],
         "sowType": "Direct Sow",
         "dtRangeStart": "2019-02-15",
         "dtRangeEnd": "2019-04-11"
       },
       {
         "zone": "3-4",
-        "zones": "[3a, 3b, 4a, 4b]",
+        "zones": ["3a", "3b", "4a", "4b"],
         "sowType": "Direct Sow",
         "dtRangeStart": "2019-05-19",
         "dtRangeEnd": "2019-07-28"
       },
       {
         "zone": "5-6",
-        "zones": "[5a, 5b, 6a, 6b]",
+        "zones": ["5a", "5b", "6a", "6b"],
         "sowType": "Direct Sow",
         "dtRangeStart": "2019-05-16",
         "dtRangeEnd": "2019-06-13"
       },
       {
         "zone": "7-8",
-        "zones": "[7a, 7b, 8a, 8b]",
+        "zones": ["7a", "7b", "8a", "8b"],
         "sowType": "Direct Sow",
         "dtRangeStart": "2019-03-01",
         "dtRangeEnd": "2019-04-11"
       },
       {
         "zone": "9-10",
-        "zones": "[9a, 9b, 10a, 10b]",
+        "zones": ["9a", "9b", "10a", "10b"],
         "sowType": "Direct Sow",
         "dtRangeStart": "2019-03-01",
         "dtRangeEnd": "2019-04-11"
@@ -10210,35 +10210,35 @@ const plantingCalendarSeed = [
     "sowCal": [
       {
         "zone": "11",
-        "zones": "[11a, 11b]",
+        "zones": ["11a", "11b"],
         "sowType": "Direct Sow",
         "dtRangeStart": "2019-02-01",
         "dtRangeEnd": "2019-03-28"
       },
       {
         "zone": "3-4",
-        "zones": "[3a, 3b, 4a, 4b]",
+        "zones": ["3a", "3b", "4a", "4b"],
         "sowType": "Direct Sow",
         "dtRangeStart": "2019-05-19",
         "dtRangeEnd": "2019-07-28"
       },
       {
         "zone": "5-6",
-        "zones": "[5a, 5b, 6a, 6b]",
+        "zones": ["5a", "5b", "6a", "6b"],
         "sowType": "Direct Sow",
         "dtRangeStart": "2019-05-16",
         "dtRangeEnd": "2019-06-13"
       },
       {
         "zone": "7-8",
-        "zones": "[7a, 7b, 8a, 8b]",
+        "zones": ["7a", "7b", "8a", "8b"],
         "sowType": "Direct Sow",
         "dtRangeStart": "2019-02-01",
         "dtRangeEnd": "2019-03-28"
       },
       {
         "zone": "9-10",
-        "zones": "[9a, 9b, 10a, 10b]",
+        "zones": ["9a", "9b", "10a", "10b"],
         "sowType": "Direct Sow",
         "dtRangeStart": "2019-02-01",
         "dtRangeEnd": "2019-03-28"
@@ -10251,63 +10251,63 @@ const plantingCalendarSeed = [
     "sowCal": [
       {
         "zone": "3-4",
-        "zones": "[3a, 3b, 4a, 4b]",
+        "zones": ["3a", "3b", "4a", "4b"],
         "sowType": "Indoor Sow",
         "dtRangeStart": "2019-03-24",
         "dtRangeEnd": "2019-04-21"
       },
       {
         "zone": "3-4",
-        "zones": "[3a, 3b, 4a, 4b]",
+        "zones": ["3a", "3b", "4a", "4b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-04-21",
         "dtRangeEnd": "2019-05-05"
       },
       {
         "zone": "9-10",
-        "zones": "[9a, 9b, 10a, 10b]",
+        "zones": ["9a", "9b", "10a", "10b"],
         "sowType": "Indoor Sow",
         "dtRangeStart": "2019-12-21",
         "dtRangeEnd": "2019-01-18"
       },
       {
         "zone": "5-6",
-        "zones": "[5a, 5b, 6a, 6b]",
+        "zones": ["5a", "5b", "6a", "6b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-04-04",
         "dtRangeEnd": "2019-04-18"
       },
       {
         "zone": "11",
-        "zones": "[11a, 11b]",
+        "zones": ["11a", "11b"],
         "sowType": "Direct Sow",
         "dtRangeStart": "2019-12-21",
         "dtRangeEnd": "2019-01-18"
       },
       {
         "zone": "7-8",
-        "zones": "[7a, 7b, 8a, 8b]",
+        "zones": ["7a", "7b", "8a", "8b"],
         "sowType": "Direct Sow",
         "dtRangeStart": "2019-12-21",
         "dtRangeEnd": "2019-01-18"
       },
       {
         "zone": "9-10",
-        "zones": "[9a, 9b, 10a, 10b]",
+        "zones": ["9a", "9b", "10a", "10b"],
         "sowType": "Direct Sow",
         "dtRangeStart": "2019-02-01",
         "dtRangeEnd": "2019-03-01"
       },
       {
         "zone": "3-4",
-        "zones": "[3a, 3b, 4a, 4b]",
+        "zones": ["3a", "3b", "4a", "4b"],
         "sowType": "Indoor Sow",
         "dtRangeStart": "2019-06-12",
         "dtRangeEnd": "2019-07-24"
       },
       {
         "zone": "3-4",
-        "zones": "[3a, 3b, 4a, 4b]",
+        "zones": ["3a", "3b", "4a", "4b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-08-15",
         "dtRangeEnd": "2019-09-05"
@@ -10320,35 +10320,35 @@ const plantingCalendarSeed = [
     "sowCal": [
       {
         "zone": "11",
-        "zones": "[11a, 11b]",
+        "zones": ["11a", "11b"],
         "sowType": "Direct Sow",
         "dtRangeStart": "2019-02-01",
         "dtRangeEnd": "2019-03-01"
       },
       {
         "zone": "3-4",
-        "zones": "[3a, 3b, 4a, 4b]",
+        "zones": ["3a", "3b", "4a", "4b"],
         "sowType": "Direct Sow",
         "dtRangeStart": "2019-05-05",
         "dtRangeEnd": "2019-06-02"
       },
       {
         "zone": "5-6",
-        "zones": "[5a, 5b, 6a, 6b]",
+        "zones": ["5a", "5b", "6a", "6b"],
         "sowType": "Direct Sow",
         "dtRangeStart": "2019-04-18",
         "dtRangeEnd": "2019-05-16"
       },
       {
         "zone": "7-8",
-        "zones": "[7a, 7b, 8a, 8b]",
+        "zones": ["7a", "7b", "8a", "8b"],
         "sowType": "Direct Sow",
         "dtRangeStart": "2019-02-01",
         "dtRangeEnd": "2019-03-01"
       },
       {
         "zone": "9-10",
-        "zones": "[9a, 9b, 10a, 10b]",
+        "zones": ["9a", "9b", "10a", "10b"],
         "sowType": "Direct Sow",
         "dtRangeStart": "2019-02-01",
         "dtRangeEnd": "2019-03-01"
@@ -10361,77 +10361,77 @@ const plantingCalendarSeed = [
     "sowCal": [
       {
         "zone": "3-4",
-        "zones": "[3a, 3b, 4a, 4b]",
+        "zones": ["3a", "3b", "4a", "4b"],
         "sowType": "Indoor Sow",
         "dtRangeStart": "2019-03-24",
         "dtRangeEnd": "2019-04-21"
       },
       {
         "zone": "3-4",
-        "zones": "[3a, 3b, 4a, 4b]",
+        "zones": ["3a", "3b", "4a", "4b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-04-21",
         "dtRangeEnd": "2019-05-05"
       },
       {
         "zone": "5-6",
-        "zones": "[5a, 5b, 6a, 6b]",
+        "zones": ["5a", "5b", "6a", "6b"],
         "sowType": "Indoor Sow",
         "dtRangeStart": "2019-03-07",
         "dtRangeEnd": "2019-04-04"
       },
       {
         "zone": "9-10",
-        "zones": "[9a, 9b, 10a, 10b]",
+        "zones": ["9a", "9b", "10a", "10b"],
         "sowType": "Indoor Sow",
         "dtRangeStart": "2019-12-21",
         "dtRangeEnd": "2019-01-18"
       },
       {
         "zone": "5-6",
-        "zones": "[5a, 5b, 6a, 6b]",
+        "zones": ["5a", "5b", "6a", "6b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-04-18",
         "dtRangeEnd": "2019-05-16"
       },
       {
         "zone": "11",
-        "zones": "[11a, 11b]",
+        "zones": ["11a", "11b"],
         "sowType": "Direct Sow",
         "dtRangeStart": "2019-12-21",
         "dtRangeEnd": "2019-01-18"
       },
       {
         "zone": "5-6",
-        "zones": "[5a, 5b, 6a, 6b]",
+        "zones": ["5a", "5b", "6a", "6b"],
         "sowType": "Direct Sow",
         "dtRangeStart": "2019-04-18",
         "dtRangeEnd": "2019-05-16"
       },
       {
         "zone": "7-8",
-        "zones": "[7a, 7b, 8a, 8b]",
+        "zones": ["7a", "7b", "8a", "8b"],
         "sowType": "Direct Sow",
         "dtRangeStart": "2019-12-21",
         "dtRangeEnd": "2019-01-18"
       },
       {
         "zone": "9-10",
-        "zones": "[9a, 9b, 10a, 10b]",
+        "zones": ["9a", "9b", "10a", "10b"],
         "sowType": "Direct Sow",
         "dtRangeStart": "2019-02-01",
         "dtRangeEnd": "2019-03-01"
       },
       {
         "zone": "3-4",
-        "zones": "[3a, 3b, 4a, 4b]",
+        "zones": ["3a", "3b", "4a", "4b"],
         "sowType": "Indoor Sow",
         "dtRangeStart": "2019-06-12",
         "dtRangeEnd": "2019-07-24"
       },
       {
         "zone": "3-4",
-        "zones": "[3a, 3b, 4a, 4b]",
+        "zones": ["3a", "3b", "4a", "4b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-08-15",
         "dtRangeEnd": "2019-09-05"
@@ -10444,77 +10444,77 @@ const plantingCalendarSeed = [
     "sowCal": [
       {
         "zone": "3-4",
-        "zones": "[3a, 3b, 4a, 4b]",
+        "zones": ["3a", "3b", "4a", "4b"],
         "sowType": "Indoor Sow",
         "dtRangeStart": "2019-03-24",
         "dtRangeEnd": "2019-04-21"
       },
       {
         "zone": "5-6",
-        "zones": "[5a, 5b, 6a, 6b]",
+        "zones": ["5a", "5b", "6a", "6b"],
         "sowType": "Indoor Sow",
         "dtRangeStart": "2019-03-07",
         "dtRangeEnd": "2019-04-04"
       },
       {
         "zone": "5-6",
-        "zones": "[5a, 5b, 6a, 6b]",
+        "zones": ["5a", "5b", "6a", "6b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-04-18",
         "dtRangeEnd": "2019-05-16"
       },
       {
         "zone": "11",
-        "zones": "[11a, 11b]",
+        "zones": ["11a", "11b"],
         "sowType": "Direct Sow",
         "dtRangeStart": "2019-02-01",
         "dtRangeEnd": "2019-03-01"
       },
       {
         "zone": "3-4",
-        "zones": "[3a, 3b, 4a, 4b]",
+        "zones": ["3a", "3b", "4a", "4b"],
         "sowType": "Direct Sow",
         "dtRangeStart": "2019-05-05",
         "dtRangeEnd": "2019-06-02"
       },
       {
         "zone": "7-8",
-        "zones": "[7a, 7b, 8a, 8b]",
+        "zones": ["7a", "7b", "8a", "8b"],
         "sowType": "Direct Sow",
         "dtRangeStart": "2019-02-01",
         "dtRangeEnd": "2019-03-01"
       },
       {
         "zone": "9-10",
-        "zones": "[9a, 9b, 10a, 10b]",
+        "zones": ["9a", "9b", "10a", "10b"],
         "sowType": "Direct Sow",
         "dtRangeStart": "2019-02-01",
         "dtRangeEnd": "2019-03-01"
       },
       {
         "zone": "3-4",
-        "zones": "[3a, 3b, 4a, 4b]",
+        "zones": ["3a", "3b", "4a", "4b"],
         "sowType": "Indoor Sow",
         "dtRangeStart": "2019-07-24",
         "dtRangeEnd": "2019-09-18"
       },
       {
         "zone": "5-6",
-        "zones": "[5a, 5b, 6a, 6b]",
+        "zones": ["5a", "5b", "6a", "6b"],
         "sowType": "Indoor Sow",
         "dtRangeStart": "2019-07-09",
         "dtRangeEnd": "2019-08-20"
       },
       {
         "zone": "5-6",
-        "zones": "[5a, 5b, 6a, 6b]",
+        "zones": ["5a", "5b", "6a", "6b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-09-01",
         "dtRangeEnd": "2019-10-15"
       },
       { 
           "zone" : "3-4", 
-          "zones" : "[3a, 3b, 4a, 4b]", 
+          "zones" : ["3a", "3b", "4a", "4b"], 
           "sowType": "Direct Sow",
           "dtRangeStart" : "2019-07-10", 
           "dtRangeEnd" : "2019-08-21"
@@ -10527,77 +10527,77 @@ const plantingCalendarSeed = [
     "sowCal": [
       {
         "zone": "3-4",
-        "zones": "[3a, 3b, 4a, 4b]",
+        "zones": ["3a", "3b", "4a", "4b"],
         "sowType": "Indoor Sow",
         "dtRangeStart": "2019-03-24",
         "dtRangeEnd": "2019-04-21"
       },
       {
         "zone": "3-4",
-        "zones": "[3a, 3b, 4a, 4b]",
+        "zones": ["3a", "3b", "4a", "4b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-04-21",
         "dtRangeEnd": "2019-05-05"
       },
       {
         "zone": "9-10",
-        "zones": "[9a, 9b, 10a, 10b]",
+        "zones": ["9a", "9b", "10a", "10b"],
         "sowType": "Indoor Sow",
         "dtRangeStart": "2019-12-21",
         "dtRangeEnd": "2019-01-18"
       },
       {
         "zone": "5-6",
-        "zones": "[5a, 5b, 6a, 6b]",
+        "zones": ["5a", "5b", "6a", "6b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-04-04",
         "dtRangeEnd": "2019-04-18"
       },
       {
         "zone": "11",
-        "zones": "[11a, 11b]",
+        "zones": ["11a", "11b"],
         "sowType": "Direct Sow",
         "dtRangeStart": "2019-12-21",
         "dtRangeEnd": "2019-01-18"
       },
       {
         "zone": "7-8",
-        "zones": "[7a, 7b, 8a, 8b]",
+        "zones": ["7a", "7b", "8a", "8b"],
         "sowType": "Direct Sow",
         "dtRangeStart": "2019-12-21",
         "dtRangeEnd": "2019-01-18"
       },
       {
         "zone": "9-10",
-        "zones": "[9a, 9b, 10a, 10b]",
+        "zones": ["9a", "9b", "10a", "10b"],
         "sowType": "Direct Sow",
         "dtRangeStart": "2019-02-01",
         "dtRangeEnd": "2019-03-01"
       },
       {
         "zone": "3-4",
-        "zones": "[3a, 3b, 4a, 4b]",
+        "zones": ["3a", "3b", "4a", "4b"],
         "sowType": "Indoor Sow",
         "dtRangeStart": "2019-06-12",
         "dtRangeEnd": "2019-07-24"
       },
       {
         "zone": "9-10",
-        "zones": "[9a, 9b, 10a, 10b]",
+        "zones": ["9a", "9b", "10a", "10b"],
         "sowType": "Indoor Sow",
         "dtRangeStart": "2019-02-01",
         "dtRangeEnd": "2019-03-01"
       },
       {
         "zone": "3-4",
-        "zones": "[3a, 3b, 4a, 4b]",
+        "zones": ["3a", "3b", "4a", "4b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-08-15",
         "dtRangeEnd": "2019-09-05"
       },
       { 
         "zone" : "9-10", 
-        "zones" : "[9a, 9b, 10a, 10b]", 
+        "zones" : ["9a", "9b", "10a", "10b"], 
         "sowType": "Direct Sow",
         "dtRangeStart" : "2019-01-12", 
         "dtRangeEnd" : "2019-02-09"
@@ -10610,35 +10610,35 @@ const plantingCalendarSeed = [
     "sowCal": [
       {
         "zone": "11",
-        "zones": "[11a, 11b]",
+        "zones": ["11a", "11b"],
         "sowType": "Direct Sow",
         "dtRangeStart": "2019-02-01",
         "dtRangeEnd": "2019-03-28"
       },
       {
         "zone": "3-4",
-        "zones": "[3a, 3b, 4a, 4b]",
+        "zones": ["3a", "3b", "4a", "4b"],
         "sowType": "Direct Sow",
         "dtRangeStart": "2019-05-19",
         "dtRangeEnd": "2019-06-02"
       },
       {
         "zone": "5-6",
-        "zones": "[5a, 5b, 6a, 6b]",
+        "zones": ["5a", "5b", "6a", "6b"],
         "sowType": "Direct Sow",
         "dtRangeStart": "2019-04-18",
         "dtRangeEnd": "2019-07-25"
       },
       {
         "zone": "7-8",
-        "zones": "[7a, 7b, 8a, 8b]",
+        "zones": ["7a", "7b", "8a", "8b"],
         "sowType": "Direct Sow",
         "dtRangeStart": "2019-02-01",
         "dtRangeEnd": "2019-03-28"
       },
       {
         "zone": "9-10",
-        "zones": "[9a, 9b, 10a, 10b]",
+        "zones": ["9a", "9b", "10a", "10b"],
         "sowType": "Direct Sow",
         "dtRangeStart": "2019-02-01",
         "dtRangeEnd": "2019-03-28"
@@ -10651,140 +10651,140 @@ const plantingCalendarSeed = [
     "sowCal": [
       {
         "zone": "11",
-        "zones": "[11a, 11b]",
+        "zones": ["11a", "11b"],
         "sowType": "Indoor Sow",
         "dtRangeStart": "2019-12-21",
         "dtRangeEnd": "2019-01-18"
       },
       {
         "zone": "3-4",
-        "zones": "[3a, 3b, 4a, 4b]",
+        "zones": ["3a", "3b", "4a", "4b"],
         "sowType": "Indoor Sow",
         "dtRangeStart": "2019-03-24",
         "dtRangeEnd": "2019-04-21"
       },
       {
         "zone": "3-4",
-        "zones": "[3a, 3b, 4a, 4b]",
+        "zones": ["3a", "3b", "4a", "4b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-04-21",
         "dtRangeEnd": "2019-05-05"
       },
       {
         "zone": "7-8",
-        "zones": "[7a, 7b, 8a, 8b]",
+        "zones": ["7a", "7b", "8a", "8b"],
         "sowType": "Indoor Sow",
         "dtRangeStart": "2019-12-21",
         "dtRangeEnd": "2019-01-18"
       },
       {
         "zone": "9-10",
-        "zones": "[9a, 9b, 10a, 10b]",
+        "zones": ["9a", "9b", "10a", "10b"],
         "sowType": "Indoor Sow",
         "dtRangeStart": "2019-12-21",
         "dtRangeEnd": "2019-01-18"
       },
       {
         "zone": "5-6",
-        "zones": "[5a, 5b, 6a, 6b]",
+        "zones": ["5a", "5b", "6a", "6b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-04-04",
         "dtRangeEnd": "2019-04-18"
       },
       {
         "zone": "11",
-        "zones": "[11a, 11b]",
+        "zones": ["11a", "11b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-02-01",
         "dtRangeEnd": "2019-04-01"
       },
       {
         "zone": "7-8",
-        "zones": "[7a, 7b, 8a, 8b]",
+        "zones": ["7a", "7b", "8a", "8b"],
         "sowType": "Direct Sow",
         "dtRangeStart": "2019-02-01",
         "dtRangeEnd": "2019-03-01"
       },
       {
         "zone": "9-10",
-        "zones": "[9a, 9b, 10a, 10b]",
+        "zones": ["9a", "9b", "10a", "10b"],
         "sowType": "Direct Sow",
         "dtRangeStart": "2019-02-01",
         "dtRangeEnd": "2019-03-01"
       },
       {
         "zone": "11",
-        "zones": "[11a, 11b]",
+        "zones": ["11a", "11b"],
         "sowType": "Indoor Sow",
         "dtRangeStart": "2019-09-08",
         "dtRangeEnd": "2019-09-22"
       },
       {
         "zone": "3-4",
-        "zones": "[3a, 3b, 4a, 4b]",
+        "zones": ["3a", "3b", "4a", "4b"],
         "sowType": "Indoor Sow",
         "dtRangeStart": "2019-06-12",
         "dtRangeEnd": "2019-07-24"
       },
       {
         "zone": "7-8",
-        "zones": "[7a, 7b, 8a, 8b]",
+        "zones": ["7a", "7b", "8a", "8b"],
         "sowType": "Indoor Sow",
         "dtRangeStart": "2019-09-08",
         "dtRangeEnd": "2019-09-22"
       },
       {
         "zone": "9-10",
-        "zones": "[9a, 9b, 10a, 10b]",
+        "zones": ["9a", "9b", "10a", "10b"],
         "sowType": "Indoor Sow",
         "dtRangeStart": "2019-09-08",
         "dtRangeEnd": "2019-09-22"
       },
       {
         "zone": "11",
-        "zones": "[11a, 11b]",
+        "zones": ["11a", "11b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-09-22",
         "dtRangeEnd": "2019-10-29"
       },
       {
         "zone": "3-4",
-        "zones": "[3a, 3b, 4a, 4b]",
+        "zones": ["3a", "3b", "4a", "4b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-08-15",
         "dtRangeEnd": "2019-09-05"
       },
       {
         "zone": "7-8",
-        "zones": "[7a, 7b, 8a, 8b]",
+        "zones": ["7a", "7b", "8a", "8b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-09-22",
         "dtRangeEnd": "2019-10-29"
       },
       {
         "zone": "9-10",
-        "zones": "[9a, 9b, 10a, 10b]",
+        "zones": ["9a", "9b", "10a", "10b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-09-22",
         "dtRangeEnd": "2019-10-29"
       },
       { 
           "zone" : "11", 
-          "zones" : "[11a, 11b]", 
+          "zones" : ["11a", "11b"], 
           "sowType": "Direct Sow",
           "dtRangeStart" : "2019-09-22", 
           "dtRangeEnd" : "2019-10-20"
       },
       { 
           "zone" : "7-8", 
-          "zones" : "[7a, 7b, 8a, 8b]", 
+          "zones" : ["7a", "7b", "8a", "8b"], 
           "sowType": "Direct Sow",
           "dtRangeStart" : "2019-09-22",
           "dtRangeEnd" : "2019-10-20"
       },
       { 
           "zone" : "9-10", 
-          "zones" : "[9a, 9b, 10a, 10b]", 
+          "zones" : ["9a", "9b", "10a", "10b"], 
           "sowType": "Direct Sow",
           "dtRangeStart" : "2019-09-22", 
           "dtRangeEnd" : "2019-10-20"
@@ -10797,28 +10797,28 @@ const plantingCalendarSeed = [
     "sowCal": [
       {
         "zone": "11",
-        "zones": "[11a, 11b]",
+        "zones": ["11a", "11b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-01-18",
         "dtRangeEnd": "2019-02-01"
       },
       {
         "zone": "3-4",
-        "zones": "[3a, 3b, 4a, 4b]",
+        "zones": ["3a", "3b", "4a", "4b"],
         "sowType": "Indoor Sow",
         "dtRangeStart": "2019-02-25",
         "dtRangeEnd": "2019-03-28"
       },
       {
         "zone": "3-4",
-        "zones": "[3a, 3b, 4a, 4b]",
+        "zones": ["3a", "3b", "4a", "4b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-04-21",
         "dtRangeEnd": "2019-05-05"
       },
       {
         "zone": "5-6",
-        "zones": "[5a, 5b, 6a, 6b]",
+        "zones": ["5a", "5b", "6a", "6b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-02-22",
         "dtRangeEnd": "2019-04-18"
@@ -10831,91 +10831,91 @@ const plantingCalendarSeed = [
     "sowCal": [
       {
         "zone": "3-4",
-        "zones": "[3a, 3b, 4a, 4b]",
+        "zones": ["3a", "3b", "4a", "4b"],
         "sowType": "Indoor Sow",
         "dtRangeStart": "2019-03-24",
         "dtRangeEnd": "2019-05-19"
       },
       {
         "zone": "11",
-        "zones": "[11a, 11b]",
+        "zones": ["11a", "11b"],
         "sowType": "Direct Sow",
         "dtRangeStart": "2019-02-01",
         "dtRangeEnd": "2019-03-01"
       },
       {
         "zone": "3-4",
-        "zones": "[3a, 3b, 4a, 4b]",
+        "zones": ["3a", "3b", "4a", "4b"],
         "sowType": "Direct Sow",
         "dtRangeStart": "2019-04-21",
         "dtRangeEnd": "2019-05-05"
       },
       {
         "zone": "5-6",
-        "zones": "[5a, 5b, 6a, 6b]",
+        "zones": ["5a", "5b", "6a", "6b"],
         "sowType": "Direct Sow",
         "dtRangeStart": "2019-04-04",
         "dtRangeEnd": "2019-05-02"
       },
       {
         "zone": "7-8",
-        "zones": "[7a, 7b, 8a, 8b]",
+        "zones": ["7a", "7b", "8a", "8b"],
         "sowType": "Direct Sow",
         "dtRangeStart": "2019-02-01",
         "dtRangeEnd": "2019-03-01"
       },
       {
         "zone": "9-10",
-        "zones": "[9a, 9b, 10a, 10b]",
+        "zones": ["9a", "9b", "10a", "10b"],
         "sowType": "Direct Sow",
         "dtRangeStart": "2019-02-01",
         "dtRangeEnd": "2019-03-01"
       },
       {
         "zone": "3-4",
-        "zones": "[3a, 3b, 4a, 4b]",
+        "zones": ["3a", "3b", "4a", "4b"],
         "sowType": "Indoor Sow",
         "dtRangeStart": "2019-07-24",
         "dtRangeEnd": "2019-09-18"
       },
       {
         "zone": "3-4",
-        "zones": "[3a, 3b, 4a, 4b]",
+        "zones": ["3a", "3b", "4a", "4b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-08-15",
         "dtRangeEnd": "2019-09-05"
       },
       { 
         "zone" : "11", 
-        "zones" : "[11a, 11b]", 
+        "zones" : ["11a", "11b"], 
         "sowType": "Direct Sow",
         "dtRangeStart" : "2019-01-12", 
         "dtRangeEnd" : "2019-02-09"
       },
       { 
         "zone" : "3-4", 
-        "zones" : "[3a, 3b, 4a, 4b]", 
+        "zones" : ["3a", "3b", "4a", "4b"], 
         "sowType": "Direct Sow",
         "dtRangeStart" : "2019-08-21", 
         "dtRangeEnd" : "2019-09-04"
       },
       { 
         "zone" : "5-6", 
-        "zones" : "[5a, 5b, 6a, 6b]", 
+        "zones" : ["5a", "5b", "6a", "6b"], 
         "sowType": "Direct Sow",
         "dtRangeStart" : "2019-09-17", 
         "dtRangeEnd" : "2019-10-01"
       },
       { 
         "zone" : "7-8", 
-        "zones" : "[7a, 7b, 8a, 8b]", 
+        "zones" : ["7a", "7b", "8a", "8b"], 
         "sowType": "Direct Sow",
         "dtRangeStart" : "2019-01-12",
         "dtRangeEnd" : "2019-02-09"
       },
       { 
         "zone" : "9-10", 
-        "zones" : "[9a, 9b, 10a, 10b]", 
+        "zones" : ["9a", "9b", "10a", "10b"], 
         "sowType": "Direct Sow",
         "dtRangeStart" : "2019-01-12", 
         "dtRangeEnd" : "2019-02-09"
@@ -10928,49 +10928,49 @@ const plantingCalendarSeed = [
     "sowCal": [
       {
         "zone": "11",
-        "zones": "[11a, 11b]",
+        "zones": ["11a", "11b"],
         "sowType": "Direct Sow",
         "dtRangeStart": "2019-02-01",
         "dtRangeEnd": "2019-03-01"
       },
       {
         "zone": "3-4",
-        "zones": "[3a, 3b, 4a, 4b]",
+        "zones": ["3a", "3b", "4a", "4b"],
         "sowType": "Direct Sow",
         "dtRangeStart": "2019-04-21",
         "dtRangeEnd": "2019-05-19"
       },
       {
         "zone": "5-6",
-        "zones": "[5a, 5b, 6a, 6b]",
+        "zones": ["5a", "5b", "6a", "6b"],
         "sowType": "Direct Sow",
         "dtRangeStart": "2019-04-04",
         "dtRangeEnd": "2019-05-02"
       },
       {
         "zone": "7-8",
-        "zones": "[7a, 7b, 8a, 8b]",
+        "zones": ["7a", "7b", "8a", "8b"],
         "sowType": "Direct Sow",
         "dtRangeStart": "2019-02-01",
         "dtRangeEnd": "2019-03-01"
       },
       {
         "zone": "9-10",
-        "zones": "[9a, 9b, 10a, 10b]",
+        "zones": ["9a", "9b", "10a", "10b"],
         "sowType": "Direct Sow",
         "dtRangeStart": "2019-02-01",
         "dtRangeEnd": "2019-03-01"
       },
       { 
         "zone" : "3-4", 
-        "zones" : "[3a, 3b, 4a, 4b]", 
+        "zones" : ["3a", "3b", "4a", "4b"], 
         "sowType": "Direct Sow",
         "dtRangeStart" : "2019-07-10", 
         "dtRangeEnd" : "2019-08-21"
       },
       { 
         "zone" : "5-6", 
-        "zones" : "[5a, 5b, 6a, 6b]", 
+        "zones" : ["5a", "5b", "6a", "6b"], 
         "sowType": "Direct Sow",
         "dtRangeStart" : "2019-08-06", 
         "dtRangeEnd" : "2019-09-17"
@@ -10983,35 +10983,35 @@ const plantingCalendarSeed = [
     "sowCal": [
       {
         "zone": "11",
-        "zones": "[11a, 11b]",
+        "zones": ["11a", "11b"],
         "sowType": "Direct Sow",
         "dtRangeStart": "2019-02-15",
         "dtRangeEnd": "2019-04-11"
       },
       {
         "zone": "3-4",
-        "zones": "[3a, 3b, 4a, 4b]",
+        "zones": ["3a", "3b", "4a", "4b"],
         "sowType": "Direct Sow",
         "dtRangeStart": "2019-06-02",
         "dtRangeEnd": "2019-06-30"
       },
       {
         "zone": "5-6",
-        "zones": "[5a, 5b, 6a, 6b]",
+        "zones": ["5a", "5b", "6a", "6b"],
         "sowType": "Direct Sow",
         "dtRangeStart": "2019-05-02",
         "dtRangeEnd": "2019-06-13"
       },
       {
         "zone": "7-8",
-        "zones": "[7a, 7b, 8a, 8b]",
+        "zones": ["7a", "7b", "8a", "8b"],
         "sowType": "Direct Sow",
         "dtRangeStart": "2019-03-01",
         "dtRangeEnd": "2019-04-11"
       },
       {
         "zone": "9-10",
-        "zones": "[9a, 9b, 10a, 10b]",
+        "zones": ["9a", "9b", "10a", "10b"],
         "sowType": "Direct Sow",
         "dtRangeStart": "2019-03-01",
         "dtRangeEnd": "2019-04-11"
@@ -11024,35 +11024,35 @@ const plantingCalendarSeed = [
     "sowCal": [
       {
         "zone": "11",
-        "zones": "[11a, 11b]",
+        "zones": ["11a", "11b"],
         "sowType": "Direct Sow",
         "dtRangeStart": "2019-12-21",
         "dtRangeEnd": "2019-02-28"
       },
       {
         "zone": "3-4",
-        "zones": "[3a, 3b, 4a, 4b]",
+        "zones": ["3a", "3b", "4a", "4b"],
         "sowType": "Direct Sow",
         "dtRangeStart": "2019-04-21",
         "dtRangeEnd": "2019-05-19"
       },
       {
         "zone": "5-6",
-        "zones": "[5a, 5b, 6a, 6b]",
+        "zones": ["5a", "5b", "6a", "6b"],
         "sowType": "Direct Sow",
         "dtRangeStart": "2019-04-04",
         "dtRangeEnd": "2019-05-02"
       },
       {
         "zone": "7-8",
-        "zones": "[7a, 7b, 8a, 8b]",
+        "zones": ["7a", "7b", "8a", "8b"],
         "sowType": "Direct Sow",
         "dtRangeStart": "2019-12-21",
         "dtRangeEnd": "2019-02-28"
       },
       {
         "zone": "9-10",
-        "zones": "[9a, 9b, 10a, 10b]",
+        "zones": ["9a", "9b", "10a", "10b"],
         "sowType": "Direct Sow",
         "dtRangeStart": "2019-12-21",
         "dtRangeEnd": "2019-02-28"
@@ -11065,28 +11065,28 @@ const plantingCalendarSeed = [
     "sowCal": [
       {
         "zone": "11",
-        "zones": "[11a, 11b]",
+        "zones": ["11a", "11b"],
         "sowType": "Direct Sow",
         "dtRangeStart": "2019-02-15",
         "dtRangeEnd": "2019-04-11"
       },
       {
         "zone": "5-6",
-        "zones": "[5a, 5b, 6a, 6b]",
+        "zones": ["5a", "5b", "6a", "6b"],
         "sowType": "Direct Sow",
         "dtRangeStart": "2019-05-16",
         "dtRangeEnd": "2019-06-13"
       },
       {
         "zone": "7-8",
-        "zones": "[7a, 7b, 8a, 8b]",
+        "zones": ["7a", "7b", "8a", "8b"],
         "sowType": "Direct Sow",
         "dtRangeStart": "2019-03-01",
         "dtRangeEnd": "2019-04-11"
       },
       {
         "zone": "9-10",
-        "zones": "[9a, 9b, 10a, 10b]",
+        "zones": ["9a", "9b", "10a", "10b"],
         "sowType": "Direct Sow",
         "dtRangeStart": "2019-03-01",
         "dtRangeEnd": "2019-04-11"
@@ -11099,35 +11099,35 @@ const plantingCalendarSeed = [
     "sowCal": [
       {
         "zone": "11",
-        "zones": "[11a, 11b]",
+        "zones": ["11a", "11b"],
         "sowType": "Direct Sow",
         "dtRangeStart": "2019-02-15",
         "dtRangeEnd": "2019-04-11"
       },
       {
         "zone": "3-4",
-        "zones": "[3a, 3b, 4a, 4b]",
+        "zones": ["3a", "3b", "4a", "4b"],
         "sowType": "Direct Sow",
         "dtRangeStart": "2019-06-02",
         "dtRangeEnd": "2019-06-30"
       },
       {
         "zone": "5-6",
-        "zones": "[5a, 5b, 6a, 6b]",
+        "zones": ["5a", "5b", "6a", "6b"],
         "sowType": "Direct Sow",
         "dtRangeStart": "2019-05-16",
         "dtRangeEnd": "2019-06-13"
       },
       {
         "zone": "7-8",
-        "zones": "[7a, 7b, 8a, 8b]",
+        "zones": ["7a", "7b", "8a", "8b"],
         "sowType": "Direct Sow",
         "dtRangeStart": "2019-03-01",
         "dtRangeEnd": "2019-04-11"
       },
       {
         "zone": "9-10",
-        "zones": "[9a, 9b, 10a, 10b]",
+        "zones": ["9a", "9b", "10a", "10b"],
         "sowType": "Direct Sow",
         "dtRangeStart": "2019-03-01",
         "dtRangeEnd": "2019-04-11"
@@ -11140,28 +11140,28 @@ const plantingCalendarSeed = [
     "sowCal": [
       {
         "zone": "11",
-        "zones": "[11a, 11b]",
+        "zones": ["11a", "11b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-12-21",
         "dtRangeEnd": "2019-02-22"
       },
       {
         "zone": "3-4",
-        "zones": "[3a, 3b, 4a, 4b]",
+        "zones": ["3a", "3b", "4a", "4b"],
         "sowType": "Indoor Sow",
         "dtRangeStart": "2019-03-10",
         "dtRangeEnd": "2019-03-24"
       },
       {
         "zone": "3-4",
-        "zones": "[3a, 3b, 4a, 4b]",
+        "zones": ["3a", "3b", "4a", "4b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-06-02",
         "dtRangeEnd": "2019-06-30"
       },
       {
         "zone": "5-6",
-        "zones": "[5a, 5b, 6a, 6b]",
+        "zones": ["5a", "5b", "6a", "6b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-03-07",
         "dtRangeEnd": "2019-05-16"
@@ -11174,70 +11174,70 @@ const plantingCalendarSeed = [
     "sowCal": [
       {
         "zone": "11",
-        "zones": "[11a, 11b]",
+        "zones": ["11a", "11b"],
         "sowType": "Direct Sow",
         "dtRangeStart": "2019-12-21",
         "dtRangeEnd": "2019-04-11"
       },
       {
         "zone": "3-4",
-        "zones": "[3a, 3b, 4a, 4b]",
+        "zones": ["3a", "3b", "4a", "4b"],
         "sowType": "Direct Sow",
         "dtRangeStart": "2019-05-05",
         "dtRangeEnd": "2019-06-02"
       },
       {
         "zone": "5-6",
-        "zones": "[5a, 5b, 6a, 6b]",
+        "zones": ["5a", "5b", "6a", "6b"],
         "sowType": "Direct Sow",
         "dtRangeStart": "2019-04-18",
         "dtRangeEnd": "2019-05-16"
       },
       {
         "zone": "7-8",
-        "zones": "[7a, 7b, 8a, 8b]",
+        "zones": ["7a", "7b", "8a", "8b"],
         "sowType": "Direct Sow",
         "dtRangeStart": "2019-03-01",
         "dtRangeEnd": "2019-04-11"
       },
       {
         "zone": "9-10",
-        "zones": "[9a, 9b, 10a, 10b]",
+        "zones": ["9a", "9b", "10a", "10b"],
         "sowType": "Direct Sow",
         "dtRangeStart": "2019-03-01",
         "dtRangeEnd": "2019-04-11"
       },
       { 
         "zone" : "11", 
-        "zones" : "[11a, 11b]", 
+        "zones" : ["11a", "11b"], 
         "sowType": "Direct Sow",
         "dtRangeStart" : "2019-09-22", 
         "dtRangeEnd" : "2019-10-20"
       },
       { 
         "zone" : "3-4", 
-        "zones" : "[3a, 3b, 4a, 4b]", 
+        "zones" : ["3a", "3b", "4a", "4b"], 
         "sowType": "Direct Sow",
         "dtRangeStart" : "2019-07-10", 
         "dtRangeEnd" : "2019-08-21"
       },
       { 
         "zone" : "5-6", 
-        "zones" : "[5a, 5b, 6a, 6b]", 
+        "zones" : ["5a", "5b", "6a", "6b"], 
         "sowType": "Direct Sow",
         "dtRangeStart" : "2019-08-06", 
         "dtRangeEnd" : "2019-09-17"
       },
       { 
         "zone" : "7-8", 
-        "zones" : "[7a, 7b, 8a, 8b]", 
+        "zones" : ["7a", "7b", "8a", "8b"], 
         "sowType": "Direct Sow",
         "dtRangeStart" : "2019-09-22",
         "dtRangeEnd" : "2019-10-20"
       },
       { 
         "zone" : "9-10", 
-        "zones" : "[9a, 9b, 10a, 10b]", 
+        "zones" : ["9a", "9b", "10a", "10b"], 
         "sowType": "Direct Sow",
         "dtRangeStart" : "2019-09-22", 
         "dtRangeEnd" : "2019-10-20"
@@ -11250,35 +11250,35 @@ const plantingCalendarSeed = [
     "sowCal": [
       {
         "zone": "3-4",
-        "zones": "[3a, 3b, 4a, 4b]",
+        "zones": ["3a", "3b", "4a", "4b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-05-05",
         "dtRangeEnd": "2019-06-02"
       },
       {
         "zone": "5-6",
-        "zones": "[5a, 5b, 6a, 6b]",
+        "zones": ["5a", "5b", "6a", "6b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-03-25",
         "dtRangeEnd": "2019-05-16"
       },
       {
         "zone": "7-8",
-        "zones": "[7a, 7b, 8a, 8b]",
+        "zones": ["7a", "7b", "8a", "8b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-09-08",
         "dtRangeEnd": "2019-10-06"
       },
       {
         "zone": "9-10",
-        "zones": "[9a, 9b, 10a, 10b]",
+        "zones": ["9a", "9b", "10a", "10b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-09-08",
         "dtRangeEnd": "2019-10-06"
       },
       { 
         "zone" : "11", 
-        "zones" : "[11a, 11b]", 
+        "zones" : ["11a", "11b"], 
         "sowType": "Direct Sow",
         "dtRangeStart" : "2019-09-08",
         "dtRangeEnd" : "2019-10-20"
@@ -11291,35 +11291,35 @@ const plantingCalendarSeed = [
     "sowCal": [
       {
         "zone": "11",
-        "zones": "[11a, 11b]",
+        "zones": ["11a", "11b"],
         "sowType": "Direct Sow",
         "dtRangeStart": "2019-02-15",
         "dtRangeEnd": "2019-04-01"
       },
       {
         "zone": "3-4",
-        "zones": "[3a, 3b, 4a, 4b]",
+        "zones": ["3a", "3b", "4a", "4b"],
         "sowType": "Direct Sow",
         "dtRangeStart": "2019-06-02",
         "dtRangeEnd": "2019-06-30"
       },
       {
         "zone": "5-6",
-        "zones": "[5a, 5b, 6a, 6b]",
+        "zones": ["5a", "5b", "6a", "6b"],
         "sowType": "Direct Sow",
         "dtRangeStart": "2019-05-16",
         "dtRangeEnd": "2019-06-13"
       },
       {
         "zone": "7-8",
-        "zones": "[7a, 7b, 8a, 8b]",
+        "zones": ["7a", "7b", "8a", "8b"],
         "sowType": "Direct Sow",
         "dtRangeStart": "2019-03-01",
         "dtRangeEnd": "2019-04-01"
       },
       {
         "zone": "9-10",
-        "zones": "[9a, 9b, 10a, 10b]",
+        "zones": ["9a", "9b", "10a", "10b"],
         "sowType": "Direct Sow",
         "dtRangeStart": "2019-03-01",
         "dtRangeEnd": "2019-04-01"
@@ -11332,14 +11332,14 @@ const plantingCalendarSeed = [
     "sowCal": [
       {
         "zone": "3-4",
-        "zones": "[3a, 3b, 4a, 4b]",
+        "zones": ["3a", "3b", "4a", "4b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-05-05",
         "dtRangeEnd": "2019-06-02"
       },
       {
         "zone": "5-6",
-        "zones": "[5a, 5b, 6a, 6b]",
+        "zones": ["5a", "5b", "6a", "6b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-03-28",
         "dtRangeEnd": "2019-05-02"
@@ -11352,63 +11352,63 @@ const plantingCalendarSeed = [
     "sowCal": [
       {
         "zone": "11",
-        "zones": "[11a, 11b]",
+        "zones": ["11a", "11b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-12-21",
         "dtRangeEnd": "2019-03-01"
       },
       {
         "zone": "3-4",
-        "zones": "[3a, 3b, 4a, 4b]",
+        "zones": ["3a", "3b", "4a", "4b"],
         "sowType": "Indoor Sow",
         "dtRangeStart": "2019-03-24",
         "dtRangeEnd": "2019-04-07"
       },
       {
         "zone": "7-8",
-        "zones": "[7a, 7b, 8a, 8b]",
+        "zones": ["7a", "7b", "8a", "8b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-02-01",
         "dtRangeEnd": "2019-03-01"
       },
       {
         "zone": "9-10",
-        "zones": "[9a, 9b, 10a, 10b]",
+        "zones": ["9a", "9b", "10a", "10b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-02-01",
         "dtRangeEnd": "2019-03-01"
       },
       {
         "zone": "3-4",
-        "zones": "[3a, 3b, 4a, 4b]",
+        "zones": ["3a", "3b", "4a", "4b"],
         "sowType": "Direct Sow",
         "dtRangeStart": "2019-04-21",
         "dtRangeEnd": "2019-05-05"
       },
       {
         "zone": "5-6",
-        "zones": "[5a, 5b, 6a, 6b]",
+        "zones": ["5a", "5b", "6a", "6b"],
         "sowType": "Direct Sow",
         "dtRangeStart": "2019-03-21",
         "dtRangeEnd": "2019-05-02"
       },
       {
         "zone": "3-4",
-        "zones": "[3a, 3b, 4a, 4b]",
+        "zones": ["3a", "3b", "4a", "4b"],
         "sowType": "Indoor Sow",
         "dtRangeStart": "2019-07-10",
         "dtRangeEnd": "2019-07-24"
       },
       { 
         "zone" : "3-4", 
-        "zones" : "[3a, 3b, 4a, 4b]", 
+        "zones" : ["3a", "3b", "4a", "4b"], 
         "sowType": "Direct Sow",
         "dtRangeStart" : "2019-08-15", 
         "dtRangeEnd" : "2019-09-04"
       },
       { 
         "zone" : "5-6", 
-        "zones" : "[5a, 5b, 6a, 6b]", 
+        "zones" : ["5a", "5b", "6a", "6b"], 
         "sowType": "Direct Sow",
         "dtRangeStart" : "2019-08-06", 
         "dtRangeEnd" : "2019-08-20"
@@ -11421,63 +11421,63 @@ const plantingCalendarSeed = [
     "sowCal": [
       {
         "zone": "11",
-        "zones": "[11a, 11b]",
+        "zones": ["11a", "11b"],
         "sowType": "Direct Sow",
         "dtRangeStart": "2019-02-01",
         "dtRangeEnd": "2019-03-28"
       },
       {
         "zone": "3-4",
-        "zones": "[3a, 3b, 4a, 4b]",
+        "zones": ["3a", "3b", "4a", "4b"],
         "sowType": "Direct Sow",
         "dtRangeStart": "2019-04-28",
         "dtRangeEnd": "2019-06-09"
       },
       {
         "zone": "5-6",
-        "zones": "[5a, 5b, 6a, 6b]",
+        "zones": ["5a", "5b", "6a", "6b"],
         "sowType": "Direct Sow",
         "dtRangeStart": "2019-04-11",
         "dtRangeEnd": "2019-05-23"
       },
       {
         "zone": "7-8",
-        "zones": "[7a, 7b, 8a, 8b]",
+        "zones": ["7a", "7b", "8a", "8b"],
         "sowType": "Direct Sow",
         "dtRangeStart": "2019-02-15",
         "dtRangeEnd": "2019-03-28"
       },
       {
         "zone": "9-10",
-        "zones": "[9a, 9b, 10a, 10b]",
+        "zones": ["9a", "9b", "10a", "10b"],
         "sowType": "Direct Sow",
         "dtRangeStart": "2019-02-15",
         "dtRangeEnd": "2019-03-28"
       },
       { 
         "zone" : "11", 
-        "zones" : "[11a, 11b]", 
+        "zones" : ["11a", "11b"], 
         "sowType": "Direct Sow",
         "dtRangeStart" : "2019-09-08", 
         "dtRangeEnd" : "2019-10-06"
       },
       { 
         "zone" : "3-4", 
-        "zones" : "[3a, 3b, 4a, 4b]", 
+        "zones" : ["3a", "3b", "4a", "4b"], 
         "sowType": "Direct Sow",
         "dtRangeStart" : "2019-07-10", 
         "dtRangeEnd" : "2019-08-21"
       },
       { 
         "zone" : "7-8", 
-        "zones" : "[7a, 7b, 8a, 8b]", 
+        "zones" : ["7a", "7b", "8a", "8b"], 
         "sowType": "Direct Sow",
         "dtRangeStart" : "2019-09-08",
         "dtRangeEnd" : "2019-10-06"
       },
       { 
         "zone" : "9-10", 
-        "zones" : "[9a, 9b, 10a, 10b]", 
+        "zones" : ["9a", "9b", "10a", "10b"], 
         "sowType": "Direct Sow",
         "dtRangeStart" : "2019-09-08", 
         "dtRangeEnd" : "2019-10-06"
@@ -11490,63 +11490,63 @@ const plantingCalendarSeed = [
     "sowCal": [
       {
         "zone": "11",
-        "zones": "[11a, 11b]",
+        "zones": ["11a", "11b"],
         "sowType": "Direct Sow",
         "dtRangeStart": "2019-02-01",
         "dtRangeEnd": "2019-03-28"
       },
       {
         "zone": "3-4",
-        "zones": "[3a, 3b, 4a, 4b]",
+        "zones": ["3a", "3b", "4a", "4b"],
         "sowType": "Direct Sow",
         "dtRangeStart": "2019-04-21",
         "dtRangeEnd": "2019-05-05"
       },
       {
         "zone": "5-6",
-        "zones": "[5a, 5b, 6a, 6b]",
+        "zones": ["5a", "5b", "6a", "6b"],
         "sowType": "Direct Sow",
         "dtRangeStart": "2019-04-04",
         "dtRangeEnd": "2019-05-16"
       },
       {
         "zone": "7-8",
-        "zones": "[7a, 7b, 8a, 8b]",
+        "zones": ["7a", "7b", "8a", "8b"],
         "sowType": "Direct Sow",
         "dtRangeStart": "2019-02-01",
         "dtRangeEnd": "2019-03-28"
       },
       {
         "zone": "9-10",
-        "zones": "[9a, 9b, 10a, 10b]",
+        "zones": ["9a", "9b", "10a", "10b"],
         "sowType": "Direct Sow",
         "dtRangeStart": "2019-02-01",
         "dtRangeEnd": "2019-03-28"
       },
       {
         "zone": "9-10",
-        "zones": "[9a, 9b, 10a, 10b]",
+        "zones": ["9a", "9b", "10a", "10b"],
         "sowType": "Indoor Sow",
         "dtRangeStart": "2019-08-25",
         "dtRangeEnd": "2019-09-22"
       },
       {
         "zone": "9-10",
-        "zones": "[9a, 9b, 10a, 10b]",
+        "zones": ["9a", "9b", "10a", "10b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-09-08",
         "dtRangeEnd": "2019-10-06"
       },
       { 
         "zone" : "3-4", 
-        "zones" : "[3a, 3b, 4a, 4b]", 
+        "zones" : ["3a", "3b", "4a", "4b"], 
         "sowType": "Direct Sow",
         "dtRangeStart" : "2019-07-10", 
         "dtRangeEnd" : "2019-08-21"
       },
       { 
         "zone" : "9-10", 
-        "zones" : "[9a, 9b, 10a, 10b]", 
+        "zones" : ["9a", "9b", "10a", "10b"], 
         "sowType": "Direct Sow",
         "dtRangeStart" : "2019-09-08", 
         "dtRangeEnd" : "2019-10-06"
@@ -11559,49 +11559,49 @@ const plantingCalendarSeed = [
     "sowCal": [
       {
         "zone": "5-6",
-        "zones": "[5a, 5b, 6a, 6b]",
+        "zones": ["5a", "5b", "6a", "6b"],
         "sowType": "Indoor Sow",
         "dtRangeStart": "2019-03-07",
         "dtRangeEnd": "2019-04-04"
       },
       {
         "zone": "5-6",
-        "zones": "[5a, 5b, 6a, 6b]",
+        "zones": ["5a", "5b", "6a", "6b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-04-04",
         "dtRangeEnd": "2019-05-16"
       },
       {
         "zone": "11",
-        "zones": "[11a, 11b]",
+        "zones": ["11a", "11b"],
         "sowType": "Direct Sow",
         "dtRangeStart": "2019-12-21",
         "dtRangeEnd": "2019-03-01"
       },
       {
         "zone": "3-4",
-        "zones": "[3a, 3b, 4a, 4b]",
+        "zones": ["3a", "3b", "4a", "4b"],
         "sowType": "Direct Sow",
         "dtRangeStart": "2019-04-21",
         "dtRangeEnd": "2019-05-05"
       },
       {
         "zone": "5-6",
-        "zones": "[5a, 5b, 6a, 6b]",
+        "zones": ["5a", "5b", "6a", "6b"],
         "sowType": "Direct Sow",
         "dtRangeStart": "2019-04-04",
         "dtRangeEnd": "2019-05-16"
       },
       {
         "zone": "7-8",
-        "zones": "[7a, 7b, 8a, 8b]",
+        "zones": ["7a", "7b", "8a", "8b"],
         "sowType": "Direct Sow",
         "dtRangeStart": "2019-12-21",
         "dtRangeEnd": "2019-03-01"
       },
       {
         "zone": "9-10",
-        "zones": "[9a, 9b, 10a, 10b]",
+        "zones": ["9a", "9b", "10a", "10b"],
         "sowType": "Direct Sow",
         "dtRangeStart": "2019-12-21",
         "dtRangeEnd": "2019-03-01"
@@ -11614,35 +11614,35 @@ const plantingCalendarSeed = [
     "sowCal": [
       {
         "zone": "11",
-        "zones": "[11a, 11b]",
+        "zones": ["11a", "11b"],
         "sowType": "Direct Sow",
         "dtRangeStart": "2019-02-15",
         "dtRangeEnd": "2019-04-25"
       },
       {
         "zone": "3-4",
-        "zones": "[3a, 3b, 4a, 4b]",
+        "zones": ["3a", "3b", "4a", "4b"],
         "sowType": "Direct Sow",
         "dtRangeStart": "2019-05-19",
         "dtRangeEnd": "2019-06-30"
       },
       {
         "zone": "5-6",
-        "zones": "[5a, 5b, 6a, 6b]",
+        "zones": ["5a", "5b", "6a", "6b"],
         "sowType": "Direct Sow",
         "dtRangeStart": "2019-05-16",
         "dtRangeEnd": "2019-06-13"
       },
       {
         "zone": "7-8",
-        "zones": "[7a, 7b, 8a, 8b]",
+        "zones": ["7a", "7b", "8a", "8b"],
         "sowType": "Direct Sow",
         "dtRangeStart": "2019-03-01",
         "dtRangeEnd": "2019-04-25"
       },
       {
         "zone": "9-10",
-        "zones": "[9a, 9b, 10a, 10b]",
+        "zones": ["9a", "9b", "10a", "10b"],
         "sowType": "Direct Sow",
         "dtRangeStart": "2019-03-01",
         "dtRangeEnd": "2019-04-25"
@@ -11655,35 +11655,35 @@ const plantingCalendarSeed = [
     "sowCal": [
       {
         "zone": "11",
-        "zones": "[11a, 11b]",
+        "zones": ["11a", "11b"],
         "sowType": "Direct Sow",
         "dtRangeStart": "2019-12-21",
         "dtRangeEnd": "2019-03-01"
       },
       {
         "zone": "3-4",
-        "zones": "[3a, 3b, 4a, 4b]",
+        "zones": ["3a", "3b", "4a", "4b"],
         "sowType": "Direct Sow",
         "dtRangeStart": "2019-04-21",
         "dtRangeEnd": "2019-05-05"
       },
       {
         "zone": "5-6",
-        "zones": "[5a, 5b, 6a, 6b]",
+        "zones": ["5a", "5b", "6a", "6b"],
         "sowType": "Direct Sow",
         "dtRangeStart": "2019-04-04",
         "dtRangeEnd": "2019-05-16"
       },
       {
         "zone": "7-8",
-        "zones": "[7a, 7b, 8a, 8b]",
+        "zones": ["7a", "7b", "8a", "8b"],
         "sowType": "Direct Sow",
         "dtRangeStart": "2019-12-21",
         "dtRangeEnd": "2019-03-01"
       },
       {
         "zone": "9-10",
-        "zones": "[9a, 9b, 10a, 10b]",
+        "zones": ["9a", "9b", "10a", "10b"],
         "sowType": "Direct Sow",
         "dtRangeStart": "2019-12-21",
         "dtRangeEnd": "2019-03-01"
@@ -11696,42 +11696,42 @@ const plantingCalendarSeed = [
     "sowCal": [
       {
         "zone": "11",
-        "zones": "[11a, 11b]",
+        "zones": ["11a", "11b"],
         "sowType": "Direct Sow",
         "dtRangeStart": "2019-12-21",
         "dtRangeEnd": "2019-03-01"
       },
       {
         "zone": "3-4",
-        "zones": "[3a, 3b, 4a, 4b]",
+        "zones": ["3a", "3b", "4a", "4b"],
         "sowType": "Direct Sow",
         "dtRangeStart": "2019-04-21",
         "dtRangeEnd": "2019-06-02"
       },
       {
         "zone": "5-6",
-        "zones": "[5a, 5b, 6a, 6b]",
+        "zones": ["5a", "5b", "6a", "6b"],
         "sowType": "Direct Sow",
         "dtRangeStart": "2019-04-04",
         "dtRangeEnd": "2019-05-16"
       },
       {
         "zone": "7-8",
-        "zones": "[7a, 7b, 8a, 8b]",
+        "zones": ["7a", "7b", "8a", "8b"],
         "sowType": "Direct Sow",
         "dtRangeStart": "2019-12-21",
         "dtRangeEnd": "2019-03-01"
       },
       {
         "zone": "9-10",
-        "zones": "[9a, 9b, 10a, 10b]",
+        "zones": ["9a", "9b", "10a", "10b"],
         "sowType": "Direct Sow",
         "dtRangeStart": "2019-12-21",
         "dtRangeEnd": "2019-03-01"
       },
       { 
           "zone" : "5-6", 
-          "zones" : "[5a, 5b, 6a, 6b]", 
+          "zones" : ["5a", "5b", "6a", "6b"], 
           "sowType": "Direct Sow",
           "dtRangeStart" : "2019-08-06", 
           "dtRangeEnd" : "2019-09-17"
@@ -11744,70 +11744,70 @@ const plantingCalendarSeed = [
     "sowCal": [
       {
         "zone": "11",
-        "zones": "[11a, 11b]",
+        "zones": ["11a", "11b"],
         "sowType": "Direct Sow",
         "dtRangeStart": "2019-12-21",
         "dtRangeEnd": "2019-03-01"
       },
       {
         "zone": "3-4",
-        "zones": "[3a, 3b, 4a, 4b]",
+        "zones": ["3a", "3b", "4a", "4b"],
         "sowType": "Direct Sow",
         "dtRangeStart": "2019-04-28",
         "dtRangeEnd": "2019-06-09"
       },
       {
         "zone": "5-6",
-        "zones": "[5a, 5b, 6a, 6b]",
+        "zones": ["5a", "5b", "6a", "6b"],
         "sowType": "Direct Sow",
         "dtRangeStart": "2019-04-11",
         "dtRangeEnd": "2019-05-23"
       },
       {
         "zone": "7-8",
-        "zones": "[7a, 7b, 8a, 8b]",
+        "zones": ["7a", "7b", "8a", "8b"],
         "sowType": "Direct Sow",
         "dtRangeStart": "2019-12-21",
         "dtRangeEnd": "2019-03-01"
       },
       {
         "zone": "9-10",
-        "zones": "[9a, 9b, 10a, 10b]",
+        "zones": ["9a", "9b", "10a", "10b"],
         "sowType": "Direct Sow",
         "dtRangeStart": "2019-12-21",
         "dtRangeEnd": "2019-03-01"
       },
       { 
         "zone" : "11", 
-        "zones" : "[11a, 11b]", 
+        "zones" : ["11a", "11b"], 
         "sowType": "Direct Sow",
         "dtRangeStart" : "2019-09-22", 
         "dtRangeEnd" : "2019-10-20"
       },
       { 
         "zone" : "3-4", 
-        "zones" : "[3a, 3b, 4a, 4b]", 
+        "zones" : ["3a", "3b", "4a", "4b"], 
         "sowType": "Direct Sow",
         "dtRangeStart" : "2019-07-10", 
         "dtRangeEnd" : "2019-08-21"
       },
       { 
         "zone" : "5-6", 
-        "zones" : "[5a, 5b, 6a, 6b]", 
+        "zones" : ["5a", "5b", "6a", "6b"], 
         "sowType": "Direct Sow",
         "dtRangeStart" : "2019-08-06", 
         "dtRangeEnd" : "2019-09-17"
       },
       { 
         "zone" : "7-8", 
-        "zones" : "[7a, 7b, 8a, 8b]", 
+        "zones" : ["7a", "7b", "8a", "8b"], 
         "sowType": "Direct Sow",
         "dtRangeStart" : "2019-09-22",
         "dtRangeEnd" : "2019-10-20"
       },
       { 
         "zone" : "9-10", 
-        "zones" : "[9a, 9b, 10a, 10b]", 
+        "zones" : ["9a", "9b", "10a", "10b"], 
         "sowType": "Direct Sow",
         "dtRangeStart" : "2019-09-22", 
         "dtRangeEnd" : "2019-10-20"
@@ -11820,35 +11820,35 @@ const plantingCalendarSeed = [
     "sowCal": [
       {
         "zone": "11",
-        "zones": "[11a, 11b]",
+        "zones": ["11a", "11b"],
         "sowType": "Direct Sow",
         "dtRangeStart": "2019-02-15",
         "dtRangeEnd": "2019-04-25"
       },
       {
         "zone": "3-4",
-        "zones": "[3a, 3b, 4a, 4b]",
+        "zones": ["3a", "3b", "4a", "4b"],
         "sowType": "Direct Sow",
         "dtRangeStart": "2019-06-16",
         "dtRangeEnd": "2019-07-28"
       },
       {
         "zone": "5-6",
-        "zones": "[5a, 5b, 6a, 6b]",
+        "zones": ["5a", "5b", "6a", "6b"],
         "sowType": "Direct Sow",
         "dtRangeStart": "2019-05-30",
         "dtRangeEnd": "2019-07-11"
       },
       {
         "zone": "7-8",
-        "zones": "[7a, 7b, 8a, 8b]",
+        "zones": ["7a", "7b", "8a", "8b"],
         "sowType": "Direct Sow",
         "dtRangeStart": "2019-03-01",
         "dtRangeEnd": "2019-04-25"
       },
       {
         "zone": "9-10",
-        "zones": "[9a, 9b, 10a, 10b]",
+        "zones": ["9a", "9b", "10a", "10b"],
         "sowType": "Direct Sow",
         "dtRangeStart": "2019-03-01",
         "dtRangeEnd": "2019-04-25"
@@ -11861,98 +11861,98 @@ const plantingCalendarSeed = [
     "sowCal": [
       {
         "zone": "11",
-        "zones": "[11a, 11b]",
+        "zones": ["11a", "11b"],
         "sowType": "Indoor Sow",
         "dtRangeStart": "2019-11-15",
         "dtRangeEnd": "2019-01-04"
       },
       {
         "zone": "3-4",
-        "zones": "[3a, 3b, 4a, 4b]",
+        "zones": ["3a", "3b", "4a", "4b"],
         "sowType": "Indoor Sow",
         "dtRangeStart": "2019-03-01",
         "dtRangeEnd": "2019-03-24"
       },
       {
         "zone": "3-4",
-        "zones": "[3a, 3b, 4a, 4b]",
+        "zones": ["3a", "3b", "4a", "4b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-04-21",
         "dtRangeEnd": "2019-05-05"
       },
       {
         "zone": "5-6",
-        "zones": "[5a, 5b, 6a, 6b]",
+        "zones": ["5a", "5b", "6a", "6b"],
         "sowType": "Indoor Sow",
         "dtRangeStart": "2019-02-22",
         "dtRangeEnd": "2019-03-07"
       },
       {
         "zone": "7-8",
-        "zones": "[7a, 7b, 8a, 8b]",
+        "zones": ["7a", "7b", "8a", "8b"],
         "sowType": "Indoor Sow",
         "dtRangeStart": "2019-11-15",
         "dtRangeEnd": "2019-01-04"
       },
       {
         "zone": "9-10",
-        "zones": "[9a, 9b, 10a, 10b]",
+        "zones": ["9a", "9b", "10a", "10b"],
         "sowType": "Indoor Sow",
         "dtRangeStart": "2019-11-15",
         "dtRangeEnd": "2019-01-04"
       },
       {
         "zone": "5-6",
-        "zones": "[5a, 5b, 6a, 6b]",
+        "zones": ["5a", "5b", "6a", "6b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-03-07",
         "dtRangeEnd": "2019-05-02"
       },
       {
         "zone": "11",
-        "zones": "[11a, 11b]",
+        "zones": ["11a", "11b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-02-01",
         "dtRangeEnd": "2019-03-01"
       },
       {
         "zone": "7-8",
-        "zones": "[7a, 7b, 8a, 8b]",
+        "zones": ["7a", "7b", "8a", "8b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-01-25",
         "dtRangeEnd": "2019-03-01"
       },
       {
         "zone": "9-10",
-        "zones": "[9a, 9b, 10a, 10b]",
+        "zones": ["9a", "9b", "10a", "10b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-01-25",
         "dtRangeEnd": "2019-03-01"
       },
       {
         "zone": "11",
-        "zones": "[11a, 11b]",
+        "zones": ["11a", "11b"],
         "sowType": "Direct Sow",
         "dtRangeStart": "2019-12-21",
         "dtRangeEnd": "2019-03-01"
       },
       {
         "zone": "7-8",
-        "zones": "[7a, 7b, 8a, 8b]",
+        "zones": ["7a", "7b", "8a", "8b"],
         "sowType": "Direct Sow",
         "dtRangeStart": "2019-12-21",
         "dtRangeEnd": "2019-03-01"
       },
       {
         "zone": "9-10",
-        "zones": "[9a, 9b, 10a, 10b]",
+        "zones": ["9a", "9b", "10a", "10b"],
         "sowType": "Direct Sow",
         "dtRangeStart": "2019-12-21",
         "dtRangeEnd": "2019-03-01"
       },
       {
         "zone": "5-6",
-        "zones": "[5a, 5b, 6a, 6b]",
+        "zones": ["5a", "5b", "6a", "6b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-08-06",
         "dtRangeEnd": "2019-09-17"
@@ -11965,63 +11965,63 @@ const plantingCalendarSeed = [
     "sowCal": [
       {
         "zone": "11",
-        "zones": "[11a, 11b]",
+        "zones": ["11a", "11b"],
         "sowType": "Direct Sow",
         "dtRangeStart": "2019-02-01",
         "dtRangeEnd": "2019-03-01"
       },
       {
         "zone": "3-4",
-        "zones": "[3a, 3b, 4a, 4b]",
+        "zones": ["3a", "3b", "4a", "4b"],
         "sowType": "Direct Sow",
         "dtRangeStart": "2019-05-05",
         "dtRangeEnd": "2019-06-02"
       },
       {
         "zone": "5-6",
-        "zones": "[5a, 5b, 6a, 6b]",
+        "zones": ["5a", "5b", "6a", "6b"],
         "sowType": "Direct Sow",
         "dtRangeStart": "2019-04-18",
         "dtRangeEnd": "2019-05-16"
       },
       {
         "zone": "7-8",
-        "zones": "[7a, 7b, 8a, 8b]",
+        "zones": ["7a", "7b", "8a", "8b"],
         "sowType": "Direct Sow",
         "dtRangeStart": "2019-02-01",
         "dtRangeEnd": "2019-03-01"
       },
       {
         "zone": "9-10",
-        "zones": "[9a, 9b, 10a, 10b]",
+        "zones": ["9a", "9b", "10a", "10b"],
         "sowType": "Direct Sow",
         "dtRangeStart": "2019-02-01",
         "dtRangeEnd": "2019-03-01"
       },
       { 
         "zone" : "11", 
-        "zones" : "[11a, 11b]", 
+        "zones" : ["11a", "11b"], 
         "sowType": "Direct Sow",
         "dtRangeStart" : "2019-09-08", 
         "dtRangeEnd" : "2019-10-06"
       },
       { 
         "zone" : "3-4", 
-        "zones" : "[3a, 3b, 4a, 4b]", 
+        "zones" : ["3a", "3b", "4a", "4b"], 
         "sowType": "Direct Sow",
         "dtRangeStart" : "2019-07-10", 
         "dtRangeEnd" : "2019-08-21"
       },
       { 
         "zone" : "7-8", 
-        "zones" : "[7a, 7b, 8a, 8b]", 
+        "zones" : ["7a", "7b", "8a", "8b"], 
         "sowType": "Direct Sow",
         "dtRangeStart" : "2019-09-08",
         "dtRangeEnd" : "2019-10-06"
       },
       { 
         "zone" : "9-10", 
-        "zones" : "[9a, 9b, 10a, 10b]", 
+        "zones" : ["9a", "9b", "10a", "10b"], 
         "sowType": "Direct Sow",
         "dtRangeStart" : "2019-09-08", 
         "dtRangeEnd" : "2019-10-06"
@@ -12034,35 +12034,35 @@ const plantingCalendarSeed = [
     "sowCal": [
       {
         "zone": "11",
-        "zones": "[11a, 11b]",
+        "zones": ["11a", "11b"],
         "sowType": "Direct Sow",
         "dtRangeStart": "2019-01-18",
         "dtRangeEnd": "2019-03-01"
       },
       {
         "zone": "3-4",
-        "zones": "[3a, 3b, 4a, 4b]",
+        "zones": ["3a", "3b", "4a", "4b"],
         "sowType": "Direct Sow",
         "dtRangeStart": "2019-04-21",
         "dtRangeEnd": "2019-06-02"
       },
       {
         "zone": "5-6",
-        "zones": "[5a, 5b, 6a, 6b]",
+        "zones": ["5a", "5b", "6a", "6b"],
         "sowType": "Direct Sow",
         "dtRangeStart": "2019-04-04",
         "dtRangeEnd": "2019-05-16"
       },
       {
         "zone": "7-8",
-        "zones": "[7a, 7b, 8a, 8b]",
+        "zones": ["7a", "7b", "8a", "8b"],
         "sowType": "Direct Sow",
         "dtRangeStart": "2019-01-18",
         "dtRangeEnd": "2019-03-01"
       },
       {
         "zone": "9-10",
-        "zones": "[9a, 9b, 10a, 10b]",
+        "zones": ["9a", "9b", "10a", "10b"],
         "sowType": "Direct Sow",
         "dtRangeStart": "2019-01-18",
         "dtRangeEnd": "2019-03-01"
@@ -12075,35 +12075,35 @@ const plantingCalendarSeed = [
     "sowCal": [
       {
         "zone": "11",
-        "zones": "[11a, 11b]",
+        "zones": ["11a", "11b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-12-21",
         "dtRangeEnd": "2019-02-22"
       },
       {
         "zone": "3-4",
-        "zones": "[3a, 3b, 4a, 4b]",
+        "zones": ["3a", "3b", "4a", "4b"],
         "sowType": "Indoor Sow",
         "dtRangeStart": "2019-03-10",
         "dtRangeEnd": "2019-03-24"
       },
       {
         "zone": "3-4",
-        "zones": "[3a, 3b, 4a, 4b]",
+        "zones": ["3a", "3b", "4a", "4b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-06-02",
         "dtRangeEnd": "2019-06-30"
       },
       {
         "zone": "5-6",
-        "zones": "[5a, 5b, 6a, 6b]",
+        "zones": ["5a", "5b", "6a", "6b"],
         "sowType": "Indoor Sow",
         "dtRangeStart": "2019-02-22",
         "dtRangeEnd": "2019-03-07"
       },
       {
         "zone": "5-6",
-        "zones": "[5a, 5b, 6a, 6b]",
+        "zones": ["5a", "5b", "6a", "6b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-05-02",
         "dtRangeEnd": "2019-05-30"
@@ -12116,35 +12116,35 @@ const plantingCalendarSeed = [
     "sowCal": [
       {
         "zone": "11",
-        "zones": "[11a, 11b]",
+        "zones": ["11a", "11b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-02-15",
         "dtRangeEnd": "2019-04-01"
       },
       {
         "zone": "3-4",
-        "zones": "[3a, 3b, 4a, 4b]",
+        "zones": ["3a", "3b", "4a", "4b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-05-05",
         "dtRangeEnd": "2019-06-02"
       },
       {
         "zone": "5-6",
-        "zones": "[5a, 5b, 6a, 6b]",
+        "zones": ["5a", "5b", "6a", "6b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-03-25",
         "dtRangeEnd": "2019-05-16"
       },
       {
         "zone": "7-8",
-        "zones": "[7a, 7b, 8a, 8b]",
+        "zones": ["7a", "7b", "8a", "8b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-02-15",
         "dtRangeEnd": "2019-04-01"
       },
       {
         "zone": "9-10",
-        "zones": "[9a, 9b, 10a, 10b]",
+        "zones": ["9a", "9b", "10a", "10b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-02-15",
         "dtRangeEnd": "2019-04-01"
@@ -12157,35 +12157,35 @@ const plantingCalendarSeed = [
     "sowCal": [
       {
         "zone": "11",
-        "zones": "[11a, 11b]",
+        "zones": ["11a", "11b"],
         "sowType": "Direct Sow",
         "dtRangeStart": "2019-02-15",
         "dtRangeEnd": "2019-04-25"
       },
       {
         "zone": "3-4",
-        "zones": "[3a, 3b, 4a, 4b]",
+        "zones": ["3a", "3b", "4a", "4b"],
         "sowType": "Direct Sow",
         "dtRangeStart": "2019-06-02",
         "dtRangeEnd": "2019-06-30"
       },
       {
         "zone": "5-6",
-        "zones": "[5a, 5b, 6a, 6b]",
+        "zones": ["5a", "5b", "6a", "6b"],
         "sowType": "Direct Sow",
         "dtRangeStart": "2019-05-16",
         "dtRangeEnd": "2019-06-13"
       },
       {
         "zone": "7-8",
-        "zones": "[7a, 7b, 8a, 8b]",
+        "zones": ["7a", "7b", "8a", "8b"],
         "sowType": "Direct Sow",
         "dtRangeStart": "2019-03-14",
         "dtRangeEnd": "2019-04-25"
       },
       {
         "zone": "9-10",
-        "zones": "[9a, 9b, 10a, 10b]",
+        "zones": ["9a", "9b", "10a", "10b"],
         "sowType": "Direct Sow",
         "dtRangeStart": "2019-03-14",
         "dtRangeEnd": "2019-04-25"
@@ -12198,63 +12198,63 @@ const plantingCalendarSeed = [
     "sowCal": [
       {
         "zone": "11",
-        "zones": "[11a, 11b]",
+        "zones": ["11a", "11b"],
         "sowType": "Direct Sow",
         "dtRangeStart": "2019-12-21",
         "dtRangeEnd": "2019-03-01"
       },
       {
         "zone": "3-4",
-        "zones": "[3a, 3b, 4a, 4b]",
+        "zones": ["3a", "3b", "4a", "4b"],
         "sowType": "Direct Sow",
         "dtRangeStart": "2019-04-28",
         "dtRangeEnd": "2019-06-02"
       },
       {
         "zone": "5-6",
-        "zones": "[5a, 5b, 6a, 6b]",
+        "zones": ["5a", "5b", "6a", "6b"],
         "sowType": "Direct Sow",
         "dtRangeStart": "2019-04-11",
         "dtRangeEnd": "2019-05-16"
       },
       {
         "zone": "7-8",
-        "zones": "[7a, 7b, 8a, 8b]",
+        "zones": ["7a", "7b", "8a", "8b"],
         "sowType": "Direct Sow",
         "dtRangeStart": "2019-12-21",
         "dtRangeEnd": "2019-03-01"
       },
       {
         "zone": "9-10",
-        "zones": "[9a, 9b, 10a, 10b]",
+        "zones": ["9a", "9b", "10a", "10b"],
         "sowType": "Direct Sow",
         "dtRangeStart": "2019-12-21",
         "dtRangeEnd": "2019-03-01"
       },
       { 
         "zone" : "11", 
-        "zones" : "[11a, 11b]", 
+        "zones" : ["11a", "11b"], 
         "sowType": "Direct Sow",
         "dtRangeStart" : "2019-09-22", 
         "dtRangeEnd" : "2019-10-20"
       },
       { 
         "zone" : "3-4", 
-        "zones" : "[3a, 3b, 4a, 4b]", 
+        "zones" : ["3a", "3b", "4a", "4b"], 
         "sowType": "Direct Sow",
         "dtRangeStart" : "2019-07-10", 
         "dtRangeEnd" : "2019-08-21"
       },
       { 
         "zone" : "7-8", 
-        "zones" : "[7a, 7b, 8a, 8b]", 
+        "zones" : ["7a", "7b", "8a", "8b"], 
         "sowType": "Direct Sow",
         "dtRangeStart" : "2019-09-22",
         "dtRangeEnd" : "2019-10-22"
       },
       { 
         "zone" : "9-10", 
-        "zones" : "[9a, 9b, 10a, 10b]", 
+        "zones" : ["9a", "9b", "10a", "10b"], 
         "sowType": "Direct Sow",
         "dtRangeStart" : "2019-09-22", 
         "dtRangeEnd" : "2019-10-20"
@@ -12267,42 +12267,42 @@ const plantingCalendarSeed = [
     "sowCal": [
       {
         "zone": "11",
-        "zones": "[11a, 11b]",
+        "zones": ["11a", "11b"],
         "sowType": "Direct Sow",
         "dtRangeStart": "2019-12-21",
         "dtRangeEnd": "2019-03-14"
       },
       {
         "zone": "3-4",
-        "zones": "[3a, 3b, 4a, 4b]",
+        "zones": ["3a", "3b", "4a", "4b"],
         "sowType": "Direct Sow",
         "dtRangeStart": "2019-04-14",
         "dtRangeEnd": "2019-06-02"
       },
       {
         "zone": "5-6",
-        "zones": "[5a, 5b, 6a, 6b]",
+        "zones": ["5a", "5b", "6a", "6b"],
         "sowType": "Direct Sow",
         "dtRangeStart": "2019-03-28",
         "dtRangeEnd": "2019-05-16"
       },
       {
         "zone": "7-8",
-        "zones": "[7a, 7b, 8a, 8b]",
+        "zones": ["7a", "7b", "8a", "8b"],
         "sowType": "Direct Sow",
         "dtRangeStart": "2019-02-15",
         "dtRangeEnd": "2019-03-14"
       },
       {
         "zone": "9-10",
-        "zones": "[9a, 9b, 10a, 10b]",
+        "zones": ["9a", "9b", "10a", "10b"],
         "sowType": "Direct Sow",
         "dtRangeStart": "2019-02-15",
         "dtRangeEnd": "2019-03-14"
       },
       { 
           "zone" : "5-6", 
-          "zones" : "[5a, 5b, 6a, 6b]", 
+          "zones" : ["5a", "5b", "6a", "6b"], 
           "sowType": "Direct Sow",
           "dtRangeStart" : "2019-08-06", 
           "dtRangeEnd" : "2019-09-17"
@@ -12315,14 +12315,14 @@ const plantingCalendarSeed = [
     "sowCal": [
       {
         "zone": "3-4",
-        "zones": "[3a, 3b, 4a, 4b]",
+        "zones": ["3a", "3b", "4a", "4b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-05-05",
         "dtRangeEnd": "2019-06-02"
       },
       {
         "zone": "5-6",
-        "zones": "[5a, 5b, 6a, 6b]",
+        "zones": ["5a", "5b", "6a", "6b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-03-02",
         "dtRangeEnd": "2019-05-16"
@@ -12335,35 +12335,35 @@ const plantingCalendarSeed = [
     "sowCal": [
       {
         "zone": "3-4",
-        "zones": "[3a, 3b, 4a, 4b]",
+        "zones": ["3a", "3b", "4a", "4b"],
         "sowType": "Direct Sow",
         "dtRangeStart": "2019-04-28",
         "dtRangeEnd": "2019-05-05"
       },
       {
         "zone": "5-6",
-        "zones": "[5a, 5b, 6a, 6b]",
+        "zones": ["5a", "5b", "6a", "6b"],
         "sowType": "Direct Sow",
         "dtRangeStart": "2019-03-28",
         "dtRangeEnd": "2019-05-02"
       },
       { 
         "zone" : "11", 
-        "zones" : "[11a, 11b]", 
+        "zones" : ["11a", "11b"], 
         "sowType": "Direct Sow",
         "dtRangeStart" : "2019-09-22", 
         "dtRangeEnd" : "2019-10-20"
       },
       { 
         "zone" : "7-8", 
-        "zones" : "[7a, 7b, 8a, 8b]", 
+        "zones" : ["7a", "7b", "8a", "8b"], 
         "sowType": "Direct Sow",
         "dtRangeStart" : "2019-09-22",
         "dtRangeEnd" : "2019-10-20"
       },
       { 
         "zone" : "9-10", 
-        "zones" : "[9a, 9b, 10a, 10b]", 
+        "zones" : ["9a", "9b", "10a", "10b"], 
         "sowType": "Direct Sow",
         "dtRangeStart" : "2019-09-22", 
         "dtRangeEnd" : "2019-10-20"
@@ -12376,42 +12376,42 @@ const plantingCalendarSeed = [
     "sowCal": [
       {
         "zone": "11",
-        "zones": "[11a, 11b]",
+        "zones": ["11a", "11b"],
         "sowType": "Direct Sow",
         "dtRangeStart": "2019-12-21",
         "dtRangeEnd": "2019-03-01"
       },
       {
         "zone": "3-4",
-        "zones": "[3a, 3b, 4a, 4b]",
+        "zones": ["3a", "3b", "4a", "4b"],
         "sowType": "Direct Sow",
         "dtRangeStart": "2019-04-21",
         "dtRangeEnd": "2019-06-02"
       },
       {
         "zone": "5-6",
-        "zones": "[5a, 5b, 6a, 6b]",
+        "zones": ["5a", "5b", "6a", "6b"],
         "sowType": "Direct Sow",
         "dtRangeStart": "2019-04-04",
         "dtRangeEnd": "2019-05-16"
       },
       {
         "zone": "7-8",
-        "zones": "[7a, 7b, 8a, 8b]",
+        "zones": ["7a", "7b", "8a", "8b"],
         "sowType": "Direct Sow",
         "dtRangeStart": "2019-12-21",
         "dtRangeEnd": "2019-03-01"
       },
       {
         "zone": "9-10",
-        "zones": "[9a, 9b, 10a, 10b]",
+        "zones": ["9a", "9b", "10a", "10b"],
         "sowType": "Direct Sow",
         "dtRangeStart": "2019-12-21",
         "dtRangeEnd": "2019-03-01"
       },
       { 
         "zone" : "5-6", 
-        "zones" : "[5a, 5b, 6a, 6b]", 
+        "zones" : ["5a", "5b", "6a", "6b"], 
         "sowType": "Direct Sow",
         "dtRangeStart" : "2019-08-20", 
         "dtRangeEnd" : "2019-09-17"
@@ -12424,91 +12424,91 @@ const plantingCalendarSeed = [
     "sowCal": [
       {
         "zone": "11",
-        "zones": "[11a, 11b]",
+        "zones": ["11a", "11b"],
         "sowType": "Indoor Sow",
         "dtRangeStart": "2019-11-15",
         "dtRangeEnd": "2019-01-04"
       },
       {
         "zone": "3-4",
-        "zones": "[3a, 3b, 4a, 4b]",
+        "zones": ["3a", "3b", "4a", "4b"],
         "sowType": "Indoor Sow",
         "dtRangeStart": "2019-03-01",
         "dtRangeEnd": "2019-03-24"
       },
       {
         "zone": "3-4",
-        "zones": "[3a, 3b, 4a, 4b]",
+        "zones": ["3a", "3b", "4a", "4b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-04-21",
         "dtRangeEnd": "2019-05-05"
       },
       {
         "zone": "5-6",
-        "zones": "[5a, 5b, 6a, 6b]",
+        "zones": ["5a", "5b", "6a", "6b"],
         "sowType": "Indoor Sow",
         "dtRangeStart": "2019-02-22",
         "dtRangeEnd": "2019-03-07"
       },
       {
         "zone": "7-8",
-        "zones": "[7a, 7b, 8a, 8b]",
+        "zones": ["7a", "7b", "8a", "8b"],
         "sowType": "Indoor Sow",
         "dtRangeStart": "2019-11-15",
         "dtRangeEnd": "2019-01-04"
       },
       {
         "zone": "9-10",
-        "zones": "[9a, 9b, 10a, 10b]",
+        "zones": ["9a", "9b", "10a", "10b"],
         "sowType": "Indoor Sow",
         "dtRangeStart": "2019-11-15",
         "dtRangeEnd": "2019-01-04"
       },
       {
         "zone": "5-6",
-        "zones": "[5a, 5b, 6a, 6b]",
+        "zones": ["5a", "5b", "6a", "6b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-03-07",
         "dtRangeEnd": "2019-05-16"
       },
       {
         "zone": "11",
-        "zones": "[11a, 11b]",
+        "zones": ["11a", "11b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-02-01",
         "dtRangeEnd": "2019-03-01"
       },
       {
         "zone": "7-8",
-        "zones": "[7a, 7b, 8a, 8b]",
+        "zones": ["7a", "7b", "8a", "8b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-01-25",
         "dtRangeEnd": "2019-03-01"
       },
       {
         "zone": "9-10",
-        "zones": "[9a, 9b, 10a, 10b]",
+        "zones": ["9a", "9b", "10a", "10b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-01-25",
         "dtRangeEnd": "2019-03-01"
       },
       {
         "zone": "11",
-        "zones": "[11a, 11b]",
+        "zones": ["11a", "11b"],
         "sowType": "Direct Sow",
         "dtRangeStart": "2019-12-21",
         "dtRangeEnd": "2019-03-01"
       },
       {
         "zone": "7-8",
-        "zones": "[7a, 7b, 8a, 8b]",
+        "zones": ["7a", "7b", "8a", "8b"],
         "sowType": "Direct Sow",
         "dtRangeStart": "2019-12-21",
         "dtRangeEnd": "2019-03-01"
       },
       {
         "zone": "9-10",
-        "zones": "[9a, 9b, 10a, 10b]",
+        "zones": ["9a", "9b", "10a", "10b"],
         "sowType": "Direct Sow",
         "dtRangeStart": "2019-12-21",
         "dtRangeEnd": "2019-03-01"
@@ -12521,35 +12521,35 @@ const plantingCalendarSeed = [
     "sowCal": [
       {
         "zone": "3-4",
-        "zones": "[3a, 3b, 4a, 4b]",
+        "zones": ["3a", "3b", "4a", "4b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-05-05",
         "dtRangeEnd": "2019-06-02"
       },
       {
         "zone": "5-6",
-        "zones": "[5a, 5b, 6a, 6b]",
+        "zones": ["5a", "5b", "6a", "6b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-03-07",
         "dtRangeEnd": "2019-05-16"
       },
       {
         "zone": "7-8",
-        "zones": "[7a, 7b, 8a, 8b]",
+        "zones": ["7a", "7b", "8a", "8b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-09-08",
         "dtRangeEnd": "2019-10-06"
       },
       {
         "zone": "9-10",
-        "zones": "[9a, 9b, 10a, 10b]",
+        "zones": ["9a", "9b", "10a", "10b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-09-08",
         "dtRangeEnd": "2019-10-06"
       },
       { 
         "zone" : "11", 
-        "zones" : "[11a, 11b]", 
+        "zones" : ["11a", "11b"], 
         "sowType": "Transplant",
         "dtRangeStart" : "2019-09-08",
         "dtRangeEnd" : "2019-10-06"
@@ -12562,49 +12562,49 @@ const plantingCalendarSeed = [
     "sowCal": [
       {
         "zone": "11",
-        "zones": "[11a, 11b]",
+        "zones": ["11a", "11b"],
         "sowType": "Direct Sow",
         "dtRangeStart": "2019-02-15",
         "dtRangeEnd": "2019-04-11"
       },
       {
         "zone": "5-6",
-        "zones": "[5a, 5b, 6a, 6b]",
+        "zones": ["5a", "5b", "6a", "6b"],
         "sowType": "Direct Sow",
         "dtRangeStart": "2019-05-16",
         "dtRangeEnd": "2019-06-13"
       },
       {
         "zone": "7-8",
-        "zones": "[7a, 7b, 8a, 8b]",
+        "zones": ["7a", "7b", "8a", "8b"],
         "sowType": "Direct Sow",
         "dtRangeStart": "2019-02-15",
         "dtRangeEnd": "2019-04-11"
       },
       {
         "zone": "9-10",
-        "zones": "[9a, 9b, 10a, 10b]",
+        "zones": ["9a", "9b", "10a", "10b"],
         "sowType": "Direct Sow",
         "dtRangeStart": "2019-02-15",
         "dtRangeEnd": "2019-04-11"
       },
       { 
           "zone" : "11", 
-          "zones" : "[11a, 11b]", 
+          "zones" : ["11a", "11b"], 
           "sowType": "Direct Sow",
           "dtRangeStart" : "2019-09-08", 
           "dtRangeEnd" : "2019-10-06"
       },
       { 
         "zone" : "7-8", 
-        "zones" : "[7a, 7b, 8a, 8b]", 
+        "zones" : ["7a", "7b", "8a", "8b"], 
         "sowType": "Direct Sow",
         "dtRangeStart" : "2019-09-08",
         "dtRangeEnd" : "2019-10-06"
       },
       { 
         "zone" : "9-10", 
-        "zones" : "[9a, 9b, 10a, 10b]", 
+        "zones" : ["9a", "9b", "10a", "10b"], 
         "sowType": "Direct Sow",
         "dtRangeStart" : "2019-09-08", 
         "dtRangeEnd" : "2019-10-06"
@@ -12617,35 +12617,35 @@ const plantingCalendarSeed = [
     "sowCal": [
       {
         "zone": "11",
-        "zones": "[11a, 11b]",
+        "zones": ["11a", "11b"],
         "sowType": "Direct Sow",
         "dtRangeStart": "2019-12-21",
         "dtRangeEnd": "2019-03-01"
       },
       {
         "zone": "3-4",
-        "zones": "[3a, 3b, 4a, 4b]",
+        "zones": ["3a", "3b", "4a", "4b"],
         "sowType": "Direct Sow",
         "dtRangeStart": "2019-04-21",
         "dtRangeEnd": "2019-06-16"
       },
       {
         "zone": "5-6",
-        "zones": "[5a, 5b, 6a, 6b]",
+        "zones": ["5a", "5b", "6a", "6b"],
         "sowType": "Direct Sow",
         "dtRangeStart": "2019-04-04",
         "dtRangeEnd": "2019-05-30"
       },
       {
         "zone": "7-8",
-        "zones": "[7a, 7b, 8a, 8b]",
+        "zones": ["7a", "7b", "8a", "8b"],
         "sowType": "Direct Sow",
         "dtRangeStart": "2019-02-01",
         "dtRangeEnd": "2019-03-01"
       },
       {
         "zone": "9-10",
-        "zones": "[9a, 9b, 10a, 10b]",
+        "zones": ["9a", "9b", "10a", "10b"],
         "sowType": "Direct Sow",
         "dtRangeStart": "2019-02-01",
         "dtRangeEnd": "2019-03-01"
@@ -12658,35 +12658,35 @@ const plantingCalendarSeed = [
     "sowCal": [
       {
         "zone": "11",
-        "zones": "[11a, 11b]",
+        "zones": ["11a", "11b"],
         "sowType": "Direct Sow",
         "dtRangeStart": "2019-02-15",
         "dtRangeEnd": "2019-04-25"
       },
       {
         "zone": "3-4",
-        "zones": "[3a, 3b, 4a, 4b]",
+        "zones": ["3a", "3b", "4a", "4b"],
         "sowType": "Direct Sow",
         "dtRangeStart": "2019-06-02",
         "dtRangeEnd": "2019-06-30"
       },
       {
         "zone": "5-6",
-        "zones": "[5a, 5b, 6a, 6b]",
+        "zones": ["5a", "5b", "6a", "6b"],
         "sowType": "Direct Sow",
         "dtRangeStart": "2019-05-16",
         "dtRangeEnd": "2019-07-11"
       },
       {
         "zone": "7-8",
-        "zones": "[7a, 7b, 8a, 8b]",
+        "zones": ["7a", "7b", "8a", "8b"],
         "sowType": "Direct Sow",
         "dtRangeStart": "2019-03-01",
         "dtRangeEnd": "2019-04-25"
       },
       {
         "zone": "9-10",
-        "zones": "[9a, 9b, 10a, 10b]",
+        "zones": ["9a", "9b", "10a", "10b"],
         "sowType": "Direct Sow",
         "dtRangeStart": "2019-03-01",
         "dtRangeEnd": "2019-04-25"
@@ -12699,35 +12699,35 @@ const plantingCalendarSeed = [
     "sowCal": [
       {
         "zone": "11",
-        "zones": "[11a, 11b]",
+        "zones": ["11a", "11b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-04-10",
         "dtRangeEnd": "2019-05-15"
       },
       {
         "zone": "3-4",
-        "zones": "[3a, 3b, 4a, 4b]",
+        "zones": ["3a", "3b", "4a", "4b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-05-15",
         "dtRangeEnd": "2019-06-02"
       },
       {
         "zone": "5-6",
-        "zones": "[5a, 5b, 6a, 6b]",
+        "zones": ["5a", "5b", "6a", "6b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-05-16",
         "dtRangeEnd": "2019-06-13"
       },
       {
         "zone": "7-8",
-        "zones": "[7a, 7b, 8a, 8b]",
+        "zones": ["7a", "7b", "8a", "8b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-04-10",
         "dtRangeEnd": "2019-05-15"
       },
       {
         "zone": "9-10",
-        "zones": "[9a, 9b, 10a, 10b]",
+        "zones": ["9a", "9b", "10a", "10b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-04-10",
         "dtRangeEnd": "2019-05-15"
@@ -12740,70 +12740,70 @@ const plantingCalendarSeed = [
     "sowCal": [
       {
         "zone": "11",
-        "zones": "[11a, 11b]",
+        "zones": ["11a", "11b"],
         "sowType": "Direct Sow",
         "dtRangeStart": "2019-12-21",
         "dtRangeEnd": "2019-03-28"
       },
       {
         "zone": "3-4",
-        "zones": "[3a, 3b, 4a, 4b]",
+        "zones": ["3a", "3b", "4a", "4b"],
         "sowType": "Direct Sow",
         "dtRangeStart": "2019-05-05",
         "dtRangeEnd": "2019-07-28"
       },
       {
         "zone": "5-6",
-        "zones": "[5a, 5b, 6a, 6b]",
+        "zones": ["5a", "5b", "6a", "6b"],
         "sowType": "Direct Sow",
         "dtRangeStart": "2019-04-18",
         "dtRangeEnd": "2019-07-11"
       },
       {
         "zone": "7-8",
-        "zones": "[7a, 7b, 8a, 8b]",
+        "zones": ["7a", "7b", "8a", "8b"],
         "sowType": "Direct Sow",
         "dtRangeStart": "2019-02-15",
         "dtRangeEnd": "2019-03-28"
       },
       {
         "zone": "9-10",
-        "zones": "[9a, 9b, 10a, 10b]",
+        "zones": ["9a", "9b", "10a", "10b"],
         "sowType": "Direct Sow",
         "dtRangeStart": "2019-02-15",
         "dtRangeEnd": "2019-03-28"
       },
       { 
         "zone" : "11", 
-        "zones" : "[11a, 11b]", 
+        "zones" : ["11a", "11b"], 
         "sowType": "Direct Sow",
         "dtRangeStart" : "2019-10-06", 
         "dtRangeEnd" : "2019-08-25"
       },
       { 
         "zone" : "3-4", 
-        "zones" : "[3a, 3b, 4a, 4b]", 
+        "zones" : ["3a", "3b", "4a", "4b"], 
         "sowType": "Direct Sow",
         "dtRangeStart" : "2019-07-10", 
         "dtRangeEnd" : "2019-08-21"
       },
       { 
         "zone" : "5-6", 
-        "zones" : "[5a, 5b, 6a, 6b]", 
+        "zones" : ["5a", "5b", "6a", "6b"], 
         "sowType": "Direct Sow",
         "dtRangeStart" : "2019-08-06", 
         "dtRangeEnd" : "2019-09-17"
       },
       { 
         "zone" : "7-8", 
-        "zones" : "[7a, 7b, 8a, 8b]", 
+        "zones" : ["7a", "7b", "8a", "8b"], 
         "sowType": "Direct Sow",
         "dtRangeStart" : "2019-10-06",
         "dtRangeEnd" : "2019-08-25"
       },
       { 
         "zone" : "9-10", 
-        "zones" : "[9a, 9b, 10a, 10b]", 
+        "zones" : ["9a", "9b", "10a", "10b"], 
         "sowType": "Direct Sow",
         "dtRangeStart" : "2019-10-06", 
         "dtRangeEnd" : "2019-08-25"
@@ -12816,35 +12816,35 @@ const plantingCalendarSeed = [
     "sowCal": [
       {
         "zone": "11",
-        "zones": "[11a, 11b]",
+        "zones": ["11a", "11b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-01-04",
         "dtRangeEnd": "2019-02-22"
       },
       {
         "zone": "3-4",
-        "zones": "[3a, 3b, 4a, 4b]",
+        "zones": ["3a", "3b", "4a", "4b"],
         "sowType": "Indoor Sow",
         "dtRangeStart": "2019-03-24",
         "dtRangeEnd": "2019-04-07"
       },
       {
         "zone": "3-4",
-        "zones": "[3a, 3b, 4a, 4b]",
+        "zones": ["3a", "3b", "4a", "4b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-06-02",
         "dtRangeEnd": "2019-06-30"
       },
       {
         "zone": "5-6",
-        "zones": "[5a, 5b, 6a, 6b]",
+        "zones": ["5a", "5b", "6a", "6b"],
         "sowType": "Indoor Sow",
         "dtRangeStart": "2019-03-07",
         "dtRangeEnd": "2019-03-21"
       },
       {
         "zone": "5-6",
-        "zones": "[5a, 5b, 6a, 6b]",
+        "zones": ["5a", "5b", "6a", "6b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-05-02",
         "dtRangeEnd": "2019-05-30"
@@ -12857,35 +12857,35 @@ const plantingCalendarSeed = [
     "sowCal": [
       {
         "zone": "11",
-        "zones": "[11a, 11b]",
+        "zones": ["11a", "11b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-01-18",
         "dtRangeEnd": "2019-02-22"
       },
       {
         "zone": "3-4",
-        "zones": "[3a, 3b, 4a, 4b]",
+        "zones": ["3a", "3b", "4a", "4b"],
         "sowType": "Indoor Sow",
         "dtRangeStart": "2019-03-24",
         "dtRangeEnd": "2019-04-07"
       },
       {
         "zone": "3-4",
-        "zones": "[3a, 3b, 4a, 4b]",
+        "zones": ["3a", "3b", "4a", "4b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-06-02",
         "dtRangeEnd": "2019-06-30"
       },
       {
         "zone": "5-6",
-        "zones": "[5a, 5b, 6a, 6b]",
+        "zones": ["5a", "5b", "6a", "6b"],
         "sowType": "Indoor Sow",
         "dtRangeStart": "2019-03-07",
         "dtRangeEnd": "2019-03-21"
       },
       {
         "zone": "5-6",
-        "zones": "[5a, 5b, 6a, 6b]",
+        "zones": ["5a", "5b", "6a", "6b"],
         "sowType": "Transplant",
         "dtRangeStart": "2019-05-02",
         "dtRangeEnd": "2019-05-30"
@@ -12898,70 +12898,70 @@ const plantingCalendarSeed = [
     "sowCal": [
       {
         "zone": "11",
-        "zones": "[11a, 11b]",
+        "zones": ["11a", "11b"],
         "sowType": "Direct Sow",
         "dtRangeStart": "2019-02-01",
         "dtRangeEnd": "2019-03-01"
       },
       {
         "zone": "3-4",
-        "zones": "[3a, 3b, 4a, 4b]",
+        "zones": ["3a", "3b", "4a", "4b"],
         "sowType": "Direct Sow",
         "dtRangeStart": "2019-04-21",
         "dtRangeEnd": "2019-06-02"
       },
       {
         "zone": "5-6",
-        "zones": "[5a, 5b, 6a, 6b]",
+        "zones": ["5a", "5b", "6a", "6b"],
         "sowType": "Direct Sow",
         "dtRangeStart": "2019-04-04",
         "dtRangeEnd": "2019-05-16"
       },
       {
         "zone": "7-8",
-        "zones": "[7a, 7b, 8a, 8b]",
+        "zones": ["7a", "7b", "8a", "8b"],
         "sowType": "Direct Sow",
         "dtRangeStart": "2019-02-01",
         "dtRangeEnd": "2019-03-01"
       },
       {
         "zone": "9-10",
-        "zones": "[9a, 9b, 10a, 10b]",
+        "zones": ["9a", "9b", "10a", "10b"],
         "sowType": "Direct Sow",
         "dtRangeStart": "2019-02-01",
         "dtRangeEnd": "2019-03-01"
       },
       { 
         "zone" : "11", 
-        "zones" : "[11a, 11b]", 
+        "zones" : ["11a", "11b"], 
         "sowType": "Direct Sow",
         "dtRangeStart" : "2019-09-08", 
         "dtRangeEnd" : "2019-10-06"
       },
       { 
         "zone" : "3-4", 
-        "zones" : "[3a, 3b, 4a, 4b]", 
+        "zones" : ["3a", "3b", "4a", "4b"], 
         "sowType": "Direct Sow",
         "dtRangeStart" : "2019-07-10", 
         "dtRangeEnd" : "2019-08-21"
       },
       { 
         "zone" : "5-6", 
-        "zones" : "[5a, 5b, 6a, 6b]", 
+        "zones" : ["5a", "5b", "6a", "6b"], 
         "sowType": "Direct Sow",
         "dtRangeStart" : "2019-08-06", 
         "dtRangeEnd" : "2019-09-17"
       },
       { 
         "zone" : "7-8", 
-        "zones" : "[7a, 7b, 8a, 8b]", 
+        "zones" : ["7a", "7b", "8a", "8b"], 
         "sowType": "Direct Sow",
         "dtRangeStart" : "2019-09-08",
         "dtRangeEnd" : "2019-10-06"
       },
       { 
         "zone" : "9-10", 
-        "zones" : "[9a, 9b, 10a, 10b]", 
+        "zones" : ["9a", "9b", "10a", "10b"], 
         "sowType": "Direct Sow",
         "dtRangeStart" : "2019-09-08", 
         "dtRangeEnd" : "2019-10-06"
@@ -12974,35 +12974,35 @@ const plantingCalendarSeed = [
     "sowCal": [
       {
         "zone": "11",
-        "zones": "[11a, 11b]",
+        "zones": ["11a", "11b"],
         "sowType": "Direct Sow",
         "dtRangeStart": "2019-02-15",
         "dtRangeEnd": "2019-04-25"
       },
       {
         "zone": "3-4",
-        "zones": "[3a, 3b, 4a, 4b]",
+        "zones": ["3a", "3b", "4a", "4b"],
         "sowType": "Direct Sow",
         "dtRangeStart": "2019-06-02",
         "dtRangeEnd": "2019-07-28"
       },
       {
         "zone": "5-6",
-        "zones": "[5a, 5b, 6a, 6b]",
+        "zones": ["5a", "5b", "6a", "6b"],
         "sowType": "Direct Sow",
         "dtRangeStart": "2019-05-16",
         "dtRangeEnd": "2019-07-11"
       },
       {
         "zone": "7-8",
-        "zones": "[7a, 7b, 8a, 8b]",
+        "zones": ["7a", "7b", "8a", "8b"],
         "sowType": "Direct Sow",
         "dtRangeStart": "2019-03-01",
         "dtRangeEnd": "2019-04-25"
       },
       {
         "zone": "9-10",
-        "zones": "[9a, 9b, 10a, 10b]",
+        "zones": ["9a", "9b", "10a", "10b"],
         "sowType": "Direct Sow",
         "dtRangeStart": "2019-03-01",
         "dtRangeEnd": "2019-04-25"
