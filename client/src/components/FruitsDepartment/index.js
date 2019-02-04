@@ -5,7 +5,10 @@ import {Pagination, Col, Button} from "react-materialize";
 
 class FruitsDepartment extends React.Component {
     state = {
-        fruits: []
+        fruits: [],
+        activeCards: [],
+        activePage: "",
+        pageItem: ""
     };
 
     componentDidMount() {
@@ -25,29 +28,65 @@ class FruitsDepartment extends React.Component {
     setFruit(data) {
 
         this.setState({fruits: data});
-        console.log(this.state.fruits);
-        console.log(typeof(this.state.fruits));
+        this.setPageItem();
+        this.pushUpItems(0);
+    }
 
+    setActivePage(pageNum) {
+        this.setState({activePage: pageNum});
+    }
+
+    setPageItem() {
+        let itemNum;
+        if(this.state.fruits.length < 12) {
+            itemNum = this.state.fruits.length;
+            // console.log(itemNum);
+        }
+        else {
+            itemNum = 12;
+        }
+        let pageItem = Math.ceil(this.state.fruits.length / itemNum);
+        // console.log(pageItem);
+        this.setState({pageItem: pageItem});
+    }
+
+    pushUpItems(event) {
+        if(event === 0) {
+            event = 1;
+        }
+        // console.log(event);
+        let length = event * 12;
+        let tempArray = [];
+        for(var i = (length - 12); i < length; i++) {
+            if(this.state.fruits[i] !== undefined) {
+                tempArray.push(this.state.fruits[i]);
+            }
+        }
+        // console.log(tempArray);
+        this.setState({ activeCards: tempArray });
     }
 
     render() {
         return(
-            <div className="row">
-                {this.state.fruits.map(item => (
-                    <Col s={12} m={10} l={4}>
-                        <PlantCards
-                            key={item._id}
-                            id={item._id} 
-                            commonName={item.commonName}
-                            photo={item.photoURL}
-                            zones={item.zone}
-                            plantDetails={item.plantAttrURL}
-                            variety={item.variety}
-                            category={item.plantCategories[0]}
-                        />
-                    </Col>
-                ))}
-            </div>
+            <div className="content">
+                <div className="row">
+                    {this.state.activeCards.map(item => (
+                        <Col s={12} m={10} l={4}>
+                            <PlantCards
+                                key={item._id}
+                                id={item._id} 
+                                commonName={item.commonName}
+                                photo={item.photoURL}
+                                zones={item.zone}
+                                plantDetails={item.plantAttrURL}
+                                variety={item.variety}
+                                category={item.plantCategories[0]}
+                            />
+                        </Col>
+                    ))}
+                </div>
+                <Pagination items={this.state.pageItem} activePage={this.state.activePage} maxButtons={this.state.pageItem - 2} onSelect={(event) => this.pushUpItems(event)} />
+            </div>        
         );
     }
 }

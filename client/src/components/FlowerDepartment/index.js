@@ -36,24 +36,34 @@ class FlowerDepartment extends React.Component {
     }
 
     setPageItem() {
-        let pageItem = Math.ceil(this.state.flowers.length / 12);
-        console.log(pageItem);
+        let itemNum;
+        if(this.state.flowers.length < 12) {
+            itemNum = this.state.flowers.length;
+            // console.log(itemNum);
+        }
+        else {
+            itemNum = 12;
+        }
+        let pageItem = Math.ceil(this.state.flowers.length / itemNum);
+        // console.log(pageItem);
         this.setState({pageItem: pageItem});
     }
 
     pushUpItems(event) {
-        console.log(this.state.flowers);
+        // console.log(this.state.flowers);
         if(event === 0) {
             event = 1;
         }
-        console.log(event);
+        // console.log(event);
         let length = event * 12;
         let tempArray = [];
         for(var i = (length - 12); i < length; i++) {
-            tempArray.push(this.state.flowers[i]);
+            // console.log(this.state.flowers[length]);
+            if(this.state.flowers[i] !== undefined) {
+                tempArray.push(this.state.flowers[i]);
+            }
         }
-        console.log(tempArray);
-
+        // console.log(tempArray);
         this.setState({ activeCards: tempArray });
     }
 
