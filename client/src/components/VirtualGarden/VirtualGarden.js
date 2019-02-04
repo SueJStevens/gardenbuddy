@@ -1,7 +1,8 @@
 import React from "react";
-import sample_plants  from "./sample_plants.json";
+//import sample_plants  from "./sample_plants.json";
 import VirtualPlant from "../VirtualPlant";
-import {Row, Col, Button } from "react-materialize";
+//import {Row, Col, Button } from "react-materialize";
+import {Row, Col } from "react-materialize";
 
 import API from "../../utils/API";
 import VirtualPlantAddModal from "../VirtualPlantAddModal/index.js";

@@ -1,13 +1,14 @@
 import React from "react";
 import "./style.css";
+import Wrapper from "../Wrapper";
 
 function Jumbotron(props) {
     return (
-        <wrapper className="wrapper">
+        <Wrapper className="wrapper">
             <div className="bg-image">
                 {props.children}
             </div>
-        </wrapper>
+        </Wrapper>
             );
         }
         

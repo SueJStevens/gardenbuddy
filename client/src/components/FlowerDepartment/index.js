@@ -6,6 +6,7 @@ import {Pagination, Col} from "react-materialize";
 class FlowerDepartment extends React.Component {
     state = {
         flowers: [],
+        activeCards: [],
         activePage: "",
         pageItem: ""
     };
@@ -26,6 +27,8 @@ class FlowerDepartment extends React.Component {
 
     setFlower(data) {
         this.setState({flowers: data});
+        this.setPageItem();
+        this.pushUpItems(0);
     }
 
     setActivePage(pageNum) {
@@ -33,16 +36,42 @@ class FlowerDepartment extends React.Component {
     }
 
     setPageItem() {
-        let pageItem = Math.ceil(this.state.flowers.length / 16);
-        console.log(pageItem);
+        let itemNum;
+        if(this.state.flowers.length < 12) {
+            itemNum = this.state.flowers.length;
+            // console.log(itemNum);
+        }
+        else {
+            itemNum = 12;
+        }
+        let pageItem = Math.ceil(this.state.flowers.length / itemNum);
+        // console.log(pageItem);
         this.setState({pageItem: pageItem});
+    }
+
+    pushUpItems(event) {
+        // console.log(this.state.flowers);
+        if(event === 0) {
+            event = 1;
+        }
+        // console.log(event);
+        let length = event * 12;
+        let tempArray = [];
+        for(var i = (length - 12); i < length; i++) {
+            // console.log(this.state.flowers[length]);
+            if(this.state.flowers[i] !== undefined) {
+                tempArray.push(this.state.flowers[i]);
+            }
+        }
+        // console.log(tempArray);
+        this.setState({ activeCards: tempArray });
     }
 
     render() {
         return(
             <div className="content">
                 <div className="row">
-                    {this.state.flowers.map(item => (
+                    {this.state.activeCards.map(item => (
                         <Col s={12} m={10} l={4}>
                             <PlantCards
                                 key={item._id}
@@ -57,7 +86,7 @@ class FlowerDepartment extends React.Component {
                         </Col>
                     ))}
                 </div>
-                <Pagination items={this.setPageItem} activePage={1} maxButtons={8} />
+                <Pagination items={this.state.pageItem} activePage={this.state.activePage} maxButtons={this.state.pageItem - 2} onSelect={(event) => this.pushUpItems(event)} />
             </div>
         );
     }

@@ -10,6 +10,9 @@ router
 // Matches with "/api/plants/:category"
 router.route("/category/:category").get(plantsController.findByCategory);
 
+// Matches with "/api/plants/search"
+router.route("/search").get(plantsController.search);
+
 // Matches with "/api/plants/:id"
 router
   .route("/:id")
