@@ -11,7 +11,6 @@ import Vegetables from './pages/vegetables';
 import Herbs from './pages/herbs';
 import axios from 'axios';
 import Swal from 'sweetalert2';
-import SearchResultsPage from "./pages/searchResults";
 
 class App extends Component {
 
@@ -128,7 +127,6 @@ render() {
           <Route path="/fruits" render={(props) => <Fruits {...props} user={this.state} onChange={this.handleChange} handleLogin={this.handleLogin} handleSignup={this.handleSignup} />} />
           <Route path="/vegetables" render={(props) => <Vegetables {...props} user={this.state} onChange={this.handleChange} handleLogin={this.handleLogin} handleSignup={this.handleSignup} />} />
           <Route path="/herbs" render={(props) => <Herbs {...props} user={this.state} onChange={this.handleChange} handleLogin={this.handleLogin} handleSignup={this.handleSignup} />} />
-          <Route path="/searchResults" render={(props) => <SearchResultsPage {...props} user={this.state} onChange={this.handleChange} handleLogin={this.handleLogin} handleSignup={this.handleSignup} />} />
         </Switch>
       </div>
     </Router>
