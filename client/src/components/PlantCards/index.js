@@ -9,7 +9,8 @@ function PlantCard(props) {
             actions={<Link to={{pathname: `/plantdetail/${props.commonName.toLowerCase()}`, state: {id: props.id}}}>Detail</Link>}>
             Zone: {props.zones}<br/>
             Variety: {props.variety}<br/>
-            ID: {props.id}
+            {/* not sure if we need to display mongo document ID
+                ID: {props.id}*/}
             Category: {props.category}
         </Card>
     )

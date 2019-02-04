@@ -23,6 +23,17 @@ export default {
     return axios.post("/api/plants", plantData);
   },
 
+  // Gets the recommended plants by zip code and category
+  // This corresponds to the basic search by zip code operation.
+  searchPlants: function(inputCategory, inputZipcode){
+    return axios.get("/api/plants/search/", {
+        params : {
+          category: inputCategory,
+          zipcode : inputZipcode
+        }
+      });
+  },
+
   //
   // User Profile specific API routes 
   //
