@@ -36,19 +36,20 @@ class FlowerDepartment extends React.Component {
     }
 
     setPageItem() {
-        let pageItem = Math.ceil(this.state.flowers.length / 15);
+        let pageItem = Math.ceil(this.state.flowers.length / 12);
         console.log(pageItem);
         this.setState({pageItem: pageItem});
     }
 
     pushUpItems(event) {
+        console.log(this.state.flowers);
         if(event === 0) {
             event = 1;
         }
         console.log(event);
-        let length = event * 16;
+        let length = event * 12;
         let tempArray = [];
-        for(var i = event; i < length; i++) {
+        for(var i = (length - 12); i < length; i++) {
             tempArray.push(this.state.flowers[i]);
         }
         console.log(tempArray);
