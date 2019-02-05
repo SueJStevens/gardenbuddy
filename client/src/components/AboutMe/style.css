@@ -5,3 +5,15 @@
 .fas {
     padding-left:1vw;
 }
+
+th {
+    width: 100%;
+}
+
+td {
+    padding: 7px;
+}
+
+.thead {
+    font-weight: bold;
+}
