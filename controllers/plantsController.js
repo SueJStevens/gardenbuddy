@@ -58,5 +58,13 @@ module.exports = {
           res.json(matchingPlants);
         });
     });
+  },
+  getgrowcalendar: function(req, res) {
+    console.log(req);
+    console.log("Here is the growing calendar");
+    db.plantingCalendar.find(req.query)
+      .sort({ commonName: 1, variety: 1 })
+      .then(dbModel => res.json(dbModel))
+      .catch(err => res.status(422).json(err));
   }
 };

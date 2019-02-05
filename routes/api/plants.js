@@ -20,4 +20,11 @@ router
   .put(plantsController.update)
   .delete(plantsController.remove);
 
+
+// Matches with "/api/plants/getgrowingcalendar/:commonName/:zone" 
+router
+  .route("/getgrowingcalendar/:commonName/:zone")
+  .get(plantsController.getgrowcalendar);
+  
+  
 module.exports = router;

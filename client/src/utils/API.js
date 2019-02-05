@@ -34,6 +34,19 @@ export default {
       });
   },
 
+  // Gets the growing calendar for a given plant
+  getGrowCal: function(commonName, zone) {
+    console.log ("API here!" + commonName);
+    console.log ("API here!" + zone);
+    return axios.get("/api/plants/getgrowingcalendar/");
+    //return axios.get("/api/plants/getgrowingcalendar/", {
+      // params: {
+      //   commonName: commonName,
+      //   zone: zone
+      // }
+    //});
+  },
+
   //
   // User Profile specific API routes 
   //
