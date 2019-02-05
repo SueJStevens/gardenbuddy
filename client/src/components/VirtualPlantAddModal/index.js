@@ -84,6 +84,7 @@ class  VirtualPlantAddModal extends React.Component {
 			<Modal
 				header='Add a new plant to your garden'
 				trigger={<Button>Add New Plant</Button>}
+				className="yellow lighten-5"
 			>
 				<Row>
 					<Input name="name" label="Give your plant a name" s={12} onChange={this.handleChange} />
