@@ -1,0 +1,9 @@
+.thead.icon,
+.thead.completed {
+    width: 6vw;
+}
+
+.thead.from,
+.thead.date {
+    width: 8vw;
+}
