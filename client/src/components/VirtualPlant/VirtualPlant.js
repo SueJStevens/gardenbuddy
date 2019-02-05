@@ -6,19 +6,29 @@ const moment = require('moment');
 
 let warningStyle = {
   color: 'darkorange',
-  fontWeight: 'bold'
+  fontWeight:'bold'
+}
+let infoStyle = {
+  fontWeight:'bold'
 }
 
 const PlantInfo = (plantName, lastWatered, daysOverdue, wateringFrequency, handleWateringDone) => {
 
-  if (daysOverdue > 0) {
+  let warningMsg = "";
 
-    let dayOrDays = (daysOverdue > 1 ? "days" : "day");
+  if (daysOverdue >= 0) {
+
+    if(daysOverdue === 0){
+      warningMsg = "Watering due today";
+    } else {
+      let dayOrDays = (daysOverdue > 1 ? "days" : "day");
+      warningMsg = "Watering overdue by " + daysOverdue + " " + dayOrDays;
+    }
 
     return (
       <div>
         <p style={warningStyle}>Last watered : {moment(lastWatered).format("ddd MMM Do")}</p>
-        <p style={warningStyle}>Watering overdue by {daysOverdue} {dayOrDays}</p>
+        <p style={warningStyle}>{warningMsg}</p>
         <Button className="virtual-plant-button" onClick={() =>  handleWateringDone(plantName)}>
           <i class="fas fa-tint"></i>Water Me
         </Button>
@@ -86,9 +96,9 @@ class VirtualPlant extends React.Component {
   }
 
   handleWateringDone = () => {
-    let {plantName, virtualGardenCallback} = this.props;
+    let {plantName, wateringCallback} = this.props;
     
-    virtualGardenCallback(plantName);
+    wateringCallback(plantName);
   }
 
   /**
@@ -102,21 +112,24 @@ class VirtualPlant extends React.Component {
     let nextWatering = moment(lastWatered).add(wateringFrequency, 'days');
 
     return (
-      <Card className='small'
+      <Card className='medium'
         header={<CardTitle reveal image={plantImage} waves='light' />}
   
         reveal={PlantInfo(plantName, lastWatered, daysOverdue, wateringFrequency, this.handleWateringDone)}
   
-        title={daysOverdue > 0 ?
+        title={daysOverdue >= 0 ?
           <span style={warningStyle}>{plantName}</span>
-          : <b>{plantName}</b>}
+          :  <span style={infoStyle}>{plantName}</span>}
       >
         {/* If watering is overdue, display a warning message under card image.
             Otherwise display the next watering date */}
-        {daysOverdue > 0 ?
+        {daysOverdue >= 0 ?
           <p style={warningStyle}>
             {/*<i class="fas fa-exclamation-triangle" style={warningStyle}></i>*/}
             Watering overdue
+            <Button className="virtual-plant-button" onClick={() =>  this.handleWateringDone(plantName)}>
+              <i className="fas fa-tint"> </i>Water me
+            </Button>
           </p>
           :
           <p>Next watering due on:
