@@ -55,7 +55,12 @@ module.exports = {
         .then(matchingPlants => {
           //console.log("Here are the matching plants");
           //matchingPlants.forEach(match => console.log(match.commonName));
-          res.json(matchingPlants);
+          let result = {};
+          result.matchingPlants = matchingPlants;
+          result.searchedZone = requiredZone;
+          console.log("Sending back search results ");
+          console.log(result);
+          res.json(result);
         });
     });
   }
