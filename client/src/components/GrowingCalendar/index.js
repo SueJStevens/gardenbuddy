@@ -26,8 +26,11 @@ class GrowingCalendar extends React.Component{
     console.log ("The Zone is:" + zone)
     API.getGrowCal(commonName, zone)
         .then(res => {
-            // console.log(res.data);
+            console.log("GROW!!!")
+            console.log(res.data);
             this.setGrowCal(res.data);
+            //call function here to translate the response
+            
         })
         .catch(err => console.log(err));
   }  

@@ -60,11 +60,23 @@ module.exports = {
     });
   },
   getgrowcalendar: function(req, res) {
-    console.log(req);
-    console.log("Here is the growing calendar");
-    db.plantingCalendar.find(req.query)
-      .sort({ commonName: 1, variety: 1 })
-      .then(dbModel => res.json(dbModel))
+    //console.log(req);
+    //console.log("Here is the growing calendar");
+    console.log(req.query.zone);
+    db.PlantingCalendar.find({
+      commonName: req.query.commonName
+      //zones: { $elemMatch: { $eq: req.query.zone}}
+    })
+      .then(dbModel => {
+        console.log("Got something from mongo");
+        //console.log(dbModel);
+        let allHardinessZones = dbModel[0].sowCal;
+        console.log("Unfiltered, there are " + allHardinessZones.length);
+        let userHardinessZones = allHardinessZones.filter(item=>item.zones.includes(req.query.zone));
+        console.log("Filtered, there are " + userHardinessZones.length);
+        res.json(userHardinessZones);
+      }
+      )
       .catch(err => res.status(422).json(err));
   }
 };

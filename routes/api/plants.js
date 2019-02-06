@@ -13,18 +13,16 @@ router.route("/category/:category").get(plantsController.findByCategory);
 // Matches with "/api/plants/search"
 router.route("/search").get(plantsController.search);
 
+// Matches with "/api/plants/getgrowingcalendar/:commonName/:zone" 
+router
+  .route("/getgrowingcalendar")
+  .get(plantsController.getgrowcalendar);
+
 // Matches with "/api/plants/:id"
 router
   .route("/:id")
   .get(plantsController.findById)
   .put(plantsController.update)
   .delete(plantsController.remove);
-
-
-// Matches with "/api/plants/getgrowingcalendar/:commonName/:zone" 
-router
-  .route("/getgrowingcalendar/:commonName/:zone")
-  .get(plantsController.getgrowcalendar);
-  
   
 module.exports = router;

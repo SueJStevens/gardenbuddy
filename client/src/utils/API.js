@@ -38,13 +38,13 @@ export default {
   getGrowCal: function(commonName, zone) {
     console.log ("API here!" + commonName);
     console.log ("API here!" + zone);
-    return axios.get("/api/plants/getgrowingcalendar/");
-    //return axios.get("/api/plants/getgrowingcalendar/", {
-      // params: {
-      //   commonName: commonName,
-      //   zone: zone
-      // }
-    //});
+//    return axios.get("/api/plants/getgrowingcalendar/");
+    return axios.get("/api/plants/getgrowingcalendar", {
+      params: {
+        commonName: commonName,
+        zone: zone
+      }
+    });
   },
 
   //
