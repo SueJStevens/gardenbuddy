@@ -16,7 +16,7 @@ function AboutMe(props) {
                         <tbody>
                             <tr>
                                 <td className="user-info"><i className="fas fa-seedling"></i>First Name:</td>
-                                <td>Test</td>
+                                {/* <td>{props.user.firstName}</td> */}
                             </tr>
                             <tr>
                                 <td className="user-info"><i className="fas fa-seedling"></i>Last Name:</td>

@@ -27,7 +27,7 @@ function SideNavBar(props) {
             <SideNavItem waves className="side-nav-link"><Link className="side-nav-link" to="/profile/virtualgarden"><i className="fas fa-leaf"></i>Virtual Garden</Link></SideNavItem>
             <SideNavItem waves className="side-nav-link"><Link className="side-nav-link" to="/profile/gallery"><i className="fas fa-images"></i>Gallery</Link></SideNavItem>
             <SideNavItem waves className="side-nav-link"><Link className="side-nav-link" to="/profile/notifications"><i className="fas fa-bell"></i>Notifications</Link></SideNavItem>
-            <SideNavItem waves className="side-nav-link"><Link className="side-nav-link" to="/logout"><i class="fas fa-sign-out-alt"></i>Logout</Link></SideNavItem>
+            <SideNavItem waves className="side-nav-link"><Link className="side-nav-link" to="/auth/logout"><i class="fas fa-sign-out-alt"></i>Logout</Link></SideNavItem>
         </SideNav>
     );
 };
