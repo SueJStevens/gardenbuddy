@@ -10,6 +10,7 @@ class NewComerIns extends React.Component {
     state = {
         zipcode : '',
         category : '',
+        searchedZone: '',
         results : []
     }
 
@@ -28,11 +29,12 @@ class NewComerIns extends React.Component {
             .then( (res) => {
                 //console.log("Here are the recommended " + category);
                 //console.log(res.data);
-                this.setState( {results : res.data} );
+                this.setState( {results : res.data.matchingPlants , searchedZone : res.data.searchedZone} );
             })
     }
 
     render(){
+        let searchedZone = this.state.searchedZone;
         return(
             <div className="instruction">
                 <Modal
@@ -65,6 +67,7 @@ class NewComerIns extends React.Component {
                                     plantDetails={item.plantAttrURL}
                                     variety={item.variety}
                                     category={item.plantCategories[0]}
+                                    searchedZone={searchedZone}
                                 />
                             </Col>
                         ))}
