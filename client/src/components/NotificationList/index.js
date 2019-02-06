@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-// import "./style.css";
+import "./style.css";
 import Notification from "../Notification";
 import { Card, Table } from "react-materialize";
 
@@ -30,11 +30,11 @@ class NotificationsList extends Component {
                         <Table className="highlight" bordered>
                             <thead>
                                 <tr>
-                                    <th><i className="fas fa-bell"></i></th>
-                                    <th>Date</th>
-                                    <th>From</th>
-                                    <th>Message</th>
-                                    <th>Completed</th>
+                                    <th className="thead icon"><i className="fas fa-bell"></i></th>
+                                    <th className="thead date">Date</th>
+                                    <th className="thead from">From</th>
+                                    <th className="thead message">Message</th>
+                                    <th className="thead completed">Completed</th>
                                 </tr>
                             </thead>
                             <tbody>

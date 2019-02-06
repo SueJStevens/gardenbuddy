@@ -33,7 +33,7 @@ class ProfileBody extends Component {
         return (
             <Row className="profile-content">
                 <wrapper className="container profile-content">
-                    <ProfileSelector activeComponent={this.activeComponent} />
+                    <ProfileSelector user={this.props.user} activeComponent={this.activeComponent} />
                     <ProfileContent user={this.props.user} />
                 </wrapper>
             </Row>
