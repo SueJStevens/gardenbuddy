@@ -11,7 +11,7 @@ var plantingCalendarSchema = new Schema(
         zones: [String],
         sowType: String,
         dtRangeStart: { type: Date },
-        dtRangeStart: { type: Date }
+        dtRangeEnd: { type: Date }
       }
     ],
     createdOn: { type: Date, default: Date.now }

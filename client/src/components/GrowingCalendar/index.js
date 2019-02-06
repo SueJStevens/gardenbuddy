@@ -1,60 +1,119 @@
-import React, { Component } from 'react'
+import React from 'react';
+import { withRouter } from 'react-router-dom';
 import moment from "moment";
 import $ from 'jquery';
 import 'fullcalendar';
 import 'fullcalendar-scheduler';
-// import FullCalendar from 'fullcalendar-reactwrapper';
+import "./style.css";
+import API from "../../utils/API";
 
-export default class GrowingCalendar extends Component {
-
+class GrowingCalendar extends React.Component{
   state = {
+    flowers: [],
     events: []
   }
-  componentDidMount() {
 
-    $(function () {
+  //variables common name and hardiness zone
+
+  componentDidMount() {
+    //let commonName = "BASIL";
+    let commonName1 = this.props.location.state.commonName;
+    let commonName = commonName1.toUpperCase();
+    console.log(commonName);
+    let zone = "10a";
+    this.loadGrowCal(commonName,zone);
+  }
+
+  loadGrowCal(commonName, zone) {
+    console.log ("The Common Name is:" + commonName)
+    console.log ("The Zone is:" + zone)
+    API.getGrowCal(commonName, zone)
+        .then(res => {
+            console.log("GROW!!!")
+            //console.log(res.data);
+            console.log(res.data);
+            //call new function to reformat data
+            this.setGrowCal(res.data);
+            //call function here to translate the response            
+        })
+        .catch(err => console.log(err));
+  }  
+
+  //New Function to reformat data
+  reformat(data) {
+    //this.setgrowcal(returned data)
+  }
+
+  setGrowCal(data) {
+    this.setState({growCal: data});
       // $("#calendar").fullCalendar('rerenderEvents');
       $('#calendar').fullCalendar({
         defaultView: 'timelineYear',
         slotDuration: { months: 1 },
-        height: 250,
+        height: 205,
         visibleRange: {
           start: moment('2018-01-01'),
-          end: moment('2018-01-02')
+          end: moment('2019-01-01')
         },
         resourceAreaWidth: '20%',
-        resourceLabelText: 'Plant Type',
+        resourceLabelText: 'How to Sow',
         header: {
-          'left': 'timeline, agendaYear',
-          'center': 'title'
+          'left': '',
+          'center': '',
+          'right': ''
         },
         resources: [
-          { id: 'a', title: 'Indoor Sow' },
-          { id: 'b', title: 'Outdoor Sow', eventColor: 'green' },
-          { id: 'c', title: 'Transplants', eventColor: 'orange' }
+          { id: 'Indoor Sow', title: 'Indoor Sow' }, //sowType = "Indoor Sow"
+          { id: 'Direct Sow', title: 'Direct Sow', eventColor: 'brown' }, //sowType = "Outdoor Sow"
+          { id: 'Transplant', title: 'Transplant', eventColor: 'Green' }  //sowType = "Transplant"
         ],
         events: [
+        //   {
+        //     "zone" : "9-10", 
+        //     "zones" : "[9a, 9b, 10a, 10b]", 
+        //     "sowType" : "Transplant", 
+        //     "dtRangeStart" : "2019-02-15", 
+        //     "dtRangeEnd" : "2019-03-28"
+        // }, 
+
+        //   {
+        //     "zone" : "9-10", 
+        //     "zones" : "[9a, 9b, 10a, 10b]", 
+        //     "sowType" : "Indoor Sow", 
+        //     "dtRangeStart" : "2019-01-04", 
+        //     "dtRangeEnd" : "2019-01-18"
+        // }, 
+
+      //   {
+      //     "zone" : "9-10", 
+      //     "zones" : "[9a, 9b, 10a, 10b]", 
+      //     "sowType" : "Direct Sow", 
+      //     "dtRangeStart" : "2019-03-01", 
+      //     "dtRangeEnd" : "2019-04-25"
+      // }        
           {
-            id: "1",
-            resourceId: "a",
-            start: "2020-04-06",
-            end: "2021-06-30",
-            title: "event 1",
+            id: "1",  //PlantID
+            resourceId: "Transplant",  //sowType
+            start: "2019-02-15",  //dtRangeStart
+            end: "2019-03-28",  //dtRangeEnd
+            title: "2/15-3/28",  //month&Day of Range
             allDay: true
           },
           {
             id: "2",
-            resourceId: "b",
-            start: "2018-04-07",
-            end: "2018-05-07",
-            title: "event 2"
+            resourceId: "Indoor Sow",
+            start: "2019-01-04",
+            end: "2019-01-18",
+            title: "1/4-1/18",
+            allDay: true
           },
           {
             id: "3",
-            resourceId: "b",
-            start: "2018-04-07T12:00:00",
-            end: "2018-04-08T06:00:00",
-            title: "event 3"
+            resourceId: "Direct Sow",
+            start: "2019-03-12",
+            end: "2019-04-06",
+            title: "3/12-4/06",
+            allDay: true
           },
           {
             id: "4",
@@ -70,13 +129,12 @@ export default class GrowingCalendar extends Component {
             end: "2018-04-07T15:00:00",
             title: "event 5"
           }
-        ]
-
+        ],
+        eventRender: function(event, element) {
+          element.prop("title", event.title);  //hover to reveal entire date range
+        }
       });
-    });
-
-
-  }
+    };
 
 
   render() {
@@ -86,3 +144,5 @@ export default class GrowingCalendar extends Component {
     )
   }
 }
+
+export default withRouter(GrowingCalendar);
