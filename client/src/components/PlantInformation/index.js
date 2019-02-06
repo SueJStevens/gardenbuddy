@@ -14,7 +14,7 @@ function PlantInformation(props) {
     return (
             <Col l={7} m={8} s={12}>
                 <Collapsible popout defaultActiveKey={0} accordion="false">
-                    <CollapsibleItem className="plant-detail-option" header='Plant Details' icon={<i class="fas fa-info-circle"></i>}>
+                    <CollapsibleItem className="plant-detail-option" header='Plant Attributes' icon={<i class="fas fa-info-circle"></i>}>
                         <PlantDetails />
                     </CollapsibleItem>
                     <CollapsibleItem className="plant-detail-option" onClick={() => {$('#calendar').fullCalendar('render');}} header='Growing Calendar' icon={<i class="far fa-calendar-alt"></i>}>

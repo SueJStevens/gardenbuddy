@@ -1,6 +1,7 @@
 import React from "react";
-import { Button, Row, Input, Modal } from "react-materialize";
+import { Button, Row, Input, Modal, Autocomplete } from "react-materialize";
 import API from "../../utils/API";
+import Swal from 'sweetalert2';
 
 const moment = require('moment');
 
@@ -22,11 +23,35 @@ const moment = require('moment');
 class  VirtualPlantAddModal extends React.Component {
 
 	state = {
+		plantNames: {},
+		value:'',
 		name:'',
 		commonName:'',
 		image:'',
 		lastWatered:'',
 		wateringFrequency:''
+	}
+
+	componentDidMount() {
+		API.getPlants()
+			.then((res) => this.convertFunc(res.data))
+			.catch((err) => console.log(err));
+	}
+
+	convertFunc(data) {
+		let plantNamesArr = [];
+		data.map(plant => {
+			let lowerCaseName = plant.commonName.toLowerCase();
+			plantNamesArr.push(lowerCaseName);
+		});
+
+		const plantNamesObj = {};
+		for(const key of plantNamesArr) {
+			plantNamesObj[key] = null;
+		}
+
+		console.log(plantNamesObj);
+		this.setState({plantNames: plantNamesObj});
 	}
 
 	handleChange = (event) => {
@@ -38,6 +63,7 @@ class  VirtualPlantAddModal extends React.Component {
 	addNewPlant = () => {
 		let {name, commonName, image, lastWatered, wateringFrequency} = this.state;
 		let newPlant = {};
+		let virtualGardenCallback = this.props.handleAdd;
 
 		// Fill up the 'newPlant' object with the user input. We will submit this
 		// object to the back-end.
@@ -74,7 +100,35 @@ class  VirtualPlantAddModal extends React.Component {
 		API.addPlant(userName, newPlant)
 			.then(res => {
 				console.log("New plant added");
-				console.log(res);
+				console.log(res.data);
+				
+				Swal.fire({
+          title: 'Added to garden!',
+          type: 'success',
+          showConfirmButton: false,
+          showCancelButton: false,
+          backdrop: true,
+          // toast: true,
+          timer: 1100,
+          // position: "top-end",
+          customClass: "success-toast"
+          // confirmButtonText: 'Ok'
+        }).then(() => {
+					virtualGardenCallback(res.data);
+				});
+			})
+			.catch(err => {
+				Swal.fire({
+          title: 'oops - something went wrong, try again',
+          type: 'error',
+          showConfirmButton: false,
+          showCancelButton: false,
+          // toast: true,
+          timer: 1000,
+          // position: "top-end",
+          customClass: "fail-toast"
+          // confirmButtonText: 'Ok'
+        });
 			});
 
 	}
@@ -84,10 +138,11 @@ class  VirtualPlantAddModal extends React.Component {
 			<Modal
 				header='Add a new plant to your garden'
 				trigger={<Button>Add New Plant</Button>}
+				className="yellow lighten-5"
 			>
 				<Row>
 					<Input name="name" label="Give your plant a name" s={12} onChange={this.handleChange} />
-					<Input name="commonName" label="What type of plant is it?" s={12} onChange={this.handleChange} />
+					<Autocomplete title='What type of plant is it?' data={this.state.plantNames} />
 					<Input name="image" label="How about a photo - enter URL" s={12} onChange={this.handleChange} />
 					<Input name="lastWatered" type="date" format="mmmm-dd-yy" label="Last watered on" s={12} onChange={this.handleChange} />
 					<Input name="wateringFrequency" label="watering frequency" s={12} onChange={this.handleChange} />

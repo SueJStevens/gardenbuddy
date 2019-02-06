@@ -1,4 +1,4 @@
-import React from "react";
+import React, { Component } from "react";
 import { Route, Switch } from "react-router-dom";
 import "./style.css";
 import AboutMe from "../AboutMe";
@@ -9,8 +9,11 @@ import VirtualGarden from "../VirtualGarden";
 import { Col } from "react-materialize";
 
 // By extending the React.Component class, Counter inherits functionality from it
-function ProfileContent(props) {
+class ProfileContent extends Component {
 
+    render() {
+    let myProps = this.props.user;
+    console.log(myProps);
     // The render method returns the JSX that should be rendered
     return (
         <wrapper className="container profile-content">
@@ -18,7 +21,7 @@ function ProfileContent(props) {
                 <Switch>
                     {/* this is where i think i need the routing for these compenents */}
                     <Route exact path="/profile" component={AboutMe} />
-                    <Route exact path="/profile/aboutme" component={AboutMe} />
+                    <Route exact path="/profile/aboutme" render={(props) => <AboutMe {...props} user={myProps}/>} />
                     <Route exact path="/profile/contactinfo" component={ContactInfo} />
                     <Route exact path="/profile/notifications" component={NotificationsList} />
                     <Route exact path="/profile/updatelogin" component={UpdateLogin} />
@@ -26,8 +29,9 @@ function ProfileContent(props) {
                 </Switch>
             </Col>
         </wrapper>
-    );
+    )};
 };
+
 
 export default ProfileContent;
 
