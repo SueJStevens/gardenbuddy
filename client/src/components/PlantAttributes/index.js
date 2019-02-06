@@ -2,7 +2,7 @@ import React from "react";
 
 function PlantAttributes(props) {
     return(
-        <p>{props.attribute}: {props.value}</p>
+        <p><b>{props.attribute}:</b> {props.value}</p>
     )
 }
 
