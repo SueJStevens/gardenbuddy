@@ -1,7 +1,7 @@
 import React from 'react';
 import { withRouter } from 'react-router-dom';
 import "./style.css";
-import { Collection, CollectionItem, Collapsible, CollapsibleItem } from "react-materialize";
+import { Collection, CollectionItem } from "react-materialize";
 import API from "../../utils/API";
 import PlantAttributes from "../PlantAttributes";
 
