@@ -17,7 +17,7 @@ class PlantCombatives extends React.Component {
 
     setItem(data) {
         if(data.combative[0] === "" || data.combative[0] === undefined) {
-            let data = "I don't compte I just grow...（￣ー￣)ゞ "
+            let data = "I don't compte I just grow...(ง •̀_•́)ง "
             this.setState({item: data});
         }
         else{

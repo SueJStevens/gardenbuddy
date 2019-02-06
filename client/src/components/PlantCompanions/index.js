@@ -19,7 +19,7 @@ class PlantCompanions extends React.Component {
 
     setItem(data) {
         if(data.compatable[0] === "" || data.compatable[0] === undefined) {
-            let data = " I have no friends...(;´༎ຶД༎ຶ`)"
+            let data = " I have no friends...¯\_༼ ಥ ‿ ಥ ༽_/¯"
             this.setState({item: data});
         }
         else{
