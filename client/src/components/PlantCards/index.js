@@ -6,7 +6,7 @@ function PlantCard(props) {
     return(
         <Card className='medium'
             header={<CardTitle image={props.photo}>{props.commonName}</CardTitle>}
-            actions={<Link to={{pathname: `/plantdetail/${props.commonName.toLowerCase()}`, state: {id: props.id}}}>Detail</Link>}>
+            actions={<Link to={{pathname: `/plantdetail/${props.commonName.toLowerCase()}`, state: {id: props.id, commonName: props.commonName}}}>Detail</Link>}>
             Zone: {props.zones}<br/>
             Variety: {props.variety}<br/>
             Category: {props.category}

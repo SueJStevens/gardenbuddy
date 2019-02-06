@@ -16,7 +16,10 @@ class GrowingCalendar extends React.Component{
   //variables common name and hardiness zone
 
   componentDidMount() {
-    let commonName = "BASIL";
+    //let commonName = "BASIL";
+    let commonName1 = this.props.location.state.commonName;
+    let commonName = commonName1.toUpperCase();
+    console.log(commonName);
     let zone = "10a";
     this.loadGrowCal(commonName,zone);
   }
@@ -27,13 +30,19 @@ class GrowingCalendar extends React.Component{
     API.getGrowCal(commonName, zone)
         .then(res => {
             console.log("GROW!!!")
+            //console.log(res.data);
             console.log(res.data);
+            //call new function to reformat data
             this.setGrowCal(res.data);
-            //call function here to translate the response
-            
+            //call function here to translate the response            
         })
         .catch(err => console.log(err));
   }  
+
+  //New Function to reformat data
+  reformat(data) {
+    //this.setgrowcal(returned data)
+  }
 
   setGrowCal(data) {
     this.setState({growCal: data});
