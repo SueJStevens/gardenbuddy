@@ -73,8 +73,18 @@ router.post("/signup", (req, res) => {
 
 router.post("/login", passport.authenticate("local"), (req, res) => {
   console.log("Got POST /login, body is: ");
-  console.log(req.body);
-  res.json("Logged in Successfully");
+  console.log(req.user);
+  res.json(req.user);
+});
+
+router.get("/logout", (req, res) => {
+  console.log("Got GET /logout");
+  req.logout();
+  window.location("/landing");
+});
+
+router.get("/user", (req, res) => {
+  res.json(req.user);
 });
 
 module.exports = router;
