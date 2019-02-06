@@ -1,4 +1,5 @@
 const express = require("express");
+const logger = require("morgan");
 const mongoose = require("mongoose");
 const routes = require("./routes");
 const app = express();
@@ -12,6 +13,7 @@ const User = require("./models/user");
 const flash = require("connect-flash");
 
 // Define middleware here
+app.use(logger("dev"));
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 
