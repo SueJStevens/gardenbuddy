@@ -142,9 +142,7 @@ class  VirtualPlantAddModal extends React.Component {
 			>
 				<Row>
 					<Input name="name" label="Give your plant a name" s={12} onChange={this.handleChange} />
-					{/* <Input name="commonName" label="What type of plant is it?" s={12} onChange={this.handleChange} /> */}
 					<Autocomplete title='What type of plant is it?' data={this.state.plantNames} />
-
 					<Input name="image" label="How about a photo - enter URL" s={12} onChange={this.handleChange} />
 					<Input name="lastWatered" type="date" format="mmmm-dd-yy" label="Last watered on" s={12} onChange={this.handleChange} />
 					<Input name="wateringFrequency" label="watering frequency" s={12} onChange={this.handleChange} />
