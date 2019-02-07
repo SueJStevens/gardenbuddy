@@ -17,12 +17,23 @@
 .user-info {
     position: absolute;
     top: 30vh;
-    width: 200%;
+    width: 100%;
+}
+
+.users-profile-header-name {
+    position: absolute;
+    display: inline-block;
+    left: 2vw;
+    top: 2vh;
+    width: 100vw;
 }
 
 .user-chip-row {
-    width: 50vw;
+    width: 65%;
     padding-top: 0;
+    margin-bottom: 0;
+    position: absolute;
+    bottom: 8%;
 }
 
 .plants-count-img {
