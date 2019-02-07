@@ -2,14 +2,15 @@ import React from "react";
 import API from "../../utils/API";
 import PlantCards from "../PlantCards";
 //import {Pagination, Col, Button} from "react-materialize";
-import {Pagination, Col} from "react-materialize";
+import {Pagination, Col, ProgressBar} from "react-materialize";
 
 class FruitsDepartment extends React.Component {
     state = {
         fruits: [],
         activeCards: [],
         activePage: "",
-        pageItem: ""
+        pageItem: "",
+        loading: true
     };
 
     componentDidMount() {
@@ -65,29 +66,34 @@ class FruitsDepartment extends React.Component {
         }
         // console.log(tempArray);
         this.setState({ activeCards: tempArray });
+        this.setState({ loading: false });
     }
 
     render() {
         return(
-            <div className="content">
-                <div className="row">
-                    {this.state.activeCards.map(item => (
-                        <Col s={12} m={10} l={4}>
-                            <PlantCards
-                                key={item._id}
-                                id={item._id} 
-                                commonName={item.commonName}
-                                photo={item.photoURL}
-                                zones={item.zone}
-                                plantDetails={item.plantAttrURL}
-                                variety={item.variety}
-                                category={item.plantCategories[0]}
-                            />
-                        </Col>
-                    ))}
+            (this.state.loading ? 
+                <ProgressBar />
+                :
+                <div className="content">
+                    <div className="row">
+                        {this.state.activeCards.map(item => (
+                            <Col s={12} m={10} l={4}>
+                                <PlantCards
+                                    key={item._id}
+                                    id={item._id} 
+                                    commonName={item.commonName}
+                                    photo={item.photoURL}
+                                    zones={item.zone}
+                                    plantDetails={item.plantAttrURL}
+                                    variety={item.variety}
+                                    category={item.plantCategories[0]}
+                                />
+                            </Col>
+                        ))}
+                    </div>
+                    <Pagination items={this.state.pageItem} activePage={this.state.activePage} maxButtons={this.state.pageItem - 2} onSelect={(event) => this.pushUpItems(event)} />
                 </div>
-                <Pagination items={this.state.pageItem} activePage={this.state.activePage} maxButtons={this.state.pageItem - 2} onSelect={(event) => this.pushUpItems(event)} />
-            </div>        
+            )
         );
     }
 }

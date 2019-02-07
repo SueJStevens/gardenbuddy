@@ -77,11 +77,12 @@ module.exports = {
         //console.log(dbModel);
         let allHardinessZones = dbModel[0].sowCal;
         console.log("Unfiltered, there are " + allHardinessZones.length);
-        let userHardinessZones = allHardinessZones.filter(item=>item.zones.includes(req.query.zone));
+        let userHardinessZones = allHardinessZones.filter(item =>
+          item.zones.includes(req.query.zone)
+        );
         console.log("Filtered, there are " + userHardinessZones.length);
         res.json(userHardinessZones);
-      }
-      )
+      })
       .catch(err => res.status(422).json(err));
   }
 };
