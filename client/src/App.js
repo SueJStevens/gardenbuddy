@@ -20,7 +20,7 @@ class App extends Component {
       username: "",
       password: "",
       phone: "",
-      firstName: "",
+      firstName: "Friend",
       lastName: "",
       zipcode: "",
       city: "",
@@ -36,6 +36,9 @@ class App extends Component {
 
   componentDidMount() {
     axios.get("/auth/user").then((response) => {
+      console.log(response.data);
+
+      if (response.data) {
       this.setState({
         _id: response.data._id,
         username: response.data.username,
@@ -49,6 +52,7 @@ class App extends Component {
         redirectTo: null,
         loggedIn: true
       })
+    }
     })
   }
 
