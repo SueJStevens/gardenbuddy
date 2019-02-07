@@ -16,12 +16,17 @@ class GrowingCalendar extends React.Component{
   //variables common name and hardiness zone
 
   componentDidMount() {
-    //let commonName = "BASIL";
+    let hardinessZone = "10a"; //10a by default
+    
     let commonName1 = this.props.location.state.commonName;
     let commonName = commonName1.toUpperCase();
-    console.log(commonName);
-    let zone = "10a";
-    this.loadGrowCal(commonName,zone);
+    //console.log(commonName);
+    
+    let searchedZone = this.props.location.state.searchedZone;
+    if(searchedZone) {
+      hardinessZone = searchedZone;
+    }
+    this.loadGrowCal(commonName,hardinessZone);
   }
 
   loadGrowCal(commonName, zone) {
@@ -45,8 +50,49 @@ class GrowingCalendar extends React.Component{
   }
 
   setGrowCal(data) {
-    this.setState({growCal: data});
-      // $("#calendar").fullCalendar('rerenderEvents');
+    // We're not really using state for the calendar attributes
+    // this.setState({growCal: data});
+
+    // $("#calendar").fullCalendar('rerenderEvents');
+
+    let growData = data;
+    let commonName = this.props.location.state.commonName.toUpperCase();
+    let calendarAttrs = {
+      indoorStart : "",
+      indoorEnd : "",
+      directStart : "",
+      directEnd : "",
+      transplantStart : "",
+      transplantEnd : ""
+    };
+
+    // Step 1: Check how many growCal entries we got
+    console.log(commonName + "has " + growData.length + " growing calendar entries");
+
+    // Extract the start and end dates for each type of growing calendar
+    growData.forEach( (item) => {
+      let currentSowType = item.sowType.toLowerCase();
+      console.log("Found " + currentSowType + " calendar for " + commonName);
+      switch(currentSowType) {
+        case "indoor sow" :
+          calendarAttrs.indoorStart = moment(item.dtRangeStart).format("YYYY-MM-DD");
+          calendarAttrs.indoorEnd = moment(item.dtRangeEnd).format("YYYY-MM-DD");
+          break;
+        case "direct sow" :
+          calendarAttrs.directStart = moment(item.dtRangeStart).format("YYYY-MM-DD");
+          calendarAttrs.directEnd = moment(item.dtRangeEnd).format("YYYY-MM-DD");
+          break;
+        case "transplant" :
+          calendarAttrs.transplantStart = moment(item.dtRangeStart).format("YYYY-MM-DD");
+          calendarAttrs.transplantEnd = moment(item.dtRangeEnd).format("YYYY-MM-DD");
+          break;
+        default:
+          console.log("Unexpected sow type - " + currentSowType);
+      }
+    })
+
+
+
       $('#calendar').fullCalendar({
         defaultView: 'timelineYear',
         slotDuration: { months: 1 },
@@ -94,25 +140,31 @@ class GrowingCalendar extends React.Component{
           {
             id: "1",  //PlantID
             resourceId: "Transplant",  //sowType
-            start: "2019-02-15",  //dtRangeStart
-            end: "2019-03-28",  //dtRangeEnd
-            title: "2/15-3/28",  //month&Day of Range
+            start: calendarAttrs.transplantStart,
+            end: calendarAttrs.transplantEnd,
+            title: (moment(calendarAttrs.transplantStart).format("MM-DD")
+                    + " to " +
+                    moment(calendarAttrs.transplantEnd).format("MM-DD")),
             allDay: true
           },
           {
             id: "2",
             resourceId: "Indoor Sow",
-            start: "2019-01-04",
-            end: "2019-01-18",
-            title: "1/4-1/18",
+            start: calendarAttrs.indoorStart,
+            end: calendarAttrs.indoorEnd,
+            title: (moment(calendarAttrs.indoorStart).format("MM-DD")
+                    + " to " +
+                    moment(calendarAttrs.indoorEnd).format("MM-DD")),
             allDay: true
           },
           {
             id: "3",
             resourceId: "Direct Sow",
-            start: "2019-03-12",
-            end: "2019-04-06",
-            title: "3/12-4/06",
+            start: calendarAttrs.directStart,
+            end: calendarAttrs.directEnd,
+            title: (moment(calendarAttrs.directStart).format("MM-DD")
+                    + " to " +
+                    moment(calendarAttrs.directEnd).format("MM-DD")),
             allDay: true
           },
           {

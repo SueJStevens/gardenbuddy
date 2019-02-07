@@ -1,5 +1,6 @@
 const mongoose = require("mongoose");
 const db = require("../models");
+const moment = require("moment");
 
 // This file empties the Plants collection and inserts the plants below
 
@@ -13010,6 +13011,32 @@ const plantingCalendarSeed = [
     ]
   }
 ];
+
+/**
+ * Some sowCal objects have end dates occurring before start dates.
+ * For these, change the 'year' for the start date to the previous year.
+ */
+const runSeed = () => {
+  var inversions = 0;
+  for(let i = 0; i < plantingCalendarSeed.length; i++)
+  {
+    let sowCal = plantingCalendarSeed[i]["sowCal"];
+    for(let j = 0; j < sowCal.length; j++)
+    {
+      let startDate = sowCal[j]["dtRangeStart"];
+      let endDate = sowCal[j]["dtRangeEnd"];
+      if(moment(endDate).isBefore(moment(startDate))){
+        console.log(endDate + " " + startDate);
+        inversions++;
+        sowCal[j]["dtRangeStart"] = moment(startDate).subtract(1,"years").format("YYYY-MM-DD");
+      }
+    }
+  }
+
+  console.log(`Found and corrected ${inversions} objects with endDate before startDate!`);
+}
+
+runSeed();
 
 db.PlantingCalendar
   .deleteMany({})
