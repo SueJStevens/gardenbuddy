@@ -14,8 +14,8 @@ function TeamProfileCard(props) {
                     <p id="name">{props.name}</p>
                 </div>
                 <div className="card-action">
-                    <a href={props.personalWebLink}><i class="fas fa-home fa-lg"></i></a>
-                    <a href={props.github}><i class="fab fa-github fa-lg"></i></a>
+                    <a rel="noreferer" target="_blank" href={props.personalWebLink}><i class="fas fa-home fa-lg"></i></a>
+                    <a rel="noreferer" target="_blank" href={props.github}><i class="fab fa-github fa-lg"></i></a>
                 </div>
             </div>
         </div>       
