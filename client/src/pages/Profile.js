@@ -3,49 +3,45 @@ import NavbarProfile from "../components/Navbar-profile";
 import ProfileHeader from "../components/ProfileHeader";
 import ProfileBody from "../components/ProfileBody";
 import Wrapper from "../components/Wrapper";
-import { Redirect } from "react-router-dom";
-import axios from 'axios';
-
+import API from "../utils/API";
 
 
 // By extending the React.Component class, Counter inherits functionality from it
 class Profile extends Component {
 
     state = {
-        loggedIn: false
+        gardenSize: 0
     }
 
-    componentDidMount() {
-        axios.get("/auth/user").then((response) => {
-          console.log(response.data);
-    
-          if (response.data) {
-          this.setState({
-            loggedIn: true
-          })
-        }
-        })
-      }
+    constructor(props) {
+        super(props);
+        let userName = this.props.user.username;
+        API.getVirtualGarden(userName).then((res) => {
 
-render () {
+            // If the user has no virtual plants in their virtual garden yet,
+            // set 'my_plants' to an empty array.
+            // Else, sort the virtual garden so that the plants whose watering
+            // is overdue are displayed first
+            // console.log("Got virtual garden length " + res.data.length)
+            this.setState({gardenSize: res.data.length})
+            console.log(this.state.gardenSize);
 
-    if (this.state.loggedIn) {
+        });
+    }
 
-    // The render method returns the JSX that should be rendered
-    return (
-        // use bootstrap to create a navbar
-        <Wrapper>
-            <NavbarProfile />
-            <ProfileHeader user={this.props.user}/>
-            <ProfileBody user={this.props.user}/>
-        </Wrapper>
-    );
-} else {
-    return (
-        <Redirect to={{pathname:"/", state:this.props.user}}></Redirect>
-    )
-}
-}
+    render() {
+        
+        // The render method returns the JSX that should be rendered
+        return (
+            // use bootstrap to create a navbar
+            <Wrapper>
+                <NavbarProfile />
+                <ProfileHeader user={this.props.user} gardenSize={this.state.gardenSize} />
+                <ProfileBody user={this.props.user} gardenSize={this.state.gardenSize}/>
+            </Wrapper>
+        );
+
+    }
 };
 
 
