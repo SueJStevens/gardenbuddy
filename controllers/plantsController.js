@@ -50,18 +50,17 @@ module.exports = {
       db.Plant.find({
         plantCategories: req.query.category,
         zones: { $elemMatch: { $eq: requiredZone } }
-      })
-        .limit(5)
-        .then(matchingPlants => {
-          //console.log("Here are the matching plants");
-          //matchingPlants.forEach(match => console.log(match.commonName));
-          let result = {};
-          result.matchingPlants = matchingPlants;
-          result.searchedZone = requiredZone;
-          console.log("Sending back search results ");
-          console.log(result);
-          res.json(result);
-        });
+      }).then(matchingPlants => {
+        //console.log("Here are the matching plants");
+        // matchingPlants.forEach(match => console.log(match.commonName));
+        console.log(matchingPlants);
+        let result = {};
+        result.matchingPlants = matchingPlants;
+        result.searchedZone = requiredZone;
+        // console.log("Sending back search results ");
+        // console.log(result);
+        res.json(result);
+      });
     });
   },
   getgrowcalendar: function(req, res) {

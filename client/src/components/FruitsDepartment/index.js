@@ -40,12 +40,12 @@ class FruitsDepartment extends React.Component {
 
     setPageItem() {
         let itemNum;
-        if(this.state.fruits.length < 12) {
+        if(this.state.fruits.length < 18) {
             itemNum = this.state.fruits.length;
             // console.log(itemNum);
         }
         else {
-            itemNum = 12;
+            itemNum = 18;
         }
         let pageItem = Math.ceil(this.state.fruits.length / itemNum);
         // console.log(pageItem);
@@ -57,9 +57,9 @@ class FruitsDepartment extends React.Component {
             event = 1;
         }
         // console.log(event);
-        let length = event * 12;
+        let length = event * 18;
         let tempArray = [];
-        for(var i = (length - 12); i < length; i++) {
+        for(var i = (length - 18); i < length; i++) {
             if(this.state.fruits[i] !== undefined) {
                 tempArray.push(this.state.fruits[i]);
             }
@@ -67,6 +67,8 @@ class FruitsDepartment extends React.Component {
         // console.log(tempArray);
         this.setState({ activeCards: tempArray });
         this.setState({ loading: false });
+
+        window.scrollTo(0, 0);
     }
 
     render() {
@@ -91,7 +93,7 @@ class FruitsDepartment extends React.Component {
                             </Col>
                         ))}
                     </div>
-                    <Pagination items={this.state.pageItem} activePage={this.state.activePage} maxButtons={this.state.pageItem - 2} onSelect={(event) => this.pushUpItems(event)} />
+                    <Pagination items={this.state.pageItem} activePage={this.state.activePage} maxButtons={this.state.pageItem} onSelect={(event) => this.pushUpItems(event)} />
                 </div>
             )
         );
