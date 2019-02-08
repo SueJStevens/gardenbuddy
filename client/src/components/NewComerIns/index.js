@@ -13,7 +13,6 @@ class NewComerIns extends React.Component {
         searchedZone: '',
         results : [],
         toPopulate: [],
-        loading: true
     }
 
     handleInputChange = event => {
@@ -48,7 +47,6 @@ class NewComerIns extends React.Component {
         }
         // console.log(toPopulateArr);
         this.setState({toPopulate: toPopulateArr});
-        this.setState({loading: false})
     }
 
     render(){
