@@ -31,6 +31,7 @@
     "axios": "^0.18.0",
     "babel-eslint": "9.0.0",
     "bcrypt-nodejs": "^0.0.3",
+    "connect-ensure-login": "^0.1.1",
     "connect-flash": "^0.1.1",
     "cookie-parser": "^1.4.3",
     "eslint-config-react-app": "^3.0.6",

@@ -34,7 +34,7 @@ class ProfileBody extends Component {
             <Row className="profile-content">
                 <wrapper className="container profile-content">
                     <ProfileSelector user={this.props.user} activeComponent={this.activeComponent} />
-                    <ProfileContent user={this.props.user} />
+                    <ProfileContent user={this.props.user} gardenSize={this.props.gardenSize} />
                 </wrapper>
             </Row>
         );

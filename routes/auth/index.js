@@ -2,6 +2,7 @@ const express = require("express");
 const router = express.Router();
 const User = require("../../models/user");
 const passport = require("passport");
+var ensureLoggedIn = require("connect-ensure-login").ensureLoggedIn;
 
 // this route is just used to get the user basic info
 // eslint-disable-next-line no-unused-vars

@@ -167,13 +167,15 @@ class VirtualGarden extends React.Component {
    */
   render() {
 		console.log("Rendering virtual garden");
+		console.log(this.props.user);
 		let num_plants = this.state.my_plants.length;
 		if(!num_plants){
 			return(
 				<div>
 					<h5>Get started with your virtual garden!</h5>
 					<VirtualPlantAddModal 
-						handleAdd={this.newPlantAdded}
+						handleAdd={this.plantAdded}
+						user={this.props.user}
 					>
 					</VirtualPlantAddModal>
 				</div>
@@ -198,6 +200,7 @@ class VirtualGarden extends React.Component {
 					</Row>
 					<VirtualPlantAddModal 
 						handleAdd={this.plantAdded}
+						user={this.props.user}
 					>
 					</VirtualPlantAddModal>
 				</div>
