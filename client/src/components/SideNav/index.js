@@ -8,6 +8,8 @@ function SideNavBar(props) {
 
     let sideNavFirstName = props.firstName
     let sideNavLastName = props.lastName
+    let sideNavProfilePic = props.profilepic
+    let sideNavCoverPhoto = props.coverphoto
     let sideNavEmail = props.username
 
     // The render method returns the JSX that should be rendered
@@ -20,8 +22,8 @@ function SideNavBar(props) {
         >
             <SideNavItem userView
                 user={{
-                    background: 'https://via.placeholder.com/500',
-                    image: 'https://via.placeholder.com/300/000000',
+                    background: sideNavCoverPhoto,
+                    image: sideNavProfilePic,
                     name: sideNavFirstName + " " + sideNavLastName,
                     email: sideNavEmail
                 }}

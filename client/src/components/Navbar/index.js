@@ -51,6 +51,8 @@ class NavBar extends Component {
                                     city={this.props.user.city}
                                     st={this.props.user.st}
                                     aboutme={this.props.user.aboutme}
+                                    profilepic={this.props.user.profilepic}
+                                    coverphoto={this.props.user.coverphoto}
                                     onChange={this.props.onChange}
                                     handleSignup={this.props.handleSignup}/></NavItem>
                         </Navbar>
@@ -101,7 +103,8 @@ class NavBar extends Component {
                                 zipcode={this.props.user.zipcode}
                                 city={this.props.user.city}
                                 st={this.props.user.st}
-                                aboutme={this.props.user.aboutme}
+                                profilepic={this.props.user.profilepic}
+                                coverphoto={this.props.user.coverphoto}
                                 onChange={this.props.onChange}
                                 handleSignup={this.props.handleSignup}
                             />

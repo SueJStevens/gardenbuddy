@@ -26,6 +26,8 @@ class App extends Component {
       city: "",
       st: "",
       aboutme: "",
+      profilepic: "",
+      coverphoto: "",
       redirectTo: null,
       loggedIn: false
     }
@@ -48,6 +50,8 @@ class App extends Component {
         city: response.data.city,
         st: response.data.st,
         aboutme: response.data.aboutme,
+        profilepic: response.data.profilepic,
+        coverphoto: response.data.coverphoto,
         redirectTo: null,
         loggedIn: true
       })
@@ -72,11 +76,13 @@ class App extends Component {
       zipcode: this.state.zipcode,
       city: this.state.city,
       st: this.state.st,
-      aboutme: this.state.aboutme
+      aboutme: this.state.aboutme,
+      profilepic: this.state.profilepic,
+      coverphoto: this.state.coverphoto
 
     })
       .then(response => {
-        this.setState({redirectTo: "/landing"})
+        // this.setState({redirectTo: "/landing"})
         Swal.fire({
           title: 'Account Created',
           text: 'Please Login',
@@ -119,6 +125,8 @@ class App extends Component {
         city: response.data.city,
         st: response.data.st,
         aboutme: response.data.aboutme,
+        profilepic: response.data.profilepic,
+        coverphoto: response.data.coverphoto,
         redirectTo: "/profile",
         loggedIn: true
       })

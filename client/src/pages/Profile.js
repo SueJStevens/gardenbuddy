@@ -14,7 +14,7 @@ class Profile extends Component {
         // The render method returns the JSX that should be rendered
         return (
             <Wrapper>
-                <NavbarProfile />
+                <NavbarProfile user={this.props.user}/>
                 <ProfileHeader user={this.props.user}  />
                 <ProfileBody user={this.props.user} />
             </Wrapper>

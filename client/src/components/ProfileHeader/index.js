@@ -33,11 +33,11 @@ class ProfileHeader extends Component {
                 <Row className="profile-header">
                     <Col s={10} m={10} l={10} className=" offset-s1 offset-l1 offset-m1">
                         <Card className='medium'
-                            header={<CardTitle image='https://via.placeholder.com/500'></CardTitle>}
+                            header={<CardTitle image={this.props.user.coverphoto}></CardTitle>}
                         //actions={[<a href='#'>This is a Link</a>]}
                         >
                             <figure className="card-profile-image">
-                                <img src="https://via.placeholder.com/300/000000" alt='Profile' className="circle z-depth-2 responsive-img profile-img" />
+                                <img src={this.props.user.profilepic} alt='Profile' className="circle z-depth-2 responsive-img profile-img" />
                             </figure>
                             <Row>
                                 <Col s={6} l={6} className="offset-s4">
