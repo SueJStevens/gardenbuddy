@@ -20,6 +20,7 @@ class TeamProfile extends Component {
             <div className="row">
                 {Teammates.map((teammate) => (
                     <TeamProfileCard 
+                        key={teammate.name}
                         name={teammate.name}
                         image={teammate.image}
                         personalWebLink={teammate.personalWebLink}

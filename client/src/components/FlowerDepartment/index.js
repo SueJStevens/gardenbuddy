@@ -38,12 +38,12 @@ class FlowerDepartment extends React.Component {
 
     setPageItem() {
         let itemNum;
-        if(this.state.flowers.length < 12) {
+        if(this.state.flowers.length < 18) {
             itemNum = this.state.flowers.length;
             // console.log(itemNum);
         }
         else {
-            itemNum = 12;
+            itemNum = 18;
         }
         let pageItem = Math.ceil(this.state.flowers.length / itemNum);
         // console.log(pageItem);
@@ -56,9 +56,9 @@ class FlowerDepartment extends React.Component {
             event = 1;
         }
         // console.log(event);
-        let length = event * 12;
+        let length = event * 18;
         let tempArray = [];
-        for(var i = (length - 12); i < length; i++) {
+        for(var i = (length - 18); i < length; i++) {
             // console.log(this.state.flowers[length]);
             if(this.state.flowers[i] !== undefined) {
                 tempArray.push(this.state.flowers[i]);
@@ -92,7 +92,7 @@ class FlowerDepartment extends React.Component {
                             </Col>
                         ))}
                     </div>
-                    <Pagination items={this.state.pageItem} activePage={this.state.activePage} maxButtons={this.state.pageItem - 2} onSelect={(event) => this.pushUpItems(event)} />
+                    <Pagination items={this.state.pageItem} activePage={this.state.activePage} maxButtons={this.state.pageItem} onSelect={(event) => this.pushUpItems(event)} />
                 </div>
             )
         );

@@ -23,44 +23,7 @@ class NavBar extends Component {
     }
 
 
-    // handleLogin(event) {
-    //     event.preventDefault();
-
-    //     axios.post("auth/login", {
-    //         username: this.state.username,
-    //         password: this.state.password
-    //     }).then( response => {
-    //         console.log(response);
-    //         this.setState({redirectTo: "/profile"})
-    //         if (response) {
-
-    //         Swal.fire({
-    //             title: 'Successfully Logged In',
-    //             type: 'success',
-    //             showConfirmButton: false,
-    //             showCancelButton: false,
-    //             // toast: true,
-    //             timer: 1000,
-    //             // position: "top-end",
-    //             customClass: "success-toast"
-    //             // confirmButtonText: 'Ok'
-    //           });
-    //         } else if (response.status === 401) {
-    //             Swal.fire({
-    //                 title: 'Error Logging In',
-    //                 type: 'error',
-    //                 showConfirmButton: false,
-    //                 showCancelButton: false,
-    //                 toast: true,
-    //                 timer: 1000,
-    //                 // position: "top-end",
-    //                 customClass: "fail-toast"
-    //                 // confirmButtonText: 'Ok'
-    //             });
-    //         }
-    //     })
-    // }
-
+  
     render() {
 
         if (this.props.user.redirectTo) {
