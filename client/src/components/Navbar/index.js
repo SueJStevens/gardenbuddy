@@ -12,26 +12,56 @@ import SignUp from "../SignUp";
 
 // By extending the React.Component class, Counter inherits functionality from it
 class NavBar extends Component {
-    constructor() {
-        super()
-        this.state = {
-            redirectTo: null
-        }
-        // this.handleSignup = this.handleSignup.bind(this)
-        // this.handleLogin = this.handleLogin.bind(this)
-        // this.handleChange = this.handleChange.bind(this)
-    }
 
-
-  
     render() {
 
         if (this.props.user.redirectTo) {
 			return <Redirect to={{ pathname: this.props.user.redirectTo }} />
-		}
+		} else if (this.props.user.loggedIn) {
+            return (
+
+                <wrapper className="nav-wrapper">
+                    {/* //use bootstrap to create a navbar */}
+                    <div className="nav-margin">
+                        <Navbar className="top-nav brand-logo transparent" brand={<Link to="/" className="brand-logo">GardenBuddy</Link>} right>
+                            {/* <NavItem onClick={() => console.log('test click')}>Getting started</NavItem> */}
+                            {/* <NavItem>Account</NavItem> */}
+    
+                            <NavItem>
+                                <Dropdown 
+                                    className="nav-dropdown-menu"
+                                    trigger={<Button className="transparent">Departments</Button>}  options={{hover: true}}>
+                                        <Link to="/flowers"><NavItem>Flowers</NavItem></Link>
+                                        <NavItem divider />
+                                        <Link to="/fruits"><NavItem>Fruits</NavItem></Link>
+                                        <NavItem divider />
+                                        <Link to="/vegetables"><NavItem>Vegetables</NavItem></Link>
+                                        <NavItem divider />
+                                        <Link to="/herbs"><NavItem>Herbs</NavItem></Link>
+                                </Dropdown>
+                            </NavItem>
+    
+                            <NavItem className="blue-grey darken-3" style={{ fontWeight: "bold" }}><Link to="/teamprofile">Our Team</Link></NavItem>
+                            <NavItem><SideNavBar username={this.props.user.username}
+                                    password={this.props.user.password}
+                                    phone={this.props.user.phone}
+                                    firstName={this.props.user.firstName}
+                                    lastName={this.props.user.lastName}
+                                    zipcode={this.props.user.zipcode}
+                                    city={this.props.user.city}
+                                    st={this.props.user.st}
+                                    aboutme={this.props.user.aboutme}
+                                    onChange={this.props.onChange}
+                                    handleSignup={this.props.handleSignup}/></NavItem>
+                        </Navbar>
+                    </div>
+                </wrapper>
+            );
+        } else {
 
         // The render method returns the JSX that should be rendered
         return (
+
             <wrapper className="nav-wrapper">
                 {/* //use bootstrap to create a navbar */}
                 <div className="nav-margin">
@@ -76,11 +106,11 @@ class NavBar extends Component {
                                 handleSignup={this.props.handleSignup}
                             />
                         </NavItem>
-                        <NavItem><SideNavBar/></NavItem>
                     </Navbar>
                 </div>
             </wrapper>
         );
+    }
     };
 };
 
@@ -89,5 +119,8 @@ NavBar.contextTypes = {
 };
 
 export default NavBar;
+
+
+
 
 

@@ -15,27 +15,27 @@ function ContactInfo(props) {
                     <tbody>
                         <tr>
                             <td className="thead"><i className="fas fa-file-signature"></i>First Name:</td>
-                            <td>Test</td>
+                            <td>{props.user.firstName}</td>
                         </tr>
                         <tr>
                             <td className="thead"><i className="fas fa-file-signature"></i>Last Name:</td>
-                            <td>User</td>
+                            <td>{props.user.lastName}</td>
                         </tr>
                         <tr>
                             <td className="thead"><i className="fas fa-at"></i>Email:</td>
-                            <td>test@user.com</td>
+                            <td>{props.user.username}</td>
                         </tr>
                         <tr>
                             <td className="thead"><i className="fas fa-phone"></i>Phone:</td>
-                            <td>619-999-0000</td>
+                            <td>{props.user.phone}</td>
                         </tr>
                         <tr>
                             <td className="thead"><i className="fas fa-map-marked-alt"></i>Zipcode</td>
-                            <td>92103</td>
+                            <td>{props.user.zipcode}</td>
                         </tr>
                         <tr>
                             <td className="thead"><i className="fas fa-map-marked-alt"></i>City:</td>
-                            <td>San Diego</td>
+                            <td>{props.user.city}</td>
                         </tr>
                     </tbody>
                 </table>
