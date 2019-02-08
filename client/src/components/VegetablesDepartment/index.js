@@ -65,6 +65,8 @@ class VegeDepartment extends React.Component {
         // console.log(tempArray);
         this.setState({ activeCards: tempArray });
         this.setState({loading: false})
+
+        window.scrollTo(0, 0);
     }
 
 

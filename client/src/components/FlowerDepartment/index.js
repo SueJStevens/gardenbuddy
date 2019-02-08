@@ -68,6 +68,7 @@ class FlowerDepartment extends React.Component {
         this.setState({ activeCards: tempArray });
         this.setState({ loading: false });
 
+        window.scrollTo(0, 0);
     }
 
     render() {
