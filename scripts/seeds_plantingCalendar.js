@@ -13016,7 +13016,7 @@ const plantingCalendarSeed = [
  * Some sowCal objects have end dates occurring before start dates.
  * For these, change the 'year' for the start date to the previous year.
  */
-const runSeed = () => {
+const correctEntries = () => {
   var inversions = 0;
   for(let i = 0; i < plantingCalendarSeed.length; i++)
   {
@@ -13036,7 +13036,7 @@ const runSeed = () => {
   console.log(`Found and corrected ${inversions} objects with endDate before startDate!`);
 }
 
-runSeed();
+correctEntries();
 
 db.PlantingCalendar
   .deleteMany({})
