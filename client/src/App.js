@@ -11,6 +11,7 @@ import Vegetables from './pages/vegetables';
 import Herbs from './pages/herbs';
 import axios from 'axios';
 import Swal from 'sweetalert2';
+import $ from "jquery";
 
 class App extends Component {
 
@@ -102,7 +103,8 @@ class App extends Component {
   handleLogin(event) {
     event.preventDefault();
 
-    // $('.modal.open').modal('close')
+    // $(".modal-overlay").toggle("modal-close");
+    
 
     var loginModal = document.getElementById("login-modal")
     loginModal.classList.add("closeModal");

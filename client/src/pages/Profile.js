@@ -4,6 +4,7 @@ import ProfileHeader from "../components/ProfileHeader";
 import ProfileBody from "../components/ProfileBody";
 import Wrapper from "../components/Wrapper";
 import axios from "axios";
+import $ from "jquery";
 
 
 // By extending the React.Component class, Counter inherits functionality from it

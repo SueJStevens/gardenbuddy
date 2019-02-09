@@ -81,7 +81,8 @@ router.post("/login", passport.authenticate("local"), (req, res) => {
 router.get("/logout", (req, res) => {
   console.log("logging out");
   req.logout();
-  res.send(req.user);
+  res.send(req);
+  console.log(req);
 });
 
 router.get("/user", (req, res) => {
