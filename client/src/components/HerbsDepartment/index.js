@@ -99,7 +99,7 @@ class HerbsDepartment extends React.Component {
                 <div className="content">
                     <Row>
                         <Autocomplete
-                            title='Name of the fruit?'
+                            title='Name of the herbs?'
                             data={this.state.plantNames}
                             onChange={this.handleChange}
                         />
