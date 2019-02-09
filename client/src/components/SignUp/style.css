@@ -12,3 +12,8 @@
 .auth-button {
     background: #e9ac3c;
 }
+
+.signup-form-icon {
+    width: 100%;
+    font-size: 60px;
+}

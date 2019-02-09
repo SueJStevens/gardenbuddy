@@ -56,7 +56,9 @@ router.post("/signup", (req, res) => {
       zipcode: req.body.zipcode,
       city: req.body.city,
       st: req.body.st,
-      aboutme: req.body.aboutme
+      aboutme: req.body.aboutme,
+      profilepic: req.body.profilepic,
+      coverphoto: req.body.coverphoto
     }),
     req.body.password,
     function(err, user) {

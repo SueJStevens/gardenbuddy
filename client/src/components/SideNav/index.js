@@ -6,6 +6,12 @@ import { SideNav, SideNavItem} from "react-materialize";
 // By extending the React.Component class, Counter inherits functionality from it
 function SideNavBar(props) {
 
+    let sideNavFirstName = props.firstName
+    let sideNavLastName = props.lastName
+    let sideNavProfilePic = props.profilepic
+    let sideNavCoverPhoto = props.coverphoto
+    let sideNavEmail = props.username
+
     // The render method returns the JSX that should be rendered
     return (
         //use bootstrap to create a navbar
@@ -16,10 +22,10 @@ function SideNavBar(props) {
         >
             <SideNavItem userView
                 user={{
-                    background: 'https://via.placeholder.com/500',
-                    image: 'https://via.placeholder.com/300/000000',
-                    name: 'Test User',
-                    email: 'test@gmail.com'
+                    background: sideNavCoverPhoto,
+                    image: sideNavProfilePic,
+                    name: sideNavFirstName + " " + sideNavLastName,
+                    email: sideNavEmail
                 }}
             />
             <SideNavItem waves className="side-nav-link"><Link to="/profile"><i className="fas fa-user"></i>Profile</Link></SideNavItem>
