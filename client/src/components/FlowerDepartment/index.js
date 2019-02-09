@@ -1,7 +1,7 @@
 import React from "react";
 import API from "../../utils/API";
 import PlantCards from "../PlantCards";
-import {Pagination, Col, ProgressBar} from "react-materialize";
+import {Pagination, Col, Row, ProgressBar, Autocomplete} from "react-materialize";
 
 class FlowerDepartment extends React.Component {
     state = {
@@ -9,7 +9,8 @@ class FlowerDepartment extends React.Component {
         activeCards: [],
         activePage: "",
         pageItem: "",
-        loading: true
+        loading: true,
+        plantNames: {}
     };
 
     componentDidMount() {
@@ -22,6 +23,7 @@ class FlowerDepartment extends React.Component {
             .then(res => {
                 // console.log(res.data);
                 this.setFlower(res.data);
+                this.convertFunc(res.data);
             })
             .catch(err => console.log(err));
     }
@@ -71,12 +73,39 @@ class FlowerDepartment extends React.Component {
         window.scrollTo(0, 0);
     }
 
+    convertFunc(data) {
+		let plantNamesArr = [];
+		data.map(plant => {
+			let lowerCaseName = plant.commonName.toLowerCase();
+			plantNamesArr.push(lowerCaseName);
+		});
+
+		const plantNamesObj = {};
+		for(const key of plantNamesArr) {
+			plantNamesObj[key] = null;
+		}
+
+		console.log(plantNamesObj);
+		this.setState({plantNames: plantNamesObj});
+    }
+    
+    handleChange() {
+        
+    }
+
     render() {
         return(
             (this.state.loading ? 
                 <ProgressBar />
                 :
                 <div className="content">
+                <Row>
+                    <Autocomplete
+                        title='Name of the flower?'
+                        data={this.state.plantNames}
+                        onChange={this.handleChange}
+                    />
+                </Row>
                     <div className="row">
                         {this.state.activeCards.map(item => (
                             <Col s={12} m={10} l={4}>

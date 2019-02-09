@@ -12,7 +12,7 @@ class NewComerIns extends React.Component {
         category : '',
         searchedZone: '',
         results : [],
-        toPopulate: [],
+        toPopulate: []
     }
 
     handleInputChange = event => {
@@ -47,6 +47,7 @@ class NewComerIns extends React.Component {
         }
         // console.log(toPopulateArr);
         this.setState({toPopulate: toPopulateArr});
+        this.setState({loading: false})
     }
 
     render(){
@@ -54,6 +55,7 @@ class NewComerIns extends React.Component {
         return(
             <div className="instruction">
                 <Modal
+                    open={this.state.isModalOpen}
                     header='Follow the steps to find out suitable plants to grow'
                     bottomSheet
                     trigger={<Button waves="light" name="category" className="amber darken-1">Click to start</Button>}
