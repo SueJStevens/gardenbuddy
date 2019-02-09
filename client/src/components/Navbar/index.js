@@ -6,12 +6,20 @@ import { Navbar, NavItem, Dropdown, Button } from "react-materialize";
 import SideNavBar from "../SideNav";
 import Login from "../Login";
 import SignUp from "../SignUp";
-// import axios from 'axios'
+import axios from "axios";
 // import Swal from 'sweetalert2'
 
 
 // By extending the React.Component class, Counter inherits functionality from it
 class NavBar extends Component {
+
+    logout = (event) => {
+        event.preventDefault();
+        axios.get("/auth/logout", (req, res) => {
+            console.log(req);
+            console.log(res);
+        })
+    }
 
     render() {
 
@@ -54,7 +62,7 @@ class NavBar extends Component {
                                     profilepic={this.props.user.profilepic}
                                     coverphoto={this.props.user.coverphoto}
                                     onChange={this.props.onChange}
-                                    handleSignup={this.props.handleSignup}/></NavItem>
+                                    logout={this.logout}/></NavItem>
                         </Navbar>
                     </div>
                 </wrapper>
