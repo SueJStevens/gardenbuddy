@@ -43,6 +43,7 @@ function NavbarProfile(props) {
                             aboutme={props.user.aboutme}
                             profilepic={props.user.profilepic}
                             coverphoto={props.user.coverphoto}
+                            logout={props.logout}
                         />
                     </NavItem>
                 </Navbar>

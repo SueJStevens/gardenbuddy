@@ -8,7 +8,7 @@ import PlantInformation from "../PlantInformation";
 function PlantDetailWrapper(props) {
     return (
         <div className="plant-detail-body">
-            <NavbarProfile />
+            <NavbarProfile user={props.user} logout={props.logout}/>
             <Row className="plant-detail-body-row">
                 <PlantHeader />
                 <PlantInformation/>
