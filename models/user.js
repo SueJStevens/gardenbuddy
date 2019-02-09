@@ -7,6 +7,7 @@ var userSchema = new Schema({
   phone: String,
   firstName: { type: String, required: true },
   lastName: { type: String, required: true },
+  profilepic: {type: String},
   zipcode: { type: String, required: true },
   city: String,
   st: String,

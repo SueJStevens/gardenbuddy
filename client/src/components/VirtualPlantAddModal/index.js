@@ -91,7 +91,8 @@ class  VirtualPlantAddModal extends React.Component {
 		newPlant.wateringFrequency = parseInt(wateringFrequency);
 
 		// Todo: pass username here
-		let userName = 'narasimhan.ramesh5@gmail.com';
+		let userName = this.props.user.username;
+
 
 		console.log("Will add a new plant with the following details");
 		//console.log(userName, newPlant);

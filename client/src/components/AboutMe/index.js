@@ -15,15 +15,15 @@ function AboutMe(props) {
                     <tbody>
                         <tr>
                             <td className="thead"><i className="fas fa-seedling"></i>First Name: </td>
-                            <td>Test</td>
+                            <td>{props.user.firstName}</td>
                         </tr>
                         <tr>
                             <td className="thead"><i className="fas fa-seedling"></i>Last Name: </td>
-                            <td>Jellybean</td>
+                            <td>{props.user.lastName}</td>
                         </tr>
                         <tr>
                             <td className="thead"><i className="fas fa-seedling"></i>Plants in My Garden: </td>
-                            <td>13</td>
+                            <td>{props.gardenSize}</td>
                         </tr>
                         <tr>
                             <td className="thead"><i className="fas fa-seedling"></i>Friends: </td>
