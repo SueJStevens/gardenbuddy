@@ -1,5 +1,5 @@
 import React from "react";
-import {Card, CardTitle, Button} from "react-materialize";
+import {Card, CardTitle } from "react-materialize";
 import {Link} from "react-router-dom";
 
 function PlantCard(props) {
