@@ -134,9 +134,9 @@ class VirtualGarden extends React.Component {
 
 		//event.preventDefault();
 
-		console.log(plantName);
+		//console.log(plantName);
 
-		console.log("User has watered " + plantName);
+		//console.log("User has watered " + plantName);
 
 		let index = my_plants_updated.findIndex(plant => plant.name === plantName);
 

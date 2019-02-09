@@ -86,7 +86,7 @@ class  VirtualPlantAddModal extends React.Component {
 			lastWatered = dateComponents.join(" ");
 			console.log("Last watered on " + lastWatered);
 		}		
-		newPlant.lastWatered = moment(lastWatered, "MMM DD YYYY").format("YYYY-MM-DD");
+		newPlant.lastWatered = moment(lastWatered, "MMM DD YYYY").local().format("YYYY-MM-DDTHH:mm");
 
 		newPlant.wateringFrequency = parseInt(wateringFrequency);
 

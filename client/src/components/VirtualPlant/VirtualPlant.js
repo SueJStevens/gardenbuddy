@@ -109,6 +109,7 @@ class VirtualPlant extends React.Component {
   render() {
 
     let { plantImage, plantName, lastWatered, daysOverdue, wateringFrequency } = this.props;
+
     let nextWatering = moment(lastWatered).add(wateringFrequency, 'days');
 
     return (
