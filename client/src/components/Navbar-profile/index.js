@@ -30,7 +30,21 @@ function NavbarProfile(props) {
                     <NavItem className="amber darken-1" style={ {fontWeight: "bold"} }><Link to="/teamprofile">Our Team</Link></NavItem>
                     {/* <NavItem className="amber"><Login /></NavItem>
                     <NavItem><SignUp /></NavItem> */}
-                    <NavItem><SideNavBar /></NavItem>
+                    <NavItem>
+                        <SideNavBar 
+                            username={props.user.username}
+                            password={props.user.password}
+                            phone={props.user.phone}
+                            firstName={props.user.firstName}
+                            lastName={props.user.lastName}
+                            zipcode={props.user.zipcode}
+                            city={props.user.city}
+                            st={props.user.st}
+                            aboutme={props.user.aboutme}
+                            profilepic={props.user.profilepic}
+                            coverphoto={props.user.coverphoto}
+                        />
+                    </NavItem>
                 </Navbar>
             </div>
         </wrapper>

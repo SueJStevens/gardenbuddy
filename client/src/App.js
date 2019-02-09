@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import { BrowserRouter as Router, Route, Switch, Redirect } from "react-router-dom";
 import PlantDetail from "./pages/PlantDetail";
 import './App.css';
 import Landing from "./pages/landing";
@@ -26,6 +26,8 @@ class App extends Component {
       city: "",
       st: "",
       aboutme: "",
+      profilepic: "",
+      coverphoto: "",
       redirectTo: null,
       loggedIn: false
     }
@@ -36,7 +38,6 @@ class App extends Component {
 
   componentDidMount() {
     axios.get("/auth/user").then((response) => {
-      console.log(response.data);
 
       if (response.data) {
       this.setState({
@@ -49,6 +50,8 @@ class App extends Component {
         city: response.data.city,
         st: response.data.st,
         aboutme: response.data.aboutme,
+        profilepic: response.data.profilepic,
+        coverphoto: response.data.coverphoto,
         redirectTo: null,
         loggedIn: true
       })
@@ -57,7 +60,6 @@ class App extends Component {
   }
 
   handleChange(event) {
-    console.log("typing");
     this.setState({
       [event.target.name]: event.target.value
     })
@@ -74,12 +76,13 @@ class App extends Component {
       zipcode: this.state.zipcode,
       city: this.state.city,
       st: this.state.st,
-      aboutme: this.state.aboutme
+      aboutme: this.state.aboutme,
+      profilepic: this.state.profilepic,
+      coverphoto: this.state.coverphoto
 
     })
       .then(response => {
-        this.setState({redirectTo: "/landing"})
-        console.log(response)
+        // this.setState({redirectTo: "/landing"})
         Swal.fire({
           title: 'Account Created',
           text: 'Please Login',
@@ -112,7 +115,6 @@ class App extends Component {
       username: this.state.username,
       password: this.state.password
     }).then(response => {
-      // console.log(response);
       this.setState({
         _id: response.data._id,
         username: response.data.username,
@@ -123,6 +125,8 @@ class App extends Component {
         city: response.data.city,
         st: response.data.st,
         aboutme: response.data.aboutme,
+        profilepic: response.data.profilepic,
+        coverphoto: response.data.coverphoto,
         redirectTo: "/profile",
         loggedIn: true
       })
@@ -155,20 +159,30 @@ class App extends Component {
       }
 
     }).then((response2) => {
-      console.log(response2);
       this.setState({redirectTo: null})
     } )
+
   }
 
 
+
   render() {
+
+    const PrivateRoute = ({ component: Component, ...rest }) => (
+      <Route {...rest} render={(props) => (
+        this.state.loggedIn === true
+          ? <Component {...props} user={this.state}/>
+          : <Redirect to='/' />
+      )} />
+    )
+
     return (
       <Router>
         <div className="background">
           <Switch>
             <Route exact path="/" render={(props) => <Landing {...props} user={this.state} onChange={this.handleChange} handleLogin={this.handleLogin} handleSignup={this.handleSignup} />} />
             <Route exact path="/landing" render={(props) => <Landing {...props} user={this.state} onChange={this.handleChange} handleLogin={this.handleLogin} handleSignup={this.handleSignup} />} />
-            <Route path="/profile" render={(props) => <Profile {...props} user={this.state} />} />
+            <PrivateRoute path="/profile" component={Profile} />} />
             <Route path="/teamprofile" render={(props) => <TeamProfile {...props} user={this.state} onChange={this.handleChange} handleLogin={this.handleLogin} handleSignup={this.handleSignup} />} />
             <Route path="/plantdetail" render={(props) => <PlantDetail {...props} user={this.state} onChange={this.handleChange} handleLogin={this.handleLogin} handleSignup={this.handleSignup} />} />
             <Route path="/flowers" render={(props) => <Flowers {...props} user={this.state} onChange={this.handleChange} handleLogin={this.handleLogin} handleSignup={this.handleSignup} />} />
@@ -184,3 +198,5 @@ class App extends Component {
 }
 
 export default App;
+
+{/* <PrivateRoute path="/profile" render={(props) => <Profile {...props} user={this.state} />} /> */}
