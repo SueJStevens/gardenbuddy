@@ -12,7 +12,7 @@ class NewComerIns extends React.Component {
         category : '',
         searchedZone: '',
         results : [],
-        toPopulate: [],
+        toPopulate: []
     }
 
     handleInputChange = event => {

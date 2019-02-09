@@ -15,7 +15,6 @@ class Fruits extends Component {
         <Jumbotron>
           <Navbar user={this.props.user} onChange={this.props.onChange} handleLogin={this.props.handleLogin} handleSignup={this.props.handleSignup}/>
           <Greeting lineOne="Fruits" />
-          {/* lineTwo='"The fruit of your own hard work is the sweetest" - Deepika Padukone' */}
         </Jumbotron>
         <BodyWraper>
           <FruitsDepartment />

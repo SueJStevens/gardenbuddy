@@ -9,7 +9,7 @@ function Jumbotron(props) {
                 {props.children}
             </div>
         </Wrapper>
-            );
-        }
+    );
+}
         
 export default Jumbotron;
