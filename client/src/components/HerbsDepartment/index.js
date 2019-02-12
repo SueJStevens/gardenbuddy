@@ -1,7 +1,7 @@
 import React from "react";
 import API from "../../utils/API";
 import PlantCards from "../PlantCards";
-import { Pagination, Col, ProgressBar, Row, Autocomplete } from "react-materialize";
+import { Pagination, Col, ProgressBar, Row, Input } from "react-materialize";
 
 class HerbsDepartment extends React.Component {
     state = {
@@ -10,7 +10,8 @@ class HerbsDepartment extends React.Component {
         activePage: "",
         pageItem: "",
         loading: true,
-        plantNames: {}
+        plantNames: {},
+        input: ""
     };
 
     componentDidMount() {
@@ -87,43 +88,79 @@ class HerbsDepartment extends React.Component {
 		this.setState({plantNames: plantNamesObj});
     }
     
-    handleChange() {
-        
+    handleOnChange(event) {
+        let inputPlant = event.target.value.toUpperCase();
+        this.setState({input: inputPlant})
     }
 
     render() {
-        return(
-            (this.state.loading ? 
-                <ProgressBar />
-                :
+        if(this.state.input === "") {
+            return(
+                (this.state.loading ? 
+                    <ProgressBar />
+                    :
+                    <div className="content">
+                        <Row>
+                            <Input
+                                s={7}
+                                placeholder="Enter the name of the herb"
+                                onChange={(event) => {this.handleOnChange(event)}}
+                            />
+                        </Row>
+                        <div className="row">
+                            {this.state.activeCards.map(item => (
+                                <Col s={12} m={10} l={4}>
+                                    <PlantCards
+                                        key={item._id}
+                                        id={item._id} 
+                                        commonName={item.commonName}
+                                        photo={item.photoURL}
+                                        zones={item.zone}
+                                        plantDetails={item.plantAttrURL}
+                                        variety={item.variety}
+                                        category={item.plantCategories[0]}
+                                    />
+                                </Col>
+                            ))}
+                        </div>
+                        <Pagination items={this.state.pageItem} activePage={this.state.activePage} maxButtons={this.state.pageItem} onSelect={(event) => this.pushUpItems(event)} />
+                    </div>
+                )
+            );
+        }
+        else {
+            return(
                 <div className="content">
                     <Row>
-                        <Autocomplete
-                            title='Name of the herbs?'
-                            data={this.state.plantNames}
-                            onChange={this.handleChange}
+                        <Input
+                            s={7}
+                            placeholder="Enter the name of the herb"
+                            onChange={(event) => {this.handleOnChange(event)}}
                         />
                     </Row>
                     <div className="row">
-                        {this.state.activeCards.map(item => (
-                            <Col s={12} m={10} l={4}>
-                                <PlantCards
-                                    key={item._id}
-                                    id={item._id} 
-                                    commonName={item.commonName}
-                                    photo={item.photoURL}
-                                    zones={item.zone}
-                                    plantDetails={item.plantAttrURL}
-                                    variety={item.variety}
-                                    category={item.plantCategories[0]}
-                                />
-                            </Col>
-                        ))}
+                        {this.state.herbs
+                            .filter(item => item.commonName.toUpperCase().includes(this.state.input))
+                            .map((item) => (
+                                <Col s={12} m={10} l={4}>
+                                    <PlantCards
+                                        key={item._id}
+                                        id={item._id} 
+                                        commonName={item.commonName}
+                                        photo={item.photoURL}
+                                        zones={item.zone}
+                                        plantDetails={item.plantAttrURL}
+                                        variety={item.variety}
+                                        category={item.plantCategories[0]}
+                                    />
+                                </Col>
+                                )
+                            )
+                        }
                     </div>
-                    <Pagination items={this.state.pageItem} activePage={this.state.activePage} maxButtons={this.state.pageItem} onSelect={(event) => this.pushUpItems(event)} />
                 </div>
             )
-        );
+        }
     }
 }
 
