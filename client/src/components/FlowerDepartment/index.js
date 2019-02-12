@@ -92,13 +92,10 @@ class FlowerDepartment extends React.Component {
     
     handleOnChange(event) {
         let inputPlant = event.target.value.toUpperCase();
-        console.log(inputPlant);
         this.setState({input: inputPlant})
-        console.log(this.state.input);
     }
 
     render() {
-        console.log(this.state.input)
         if(this.state.input === "") {
             return(
                 (this.state.loading ? 
@@ -145,7 +142,7 @@ class FlowerDepartment extends React.Component {
                     </Row>
                     <div className="row">
                         {this.state.flowers
-                            .filter(item => item.commonName.includes(this.state.input))
+                            .filter(item => item.commonName.toUpperCase().includes(this.state.input))
                             .map((item) => (
                                 <Col s={12} m={10} l={4}>
                                     <PlantCards
