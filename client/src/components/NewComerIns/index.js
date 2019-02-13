@@ -36,17 +36,27 @@ class NewComerIns extends React.Component {
     }
 
     selectRandomThree() {
-
         let toPopulateArr = [];
         let i = 0;
-        while( i < 3) {
-            let rand = Math.floor(Math.random() * this.state.results.length);
-            // console.log(rand);
-            toPopulateArr.push(this.state.results[rand]);
-            i++;
+        // while(i < 3) {
+        //     let rand = Math.floor(Math.random() * this.state.results.length);
+        //     // console.log(rand);
+        //     toPopulateArr.push(this.state.results[rand]);
+        //     i++;
+        // }
+        while(i<1) {
+            let results = this.state.results;
+            let rand1 = Math.floor(Math.random() * results.length);
+            let rand2 = Math.floor(Math.random() * results.length);
+            let rand3 = Math.floor(Math.random() * results.length);
+            if(rand1 !== rand2 && rand2 !== rand3 && rand3 !== rand1) {
+                toPopulateArr.push(results[rand1], results[rand2], results[rand3]);
+                this.setState({toPopulate: toPopulateArr});
+                i++;
+            }    
         }
         // console.log(toPopulateArr);
-        this.setState({toPopulate: toPopulateArr});
+        // this.setState({toPopulate: toPopulateArr});
     }
 
     render(){
