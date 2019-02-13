@@ -44,6 +44,9 @@ class NewComerIns extends React.Component {
         //     toPopulateArr.push(this.state.results[rand]);
         //     i++;
         // }
+                // console.log(toPopulateArr);
+        // this.setState({toPopulate: toPopulateArr});
+
         while(i<1) {
             let results = this.state.results;
             let rand1 = Math.floor(Math.random() * results.length);
@@ -55,8 +58,6 @@ class NewComerIns extends React.Component {
                 i++;
             }    
         }
-        // console.log(toPopulateArr);
-        // this.setState({toPopulate: toPopulateArr});
     }
 
     render(){
