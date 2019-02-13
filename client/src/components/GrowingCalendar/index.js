@@ -184,7 +184,8 @@ class GrowingCalendar extends React.Component{
         ],
         eventRender: function(event, element) {
           element.prop("title", event.title);  //hover to reveal entire date range
-        }
+        },
+        schedulerLicenseKey: 'GPL-My-Project-Is-Open-Source'
       });
     };
 

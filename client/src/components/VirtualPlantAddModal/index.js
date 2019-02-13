@@ -61,20 +61,28 @@ class  VirtualPlantAddModal extends React.Component {
 	}
 	
 	addNewPlant = () => {
-		let {name, commonName, image, lastWatered, wateringFrequency} = this.state;
-		let newPlant = {};
+		let {name, commonName, lastWatered, wateringFrequency} = this.state;
+		//let newPlant = {};
 		let virtualGardenCallback = this.props.handleAdd;
+
+		let newPlantForm = new FormData();
+
+		// Get the uploaded plant image
+		let plantImage = document.getElementById("plant-image").files[0];
+
+		if(!plantImage){
+			// Error handling
+		}
+
+		newPlantForm.append("image", plantImage);
 
 		// Fill up the 'newPlant' object with the user input. We will submit this
 		// object to the back-end.
-		newPlant.name = name;
-		newPlant.commonName = commonName;
-		newPlant.image = [image];
+		newPlantForm.append("name", name);
+		newPlantForm.append("commonName", commonName);
 
-		// Need this because the date string retured by react materialize date picker
-		// is not a valid moment object
-		// React materialize datepicker returns 2 February 2019, which is not a valid
-		// momentJS format. This code converts it to YYYY-MM-DD
+		// Need this code because the date string retured by react materialize date picker
+		// is not a valid moment object.
 		let dateComponents = lastWatered.split(" ");
 		console.log(dateComponents);
     if(dateComponents.length === 3) {
@@ -86,19 +94,21 @@ class  VirtualPlantAddModal extends React.Component {
 			lastWatered = dateComponents.join(" ");
 			console.log("Last watered on " + lastWatered);
 		}		
-		newPlant.lastWatered = moment(lastWatered, "MMM DD YYYY").format("YYYY-MM-DD");
+		
+		let lastWateredFormatted = moment(lastWatered, "MMM DD YYYY").local().format("YYYY-MM-DDTHH:mm");
 
-		newPlant.wateringFrequency = parseInt(wateringFrequency);
-
-		// Todo: pass username here
+		newPlantForm.append("lastWatered", lastWateredFormatted);
+		newPlantForm.append("wateringFrequency", parseInt(wateringFrequency));
+		
 		let userName = this.props.user.username;
 
-
-		console.log("Will add a new plant with the following details");
+		//console.log("Will add a new plant with the following details");
 		//console.log(userName, newPlant);
 
+		console.log(newPlantForm);
+
 		// Call API to post this new plant to the database
-		API.addPlant(userName, newPlant)
+		API.addPlant(userName, newPlantForm)
 			.then(res => {
 				console.log("New plant added");
 				console.log(res.data);
@@ -144,7 +154,7 @@ class  VirtualPlantAddModal extends React.Component {
 				<Row>
 					<Input name="name" label="Give your plant a name" s={12} onChange={this.handleChange} />
 					<Autocomplete title='What type of plant is it?' data={this.state.plantNames} />
-					<Input name="image" label="How about a photo - enter URL" s={12} onChange={this.handleChange} />
+					<Input name="image" type="file" label="Upload Image" id="plant-image" s={12} onChange={this.handleChange} />
 					<Input name="lastWatered" type="date" format="mmmm-dd-yy" label="Last watered on" s={12} onChange={this.handleChange} />
 					<Input name="wateringFrequency" label="watering frequency" s={12} onChange={this.handleChange} />
 				</Row>

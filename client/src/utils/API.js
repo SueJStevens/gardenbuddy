@@ -1,4 +1,5 @@
 import axios from "axios";
+import Swal from 'sweetalert2';
 
 export default {
   // Gets all plants
@@ -58,7 +59,20 @@ export default {
 
   // Add plant to virtual garden
   addPlant : function(userID, newPlant) {
-    return axios.post("/api/profile/virtualgarden/" + userID, newPlant);
+    Swal.fire({
+      title: 'Adding to garden, please wait',
+      type: 'info',
+      showConfirmButton: false,
+      showCancelButton: false,
+      backdrop: true,
+    })
+    return axios.post("/api/profile/virtualgarden/" + userID, newPlant,
+      {
+        headers: {
+          "Content-Type": "multipart/form-data"
+        }
+      }
+    );
   }
 
 };

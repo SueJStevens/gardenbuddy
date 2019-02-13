@@ -1,4 +1,20 @@
 const db = require("../models");
+const path = require("path");
+const Datauri = require("datauri");
+const datauri = new Datauri();
+const cloudinary = require("cloudinary");
+const uploader = cloudinary.uploader;
+require("dotenv").config();
+
+
+/*
+ * Set up the cloudinary configuration
+ */
+cloudinary.config({
+	cloud_name: process.env.CLOUDINARY_CLOUD_NAME,
+	api_key: process.env.CLOUDINARY_API_KEY,
+	api_secret : process.env.CLOUDINARY_API_SECRET
+});
 
 module.exports = {
 
@@ -33,32 +49,60 @@ module.exports = {
    */
   addVirtualPlant: function(req, res) {
     let userName = req.params.userName;
-    console.log("Got a request to add virtual plant to garden of " + userName);
-    console.log(req.body);
 
-    let newPlant = req.body;
+    //console.log("Got a request to add virtual plant to garden of " + userName);
+    //console.log(req.body);
+    //console.log(req.file);
 
-    db.User.find({ username : userName }, {_id : 1})
-      .then(userData => {
-        console.log("Found " + userData.length + " users");
+    // Convert to img URI
+    let imgURI = datauri.format(
+      path.extname(req.file.originalname).toString(), 
+      req.file.buffer);
 
-        if (userData.length !== 1) {
-          console.log("Unexpected error, found " + userData.length + " users!");
-        }
+    const imgFile = imgURI.content;
+    
+    // Upload the image to Cloudinary
+    uploader.upload(imgFile).then(result => {
+      const cloudURL = result.url;
+      //console.log("The image has been uploaded to " + cloudURL);
 
-        let userID = userData[0]._id;
-        console.log(`${userName}'s user ID is ${userID}`);
+      let newPlant = req.body;
+      newPlant.image = [cloudURL];
 
-        newPlant.user_id = userID;
+      db.User.find({ username : userName }, {_id : 1})
+        .then(userData => {
+          //console.log("Found " + userData.length + " users");
+          if (userData.length !== 1) {
+            console.log("Unexpected error, found " + userData.length + " users!");
+          }
 
-        console.log(newPlant);
+          let userID = userData[0]._id;
+          //console.log(`${userName}'s user ID is ${userID}`);
 
-        db.VirtualPlant.create(newPlant).then(newlyAddedPlant => {
-          console.log("added a new plant - ");
-          console.log(newlyAddedPlant);
-          res.json(newlyAddedPlant);
-        });
-      })
+          newPlant.user_id = userID;
+
+          //console.log(newPlant);
+
+          db.VirtualPlant.create(newPlant).then(newlyAddedPlant => {
+            //console.log("added a new plant - ");
+            //console.log(newlyAddedPlant);
+            res.json(newlyAddedPlant);
+          });
+      });
+    }).catch(error => {
+      console.log("Error uploading image to cloudinary");
+      console.log(error);
+      res.status(422).json(error);
+    });
+
+    //let newPlant = req.body;
+
+    //console.log(newPlant.image);
+
+    /*
+    
       .catch(err => res.status(422).json(err));
+  }*/
+    
   }
 };
