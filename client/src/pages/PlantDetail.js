@@ -5,13 +5,6 @@ import $ from "jquery";
 
 export default class PlantDetail extends Component {
 
-    logout = (event) => {
-        event.preventDefault();
-        axios.get("/auth/logout").then((response) => {
-            console.log(response);
-        });
-    }
-
     componentDidMount() {
         $(".modal-overlay").toggle("modal-close");
     }
@@ -19,7 +12,7 @@ export default class PlantDetail extends Component {
     render() {
         return (
             <div>
-                <PlantDetailWrapper user={this.props.user} logout={this.logout}/>
+                <PlantDetailWrapper user={this.props.user} handleLogout={this.props.handleLogout}/>
             </div>
         )
     }
