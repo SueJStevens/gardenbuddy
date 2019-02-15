@@ -13,12 +13,19 @@ import axios from "axios";
 // By extending the React.Component class, Counter inherits functionality from it
 class NavBar extends Component {
 
-    logout = (event) => {
+    // logout = (event) => {
+    //     event.preventDefault();
+    //     axios.get("/auth/logout", (req, res) => {
+    //         console.log(req);
+    //         console.log(res);
+    //     })
+    // }
+
+    forgotPassword = (event) => {
         event.preventDefault();
-        axios.get("/auth/logout", (req, res) => {
-            console.log(req);
-            console.log(res);
-        })
+        //TODO:
+        //code here for the request to reset the password
+        console.log("forgot password");
     }
 
     render() {
@@ -62,7 +69,7 @@ class NavBar extends Component {
                                     profilepic={this.props.user.profilepic}
                                     coverphoto={this.props.user.coverphoto}
                                     onChange={this.props.onChange}
-                                    logout={this.logout}/></NavItem>
+                                    handleLogout={this.props.handleLogout}/></NavItem>
                         </Navbar>
                     </div>
                 </wrapper>
@@ -97,6 +104,7 @@ class NavBar extends Component {
                                 user={this.props.user}
                                 onChange={this.props.onChange}
                                 handleLogin={this.props.handleLogin}
+                                forgotPassword={this.forgotPassword}
                             />
                         </NavItem>
                         <NavItem className="blue-grey darken-4">

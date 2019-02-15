@@ -11,7 +11,6 @@ function Login(props) {
             <Modal
                 id="login-modal"
                 header='Login To Garden Buddy'
-                // bottomSheet
                 trigger={<span style={{ fontWeight: "bold" }}>Login</span>}
                 className="yellow lighten-5"
             >
@@ -24,7 +23,8 @@ function Login(props) {
                     <label htmlFor="login-password">Password</label>
                     <input id="login-password" value={props.user.password} onChange={props.onChange} name="password" type="password"></input>
                 </div>
-                <Button className="auth-button" onClick={props.handleLogin}>Login</Button>
+                <Button className="auth-button" onClick={props.handleLogin}>Login</Button><br /><br />
+                <a href="#" onClick={props.forgotPassword}>Forgot Your Email or Password?</a>
             </Modal>
         </form>
     );

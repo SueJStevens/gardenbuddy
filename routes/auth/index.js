@@ -2,7 +2,7 @@ const express = require("express");
 const router = express.Router();
 const User = require("../../models/user");
 const passport = require("passport");
-var ensureLoggedIn = require("connect-ensure-login").ensureLoggedIn;
+// var ensureLoggedIn = require("connect-ensure-login").ensureLoggedIn;
 
 // this route is just used to get the user basic info
 // eslint-disable-next-line no-unused-vars
@@ -80,8 +80,11 @@ router.post("/login", passport.authenticate("local"), (req, res) => {
 
 router.get("/logout", (req, res) => {
   console.log("logging out");
+  console.log(req);
   req.logout();
-  res.send(req.user);
+  // console.log(req);
+  res.json(req.user);
+  // console.log(req);
 });
 
 router.get("/user", (req, res) => {

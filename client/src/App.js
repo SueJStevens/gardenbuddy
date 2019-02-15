@@ -11,6 +11,7 @@ import Vegetables from './pages/vegetables';
 import Herbs from './pages/herbs';
 import axios from 'axios';
 import Swal from 'sweetalert2';
+// import $ from "jquery";
 
 class App extends Component {
 
@@ -34,28 +35,29 @@ class App extends Component {
     this.handleSignup = this.handleSignup.bind(this)
     this.handleLogin = this.handleLogin.bind(this)
     this.handleChange = this.handleChange.bind(this)
+    this.handleLogout = this.handleLogout.bind(this)
   }
 
   componentDidMount() {
     axios.get("/auth/user").then((response) => {
 
       if (response.data) {
-      this.setState({
-        _id: response.data._id,
-        username: response.data.username,
-        phone: response.data.phone,
-        firstName: response.data.firstName,
-        lastName: response.data.lastName,
-        zipcode: response.data.zipcode,
-        city: response.data.city,
-        st: response.data.st,
-        aboutme: response.data.aboutme,
-        profilepic: response.data.profilepic,
-        coverphoto: response.data.coverphoto,
-        redirectTo: null,
-        loggedIn: true
-      })
-    }
+        this.setState({
+          _id: response.data._id,
+          username: response.data.username,
+          phone: response.data.phone,
+          firstName: response.data.firstName,
+          lastName: response.data.lastName,
+          zipcode: response.data.zipcode,
+          city: response.data.city,
+          st: response.data.st,
+          aboutme: response.data.aboutme,
+          profilepic: response.data.profilepic,
+          coverphoto: response.data.coverphoto,
+          redirectTo: null,
+          loggedIn: true
+        })
+      }
     })
   }
 
@@ -102,7 +104,8 @@ class App extends Component {
   handleLogin(event) {
     event.preventDefault();
 
-    // $('.modal.open').modal('close')
+    // $(".modal-overlay").toggle("modal-close");
+
 
     var loginModal = document.getElementById("login-modal")
     loginModal.classList.add("closeModal");
@@ -159,9 +162,45 @@ class App extends Component {
       }
 
     }).then((response2) => {
-      this.setState({redirectTo: null})
-    } )
+      this.setState({ redirectTo: null })
+    })
+  }
 
+  handleLogout(event) {
+    event.preventDefault();
+    axios.get("/auth/logout")
+      .then((response) => {
+        console.log(response);
+        this.setState({
+          redirectTo: "/",
+          username: "",
+          password: "",
+          phone: "",
+          firstName: "Friend",
+          lastName: "",
+          zipcode: "",
+          city: "",
+          st: "",
+          aboutme: "",
+          profilepic: "",
+          coverphoto: "",
+          loggedIn: false
+        })
+        Swal.fire({
+          title: 'Successfully Logged Out',
+          type: 'success',
+          showConfirmButton: false,
+          showCancelButton: false,
+          backdrop: true,
+          // toast: true,
+          timer: 1100,
+          // position: "top-end",
+          // customClass: "success-toast"
+          // confirmButtonText: 'Ok'
+        });
+      }).then((response2) => {
+        this.setState({ redirectTo: null });
+      })
   }
 
 
@@ -171,7 +210,7 @@ class App extends Component {
     const PrivateRoute = ({ component: Component, ...rest }) => (
       <Route {...rest} render={(props) => (
         this.state.loggedIn === true
-          ? <Component {...props} user={this.state}/>
+          ? <Component {...props} user={this.state} handleLogout={this.handleLogout}/>
           : <Redirect to='/' />
       )} />
     )
@@ -180,15 +219,15 @@ class App extends Component {
       <Router>
         <div className="background">
           <Switch>
-            <Route exact path="/" render={(props) => <Landing {...props} user={this.state} onChange={this.handleChange} handleLogin={this.handleLogin} handleSignup={this.handleSignup} />} />
-            <Route exact path="/landing" render={(props) => <Landing {...props} user={this.state} onChange={this.handleChange} handleLogin={this.handleLogin} handleSignup={this.handleSignup} />} />
-            <PrivateRoute path="/profile" component={Profile} />} />
-            <Route path="/teamprofile" render={(props) => <TeamProfile {...props} user={this.state} onChange={this.handleChange} handleLogin={this.handleLogin} handleSignup={this.handleSignup} />} />
-            <Route path="/plantdetail" render={(props) => <PlantDetail {...props} user={this.state} onChange={this.handleChange} handleLogin={this.handleLogin} handleSignup={this.handleSignup} />} />
-            <Route path="/flowers" render={(props) => <Flowers {...props} user={this.state} onChange={this.handleChange} handleLogin={this.handleLogin} handleSignup={this.handleSignup} />} />
-            <Route path="/fruits" render={(props) => <Fruits {...props} user={this.state} onChange={this.handleChange} handleLogin={this.handleLogin} handleSignup={this.handleSignup} />} />
-            <Route path="/vegetables" render={(props) => <Vegetables {...props} user={this.state} onChange={this.handleChange} handleLogin={this.handleLogin} handleSignup={this.handleSignup} />} />
-            <Route path="/herbs" render={(props) => <Herbs {...props} user={this.state} onChange={this.handleChange} handleLogin={this.handleLogin} handleSignup={this.handleSignup} />} />
+            <Route exact path="/" render={(props) => <Landing {...props} user={this.state} onChange={this.handleChange} handleLogin={this.handleLogin} handleSignup={this.handleSignup} handleLogout={this.handleLogout} />} />
+            <Route exact path="/landing" render={(props) => <Landing {...props} user={this.state} onChange={this.handleChange} handleLogin={this.handleLogin} handleSignup={this.handleSignup} handleLogout={this.handleLogout} />} />
+            <PrivateRoute path="/profile" component={Profile} />
+            <Route path="/teamprofile" render={(props) => <TeamProfile {...props} user={this.state} onChange={this.handleChange} handleLogin={this.handleLogin} handleSignup={this.handleSignup} handleLogout={this.handleLogout} />} />
+            <Route path="/plantdetail" render={(props) => <PlantDetail {...props} user={this.state} onChange={this.handleChange} handleLogin={this.handleLogin} handleSignup={this.handleSignup} handleLogout={this.handleLogout} />} />
+            <Route path="/flowers" render={(props) => <Flowers {...props} user={this.state} onChange={this.handleChange} handleLogin={this.handleLogin} handleSignup={this.handleSignup} handleLogout={this.handleLogout} />} />
+            <Route path="/fruits" render={(props) => <Fruits {...props} user={this.state} onChange={this.handleChange} handleLogin={this.handleLogin} handleSignup={this.handleSignup} handleLogout={this.handleLogout} />} />
+            <Route path="/vegetables" render={(props) => <Vegetables {...props} user={this.state} onChange={this.handleChange} handleLogin={this.handleLogin} handleSignup={this.handleSignup} handleLogout={this.handleLogout} />} />
+            <Route path="/herbs" render={(props) => <Herbs {...props} user={this.state} onChange={this.handleChange} handleLogin={this.handleLogin} handleSignup={this.handleSignup} handleLogout={this.handleLogout} />} />
           </Switch>
         </div>
       </Router>
@@ -198,5 +237,3 @@ class App extends Component {
 }
 
 export default App;
-
-{/* <PrivateRoute path="/profile" render={(props) => <Profile {...props} user={this.state} />} /> */}

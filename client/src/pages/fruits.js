@@ -13,7 +13,7 @@ class Fruits extends Component {
     return (
       <Wrapper>
         <Jumbotron>
-          <Navbar user={this.props.user} onChange={this.props.onChange} handleLogin={this.props.handleLogin} handleSignup={this.props.handleSignup}/>
+          <Navbar user={this.props.user} onChange={this.props.onChange} handleLogin={this.props.handleLogin} handleSignup={this.props.handleSignup} handleLogout={this.props.handleLogout}/>
           <Greeting lineOne="Fruits" />
         </Jumbotron>
         <BodyWraper>

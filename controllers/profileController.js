@@ -1,3 +1,4 @@
+/* eslint-disable camelcase */
 const db = require("../models");
 const path = require("path");
 const Datauri = require("datauri");
@@ -6,18 +7,16 @@ const cloudinary = require("cloudinary");
 const uploader = cloudinary.uploader;
 require("dotenv").config();
 
-
 /*
  * Set up the cloudinary configuration
  */
 cloudinary.config({
-	cloud_name: process.env.CLOUDINARY_CLOUD_NAME,
-	api_key: process.env.CLOUDINARY_API_KEY,
-	api_secret : process.env.CLOUDINARY_API_SECRET
+  cloud_name: process.env.CLOUDINARY_CLOUD_NAME,
+  api_key: process.env.CLOUDINARY_API_KEY,
+  api_secret: process.env.CLOUDINARY_API_SECRET
 });
 
 module.exports = {
-
   /*
    * Get user's virtual garden
    */
@@ -56,24 +55,28 @@ module.exports = {
 
     // Convert to img URI
     let imgURI = datauri.format(
-      path.extname(req.file.originalname).toString(), 
-      req.file.buffer);
+      path.extname(req.file.originalname).toString(),
+      req.file.buffer
+    );
 
     const imgFile = imgURI.content;
-    
+
     // Upload the image to Cloudinary
-    uploader.upload(imgFile).then(result => {
-      const cloudURL = result.url;
-      //console.log("The image has been uploaded to " + cloudURL);
+    uploader
+      .upload(imgFile)
+      .then(result => {
+        const cloudURL = result.url;
+        //console.log("The image has been uploaded to " + cloudURL);
 
-      let newPlant = req.body;
-      newPlant.image = [cloudURL];
+        let newPlant = req.body;
+        newPlant.image = [cloudURL];
 
-      db.User.find({ username : userName }, {_id : 1})
-        .then(userData => {
+        db.User.find({ username: userName }, { _id: 1 }).then(userData => {
           //console.log("Found " + userData.length + " users");
           if (userData.length !== 1) {
-            console.log("Unexpected error, found " + userData.length + " users!");
+            console.log(
+              "Unexpected error, found " + userData.length + " users!"
+            );
           }
 
           let userID = userData[0]._id;
@@ -88,12 +91,13 @@ module.exports = {
             //console.log(newlyAddedPlant);
             res.json(newlyAddedPlant);
           });
+        });
+      })
+      .catch(error => {
+        console.log("Error uploading image to cloudinary");
+        console.log(error);
+        res.status(422).json(error);
       });
-    }).catch(error => {
-      console.log("Error uploading image to cloudinary");
-      console.log(error);
-      res.status(422).json(error);
-    });
 
     //let newPlant = req.body;
 
@@ -103,6 +107,5 @@ module.exports = {
     
       .catch(err => res.status(422).json(err));
   }*/
-    
   }
 };
