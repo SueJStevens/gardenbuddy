@@ -25,6 +25,7 @@ class TeamProfile extends Component {
                         image={teammate.image}
                         personalWebLink={teammate.personalWebLink}
                         github={teammate.github}
+                        intro={teammate.intro}
                     />
                 ))}
             </div>

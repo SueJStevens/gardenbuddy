@@ -1,5 +1,10 @@
-p#name {
-    font-size: 30px;
-    font-family: 'Staatliches', cursive;
+/* p#name {
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Comfortaa', cursive;
     color: #55797a;
+} */
+
+.card .card-image .card-title {
+    font-weight: 500;
 }
