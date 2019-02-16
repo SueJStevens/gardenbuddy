@@ -16,6 +16,8 @@ var userSchema = new Schema({
   zone: String,
   aboutme: String,
   friendsID: [String],
+  resetpasswordtoken: String,
+  resetpasswordexpires: Date,
   createdOn: { type: Date, default: Date.now }
 });
 

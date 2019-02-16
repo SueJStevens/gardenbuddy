@@ -1,15 +1,29 @@
 import React, { Component } from "react";
 import "./style.css";
 import { Modal, Button } from "react-materialize";
+import axios from "axios";
+import Swal from "sweetalert2";
 
 // By extending the React.Component class, Counter inherits functionality from it
 class Login extends Component {
 
-    state = {
-        forgotPassword: false
+
+    constructor() {
+        super()
+        this.state = {
+            forgotPassword: false,
+            forgotPasswordEmail: ""
+        }
+        this.handleChange = this.handleChange.bind(this)
     }
 
-    forgotPassword = (event) => {
+    handleChange(event) {
+        this.setState({
+            forgotPasswordEmail: event.target.value
+        })
+    }
+
+    forgotPasswordRender = (event) => {
         event.preventDefault();
         console.log("forgot password");
         this.setState({
@@ -17,7 +31,7 @@ class Login extends Component {
         })
         //TODO:
         //code here for the request to reset the password
-        
+
     }
 
     cancelForgotPass = (event) => {
@@ -27,7 +41,32 @@ class Login extends Component {
         })
     }
 
-    
+    forgotPasswordSubmit = (event) => {
+        event.preventDefault();
+        let email = this.state.forgotPasswordEmail
+        axios.post("/auth/forgot", { username: email }, function (req, res) {
+            console.log(res);
+
+        }).then((response) => {
+            console.log(response);
+            if (response) {
+                Swal.fire({
+                    title: 'Email Sent',
+                    type: 'success',
+                    showConfirmButton: false,
+                    showCancelButton: false,
+                    backdrop: true,
+                    // toast: true,
+                    timer: 1500,
+                    // position: "top-end",
+                    // customClass: "success-toast"
+                    // confirmButtonText: 'Ok'
+                });
+            }
+        })
+    }
+
+
 
     render() {
 
@@ -52,7 +91,7 @@ class Login extends Component {
                             <input id="login-password" value={this.props.user.password} onChange={this.props.onChange} name="password" type="password"></input>
                         </div>
                         <Button className="auth-button" onClick={this.props.handleLogin}>Login</Button><br /><br />
-                        <a href="#" onClick={this.forgotPassword}>Forgot Your Email or Password?</a>
+                        <a href="#" onClick={this.forgotPasswordRender}>Forgot Your Email or Password?</a>
                     </Modal>
                 </form>
             )
@@ -66,11 +105,11 @@ class Login extends Component {
                         className="yellow lighten-5">
                         <p>Input the email we have on file for your account, and we will send you an email to reset your password. The link is only valid for 1 hour.</p><br />
                         <div className="input-field">
-                            <label htmlFor="login-email">Email Used To Login</label>
-                            <input id="login-email" value={this.props.user.username} onChange={this.props.onChange} name="username" type="email"></input>
+                            <label htmlFor="forgot-email">Email Used To Login</label>
+                            <input id="forgot-email" value={this.state.forgotPasswordEmail} onChange={this.handleChange} name="forgotPasswordEmail" type="email"></input>
                         </div>
-                        <Button className="auth-button">Submit</Button>
-                        <Button onClick={this.cancelForgotPass} className="forgot-pass-btn">Cancel</Button><br /><br /><br /><br />
+                        <Button onClick={this.forgotPasswordSubmit} className="auth-button">Submit</Button>
+                        <Button onClick={this.cancelForgotPass} className="forgot-pass-btn">Cancel</Button><br /><br />
 
                     </Modal>
                 </form>

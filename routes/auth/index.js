@@ -108,27 +108,40 @@ router.post("/forgot", function(req, res) {
       });
     },
     function(token, done) {
-      var email = req.body.email;
-      console.log(email);
+      var username = req.body.username;
+      // console.log(username);
+      let passwordToken = token;
+
+      console.log("Token: " + passwordToken);
+
       //find the user in the db by their email
-      db.user.findOne({ where: { email: email } }).then(function(dbResult) {
-        //let the user know if there are no accounts with that email
-        if (!dbResult) {
-          req.flash("error", "No account with that email address exists.");
-          return res.redirect("/login");
+      User.findOneAndUpdate(
+        { username: username },
+        {
+          $set: {
+            resetpasswordtoken: passwordToken,
+            resetpasswordexpires: Date.now() + 3600000
+          }
+        },
+        { new: true },
+        function(err, obj) {
+          console.log(obj);
+
+          if (err) {
+            console.log(err);
+            throw err;
+            // return res.redirect("/login");
+          } else {
+            // eslint-disable-next-line no-unused-vars
+            // obj.save(function(err) {
+            // done(err, token, user);
+            // });
+            //call the next function
+            res.json(obj);
+            sendEmail(token, obj, done);
+          }
         }
-
-        //set the token to the user object and make it expire in 1 hour
-        dbResult.resetPasswordToken = token;
-        dbResult.resetPasswordExpires = Date.now() + 3600000;
-
-        // eslint-disable-next-line no-unused-vars
-        dbResult.save(function(err) {
-          // done(err, token, user);
-        });
-        //call the next function
-        sendEmail(token, dbResult, done);
-      });
+      );
     }
   ]);
 
@@ -136,19 +149,19 @@ router.post("/forgot", function(req, res) {
   function sendEmail(token, user, done) {
     //set our API key
     sgMail.setApiKey(process.env.SENDGRID_API_KEY);
-
+    console.log("sending email");
     //create our message content
     var msg = {
-      to: user.email,
-      from: "koolskooltool@gmail.com",
-      subject: "Kool Skool Tool Password Reset",
+      to: user.username,
+      from: "gardenbuddy19@gmail.com",
+      subject: "Garden Buddy Password Reset",
       text:
-        "You are receiving this because you (or someone else) have requested the reset of the password for your Kool Skool Tool account.\n\n" +
+        "You are receiving this because you (or someone else) have requested the reset of the password for your Garden Buddy account.\n\n" +
         "Please click on the following link, or paste this into your browser to complete the process:\n\n" +
         //this is creating the url with the users token to reset their password
         "http://" +
         req.headers.host +
-        "/reset/" +
+        "/auth/reset/" +
         token +
         "\n\n" +
         "If you did not request this, please ignore this email and your password will remain unchanged.\n"
@@ -160,6 +173,7 @@ router.post("/forgot", function(req, res) {
       }
 
       done(err, "done");
+      console.log("sent mail");
     });
   }
 });
@@ -167,24 +181,27 @@ router.post("/forgot", function(req, res) {
 //get the proper page for the specified user to reset their password
 router.get("/reset/:token", function(req, res) {
   //find the user in the database based on their token and only if it is not expired
-  db.user
-    .findOne({
-      where: {
-        resetPasswordToken: req.params.token,
-        resetPasswordExpires: { $gt: Date.now() }
-      }
-    })
-    //then if there is no user, let the person know
-    .then(function(user) {
-      if (!user) {
-        console.log("error", "Password reset token is invalid or has expired.");
-        return res.redirect("/forgot");
-      }
-      //now show the reset page with the users name
-      res.render("reset", {
-        user: user
-      });
-    });
+  User.findOne(
+    {
+      resetpasswordtoken: req.params.token,
+      resetpasswordexpires: { $gt: Date.now() }
+    },
+    function(err, obj) {
+      console.log(obj);
+      res.json(obj);
+    }
+  );
+  //then if there is no user, let the person know
+  // .then(function (user) {
+  //   if (!user) {
+  //     console.log("error", "Password reset token is invalid or has expired.");
+  //     return res.redirect("/forgot");
+  //   }
+  //   //now show the reset page with the users name
+  //   res.render("reset", {
+  //     user: user
+  //   });
+  // });
 });
 
 //when the user submits their new password
