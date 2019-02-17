@@ -111,7 +111,7 @@ class App extends Component {
     loginModal.classList.add("closeModal");
 
     var loginModalOverlay = document.getElementById("materialize-modal-overlay-1");
-    loginModalOverlay.classList.add("closeModal")
+    loginModalOverlay.classList.add("closeModal");
     // loginModalOverlay.classList.remove("modal-overlay")
 
     axios.post("auth/login", {

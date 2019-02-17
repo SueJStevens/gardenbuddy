@@ -8,7 +8,7 @@ export default {
   },
   // Gets the plant with the given id
   getAPlant: function(id) {
-    console.log("The id passed in is " + id);
+    // console.log("The id passed in is " + id);
     return axios.get("/api/plants/" + id);
   },
   // Gets the plants with the given category

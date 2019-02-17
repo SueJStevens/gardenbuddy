@@ -1,6 +1,7 @@
 import React from "react";
 import { Card, CardTitle, Button } from "react-materialize";
 import "./VirtualPlant.css";
+import EditPlant from "../VirtualPlantEditModal";
 
 const moment = require('moment');
 
@@ -32,9 +33,10 @@ const PlantInfo = (plantName, lastWatered, daysOverdue, wateringFrequency, handl
         <Button className="virtual-plant-button" onClick={() =>  handleWateringDone(plantName)}>
           <i class="fas fa-tint"></i>Water Me
         </Button>
-        <Button className="virtual-plant-button">
+        {/* <Button className="virtual-plant-button">
           <i class="fas fa-pencil-alt"></i>Edit Plant
-        </Button>
+        </Button> */}
+        <EditPlant />
         <Button className="virtual-plant-button">
           <i class="fas fa-camera"></i>Upload Photos
         </Button>
