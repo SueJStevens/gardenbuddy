@@ -74,7 +74,7 @@ class Login extends Component {
             return (
                 <form>
                     <Modal
-                        open={this.props.user.isModalOpen}
+                        // open={this.props.user.isModalOpen}
                         id="login-modal"
                         header='Login To Garden Buddy'
                         trigger={<span style={{ fontWeight: "bold" }}>Login</span>}
@@ -90,7 +90,7 @@ class Login extends Component {
                             <input id="login-password" value={this.props.user.password} onChange={this.props.onChange} name="password" type="password"></input>
                         </div>
                         <Button className="auth-button" onClick={this.props.handleLogin}>Login</Button><br /><br />
-                        <a href="#" onClick={this.forgotPasswordRender}>Forgot Your Email or Password?</a>
+                        <a href="#" onClick={this.forgotPasswordRender} style={{color: "#4f4f4f"}}>Forgot Your Password?</a>
                     </Modal>
                 </form>
             )
