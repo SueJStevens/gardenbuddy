@@ -116,15 +116,15 @@ class App extends Component {
     // $(".modal-overlay").toggle("modal-close");
     // loginModalOverlay.classList.remove("modal-overlay")
 
-    // function closeModal() {
-    //   var loginModal = document.getElementById("login-modal")
-    //   loginModal.classList.add("closeModal");
+    function closeModal() {
+      var loginModal = document.getElementById("login-modal")
+      loginModal.classList.add("closeModal");
   
-    //   var loginModalOverlay = document.getElementById("materialize-modal-overlay-1");
-    //   loginModalOverlay.classList.add("closeModal")
-    // }
+      var loginModalOverlay = document.getElementById("materialize-modal-overlay-1");
+      loginModalOverlay.classList.add("closeModal")
+    }
 
-    // setTimeout(closeModal(), 5000);
+    setTimeout(closeModal(), 5000);
 
   
 
@@ -167,8 +167,8 @@ class App extends Component {
       this.setState({ redirectTo: null })
     }).catch(error => {
 
-      // var loginModal = document.getElementById("login-modal")
-      // loginModal.classList.remove("closeModal");
+      var loginModal = document.getElementById("login-modal")
+      loginModal.classList.remove("closeModal");
 
       // var loginModalOverlay = document.getElementById("materialize-modal-overlay-1");
       // loginModalOverlay.classList.remove("closeModal")

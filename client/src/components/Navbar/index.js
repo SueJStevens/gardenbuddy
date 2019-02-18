@@ -6,28 +6,13 @@ import { Navbar, NavItem, Dropdown, Button } from "react-materialize";
 import SideNavBar from "../SideNav";
 import Login from "../Login";
 import SignUp from "../SignUp";
+// import $ from "jquery";
 // import axios from "axios";
 // import Swal from 'sweetalert2'
 
 
 // By extending the React.Component class, Counter inherits functionality from it
 class NavBar extends Component {
-
-    // state = {
-    //     isModalOpen: false
-    // }
-
-    // handleModalClose = (event) => {
-    //     this.setState({
-    //         isModalOpen: false
-    //     })
-    // }
-
-    // handleModalOpen = (event) => {
-    //     this.setState({
-    //         isModalOpen: true
-    //     })
-    // }
 
     render() {
 

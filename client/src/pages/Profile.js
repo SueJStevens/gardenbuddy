@@ -10,11 +10,14 @@ import $ from "jquery";
 // By extending the React.Component class, Counter inherits functionality from it
 class Profile extends Component {
 
-    componentDidMount() {
-        $("#login-modal").toggle("modal-open");
-        // $(".modal-overlay").toggle("modal-close");
 
-    }
+    // componentDidMount() {
+    // var loginModal = document.getElementById("login-modal")
+    //   loginModal.classList.add("closeModal");
+  
+    //   var loginModalOverlay = document.getElementById("materialize-modal-overlay-1");
+    //   loginModalOverlay.classList.add("closeModal")
+    // }
 
     render() {
         
