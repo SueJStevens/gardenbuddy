@@ -100,7 +100,7 @@ class Login extends Component {
                     <Modal id="login-modal"
                         header='Reset Your Password'
                         trigger={<span style={{ fontWeight: "bold" }}>Login</span>}
-                        actions={<Button className="forgot-pass-btn" onClick={this.cancelForgotPass}>Close</Button>}
+                        // actions={<Button className="forgot-pass-btn" onClick={this.cancelForgotPass}>Close</Button>}
                         className="yellow lighten-5">
                         <p>Input the email we have on file for your account, and we will send you an email to reset your password. The link is only valid for 1 hour.</p>
                         <div className="input-field">
