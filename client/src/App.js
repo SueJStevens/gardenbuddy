@@ -106,6 +106,22 @@ class App extends Component {
           // position: "top-end",
           customClass: "success-toast"
           // confirmButtonText: 'Ok'
+        }).catch(error => {
+    
+          if (error) {
+            Swal.fire({
+              title: 'Error Signing Up',
+              text: "Please make sure you fill out all fields correctly",
+              type: 'error',
+              showConfirmButton: false,
+              showCancelButton: false,
+              // toast: true,
+              timer: 1500,
+              // position: "top-end",
+              customClass: "fail-toast"
+              // confirmButtonText: 'Ok'
+            });
+          }
         });
       })
   }
@@ -169,9 +185,6 @@ class App extends Component {
 
       var loginModal = document.getElementById("login-modal")
       loginModal.classList.remove("closeModal");
-
-      // var loginModalOverlay = document.getElementById("materialize-modal-overlay-1");
-      // loginModalOverlay.classList.remove("closeModal")
 
       if (error) {
         Swal.fire({
