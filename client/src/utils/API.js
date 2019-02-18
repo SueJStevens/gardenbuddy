@@ -73,6 +73,12 @@ export default {
         }
       }
     );
+  },
+
+  // Mark a plant in the virtual garden as watered
+  waterPlant : function(userID, plantID, wateringDate) {
+    return axios.put("/api/profile/virtualgarden/"+userID+"/water/"+plantID,
+                     {lastWatered : wateringDate});
   }
 
 };
