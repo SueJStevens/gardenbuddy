@@ -107,5 +107,29 @@ module.exports = {
     
       .catch(err => res.status(422).json(err));
   }*/
+  },
+
+  waterPlant: function(req, res) {
+    let plantID = req.params.plantID;
+    let userID = req.params.userName;
+    let wateringDate = req.body.lastWatered;
+
+    console.log(req.body);
+
+    console.log(
+      `Got a watering request for user ${userID}, plant ID = ${plantID} date = ${wateringDate}`
+    );
+
+    db.VirtualPlant.updateOne(
+      { _id: plantID },
+      { $set: { lastWatered: wateringDate } }
+    )
+      .then(result => {
+        res.json(result);
+      })
+      .catch(error => {
+        console.log(`WaterPlant failed for ${req.params.plantID}`);
+        res.status(422).json(error);
+      });
   }
 };
