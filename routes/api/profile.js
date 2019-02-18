@@ -10,7 +10,14 @@ router
   .route("/virtualgarden/:userName")
   .get(profileController.getVirtualGarden)
   .post(upload, profileController.addVirtualPlant);
-//.put(plantsController.update)
-//.delete(plantsController.remove);
+
+router
+  .route("/virtualgarden/user/:userName/:plant")
+  .put(profileController.update)
+  .delete(profileController.remove);
+
+router
+  .route("/api/profile/virtualgarden/virtualplant/:id")
+  .put(profileController.update);
 
 module.exports = router;

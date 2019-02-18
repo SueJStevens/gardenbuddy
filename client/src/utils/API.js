@@ -59,6 +59,7 @@ export default {
 
   // Add plant to virtual garden
   addPlant : function(userID, newPlant) {
+    console.log("here is the plant info", newPlant);
     Swal.fire({
       title: 'Adding to garden, please wait',
       type: 'info',
@@ -73,6 +74,18 @@ export default {
         }
       }
     );
+  },
+
+  editPlant: function(id, plantData) {
+    console.log("plant id is ", id);
+    console.log("plant data is ", plantData);
+    return axios.put("/api/profile/virtualgarden/vitualplant/" + id, plantData);
+  },
+
+  updateWatering: function(userName, plantId, wateredData) {
+    console.log("API received id: ", plantId);
+    console.log("API received data: ", wateredData);
+    return axios.put("/api/profile/virtualgarden/user/" + userName + "/watering/" + plantId, wateredData);
   }
 
 };

@@ -34,7 +34,7 @@ module.exports = {
         let userID = userData[0]._id;
         console.log(`${userName}'s user ID is ${userID}`);
 
-        db.VirtualPlant.find({ user_id: userID }).then(virtualPlants => {
+        db.VirtualPlant.find({ userId: userID }).then(virtualPlants => {
           console.log("Here are the virtual plants");
           console.log(virtualPlants);
           res.json(virtualPlants);
@@ -50,8 +50,8 @@ module.exports = {
     let userName = req.params.userName;
 
     //console.log("Got a request to add virtual plant to garden of " + userName);
-    //console.log(req.body);
-    //console.log(req.file);
+    console.log("\n req body", req.body, "\n req.body");
+    console.log("\n req file", req.params);
 
     // Convert to img URI
     let imgURI = datauri.format(
@@ -107,5 +107,23 @@ module.exports = {
     
       .catch(err => res.status(422).json(err));
   }*/
+  },
+
+  update: function(req, res) {
+    console.log("\n--------\n hello \n----------\n");
+    console.log("\n-------------\n", req.params, req.body, "\n-----------\n");
+    console.log("\n-------------\n", req.params.plant, "\n-------------\n");
+
+    // db.VirtualPlant.findOneAndUpdate({ _id: req.params.plant }, req.body)
+    //   .then(dbModel => res.json(dbModel))
+    //   .catch(err => res.status(422).json(err));
+  },
+
+  remove: function(req, res) {
+    console.log(req);
+
+    db.User.findByIdAndRemove({})
+      .then(dbModel => res.json(dbModel))
+      .catch(err => res.status(422).json(err));
   }
 };

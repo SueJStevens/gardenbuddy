@@ -13,52 +13,6 @@ let infoStyle = {
   fontWeight:'bold'
 }
 
-const PlantInfo = (plantName, lastWatered, daysOverdue, wateringFrequency, handleWateringDone) => {
-
-  let warningMsg = "";
-
-  if (daysOverdue >= 0) {
-
-    if(daysOverdue === 0){
-      warningMsg = "Watering due today";
-    } else {
-      let dayOrDays = (daysOverdue > 1 ? "days" : "day");
-      warningMsg = "Watering overdue by " + daysOverdue + " " + dayOrDays;
-    }
-
-    return (
-      <div>
-        <p style={warningStyle}>Last watered : {moment(lastWatered).format("ddd MMM Do")}</p>
-        <p style={warningStyle}>{warningMsg}</p>
-        <Button className="virtual-plant-button" onClick={() =>  handleWateringDone(plantName)}>
-          <i class="fas fa-tint"></i>Water Me
-        </Button>
-        {/* <Button className="virtual-plant-button">
-          <i class="fas fa-pencil-alt"></i>Edit Plant
-        </Button> */}
-        <EditPlant />
-        <Button className="virtual-plant-button">
-          <i class="fas fa-camera"></i>Upload Photos
-        </Button>
-      </div>
-    )
-  } else {
-    let nextWatering = moment(lastWatered).add(wateringFrequency, 'days');
-    //console.log(nextWatering);
-    return (
-      <div>
-        <p>Last watered : {moment(lastWatered).format("ddd MMM Do")} </p>
-        <p>Next watering due on : {nextWatering.format("ddd MMM Do")}</p>
-        <Button className="virtual-plant-button">
-          <i class="fas fa-pencil-alt"></i>Edit Plant
-        </Button>
-        <Button className="virtual-plant-button">
-          <i class="fas fa-camera"></i>Upload Photos
-        </Button>
-      </div>
-    )
-  }
-}
 
 /**
  * This is the VirtualPlant component. It represents
@@ -97,11 +51,64 @@ class VirtualPlant extends React.Component {
     }
   }
 
+  PlantInfo = (plantName, lastWatered, daysOverdue, wateringFrequency, handleWateringDone) => {
+
+    let warningMsg = "";
+  
+    if (daysOverdue >= 0) {
+  
+      if(daysOverdue === 0){
+        warningMsg = "Watering due today";
+      } else {
+        let dayOrDays = (daysOverdue > 1 ? "days" : "day");
+        warningMsg = "Watering overdue by " + daysOverdue + " " + dayOrDays;
+      }
+  
+      return (
+        <div>
+          <p style={warningStyle}>Last watered : {moment(lastWatered).format("ddd MMM Do")}</p>
+          <p style={warningStyle}>{warningMsg}</p>
+          <Button className="virtual-plant-button" onClick={() =>  handleWateringDone(plantName)}>
+            <i class="fas fa-tint"></i>Water Me
+          </Button>
+          <EditPlant 
+            plantId={this.props.plantId}
+            user={this.props.user}
+          />
+          <Button className="virtual-plant-button">
+            <i class="fas fa-camera"></i>Upload Photos
+          </Button>
+        </div>
+      )
+    } else {
+      let nextWatering = moment(lastWatered).add(wateringFrequency, 'days');
+      //console.log(nextWatering);
+      return (
+        <div>
+          <p>Last watered : {moment(lastWatered).format("ddd MMM Do")} </p>
+          <p>Next watering due on : {nextWatering.format("ddd MMM Do")}</p>
+          <EditPlant 
+            plantId={this.props.plantId}
+            user={this.props.user}
+          />
+          <Button className="virtual-plant-button">
+            <i class="fas fa-camera"></i>Upload Photos
+          </Button>
+        </div>
+      )
+    }
+  }
+  
+
   handleWateringDone = () => {
     let {plantName, wateringCallback} = this.props;
     
     wateringCallback(plantName);
   }
+
+  // componentDidMount() {
+  //   console.log(this.props.user);
+  // }
 
   /**
    * @function: render
@@ -118,7 +125,7 @@ class VirtualPlant extends React.Component {
       <Card className='medium'
         header={<CardTitle reveal image={plantImage} waves='light' />}
   
-        reveal={PlantInfo(plantName, lastWatered, daysOverdue, wateringFrequency, this.handleWateringDone)}
+        reveal={this.PlantInfo(plantName, lastWatered, daysOverdue, wateringFrequency, this.handleWateringDone)}
   
         title={daysOverdue >= 0 ?
           <span style={warningStyle}>{plantName}</span>
