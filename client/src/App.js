@@ -31,7 +31,8 @@ class App extends Component {
       profilepic: "",
       coverphoto: "",
       redirectTo: null,
-      loggedIn: false
+      loggedIn: false,
+      isModalOpen: false
     }
     this.handleSignup = this.handleSignup.bind(this)
     this.handleLogin = this.handleLogin.bind(this)
@@ -61,6 +62,12 @@ class App extends Component {
       }
     })
   }
+
+  handleModalOpen = (event) => {
+    this.setState({
+        isModalOpen: true
+    })
+}
 
   handleChange(event) {
     this.setState({
@@ -107,14 +114,19 @@ class App extends Component {
     event.preventDefault();
 
     // $(".modal-overlay").toggle("modal-close");
-
-
-    var loginModal = document.getElementById("login-modal")
-    loginModal.classList.add("closeModal");
-
-    var loginModalOverlay = document.getElementById("materialize-modal-overlay-1");
-    loginModalOverlay.classList.add("closeModal")
     // loginModalOverlay.classList.remove("modal-overlay")
+
+    // function closeModal() {
+    //   var loginModal = document.getElementById("login-modal")
+    //   loginModal.classList.add("closeModal");
+  
+    //   var loginModalOverlay = document.getElementById("materialize-modal-overlay-1");
+    //   loginModalOverlay.classList.add("closeModal")
+    // }
+
+    // setTimeout(closeModal(), 5000);
+
+  
 
     axios.post("auth/login", {
       username: this.state.username,
@@ -133,38 +145,48 @@ class App extends Component {
         profilepic: response.data.profilepic,
         coverphoto: response.data.coverphoto,
         redirectTo: "/profile",
-        loggedIn: true
+        loggedIn: true,
+        isModalOpen: false
       })
-      if (response) {
 
-        Swal.fire({
-          title: 'Successfully Logged In',
-          type: 'success',
-          showConfirmButton: false,
-          showCancelButton: false,
-          backdrop: true,
-          // toast: true,
-          timer: 1100,
-          // position: "top-end",
-          customClass: "success-toast"
-          // confirmButtonText: 'Ok'
-        });
-      } else if (response.status === 401) {
+
+      Swal.fire({
+        title: 'Successfully Logged In',
+        type: 'success',
+        showConfirmButton: false,
+        showCancelButton: false,
+        backdrop: true,
+        // toast: true,
+        timer: 1500,
+        // position: "top-end",
+        customClass: "success-toast"
+        // confirmButtonText: 'Ok'
+      });
+
+    }).then((response2) => {
+      this.setState({ redirectTo: null })
+    }).catch(error => {
+
+      // var loginModal = document.getElementById("login-modal")
+      // loginModal.classList.remove("closeModal");
+
+      // var loginModalOverlay = document.getElementById("materialize-modal-overlay-1");
+      // loginModalOverlay.classList.remove("closeModal")
+
+      if (error) {
         Swal.fire({
           title: 'Error Logging In',
+          text: "Please try again with the correct credentials",
           type: 'error',
           showConfirmButton: false,
           showCancelButton: false,
           // toast: true,
-          timer: 1000,
+          timer: 1500,
           // position: "top-end",
           customClass: "fail-toast"
           // confirmButtonText: 'Ok'
         });
       }
-
-    }).then((response2) => {
-      this.setState({ redirectTo: null })
     })
   }
 
@@ -195,7 +217,7 @@ class App extends Component {
           showCancelButton: false,
           backdrop: true,
           // toast: true,
-          timer: 1100,
+          timer: 1500,
           // position: "top-end",
           // customClass: "success-toast"
           // confirmButtonText: 'Ok'
@@ -212,7 +234,7 @@ class App extends Component {
     const PrivateRoute = ({ component: Component, ...rest }) => (
       <Route {...rest} render={(props) => (
         this.state.loggedIn === true
-          ? <Component {...props} user={this.state} handleLogout={this.handleLogout}/>
+          ? <Component {...props} user={this.state} handleLogout={this.handleLogout} />
           : <Redirect to='/' />
       )} />
     )
@@ -221,8 +243,8 @@ class App extends Component {
       <Router>
         <div className="background">
           <Switch>
-            <Route exact path="/" render={(props) => <Landing {...props} user={this.state} onChange={this.handleChange} handleLogin={this.handleLogin} handleSignup={this.handleSignup} handleLogout={this.handleLogout} />} />
-            <Route exact path="/landing" render={(props) => <Landing {...props} user={this.state} onChange={this.handleChange} handleLogin={this.handleLogin} handleSignup={this.handleSignup} handleLogout={this.handleLogout} />} />
+            <Route exact path="/" render={(props) => <Landing {...props} user={this.state} onChange={this.handleChange} handleLogin={this.handleLogin} handleSignup={this.handleSignup} handleLogout={this.handleLogout} handleModalOpen={this.handleModalOpen}/>} />
+            <Route exact path="/landing" render={(props) => <Landing {...props} user={this.state} onChange={this.handleChange} handleLogin={this.handleLogin} handleSignup={this.handleSignup} handleLogout={this.handleLogout} handleModalOpen={this.handleModalOpen}/>} />
             <Route path="/auth" render={(props) => <PasswordReset {...props} user={this.state} onChange={this.handleChange} handleLogin={this.handleLogin} handleSignup={this.handleSignup} handleLogout={this.handleLogout} />} />
             <PrivateRoute path="/profile" component={Profile} />
             <Route path="/teamprofile" render={(props) => <TeamProfile {...props} user={this.state} onChange={this.handleChange} handleLogin={this.handleLogin} handleSignup={this.handleSignup} handleLogout={this.handleLogout} />} />

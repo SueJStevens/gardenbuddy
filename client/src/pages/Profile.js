@@ -3,12 +3,18 @@ import NavbarProfile from "../components/Navbar-profile";
 import ProfileHeader from "../components/ProfileHeader";
 import ProfileBody from "../components/ProfileBody";
 import Wrapper from "../components/Wrapper";
-import axios from "axios";
-// import $ from "jquery";
+// import axios from "axios";
+import $ from "jquery";
 
 
 // By extending the React.Component class, Counter inherits functionality from it
 class Profile extends Component {
+
+    componentDidMount() {
+        $("#login-modal").toggle("modal-open");
+        // $(".modal-overlay").toggle("modal-close");
+
+    }
 
     render() {
         

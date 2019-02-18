@@ -45,10 +45,8 @@ class Login extends Component {
         event.preventDefault();
         let email = this.state.forgotPasswordEmail
         axios.post("/auth/forgot", { username: email }, function (req, res) {
-            console.log(res);
 
         }).then((response) => {
-            console.log(response);
             if (response) {
                 Swal.fire({
                     title: 'Email Sent',
@@ -57,7 +55,7 @@ class Login extends Component {
                     showCancelButton: false,
                     backdrop: true,
                     // toast: true,
-                    timer: 1500,
+                    timer: 1100,
                     // position: "top-end",
                     // customClass: "success-toast"
                     // confirmButtonText: 'Ok'
@@ -76,6 +74,7 @@ class Login extends Component {
             return (
                 <form>
                     <Modal
+                        open={this.props.user.isModalOpen}
                         id="login-modal"
                         header='Login To Garden Buddy'
                         trigger={<span style={{ fontWeight: "bold" }}>Login</span>}
@@ -103,7 +102,7 @@ class Login extends Component {
                         trigger={<span style={{ fontWeight: "bold" }}>Login</span>}
                         actions={<Button className="forgot-pass-btn" onClick={this.cancelForgotPass}>Close</Button>}
                         className="yellow lighten-5">
-                        <p>Input the email we have on file for your account, and we will send you an email to reset your password. The link is only valid for 1 hour.</p><br />
+                        <p>Input the email we have on file for your account, and we will send you an email to reset your password. The link is only valid for 1 hour.</p>
                         <div className="input-field">
                             <label htmlFor="forgot-email">Email Used To Login</label>
                             <input id="forgot-email" value={this.state.forgotPasswordEmail} onChange={this.handleChange} name="forgotPasswordEmail" type="email"></input>
