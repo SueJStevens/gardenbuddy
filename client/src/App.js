@@ -11,6 +11,7 @@ import Vegetables from './pages/vegetables';
 import Herbs from './pages/herbs';
 import axios from 'axios';
 import Swal from 'sweetalert2';
+import PasswordReset from "./pages/PasswordReset";
 // import $ from "jquery";
 
 class App extends Component {
@@ -66,6 +67,7 @@ class App extends Component {
       [event.target.name]: event.target.value
     })
   }
+
   handleSignup(event) {
     event.preventDefault()
     // TODO - validate!
@@ -221,6 +223,7 @@ class App extends Component {
           <Switch>
             <Route exact path="/" render={(props) => <Landing {...props} user={this.state} onChange={this.handleChange} handleLogin={this.handleLogin} handleSignup={this.handleSignup} handleLogout={this.handleLogout} />} />
             <Route exact path="/landing" render={(props) => <Landing {...props} user={this.state} onChange={this.handleChange} handleLogin={this.handleLogin} handleSignup={this.handleSignup} handleLogout={this.handleLogout} />} />
+            <Route path="/auth" render={(props) => <PasswordReset {...props} user={this.state} onChange={this.handleChange} handleLogin={this.handleLogin} handleSignup={this.handleSignup} handleLogout={this.handleLogout} />} />
             <PrivateRoute path="/profile" component={Profile} />
             <Route path="/teamprofile" render={(props) => <TeamProfile {...props} user={this.state} onChange={this.handleChange} handleLogin={this.handleLogin} handleSignup={this.handleSignup} handleLogout={this.handleLogout} />} />
             <Route path="/plantdetail" render={(props) => <PlantDetail {...props} user={this.state} onChange={this.handleChange} handleLogin={this.handleLogin} handleSignup={this.handleSignup} handleLogout={this.handleLogout} />} />
