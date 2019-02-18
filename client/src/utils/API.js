@@ -76,16 +76,17 @@ export default {
     );
   },
 
-  editPlant: function(id, plantData) {
+  editPlant: function(userID, id, plantData) {
+    console.log("user id is ", userID);
     console.log("plant id is ", id);
     console.log("plant data is ", plantData);
-    return axios.put("/api/profile/virtualgarden/vitualplant/" + id, plantData);
+    return axios.put("/api/profile/virtualgarden/user/" + userID + "/" + id, plantData);
   },
 
-  updateWatering: function(userName, plantId, wateredData) {
+  updateWatering: function(plantId, wateredData) {
     console.log("API received id: ", plantId);
     console.log("API received data: ", wateredData);
-    return axios.put("/api/profile/virtualgarden/user/" + userName + "/watering/" + plantId, wateredData);
+    return axios.put("/api/profile/virtualgarden/virtualplant/" + plantId, wateredData);
   }
 
 };

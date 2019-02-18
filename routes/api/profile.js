@@ -16,8 +16,6 @@ router
   .put(profileController.update)
   .delete(profileController.remove);
 
-router
-  .route("/api/profile/virtualgarden/virtualplant/:id")
-  .put(profileController.update);
+router.route("/virtualgarden/virtualplant/:id").put(profileController.update);
 
 module.exports = router;

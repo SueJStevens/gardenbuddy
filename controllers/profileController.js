@@ -111,12 +111,12 @@ module.exports = {
 
   update: function(req, res) {
     console.log("\n--------\n hello \n----------\n");
-    console.log("\n-------------\n", req.params, req.body, "\n-----------\n");
-    console.log("\n-------------\n", req.params.plant, "\n-------------\n");
+    console.log("\n-------------\n", req.params, "\n-----------\n");
+    console.log("\n-------------\n", req.body, "\n-----------\n");
 
-    // db.VirtualPlant.findOneAndUpdate({ _id: req.params.plant }, req.body)
-    //   .then(dbModel => res.json(dbModel))
-    //   .catch(err => res.status(422).json(err));
+    db.VirtualPlant.findOneAndUpdate({ _id: req.params.id }, req.body)
+      .then(dbModel => res.json(dbModel))
+      .catch(err => res.status(422).json(err));
   },
 
   remove: function(req, res) {

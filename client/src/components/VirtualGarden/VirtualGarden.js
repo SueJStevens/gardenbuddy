@@ -151,7 +151,7 @@ class VirtualGarden extends React.Component {
 		console.log(my_plants_updated[index]._id);
 
 		// Todo: Make API Call to back-end
-		API.updateWatering(userName, my_plants_updated[index]._id, watered)
+		API.updateWatering(my_plants_updated[index]._id, watered)
 			.then(res =>
 				Swal.fire({
 					title: plantName + ' - watering done!',
