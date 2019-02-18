@@ -188,12 +188,14 @@ class VirtualGarden extends React.Component {
 							<Col s={12} m={10} l={4}>
 								<VirtualPlant
 									key={index.toString()}
+									id={plant._id}
 									plantImage={plant.image[0]}
 									plantName={plant.name}
 									lastWatered={plant.lastWatered}
 									daysOverdue={plant.daysOverdue}
 									wateringFrequency={plant.wateringFrequency}
 									wateringCallback={this.wateringDone}
+									user={this.props.user}
 								/>
 							</Col>
 						))}

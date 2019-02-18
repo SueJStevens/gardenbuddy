@@ -1,6 +1,8 @@
 import React from "react";
 import { Card, CardTitle, Button } from "react-materialize";
 import "./VirtualPlant.css";
+import API from "../../utils/API";
+import Swal from "sweetalert2";
 
 const moment = require('moment');
 
@@ -96,9 +98,25 @@ class VirtualPlant extends React.Component {
   }
 
   handleWateringDone = () => {
-    let {plantName, wateringCallback} = this.props;
-    
-    wateringCallback(plantName);
+    let {id, user, plantName, wateringCallback} = this.props;
+    let wateringDate = moment().format("YYYY-MM-DD");
+    API.waterPlant(user.username, id, wateringDate)
+      .then((result) => {
+        wateringCallback(plantName);
+      })
+      .catch((error) => {
+        Swal.fire({
+          title: 'oops - something went wrong, try again',
+          type: 'error',
+          showConfirmButton: false,
+          showCancelButton: false,
+          // toast: true,
+          timer: 1000,
+          // position: "top-end",
+          customClass: "fail-toast"
+          // confirmButtonText: 'Ok'
+        });
+      });
   }
 
   /**
