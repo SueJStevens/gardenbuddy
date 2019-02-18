@@ -110,9 +110,9 @@ module.exports = {
   },
 
   update: function(req, res) {
-    console.log("\n--------\n hello \n----------\n");
-    console.log("\n-------------\n", req.params, "\n-----------\n");
-    console.log("\n-------------\n", req.body, "\n-----------\n");
+    // console.log("\n--------\n hello \n----------\n");
+    // console.log("\n-------------\n", req.params, "\n-----------\n");
+    // console.log("\n-------------\n", req.body, "\n-----------\n");
 
     db.VirtualPlant.findOneAndUpdate({ _id: req.params.id }, req.body)
       .then(dbModel => res.json(dbModel))
