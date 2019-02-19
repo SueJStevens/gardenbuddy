@@ -96,7 +96,7 @@ class GrowingCalendar extends React.Component{
       $('#calendar').fullCalendar({
         defaultView: 'timelineYear',
         slotDuration: { months: 1 },
-        height: 205,
+        height: "auto",
         visibleRange: {
           start: moment('2018-01-01'),
           end: moment('2019-01-01')
