@@ -13,21 +13,6 @@ import axios from "axios";
 // By extending the React.Component class, Counter inherits functionality from it
 class NavBar extends Component {
 
-    // logout = (event) => {
-    //     event.preventDefault();
-    //     axios.get("/auth/logout", (req, res) => {
-    //         console.log(req);
-    //         console.log(res);
-    //     })
-    // }
-
-    forgotPassword = (event) => {
-        event.preventDefault();
-        //TODO:
-        //code here for the request to reset the password
-        console.log("forgot password");
-    }
-
     render() {
 
         if (this.props.user.redirectTo) {

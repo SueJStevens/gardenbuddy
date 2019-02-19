@@ -2,6 +2,9 @@ const express = require("express");
 const router = express.Router();
 const User = require("../../models/user");
 const passport = require("passport");
+var crypto = require("crypto");
+var async = require("async");
+var sgMail = require("@sendgrid/mail");
 // var ensureLoggedIn = require("connect-ensure-login").ensureLoggedIn;
 
 // this route is just used to get the user basic info
@@ -89,6 +92,142 @@ router.get("/logout", (req, res) => {
 
 router.get("/user", (req, res) => {
   res.json(req.user);
+});
+
+//! PASSWORD RESET BELOW
+
+//when the user submits a password reset request
+router.post("/forgot", function(req, res) {
+  //do this async so we dont have so many callbacks
+  async.waterfall([
+    function(done) {
+      //create a random token to give the user so they can reset their password
+      crypto.randomBytes(20, function(err, buf) {
+        var token = buf.toString("hex");
+        done(err, token);
+      });
+    },
+    function(token, done) {
+      var username = req.body.username;
+      // console.log(username);
+      let passwordToken = token;
+
+      console.log("Token: " + passwordToken);
+
+      //find the user in the db by their email
+      User.findOneAndUpdate(
+        { username: username },
+        {
+          $set: {
+            resetpasswordtoken: passwordToken,
+            resetpasswordexpires: Date.now() + 3600000
+          }
+        },
+        { new: true },
+        function(err, obj) {
+          console.log(obj);
+
+          if (err) {
+            console.log(err);
+            throw err;
+            // return res.redirect("/login");
+          } else {
+            // eslint-disable-next-line no-unused-vars
+            // obj.save(function(err) {
+            // done(err, token, user);
+            // });
+            //call the next function
+            res.json(obj);
+            sendEmail(token, obj, done);
+          }
+        }
+      );
+    }
+  ]);
+
+  //this is the function to send mail with SendGrid
+  function sendEmail(token, user, done) {
+    //set our API key
+    sgMail.setApiKey(process.env.SENDGRID_API_KEY);
+    console.log("sending email");
+    //create our message content
+    var msg = {
+      to: user.username,
+      from: "gardenbuddy19@gmail.com",
+      subject: "Garden Buddy Password Reset",
+      text:
+        "You are receiving this because you (or someone else) have requested the reset of the password for your Garden Buddy account.\n\n" +
+        "Please click on the following link, or paste this into your browser to complete the process:\n\n" +
+        //this is creating the url with the users token to reset their password
+        "http://" +
+        req.headers.host +
+        "/auth/reset/" +
+        token +
+        "\n\n" +
+        "If you did not request this, please ignore this email and your password will remain unchanged.\n"
+    };
+    //send the email with the above message
+    sgMail.send(msg, function(err) {
+      if (err) {
+        return console.log(err);
+      }
+
+      done(err, "done");
+      console.log("sent mail");
+    });
+  }
+});
+
+//get the proper page for the specified user to reset their password
+router.get("/reset/:token", function(req, res) {
+  //find the user in the database based on their token and only if it is not expired
+  User.findOne(
+    {
+      resetpasswordtoken: req.params.token,
+      resetpasswordexpires: { $gt: Date.now() }
+    },
+    function(err, obj) {
+      console.log(obj);
+      res.json(obj);
+    }
+  );
+  //then if there is no user, let the person know
+  // .then(function (user) {
+  //   if (!user) {
+  //     console.log("error", "Password reset token is invalid or has expired.");
+  //     return res.redirect("/forgot");
+  //   }
+  //   //now show the reset page with the users name
+  //   res.render("reset", {
+  //     user: user
+  //   });
+  // });
+});
+
+//when the user submits their new password
+router.post("/reset", function(req, res) {
+  //find the user based off the email they provided
+  db.user
+    .findOne({ where: { email: req.body.reset_pass_email } })
+    //then store their new password in a hash
+    .then(function(dbUser) {
+      var generateHash = function(password) {
+        return bCrypt.hashSync(password, bCrypt.genSaltSync(8), null);
+      };
+      //store the hashed pass in a variable
+      var updatedPass = generateHash(req.body.reset_password);
+      //if there is no user with the provided email, let the user know
+      if (!dbUser) {
+        console.log("No User Found");
+      } else {
+        //otherwise update their password with the new password
+        dbUser.updateAttributes({
+          password: updatedPass
+        });
+        //take the user to the login page once pass is updated.
+        res.render("login");
+      }
+    });
 });
 
 module.exports = router;

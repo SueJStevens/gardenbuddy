@@ -22,21 +22,21 @@ module.exports = {
    */
   getVirtualGarden: function(req, res) {
     let userName = req.params.userName;
-    console.log("Got a request to retrieve virtual garden of " + userName);
+    // console.log("Got a request to retrieve virtual garden of " + userName);
     db.User.find({ username: userName }, { _id: 1 })
       .then(userData => {
-        console.log("Found " + userData.length + " users");
+        // console.log("Found " + userData.length + " users");
 
         if (userData.length !== 1) {
           console.log("Unexpected error, found " + userData.length + " users!");
         }
 
         let userID = userData[0]._id;
-        console.log(`${userName}'s user ID is ${userID}`);
+        // console.log(`${userName}'s user ID is ${userID}`);
 
         db.VirtualPlant.find({ userId: userID }).then(virtualPlants => {
-          console.log("Here are the virtual plants");
-          console.log(virtualPlants);
+          // console.log("Here are the virtual plants");
+          // console.log(virtualPlants);
           res.json(virtualPlants);
         });
       })
@@ -127,11 +127,27 @@ module.exports = {
       .catch(err => res.status(422).json(err));
   },
 
-  editPlantInfo: function(req, res) {
-    console.log(req);
+  waterPlant: function(req, res) {
+    let plantID = req.params.plantID;
+    let userID = req.params.userName;
+    let wateringDate = req.body.lastWatered;
 
-    db.VirtualPlant.findOneAndUpdate({ _id: req.params.id }, req.body)
-      .then(dbModel => res.json(dbModel))
-      .catch(err => res.status(422).json(err));
+    console.log(req.body);
+
+    console.log(
+      `Got a watering request for user ${userID}, plant ID = ${plantID} date = ${wateringDate}`
+    );
+
+    db.VirtualPlant.updateOne(
+      { _id: plantID },
+      { $set: { lastWatered: wateringDate } }
+    )
+      .then(result => {
+        res.json(result);
+      })
+      .catch(error => {
+        console.log(`WaterPlant failed for ${req.params.plantID}`);
+        res.status(422).json(error);
+      });
   }
 };

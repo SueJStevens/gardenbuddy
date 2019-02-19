@@ -147,7 +147,7 @@ class VirtualGarden extends React.Component {
 			lastWatered: justWatered
 		};
 		// console.log(watered);
-		// console.log(my_plants_updated[index]._id);
+		console.log(my_plants_updated[index]._id);
 
 		// Todo: Make API Call to back-end
 		API.updateWatering(my_plants_updated[index]._id, watered)
