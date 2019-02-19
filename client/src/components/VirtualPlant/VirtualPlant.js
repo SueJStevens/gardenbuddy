@@ -73,7 +73,9 @@ class VirtualPlant extends React.Component {
           </Button>
           <EditPlant 
             plantId={this.props.plantId}
-            user={this.props.user}
+            plantName={this.props.plantName}
+            lastWatered={this.props.lastWatered}
+            wateringFrequency={this.props.wateringFrequency}
           />
           <Button className="virtual-plant-button">
             <i class="fas fa-camera"></i>Upload Photos
@@ -89,7 +91,9 @@ class VirtualPlant extends React.Component {
           <p>Next watering due on : {nextWatering.format("ddd MMM Do")}</p>
           <EditPlant 
             plantId={this.props.plantId}
-            user={this.props.user}
+            plantName={this.props.plantName}
+            lastWatered={this.props.lastWatered}
+            wateringFrequency={this.props.wateringFrequency}
           />
           <Button className="virtual-plant-button">
             <i class="fas fa-camera"></i>Upload Photos

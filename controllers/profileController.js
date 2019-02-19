@@ -111,8 +111,8 @@ module.exports = {
 
   update: function(req, res) {
     // console.log("\n--------\n hello \n----------\n");
-    // console.log("\n-------------\n", req.params, "\n-----------\n");
-    // console.log("\n-------------\n", req.body, "\n-----------\n");
+    console.log("\n-------------\n", req.params, "\n-----------\n");
+    console.log("\n-------------\n", req.body, "\n-----------\n");
 
     db.VirtualPlant.findOneAndUpdate({ _id: req.params.id }, req.body)
       .then(dbModel => res.json(dbModel))
@@ -123,6 +123,14 @@ module.exports = {
     console.log(req);
 
     db.User.findByIdAndRemove({})
+      .then(dbModel => res.json(dbModel))
+      .catch(err => res.status(422).json(err));
+  },
+
+  editPlantInfo: function(req, res) {
+    console.log(req);
+
+    db.VirtualPlant.findOneAndUpdate({ _id: req.params.id }, req.body)
       .then(dbModel => res.json(dbModel))
       .catch(err => res.status(422).json(err));
   }

@@ -146,9 +146,8 @@ class VirtualGarden extends React.Component {
 		let watered = {
 			lastWatered: justWatered
 		};
-		let userName = this.props.location.state.username;
-		console.log(watered);
-		console.log(my_plants_updated[index]._id);
+		// console.log(watered);
+		// console.log(my_plants_updated[index]._id);
 
 		// Todo: Make API Call to back-end
 		API.updateWatering(my_plants_updated[index]._id, watered)
@@ -213,8 +212,7 @@ class VirtualGarden extends React.Component {
 					<VirtualPlantAddModal 
 						handleAdd={this.plantAdded}
 						user={this.props.user}
-					>
-					</VirtualPlantAddModal>
+					/>
 				</div>
 			);
 		}

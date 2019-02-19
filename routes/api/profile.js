@@ -12,10 +12,8 @@ router
   .post(upload, profileController.addVirtualPlant);
 
 router
-  .route("/virtualgarden/user/:userName/:plant")
+  .route("/virtualgarden/virtualplant/:id")
   .put(profileController.update)
   .delete(profileController.remove);
-
-router.route("/virtualgarden/virtualplant/:id").put(profileController.update);
 
 module.exports = router;

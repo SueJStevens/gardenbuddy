@@ -76,12 +76,12 @@ export default {
     );
   },
 
-  editPlant: function(userID, id, plantData) {
-    console.log("user id is ", userID);
-    console.log("plant id is ", id);
-    console.log("plant data is ", plantData);
-    return axios.put("/api/profile/virtualgarden/user/" + userID + "/" + id, plantData);
-  },
+  // editPlant: function(userID, id, plantData) {
+  //   console.log("user id is ", userID);
+  //   console.log("plant id is ", id);
+  //   console.log("plant data is ", plantData);
+  //   return axios.put("/api/profile/virtualgarden/virtualplant/" + id, plantData);
+  // },
 
   updateWatering: function(plantId, wateredData) {
     console.log("API received id: ", plantId);

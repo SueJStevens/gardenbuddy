@@ -3,19 +3,28 @@ import { Modal, Row, Input, Button } from "react-materialize";
 import API from "../../utils/API";
 import Swal from "sweetalert2";
 
+
 class EditModal extends React.Component {
 
     state = {
-        user: {},
         plantId: "",
         plantName: "",
         lastWatered: "",
         wateringFrequency: ""
     }
 
+    constructor(props){
+        super(props);
+        this.state = {
+            plantId: this.props.plantId,
+            plantName: this.props.plantName,
+            lastWatered: this.props.lastWatered,
+            wateringFrequency: this.props.wateringFrequency
+        }
+    }
+
     componentDidMount() {
-        this.setState({ plantId: this.props.plantId });
-        this.setState({ user: this.props.user });
+        console.log(this.state);
     }
 
     handleChange = (event) => {
@@ -26,17 +35,26 @@ class EditModal extends React.Component {
 
     handleSubmit = () => {
         console.log(this.state);
-        let username = this.state.user.username;
-        let id = this.state.plantId;
+        let id = this.props.plantId;
         let plantData = {
             name: this.state.plantName,
             lastWatered : this.state.lastWatered,
             wateringFrequency: this.state.wateringFrequency
         };
-        API.editPlant(username, id, plantData)
+        API.updateWatering(id, plantData)
             .then(res => {
-                console.log(res);
-
+                Swal.fire({
+					title: this.state.plantName + ' - Editted sucessfully!',
+					type: 'success',
+					showConfirmButton: false,
+					showCancelButton: false,
+					backdrop: true,
+					// toast: true,
+					timer: 1100,
+					// position: "top-end",
+					customClass: "success-toast"
+					// confirmButtonText: 'Ok'
+				}).then(() => this.setState(this.state))
             })
             .catch(err => console.log(err));
     }
