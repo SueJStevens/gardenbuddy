@@ -84,7 +84,7 @@ class  VirtualPlantAddModal extends React.Component {
 		// Need this code because the date string retured by react materialize date picker
 		// is not a valid moment object.
 		let dateComponents = lastWatered.split(" ");
-		console.log(dateComponents);
+		// console.log(dateComponents);
     if(dateComponents.length === 3) {
 			// Remove the trailing comma from the month string
 			dateComponents[1] = dateComponents[1].slice(0, 3);
@@ -92,7 +92,7 @@ class  VirtualPlantAddModal extends React.Component {
 			dateComponents[0] = dateComponents[1];
 			dateComponents[1] = temp;
 			lastWatered = dateComponents.join(" ");
-			console.log("Last watered on " + lastWatered);
+			// console.log("Last watered on " + lastWatered);
 		}		
 		
 		let lastWateredFormatted = moment(lastWatered, "MMM DD YYYY").local().format("YYYY-MM-DDTHH:mm");
@@ -105,13 +105,13 @@ class  VirtualPlantAddModal extends React.Component {
 		//console.log("Will add a new plant with the following details");
 		//console.log(userName, newPlant);
 
-		console.log(newPlantForm);
+		// console.log(newPlantForm);
 
 		// Call API to post this new plant to the database
 		API.addPlant(userName, newPlantForm)
 			.then(res => {
-				console.log("New plant added");
-				console.log(res.data);
+				// console.log("New plant added");
+				// console.log(res.data);
 				
 				Swal.fire({
           title: 'Added to garden!',

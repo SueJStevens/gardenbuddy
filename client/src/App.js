@@ -165,7 +165,6 @@ class App extends Component {
         isModalOpen: false
       })
 
-
       Swal.fire({
         title: 'Successfully Logged In',
         type: 'success',
@@ -210,7 +209,7 @@ class App extends Component {
     event.preventDefault();
     axios.get("/auth/logout")
       .then((response) => {
-        console.log(response);
+        // console.log(response);
         this.setState({
           redirectTo: "/",
           username: "",

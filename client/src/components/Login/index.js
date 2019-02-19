@@ -25,7 +25,6 @@ class Login extends Component {
 
     forgotPasswordRender = (event) => {
         event.preventDefault();
-        console.log("forgot password");
         this.setState({
             forgotPassword: true
         })

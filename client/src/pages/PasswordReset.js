@@ -26,7 +26,7 @@ class PasswordReset extends Component {
 
     componentDidMount() {
         axios.get("/auth/reset/").then((response) => {
-            console.log(response);
+            // console.log(response);
 
             // if (response.data) {
             //   this.setState({
