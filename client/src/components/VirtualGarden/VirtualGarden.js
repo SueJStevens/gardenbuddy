@@ -3,11 +3,8 @@ import React from "react";
 import VirtualPlant from "../VirtualPlant";
 //import {Row, Col, Button } from "react-materialize";
 import {Row, Col } from "react-materialize";
-
 import API from "../../utils/API";
 import VirtualPlantAddModal from "../VirtualPlantAddModal/index.js";
-
-import Swal from 'sweetalert2';
 
 const moment = require('moment');
 
@@ -132,42 +129,10 @@ class VirtualGarden extends React.Component {
 	 */
 	wateringDone = (plantName) => {
 		let my_plants_updated = this.state.my_plants;
-
-		//event.preventDefault();
-
-		//console.log(plantName);
-
-		//console.log("User has watered " + plantName);
-
 		let index = my_plants_updated.findIndex(plant => plant.name === plantName);
 
 		my_plants_updated[index].lastWatered = moment().format("YYYY-MM-DD");
-		let justWatered = my_plants_updated[index].lastWatered;
-		let watered = {
-			lastWatered: justWatered
-		};
-		// console.log(watered);
-		console.log(my_plants_updated[index]._id);
-
-		// Todo: Make API Call to back-end
-		API.updateWatering(my_plants_updated[index]._id, watered)
-			.then(res =>
-				Swal.fire({
-					title: plantName + ' - watering done!',
-					type: 'success',
-					showConfirmButton: false,
-					showCancelButton: false,
-					backdrop: true,
-					// toast: true,
-					timer: 1100,
-					// position: "top-end",
-					customClass: "success-toast"
-					// confirmButtonText: 'Ok'
-				}).then( () => this.sortPlants(my_plants_updated))
-			)
-			.catch(err => console.log(err));
-
-		//this.sortPlants(my_plants_updated);
+		this.sortPlants(my_plants_updated);
 	}
 
 	/**
@@ -197,7 +162,7 @@ class VirtualGarden extends React.Component {
 							<Col s={12} m={10} l={4}>
 								<VirtualPlant
 									key={index.toString()}
-									plantId={plant._id}
+									id={plant._id}
 									plantImage={plant.image[0]}
 									plantName={plant.name}
 									lastWatered={plant.lastWatered}

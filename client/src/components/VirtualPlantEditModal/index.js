@@ -24,12 +24,10 @@ class EditModal extends React.Component {
     }
 
     componentDidMount() {
-        console.log(this.state);
+        // console.log(this.state);
     }
 
     handleChange = (event) => {
-        // console.log(event.target.name, "here is the name of the event");
-        // console.log(event.target.value, "here is the event target value");
         this.setState({ [event.target.name]: event.target.value });
     }
 
@@ -41,7 +39,7 @@ class EditModal extends React.Component {
             lastWatered : this.state.lastWatered,
             wateringFrequency: this.state.wateringFrequency
         };
-        API.updateWatering(id, plantData)
+        API.update(id, plantData)
             .then(res => {
                 Swal.fire({
 					title: this.state.plantName + ' - Editted sucessfully!',

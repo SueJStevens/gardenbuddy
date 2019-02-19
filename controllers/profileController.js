@@ -132,15 +132,15 @@ module.exports = {
     let userID = req.params.userName;
     let wateringDate = req.body.lastWatered;
 
-    console.log(req.body);
+    console.log("\n------\n", req.body, "\n------\n");
 
     console.log(
       `Got a watering request for user ${userID}, plant ID = ${plantID} date = ${wateringDate}`
     );
 
-    db.VirtualPlant.updateOne(
+    db.VirtualPlant.findOneAndUpdate(
       { _id: plantID },
-      { $set: { lastWatered: wateringDate } }
+      { lastWatered: wateringDate }
     )
       .then(result => {
         res.json(result);

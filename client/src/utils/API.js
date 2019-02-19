@@ -76,23 +76,17 @@ export default {
     );
   },
 
-  // editPlant: function(userID, id, plantData) {
-  //   console.log("user id is ", userID);
-  //   console.log("plant id is ", id);
-  //   console.log("plant data is ", plantData);
-  //   return axios.put("/api/profile/virtualgarden/virtualplant/" + id, plantData);
-  // },
-
-  updateWatering: function(plantId, wateredData) {
+  update: function(plantId, wateredData) {
     console.log("API received id: ", plantId);
     console.log("API received data: ", wateredData);
     return axios.put("/api/profile/virtualgarden/virtualplant/" + plantId, wateredData);
   },
-
+  
   // Mark a plant in the virtual garden as watered
-  // waterPlant : function(userID, plantID, wateringDate) {
-  //   return axios.put("/api/profile/virtualgarden/"+userID+"/water/"+plantID,
-  //                    {lastWatered : wateringDate});
-  // }
+  waterPlant : function(userID, plantID, wateringDate) {
+    console.log(userID,plantID,wateringDate);
+    return axios.put("/api/profile/virtualgarden/"+userID+"/water/"+plantID,
+                     {lastWatered : wateringDate});
+  }
 
 };

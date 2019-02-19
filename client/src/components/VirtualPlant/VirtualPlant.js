@@ -2,6 +2,9 @@ import React from "react";
 import { Card, CardTitle, Button } from "react-materialize";
 import "./VirtualPlant.css";
 import EditPlant from "../VirtualPlantEditModal";
+import API from "../../utils/API";
+import Swal from "sweetalert2";
+
 
 const moment = require('moment');
 
@@ -72,7 +75,7 @@ class VirtualPlant extends React.Component {
             <i class="fas fa-tint"></i>Water Me
           </Button>
           <EditPlant 
-            plantId={this.props.plantId}
+            plantId={this.props.id}
             plantName={this.props.plantName}
             lastWatered={this.props.lastWatered}
             wateringFrequency={this.props.wateringFrequency}
@@ -90,7 +93,7 @@ class VirtualPlant extends React.Component {
           <p>Last watered : {moment(lastWatered).format("ddd MMM Do")} </p>
           <p>Next watering due on : {nextWatering.format("ddd MMM Do")}</p>
           <EditPlant 
-            plantId={this.props.plantId}
+            plantId={this.props.id}
             plantName={this.props.plantName}
             lastWatered={this.props.lastWatered}
             wateringFrequency={this.props.wateringFrequency}
@@ -105,14 +108,26 @@ class VirtualPlant extends React.Component {
   
 
   handleWateringDone = () => {
-    let {plantName, wateringCallback} = this.props;
-    
-    wateringCallback(plantName);
+    let {id, user, plantName, wateringCallback} = this.props;
+    let wateringDate = moment().format("YYYY-MM-DD");
+    API.waterPlant(user.username, id, wateringDate)
+      .then((result) => {
+        wateringCallback(plantName);
+      })
+      .catch((error) => {
+        Swal.fire({
+          title: 'oops - something went wrong, try again',
+          type: 'error',
+          showConfirmButton: false,
+          showCancelButton: false,
+          // toast: true,
+          timer: 1000,
+          // position: "top-end",
+          customClass: "fail-toast"
+          // confirmButtonText: 'Ok'
+        });
+      });
   }
-
-  // componentDidMount() {
-  //   console.log(this.props.user);
-  // }
 
   /**
    * @function: render

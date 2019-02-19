@@ -16,6 +16,7 @@ router
   .get(profileController.getVirtualGarden)
   .post(upload, profileController.addVirtualPlant);
 
+// For editting plant information
 router
   .route("/virtualgarden/virtualplant/:id")
   .put(profileController.update)
