@@ -112,7 +112,17 @@ class VirtualPlant extends React.Component {
     let wateringDate = moment().format("YYYY-MM-DD");
     API.waterPlant(user.username, id, wateringDate)
       .then((result) => {
-        wateringCallback(plantName);
+        Swal.fire({
+        title: plantName + ' has been watered',
+        type: 'success',
+        showConfirmButton: false,
+        showCancelButton: false,
+        // toast: true,*
+        timer: 1000,
+        // position: "top-end",*
+        //customClass: "fail-toast"*
+        // confirmButtonText: 'Ok'*
+        }).then(() => wateringCallback(plantName));
       })
       .catch((error) => {
         Swal.fire({
