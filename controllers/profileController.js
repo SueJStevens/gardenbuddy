@@ -22,21 +22,21 @@ module.exports = {
    */
   getVirtualGarden: function(req, res) {
     let userName = req.params.userName;
-    console.log("Got a request to retrieve virtual garden of " + userName);
+    // console.log("Got a request to retrieve virtual garden of " + userName);
     db.User.find({ username: userName }, { _id: 1 })
       .then(userData => {
-        console.log("Found " + userData.length + " users");
+        // console.log("Found " + userData.length + " users");
 
         if (userData.length !== 1) {
           console.log("Unexpected error, found " + userData.length + " users!");
         }
 
         let userID = userData[0]._id;
-        console.log(`${userName}'s user ID is ${userID}`);
+        // console.log(`${userName}'s user ID is ${userID}`);
 
-        db.VirtualPlant.find({ user_id: userID }).then(virtualPlants => {
-          console.log("Here are the virtual plants");
-          console.log(virtualPlants);
+        db.VirtualPlant.find({ userId: userID }).then(virtualPlants => {
+          // console.log("Here are the virtual plants");
+          // console.log(virtualPlants);
           res.json(virtualPlants);
         });
       })
@@ -50,8 +50,8 @@ module.exports = {
     let userName = req.params.userName;
 
     //console.log("Got a request to add virtual plant to garden of " + userName);
-    //console.log(req.body);
-    //console.log(req.file);
+    console.log("\n req body", req.body, "\n req.body");
+    console.log("\n req file", req.params);
 
     // Convert to img URI
     let imgURI = datauri.format(
@@ -109,20 +109,38 @@ module.exports = {
   }*/
   },
 
+  update: function(req, res) {
+    // console.log("\n--------\n hello \n----------\n");
+    console.log("\n-------------\n", req.params, "\n-----------\n");
+    console.log("\n-------------\n", req.body, "\n-----------\n");
+
+    db.VirtualPlant.findOneAndUpdate({ _id: req.params.id }, req.body)
+      .then(dbModel => res.json(dbModel))
+      .catch(err => res.status(422).json(err));
+  },
+
+  remove: function(req, res) {
+    console.log(req);
+
+    db.User.findByIdAndRemove({})
+      .then(dbModel => res.json(dbModel))
+      .catch(err => res.status(422).json(err));
+  },
+
   waterPlant: function(req, res) {
     let plantID = req.params.plantID;
     let userID = req.params.userName;
     let wateringDate = req.body.lastWatered;
 
-    console.log(req.body);
+    console.log("\n------\n", req.body, "\n------\n");
 
     console.log(
       `Got a watering request for user ${userID}, plant ID = ${plantID} date = ${wateringDate}`
     );
 
-    db.VirtualPlant.updateOne(
+    db.VirtualPlant.findOneAndUpdate(
       { _id: plantID },
-      { $set: { lastWatered: wateringDate } }
+      { lastWatered: wateringDate }
     )
       .then(result => {
         res.json(result);

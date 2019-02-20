@@ -3,11 +3,8 @@ import React from "react";
 import VirtualPlant from "../VirtualPlant";
 //import {Row, Col, Button } from "react-materialize";
 import {Row, Col } from "react-materialize";
-
 import API from "../../utils/API";
 import VirtualPlantAddModal from "../VirtualPlantAddModal/index.js";
-
-import Swal from 'sweetalert2';
 
 const moment = require('moment');
 
@@ -50,6 +47,7 @@ class VirtualGarden extends React.Component {
 		//console.log(this.props.location.state);
 
 		let userName = this.props.location.state.username;
+		console.log("Username is ", userName);
 		API.getVirtualGarden(userName).then((res) => {
 
 			// If the user has no virtual plants in their virtual garden yet,
@@ -131,33 +129,10 @@ class VirtualGarden extends React.Component {
 	 */
 	wateringDone = (plantName) => {
 		let my_plants_updated = this.state.my_plants;
-
-		//event.preventDefault();
-
-		//console.log(plantName);
-
-		//console.log("User has watered " + plantName);
-
 		let index = my_plants_updated.findIndex(plant => plant.name === plantName);
 
 		my_plants_updated[index].lastWatered = moment().format("YYYY-MM-DD");
-
-		// Todo: Make API Call to back-end
-		// API.put()
-		Swal.fire({
-			title: plantName + ' - watering done!',
-			type: 'success',
-			showConfirmButton: false,
-			showCancelButton: false,
-			backdrop: true,
-			// toast: true,
-			timer: 1100,
-			// position: "top-end",
-			customClass: "success-toast"
-			// confirmButtonText: 'Ok'
-		}).then( () => this.sortPlants(my_plants_updated));
-
-		//this.sortPlants(my_plants_updated);
+		this.sortPlants(my_plants_updated);
 	}
 
 	/**
@@ -176,8 +151,7 @@ class VirtualGarden extends React.Component {
 					<VirtualPlantAddModal 
 						handleAdd={this.plantAdded}
 						user={this.props.user}
-					>
-					</VirtualPlantAddModal>
+					/>
 				</div>
 			);
 		} else {
@@ -203,8 +177,7 @@ class VirtualGarden extends React.Component {
 					<VirtualPlantAddModal 
 						handleAdd={this.plantAdded}
 						user={this.props.user}
-					>
-					</VirtualPlantAddModal>
+					/>
 				</div>
 			);
 		}

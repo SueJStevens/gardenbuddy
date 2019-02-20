@@ -15,7 +15,11 @@ router
   .route("/virtualgarden/:userName")
   .get(profileController.getVirtualGarden)
   .post(upload, profileController.addVirtualPlant);
-//.put(plantsController.update)
-//.delete(plantsController.remove);
+
+// For editting plant information
+router
+  .route("/virtualgarden/virtualplant/:id")
+  .put(profileController.update)
+  .delete(profileController.remove);
 
 module.exports = router;

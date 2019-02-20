@@ -92,7 +92,7 @@ class  VirtualPlantAddModal extends React.Component {
 			dateComponents[0] = dateComponents[1];
 			dateComponents[1] = temp;
 			lastWatered = dateComponents.join(" ");
-			console.log("Last watered on " + lastWatered);
+			// console.log("Last watered on " + lastWatered);
 		}		
 		
 		let lastWateredFormatted = moment(lastWatered, "MMM DD YYYY").local().format("YYYY-MM-DDTHH:mm");
@@ -101,11 +101,13 @@ class  VirtualPlantAddModal extends React.Component {
 		newPlantForm.append("wateringFrequency", parseInt(wateringFrequency));
 		
 		let userName = this.props.user.username;
+		newPlantForm.append("userId", this.props.user._id);
 
 		//console.log("Will add a new plant with the following details");
 		//console.log(userName, newPlant);
 
-		console.log(newPlantForm);
+		// console.log(newPlantForm);
+		console.log(userName);
 
 		// Call API to post this new plant to the database
 		API.addPlant(userName, newPlantForm)

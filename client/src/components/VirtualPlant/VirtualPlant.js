@@ -1,8 +1,10 @@
 import React from "react";
 import { Card, CardTitle, Button } from "react-materialize";
 import "./VirtualPlant.css";
+import EditPlant from "../VirtualPlantEditModal";
 import API from "../../utils/API";
 import Swal from "sweetalert2";
+
 
 const moment = require('moment');
 
@@ -14,51 +16,6 @@ let infoStyle = {
   fontWeight:'bold'
 }
 
-const PlantInfo = (plantName, lastWatered, daysOverdue, wateringFrequency, handleWateringDone) => {
-
-  let warningMsg = "";
-
-  if (daysOverdue >= 0) {
-
-    if(daysOverdue === 0){
-      warningMsg = "Watering due today";
-    } else {
-      let dayOrDays = (daysOverdue > 1 ? "days" : "day");
-      warningMsg = "Watering overdue by " + daysOverdue + " " + dayOrDays;
-    }
-
-    return (
-      <div>
-        <p style={warningStyle}>Last watered : {moment(lastWatered).format("ddd MMM Do")}</p>
-        <p style={warningStyle}>{warningMsg}</p>
-        <Button className="virtual-plant-button" onClick={() =>  handleWateringDone(plantName)}>
-          <i class="fas fa-tint"></i>Water Me
-        </Button>
-        <Button className="virtual-plant-button">
-          <i class="fas fa-pencil-alt"></i>Edit Plant
-        </Button>
-        <Button className="virtual-plant-button">
-          <i class="fas fa-camera"></i>Upload Photos
-        </Button>
-      </div>
-    )
-  } else {
-    let nextWatering = moment(lastWatered).add(wateringFrequency, 'days');
-    //console.log(nextWatering);
-    return (
-      <div>
-        <p>Last watered : {moment(lastWatered).format("ddd MMM Do")} </p>
-        <p>Next watering due on : {nextWatering.format("ddd MMM Do")}</p>
-        <Button className="virtual-plant-button">
-          <i class="fas fa-pencil-alt"></i>Edit Plant
-        </Button>
-        <Button className="virtual-plant-button">
-          <i class="fas fa-camera"></i>Upload Photos
-        </Button>
-      </div>
-    )
-  }
-}
 
 /**
  * This is the VirtualPlant component. It represents
@@ -97,6 +54,59 @@ class VirtualPlant extends React.Component {
     }
   }
 
+  PlantInfo = (plantName, lastWatered, daysOverdue, wateringFrequency, handleWateringDone) => {
+
+    let warningMsg = "";
+  
+    if (daysOverdue >= 0) {
+  
+      if(daysOverdue === 0){
+        warningMsg = "Watering due today";
+      } else {
+        let dayOrDays = (daysOverdue > 1 ? "days" : "day");
+        warningMsg = "Watering overdue by " + daysOverdue + " " + dayOrDays;
+      }
+  
+      return (
+        <div>
+          <p style={warningStyle}>Last watered : {moment(lastWatered).format("ddd MMM Do")}</p>
+          <p style={warningStyle}>{warningMsg}</p>
+          <Button className="virtual-plant-button" onClick={() =>  handleWateringDone(plantName)}>
+            <i class="fas fa-tint"></i>Water Me
+          </Button>
+          <EditPlant 
+            plantId={this.props.id}
+            plantName={this.props.plantName}
+            lastWatered={this.props.lastWatered}
+            wateringFrequency={this.props.wateringFrequency}
+          />
+          <Button className="virtual-plant-button">
+            <i class="fas fa-camera"></i>Upload Photos
+          </Button>
+        </div>
+      )
+    } else {
+      let nextWatering = moment(lastWatered).add(wateringFrequency, 'days');
+      //console.log(nextWatering);
+      return (
+        <div>
+          <p>Last watered : {moment(lastWatered).format("ddd MMM Do")} </p>
+          <p>Next watering due on : {nextWatering.format("ddd MMM Do")}</p>
+          <EditPlant 
+            plantId={this.props.id}
+            plantName={this.props.plantName}
+            lastWatered={this.props.lastWatered}
+            wateringFrequency={this.props.wateringFrequency}
+          />
+          <Button className="virtual-plant-button">
+            <i class="fas fa-camera"></i>Upload Photos
+          </Button>
+        </div>
+      )
+    }
+  }
+  
+
   handleWateringDone = () => {
     let {id, user, plantName, wateringCallback} = this.props;
     let wateringDate = moment().format("YYYY-MM-DD");
@@ -134,7 +144,7 @@ class VirtualPlant extends React.Component {
       <Card className='medium'
         header={<CardTitle reveal image={plantImage} waves='light' />}
   
-        reveal={PlantInfo(plantName, lastWatered, daysOverdue, wateringFrequency, this.handleWateringDone)}
+        reveal={this.PlantInfo(plantName, lastWatered, daysOverdue, wateringFrequency, this.handleWateringDone)}
   
         title={daysOverdue >= 0 ?
           <span style={warningStyle}>{plantName}</span>
