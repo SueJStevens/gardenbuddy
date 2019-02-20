@@ -4,7 +4,7 @@ import "./style.css";
 
 function TeamProfileCard(props) {
     return(
-        <div className="col s3">
+        <div className="col s4">
             <div className="card medium">
                 <div className="card-image">
                     <img alt={props.name} src={props.image} />
