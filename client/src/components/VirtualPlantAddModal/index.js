@@ -107,10 +107,7 @@ class  VirtualPlantAddModal extends React.Component {
 		//console.log(userName, newPlant);
 
 		// console.log(newPlantForm);
-<<<<<<< HEAD
-=======
 		console.log(userName);
->>>>>>> 67d86532db129419a99b89509ac109c8050cab30
 
 		// Call API to post this new plant to the database
 		API.addPlant(userName, newPlantForm)
