@@ -142,7 +142,13 @@ class App extends Component {
 
     // setTimeout(closeModal(), 5000);
 
+<<<<<<< HEAD
   
+=======
+    var loginModalOverlay = document.getElementById("materialize-modal-overlay-1");
+    loginModalOverlay.classList.add("closeModal");
+    // loginModalOverlay.classList.remove("modal-overlay")
+>>>>>>> 67d86532db129419a99b89509ac109c8050cab30
 
     axios.post("auth/login", {
       username: this.state.username,

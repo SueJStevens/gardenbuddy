@@ -8,7 +8,7 @@ export default {
   },
   // Gets the plant with the given id
   getAPlant: function(id) {
-    console.log("The id passed in is " + id);
+    // console.log("The id passed in is " + id);
     return axios.get("/api/plants/" + id);
   },
   // Gets the plants with the given category
@@ -59,6 +59,7 @@ export default {
 
   // Add plant to virtual garden
   addPlant : function(userID, newPlant) {
+    console.log("here is the plant info", newPlant);
     Swal.fire({
       title: 'Adding to garden, please wait',
       type: 'info',
@@ -75,8 +76,15 @@ export default {
     );
   },
 
+  update: function(plantId, wateredData) {
+    console.log("API received id: ", plantId);
+    console.log("API received data: ", wateredData);
+    return axios.put("/api/profile/virtualgarden/virtualplant/" + plantId, wateredData);
+  },
+  
   // Mark a plant in the virtual garden as watered
   waterPlant : function(userID, plantID, wateringDate) {
+    console.log(userID,plantID,wateringDate);
     return axios.put("/api/profile/virtualgarden/"+userID+"/water/"+plantID,
                      {lastWatered : wateringDate});
   }

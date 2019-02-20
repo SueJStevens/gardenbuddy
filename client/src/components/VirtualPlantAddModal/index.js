@@ -101,11 +101,16 @@ class  VirtualPlantAddModal extends React.Component {
 		newPlantForm.append("wateringFrequency", parseInt(wateringFrequency));
 		
 		let userName = this.props.user.username;
+		newPlantForm.append("userId", this.props.user._id);
 
 		//console.log("Will add a new plant with the following details");
 		//console.log(userName, newPlant);
 
 		// console.log(newPlantForm);
+<<<<<<< HEAD
+=======
+		console.log(userName);
+>>>>>>> 67d86532db129419a99b89509ac109c8050cab30
 
 		// Call API to post this new plant to the database
 		API.addPlant(userName, newPlantForm)
