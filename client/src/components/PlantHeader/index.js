@@ -11,7 +11,7 @@ class PlantHeader extends React.Component {
     };
 
     componentDidMount() {
-        console.log(this.props.location.state.id);
+        // console.log(this.props.location.state.id);
         let id = this.props.location.state.id;
         API.getAPlant(id)
             .then((res) => this.setItem(res.data))

@@ -84,7 +84,7 @@ class HerbsDepartment extends React.Component {
 			plantNamesObj[key] = null;
 		}
 
-		console.log(plantNamesObj);
+		// console.log(plantNamesObj);
 		this.setState({plantNames: plantNamesObj});
     }
     
