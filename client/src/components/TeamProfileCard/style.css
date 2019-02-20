@@ -8,3 +8,7 @@
 .card .card-image .card-title {
     font-weight: 500;
 }
+
+.card-content #intro {
+    font-size: 13px;
+}
