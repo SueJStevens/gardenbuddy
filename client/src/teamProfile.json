@@ -4,21 +4,24 @@
         "email": "stevensstock@gmail.com",
         "github": "https://github.com/SueJStevens",
         "image": "https://i.postimg.cc/zv0mpHM5/Sue-Stevens.jpg",
-        "personalWebLink": "https://sue-j-stevens.herokuapp.com/"
+        "personalWebLink": "https://sue-j-stevens.herokuapp.com/",
+        "intro": "Detailed-oriented life long learner. Determined and dedicated to getting the job done right"
     },
     {
         "name": "Bryson Nelson",
         "email": "bryson_nelson@yahoo.com",
         "github": "https://github.com/brysonelson",
         "image": "https://i.postimg.cc/nrCG9nT0/Image-4.jpg",
-        "personalWebLink": ""
+        "personalWebLink": "",
+        "intro": "Always striving to learn from others, and teach when possible. Problem finder and problem solver"
     },
     {
         "name": "Narasimhan Ramesh",
         "email": "narasimhan.ramesh5@gmail.com",
         "github": "https://github.com/narasimhan-ramesh5",
         "image": "https://i.postimg.cc/qMJjN4xM/Ramesh-N.jpg",
-        "personalWebLink": "https://narasimhan-ramesh5.github.io"
+        "personalWebLink": "https://narasimhan-ramesh5.github.io",
+        "intro": "Enjoys writing software to solve everyday problems, and testing to ensure no further problems"
     },
     {
         "name": "Shulin Jiang",
@@ -26,6 +29,6 @@
         "github": "https://github.com/higurashinatsu",
         "image": "https://higurashinatsu.github.io/Portfolio/assets/images/profile/head1.jpg",
         "personalWebLink": "https://higurashinatsu.github.io/Portfolio/",
-        "intro": "She is passionate and meets difficulties with persistance and open-mindedness"
+        "intro": "A passionate learner who meets difficulties with persistance and open-mindedness"
     }
 ]
