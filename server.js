@@ -16,6 +16,7 @@ const flash = require("connect-flash");
 app.use(logger("dev"));
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
+app.set("trust proxy", true);
 
 // Serve up static assets (usually on heroku)
 if (process.env.NODE_ENV === "production") {

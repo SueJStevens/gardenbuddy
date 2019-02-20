@@ -30,13 +30,13 @@ class GrowingCalendar extends React.Component{
   }
 
   loadGrowCal(commonName, zone) {
-    console.log ("The Common Name is:" + commonName)
-    console.log ("The Zone is:" + zone)
+    // console.log ("The Common Name is:" + commonName)
+    // console.log ("The Zone is:" + zone)
     API.getGrowCal(commonName, zone)
         .then(res => {
-            console.log("GROW!!!")
+            // console.log("GROW!!!")
             //console.log(res.data);
-            console.log(res.data);
+            // console.log(res.data);
             //call new function to reformat data
             this.setGrowCal(res.data);
             //call function here to translate the response            
@@ -67,12 +67,12 @@ class GrowingCalendar extends React.Component{
     };
 
     // Step 1: Check how many growCal entries we got
-    console.log(commonName + "has " + growData.length + " growing calendar entries");
+    // console.log(commonName + "has " + growData.length + " growing calendar entries");
 
     // Extract the start and end dates for each type of growing calendar
     growData.forEach( (item) => {
       let currentSowType = item.sowType.toLowerCase();
-      console.log("Found " + currentSowType + " calendar for " + commonName);
+      // console.log("Found " + currentSowType + " calendar for " + commonName);
       switch(currentSowType) {
         case "indoor sow" :
           calendarAttrs.indoorStart = moment(item.dtRangeStart).format("YYYY-MM-DD");
@@ -87,7 +87,7 @@ class GrowingCalendar extends React.Component{
           calendarAttrs.transplantEnd = moment(item.dtRangeEnd).format("YYYY-MM-DD");
           break;
         default:
-          console.log("Unexpected sow type - " + currentSowType);
+          // console.log("Unexpected sow type - " + currentSowType);
       }
     })
 
@@ -96,7 +96,7 @@ class GrowingCalendar extends React.Component{
       $('#calendar').fullCalendar({
         defaultView: 'timelineYear',
         slotDuration: { months: 1 },
-        height: 205,
+        height: "auto",
         visibleRange: {
           start: moment('2018-01-01'),
           end: moment('2019-01-01')

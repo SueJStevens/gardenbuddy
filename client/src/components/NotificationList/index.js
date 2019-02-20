@@ -11,7 +11,7 @@ class NotificationsList extends Component {
     }
 
     changeNotificationStatus = (id) => {
-        console.log(id);
+        // console.log(id);
         //TODO: use the passed in ID to find the relevant notification and update its completed status to true
 
         //TODO: we also need a way to make sure the checkbox is already checked off if the notification is completed

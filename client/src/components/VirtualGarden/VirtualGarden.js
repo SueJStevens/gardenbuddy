@@ -141,8 +141,8 @@ class VirtualGarden extends React.Component {
    * Render function for this App.
    */
   render() {
-		console.log("Rendering virtual garden");
-		console.log(this.props.user);
+		// console.log("Rendering virtual garden");
+		// console.log(this.props.user);
 		let num_plants = this.state.my_plants.length;
 		if(!num_plants){
 			return(
