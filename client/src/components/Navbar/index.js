@@ -28,6 +28,9 @@ class NavBar extends Component {
                             {/* <NavItem onClick={() => console.log('test click')}>Getting started</NavItem> */}
                             {/* <NavItem>Account</NavItem> */}
 
+                            <NavItem className="users-nav-item">
+                                    <Link to="/users"><NavItem>USERS</NavItem></Link>
+                            </NavItem>
                             <NavItem>
                                 <Dropdown
                                     className="nav-dropdown-menu"

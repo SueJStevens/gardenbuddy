@@ -9,6 +9,7 @@ import Flowers from "./pages/flowers";
 import Fruits from "./pages/fruits";
 import Vegetables from './pages/vegetables';
 import Herbs from './pages/herbs';
+import Users from "./pages/Users";
 import axios from 'axios';
 import Swal from 'sweetalert2';
 import PasswordReset from "./pages/PasswordReset";
@@ -269,6 +270,7 @@ class App extends Component {
             <Route path="/fruits" render={(props) => <Fruits {...props} user={this.state} onChange={this.handleChange} handleLogin={this.handleLogin} handleSignup={this.handleSignup} handleLogout={this.handleLogout} />} />
             <Route path="/vegetables" render={(props) => <Vegetables {...props} user={this.state} onChange={this.handleChange} handleLogin={this.handleLogin} handleSignup={this.handleSignup} handleLogout={this.handleLogout} />} />
             <Route path="/herbs" render={(props) => <Herbs {...props} user={this.state} onChange={this.handleChange} handleLogin={this.handleLogin} handleSignup={this.handleSignup} handleLogout={this.handleLogout} />} />
+            <Route path="/users" render={(props) => <Users {...props} user={this.state} onChange={this.handleChange} handleLogin={this.handleLogin} handleSignup={this.handleSignup} handleLogout={this.handleLogout} />} />
           </Switch>
         </div>
       </Router>
