@@ -11,7 +11,7 @@ function TeamProfileCard(props) {
                     <span className="card-title">{props.name}</span>
                 </div>
                 <div className="card-content">
-                    <p id="name">{props.intro}</p>
+                    <p id="intro">{props.intro}</p>
                 </div>
                 <div className="card-action">
                     <a rel="noreferer" target="_blank" href={props.personalWebLink}><i class="fas fa-home fa-lg"></i></a>
