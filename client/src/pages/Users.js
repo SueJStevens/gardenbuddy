@@ -17,7 +17,7 @@ class Users extends Component {
           <Greeting lineOne="Users" />
         </Jumbotron>
         <BodyWraper>
-          <UserList />
+          <UserList user={this.props.user}/>
         </BodyWraper>
         <FooterDiv />
       </Wrapper>

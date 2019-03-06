@@ -7,6 +7,12 @@ module.exports = {
       //   .sort({ commonName: 1, variety: 1 })
       .then(dbModel => res.json(dbModel))
       .catch(err => res.status(422).json(err));
+  },
+
+  findByState: function(req, res) {
+    console.log(req.params);
+    let userState = req.params.state;
+    db.User.find({ st: userState }).then(dbresults => res.json(dbresults));
   }
   //   findById: function(req, res) {
   //     db.User.findById(req.params.id)

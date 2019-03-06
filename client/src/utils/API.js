@@ -92,6 +92,10 @@ export default {
   //social user API
   getUsers: function() {
     return axios.get("/api/users")
+  },
+
+  getUsersByState: function(search) {
+    return axios.get("/api/users/state/"+search)
   }
 
 
