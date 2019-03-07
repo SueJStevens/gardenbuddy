@@ -14,6 +14,9 @@ function NavbarProfile(props) {
             {/* //use bootstrap to create a navbar */}
             <div className="prof-nav-margin">
                 <Navbar className="top-nav brand-logo blue-grey darken-2" brand={<Link to="/landing" className="brand-logo">GardenBuddy</Link>} right>
+                    <NavItem className="users-nav-item">
+                        <Link to="/users"><NavItem>USERS</NavItem></Link>
+                    </NavItem>
                     <NavItem>
                         <Dropdown 
                             options={{hover: true}}

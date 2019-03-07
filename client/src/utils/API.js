@@ -87,6 +87,17 @@ export default {
     console.log(userID,plantID,wateringDate);
     return axios.put("/api/profile/virtualgarden/"+userID+"/water/"+plantID,
                      {lastWatered : wateringDate});
+  },
+
+  //social user API
+  getUsers: function() {
+    return axios.get("/api/users")
+  },
+
+  getUsersByState: function(search) {
+    return axios.get("/api/users/state/"+search)
   }
+
+
 
 };

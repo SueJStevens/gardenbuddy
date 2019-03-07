@@ -25,3 +25,9 @@ Button.transparent {
     color: #42504b !important;
     /* text-decoration: none !important; */
 }
+
+.users-nav-item {
+    margin-top: .4vh;
+    margin-bottom: -.4vh;
+    margin-right: -3vw;
+}
